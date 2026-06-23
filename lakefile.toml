@@ -2,7 +2,7 @@ name = "mordellia"
 version = "0.1.0"
 keywords = ["math"]
 defaultTargets = ["Mordellia"]
-lintDriver = "batteries/runLinter"
+builtinLint = true
 
 
 [leanOptions]
