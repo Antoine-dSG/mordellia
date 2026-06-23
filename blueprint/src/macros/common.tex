@@ -16,3 +16,39 @@
 
 \theoremstyle{definition}
 \newtheorem{definition}[theorem]{Definition}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.25\baselineskip}
+\renewcommand{\arraystretch}{1.15}
+\providecommand{\allowdisplaybreaks}[1][]{}
+\allowdisplaybreaks
+\raggedbottom
+\sloppy
+
+\providecommand{\Needspace}[1]{}
+
+\newcommand{\PrimaryEquation}[5]{%
+  \par\Needspace{5\baselineskip}\smallskip
+  \noindent\hypertarget{eq:#1}{\textbf{#1}}\quad{\footnotesize\textsc{#3}}\par\nopagebreak
+  {%
+    \small
+    \setlength{\abovedisplayskip}{3pt}%
+    \setlength{\belowdisplayskip}{3pt}%
+    \[\displaystyle #2\]
+  }%
+  {\footnotesize\textit{Mordell #4.} #5}\par
+}
+
+\newcommand{\EquationBacklink}[4]{%
+  \par\Needspace{2\baselineskip}\smallskip
+  \noindent\hyperlink{eq:#1}{\textbf{#1}}\quad
+  \hyperlink{eq:#1}{See the full entry in Chapter~#2}.%
+  \quad{\footnotesize Local occurrence: Mordell #3; \textsc{#4}.}\par
+}
+
+\newcommand{\ChapterHeading}[4]{%
+  \Needspace{7\baselineskip}%
+  \phantomsection\hypertarget{chapter:#1}{}%
+  \section*{Chapter #1. #2}%
+  \textit{Printed pages #3--#4.}\par
+}
