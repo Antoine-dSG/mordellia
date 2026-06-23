@@ -1,5 +1,7 @@
 # mordellia
 
+A new project centered around Mordell's Diophantine Equations textbook
+
 ## GitHub configuration
 
 To set up your new GitHub repository, follow these steps:
