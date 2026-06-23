@@ -2,6 +2,7 @@ name = "mordellia"
 version = "0.1.0"
 keywords = ["math"]
 defaultTargets = ["Mordellia"]
+builtinLint = true
 
 
 [leanOptions]
