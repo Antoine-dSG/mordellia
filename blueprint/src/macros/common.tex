@@ -11,6 +11,7 @@
 % [chapter] at the end of the next line.
 \newtheorem{theorem}{Theorem}
 \newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{conjecture}[theorem]{Conjecture}
 \newtheorem{lemma}[theorem]{Lemma}
 \newtheorem{corollary}[theorem]{Corollary}
 
@@ -27,16 +28,17 @@
 
 \providecommand{\Needspace}[1]{}
 
-\newcommand{\PrimaryEquation}[5]{%
+\newcommand{\PrimaryEquation}[6]{%
   \par\Needspace{5\baselineskip}\smallskip
-  \noindent\hypertarget{eq:#1}{\textbf{#1}}\quad{\footnotesize\textsc{#3}}\par\nopagebreak
+  \noindent\hypertarget{eq:#1}{}\hypertarget{eq:#2}{}%
+  \textbf{#1}\quad{\footnotesize\textbf{#2}\quad\textsc{#4}\quad\footnotesize\textit{#5.}}\par\nopagebreak
   {%
     \small
     \setlength{\abovedisplayskip}{3pt}%
     \setlength{\belowdisplayskip}{3pt}%
-    \[\displaystyle #2\]
+    \[\displaystyle #3\]
   }%
-  {\footnotesize\textit{Mordell #4.} #5}\par
+  {#6}\par
 }
 
 \newcommand{\EquationBacklink}[4]{%
