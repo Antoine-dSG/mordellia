@@ -1,0 +1,70 @@
+cluster: mordell-elliptic
+entries:
+  - LEC-060
+  - LEC-066
+  - LEC-084
+  - LEC-085
+  - LEC-086
+  - LEC-087
+  - LEC-088
+  - LEC-089
+  - LEC-090
+  - LEC-091
+  - LEC-092
+  - LEC-190
+
+history:
+  rank: 1
+  claim: "The entries are special cases or structural statements in the established theory of elliptic curves, Mordell curves, Mordell-Weil finite generation, integral points, and BSD."
+  references:
+    - "Mordell, Diophantine Equations, pp. 68--69, 143--148, 218, 238--254"
+    - "Bennett--Ghadermarzi, Mordell's equation: a classical approach, https://arxiv.org/abs/1311.7077"
+    - "Clay Mathematics Institute, Birch and Swinnerton-Dyer Conjecture, https://www.claymath.org/millennium/birch-and-swinnerton-dyer-conjecture/"
+    - "Fujita--Nara, On the Mordell-Weil group of y^2=x^3+n, https://arxiv.org/abs/1011.1077"
+  evidence: "Mordell states the finite-basis theorem, Fueter's theorem, special Mordell-curve examples, and the BSD rank conjecture; modern work treats the same family through Thue equations and Mordell-Weil data."
+  confidence: high
+
+structure:
+  rank: 3
+  structure: "Elliptic-curve group law; j=0 cubic twists; 3-descent/class groups; binary cubic forms and Thue equations; BSD analytic rank."
+  determines: "finite generation and rank for rational points; finiteness and effective search for integer points; local and descent obstructions to solubility."
+  novelty_status: known
+  references:
+    - "Mordell, Diophantine Equations, pp. 143--148, 238--254"
+    - "Bennett--Ghadermarzi, https://arxiv.org/abs/1311.7077"
+    - "Chan, Integral points on cubic twists of Mordell curves, https://arxiv.org/abs/2203.11366"
+    - "Baanen--Best--Coppola--Dahmen, Formalized class group computations and integral points on Mordell elliptic curves, https://arxiv.org/abs/2209.15492"
+  evidence: "All primary entries are either Weierstrass elliptic curves or special cubic twists; Mordell's methods are descent, forms, and rank."
+  confidence: high
+
+interconnection:
+  rank: 2
+  connected_equations:
+    - LEC-060
+    - LEC-066
+    - LEC-084
+    - LEC-085
+    - LEC-086
+    - LEC-087
+    - LEC-088
+    - LEC-089
+    - LEC-090
+    - LEC-091
+    - LEC-092
+    - LEC-190
+  shared_mechanism: "Mordell-Weil group law and cubic-twist/descent structure."
+  larger_family: "Elliptic curves over Q, with the Mordell curves as the j=0 subfamily."
+  references:
+    - "Mordell, Diophantine Equations, Chapters 9, 16, 26"
+    - "Bennett--Ghadermarzi, https://arxiv.org/abs/1311.7077"
+  evidence: "The special cases are literal k-values in LEC-066; LEC-060 and LEC-190 describe the algebraic and analytic rank structures controlling the same family."
+  confidence: high
+
+status: deep_dive
+next_steps:
+  - "Fold adjacent Mordell-curve entries LEC-068--LEC-083 into the same graph."
+  - "For each special k, compute or verify rank, torsion, conductor, discriminant, and integral points using Sage/LMFDB data."
+  - "Separate rational-point statements from integer-point statements in the graph."
+  - "Build an obstruction table: local obstruction, class-group obstruction, Thue reduction, Mordell-Weil rank, BSD signal."
+  - "Compare this template against the quartic genus-one cluster."
+

@@ -1,0 +1,12 @@
+lec: LEC-041
+equation: "x^3+y^3=az^3"
+pages: "124--130"
+cluster: cubic-diagonal-sums
+statement_file: "blueprint/src/equations/LEC-041/LEC-041.tex"
+status: deep_dive
+tags:
+  - diagonal_cubic
+  - j_zero_elliptic_curve
+  - cyclotomic_descent
+  - three_isogeny
+

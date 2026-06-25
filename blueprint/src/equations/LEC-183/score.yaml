@@ -1,0 +1,24 @@
+history:
+  rank: 2
+  claim: "General exchange-polynomial problem with modern LP-algebra analogue."
+  references:
+    - "Mordell, Diophantine Equations, p. 293"
+    - "Fomin-Zelevinsky, https://arxiv.org/abs/math/0104241"
+    - "Lam-Pylyavskyy, https://arxiv.org/abs/1206.2611"
+  confidence: medium
+
+structure:
+  rank: 2
+  structure: "Exchange-polynomial / Laurent phenomenon algebra candidate."
+  determines: "integrality of generated exchange values in compatible subfamilies"
+  novelty_status: known
+  confidence: medium
+
+interconnection:
+  rank: 1
+  connected_equations: [LEC-096, LEC-117, LEC-118]
+  shared_mechanism: "exchange mutation"
+  confidence: medium
+
+status: deep_dive
+

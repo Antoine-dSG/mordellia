@@ -1,0 +1,45 @@
+cluster: classical-conjectures
+entries:
+  - LEC-188
+  - LEC-191
+
+history:
+  rank: 2
+  claim: "The cluster contains two classical conjectures: Erdos--Straus remains open but heavily studied; Catalan is now Mihailescu's theorem."
+  references:
+    - "Mordell, Diophantine Equations, pp. 287, 300"
+    - "Elsholtz--Tao, Counting the number of solutions to the Erdos-Straus equation on unit fractions, https://arxiv.org/abs/1107.1010"
+    - "Salez, The Erdos-Straus conjecture: new modular equations and checking up to N=10^17, https://arxiv.org/abs/1406.6307"
+    - "Mihailescu, Primary Cyclotomic Units and a Proof of Catalan's Conjecture, J. Reine Angew. Math. 572 (2004), 167--195"
+  evidence: "LEC-188 is an active open conjecture with reductions and computational verification; LEC-191 is now a theorem."
+  confidence: medium
+
+structure:
+  rank: 5
+  structure: "Mixed: congruence and divisor structure for Erdos--Straus; cyclotomic fields and Galois modules for Catalan."
+  determines: "Determines LEC-191 via Mihailescu's theorem; does not determine LEC-188."
+  novelty_status: known
+  references:
+    - "Elsholtz--Tao, https://arxiv.org/abs/1107.1010"
+    - "Mihailescu, J. Reine Angew. Math. 572 (2004), 167--195"
+  evidence: "No common determining structure has been identified; the cluster-level rank is limited by LEC-188."
+  confidence: medium
+
+interconnection:
+  rank: 4
+  connected_equations:
+    - LEC-188
+    - LEC-191
+  shared_mechanism: "No shared arithmetic mechanism beyond being classical conjectural Diophantine statements."
+  larger_family: "Miscellaneous famous Diophantine conjectures."
+  references:
+    - "Mordell, Diophantine Equations, pp. 287, 300"
+  evidence: "The equations do not currently share methods, normal forms, or structural obstructions."
+  confidence: medium
+
+status: deep_dive
+next_steps:
+  - "Split this cluster if a graph consumer expects clusters to encode real shared structure."
+  - "For LEC-188, catalogue known congruence families and compare them to Mordell's own parametrisations."
+  - "For LEC-191, record the chain Cassels--Tijdeman--Mihailescu as a history timeline."
+

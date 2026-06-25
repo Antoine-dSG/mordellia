@@ -1,0 +1,24 @@
+history:
+  rank: 1
+  claim: "Central Mordell curve family, now treated by general elliptic-curve and Thue-equation methods."
+  references:
+    - "Mordell, Diophantine Equations, Chapter 26"
+    - "Bennett--Ghadermarzi, https://arxiv.org/abs/1311.7077"
+    - "Ghadermarzi, https://arxiv.org/abs/2204.10950"
+  confidence: high
+
+structure:
+  rank: 3
+  structure: "j=0 elliptic curve, cubic twist, Mordell-Weil group, binary cubic forms."
+  determines: "rational infinitude/finite rank, finite integer points, and descent obstructions"
+  novelty_status: known
+  confidence: high
+
+interconnection:
+  rank: 2
+  connected_equations: [LEC-060, LEC-084, LEC-085, LEC-086, LEC-087, LEC-088, LEC-089, LEC-090, LEC-091, LEC-092, LEC-190]
+  shared_mechanism: "Mordell curve as j=0 cubic-twist subfamily"
+  confidence: high
+
+status: deep_dive
+

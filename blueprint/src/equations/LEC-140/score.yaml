@@ -1,0 +1,22 @@
+history:
+  rank: 1
+  claim: "Classical quartic Pell equation with Ljunggren--Mordell unit methods."
+  references:
+    - "Mordell, Diophantine Equations, pp. 269--271"
+  confidence: high
+
+structure:
+  rank: 3
+  structure: "quadratic-field unit group and local congruence obstructions."
+  determines: "no-solution criteria and upper bounds on positive solutions"
+  novelty_status: known
+  confidence: high
+
+interconnection:
+  rank: 2
+  connected_equations: [LEC-129, LEC-130, LEC-136, LEC-178]
+  shared_mechanism: "quartic Pell/norm equation"
+  confidence: high
+
+status: deep_dive
+

@@ -1,0 +1,34 @@
+{
+  "cluster": "cubic-diagonal-sums",
+  "nodes": [
+    {"id": "LEC-041", "type": "equation", "object": "diagonal cubic curve x^3+y^3=az^3"},
+    {"id": "LEC-043", "type": "equation", "object": "Hesse-type ternary cubic"},
+    {"id": "LEC-100", "type": "equation", "object": "sum of three integer cubes"},
+    {"id": "LEC-108", "type": "equation", "object": "Fermat-type equation z^2=x^3+y^3"},
+    {"id": "LEC-109", "type": "equation", "object": "quadratic twist 2z^2=x^3+y^3"},
+    {"id": "LEC-114", "type": "equation", "object": "sum of four integer cubes"},
+    {"id": "CubeResiduesMod9", "type": "structure"},
+    {"id": "CyclotomicFactorizationQrho", "type": "structure"},
+    {"id": "JZeroEllipticCurve", "type": "family"},
+    {"id": "ThreeIsogenyDescent", "type": "method"},
+    {"id": "HessePencil", "type": "family"},
+    {"id": "AdditiveCubeSearch", "type": "method"},
+    {"id": "FourCubesProblem", "type": "conjectural_family"}
+  ],
+  "edges": [
+    {"source": "LEC-041", "target": "CyclotomicFactorizationQrho", "relation": "uses"},
+    {"source": "LEC-041", "target": "JZeroEllipticCurve", "relation": "is_cubic_twist_of"},
+    {"source": "JZeroEllipticCurve", "target": "ThreeIsogenyDescent", "relation": "studied_by"},
+    {"source": "LEC-108", "target": "CyclotomicFactorizationQrho", "relation": "uses"},
+    {"source": "LEC-109", "target": "CyclotomicFactorizationQrho", "relation": "uses"},
+    {"source": "LEC-108", "target": "LEC-109", "relation": "quadratic_twist"},
+    {"source": "LEC-043", "target": "HessePencil", "relation": "specializes_to"},
+    {"source": "HessePencil", "target": "JZeroEllipticCurve", "relation": "contains_members_with"},
+    {"source": "LEC-100", "target": "CubeResiduesMod9", "relation": "obstructed_by"},
+    {"source": "LEC-114", "target": "CubeResiduesMod9", "relation": "partially_controlled_by"},
+    {"source": "LEC-100", "target": "AdditiveCubeSearch", "relation": "studied_by"},
+    {"source": "LEC-114", "target": "FourCubesProblem", "relation": "states"},
+    {"source": "FourCubesProblem", "target": "AdditiveCubeSearch", "relation": "uses_identities_and_search"}
+  ]
+}
+

@@ -1,0 +1,23 @@
+history:
+  rank: 1
+  claim: "Exceptional case in the general rational-point theorem for Mordell curves."
+  references:
+    - "Mordell, Diophantine Equations, p. 247"
+    - "Fujita--Nara, https://arxiv.org/abs/1011.1077"
+  confidence: high
+
+structure:
+  rank: 3
+  structure: "rank-zero/torsion behaviour on a j=0 elliptic curve."
+  determines: "finite rational solution set"
+  novelty_status: known
+  confidence: high
+
+interconnection:
+  rank: 2
+  connected_equations: [LEC-066, LEC-085, LEC-190]
+  shared_mechanism: "Mordell-Weil rank"
+  confidence: high
+
+status: deep_dive
+

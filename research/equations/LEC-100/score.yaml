@@ -1,0 +1,37 @@
+lec: LEC-100
+cluster: cubic-diagonal-sums
+
+history:
+  rank: 2
+  claim: "The equation is the classical sums-of-three-cubes problem, with many solved instances but no complete criterion."
+  references:
+    - "Mordell, Diophantine Equations, pp. 83--84, 100--101"
+    - "Booker, https://arxiv.org/abs/1903.04284"
+    - "University of Bristol, https://www.bristol.ac.uk/news/2019/september/sum-of-three-cubes-.html"
+  evidence: "Modern sources solve difficult individual cases but do not solve the general problem."
+  confidence: medium
+
+structure:
+  rank: 5
+  structure: "Modulo 9 obstruction and computational search heuristics."
+  determines: "The obstruction determines non-solubility for n congruent to plus or minus 4 modulo 9, but does not determine the remaining cases."
+  novelty_status: unresolved
+  references:
+    - "Booker, https://arxiv.org/abs/1903.04284"
+  evidence: "No complete structural criterion was found."
+  confidence: medium
+
+interconnection:
+  rank: 2
+  connected_equations:
+    - LEC-041
+    - LEC-114
+  shared_mechanism: "Cube residues modulo 9 and additive representation by cubes."
+  larger_family: "Sums of integral cubes."
+  references:
+    - "Mordell, Diophantine Equations, pp. 83--84, 182"
+  evidence: "LEC-114 uses the same residue obstruction in four variables."
+  confidence: medium
+
+status: deep_dive
+

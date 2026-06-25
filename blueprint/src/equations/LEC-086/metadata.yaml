@@ -1,0 +1,13 @@
+tag: LEC-086
+equation: "y^2=x^3+1"
+pages: "p. 247"
+cluster: mordell-elliptic
+object_type:
+  - Mordell curve
+  - exceptional rational case
+  - j=0 elliptic curve
+qualitative_behavior:
+  - finite rational affine solution set
+  - Fueter exceptional case
+primary_source: "Mordell, Diophantine Equations, p. 247"
+

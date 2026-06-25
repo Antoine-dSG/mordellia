@@ -1,0 +1,11 @@
+lec: LEC-114
+equation: "x^3+y^3+z^3+w^3=n"
+pages: "58, 182"
+cluster: cubic-diagonal-sums
+statement_file: "blueprint/src/equations/LEC-114/LEC-114.tex"
+status: deep_dive
+tags:
+  - four_cubes_problem
+  - additive_number_theory
+  - conjecture
+

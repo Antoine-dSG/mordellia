@@ -1,0 +1,26 @@
+{
+  "cluster": "binary-forms-thue",
+  "nodes": [
+    {"id": "LEC-037", "type": "equation", "object": "binary cubic equal to a cube"},
+    {"id": "LEC-038", "type": "equation", "object": "mod 9 binary cubic obstruction"},
+    {"id": "LEC-050", "type": "equation", "object": "binary cubic Thue equation"},
+    {"id": "LEC-051", "type": "equation", "object": "mod 9 representation obstruction"},
+    {"id": "LEC-162", "type": "equation", "object": "general Thue equation"},
+    {"id": "LocalCongruence", "type": "method"},
+    {"id": "BinaryForms", "type": "structure"},
+    {"id": "ThueFiniteness", "type": "theorem"},
+    {"id": "DiophantineApproximation", "type": "structure"},
+    {"id": "BakerEffectiveMethods", "type": "method"}
+  ],
+  "edges": [
+    {"source": "LEC-037", "target": "BinaryForms", "relation": "instance"},
+    {"source": "LEC-038", "target": "LocalCongruence", "relation": "uses"},
+    {"source": "LEC-051", "target": "LocalCongruence", "relation": "uses"},
+    {"source": "LEC-050", "target": "ThueFiniteness", "relation": "cubic_case"},
+    {"source": "LEC-162", "target": "ThueFiniteness", "relation": "states_general"},
+    {"source": "ThueFiniteness", "target": "DiophantineApproximation", "relation": "proved_by"},
+    {"source": "ThueFiniteness", "target": "BakerEffectiveMethods", "relation": "made_effective_by"},
+    {"source": "BinaryForms", "target": "ThueFiniteness", "relation": "global_finiteness_layer"}
+  ]
+}
+

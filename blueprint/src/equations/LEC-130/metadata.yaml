@@ -1,0 +1,12 @@
+tag: LEC-130
+equation: "x^4-Dy^4=\\pm1"
+pages: "pp. 275--276"
+cluster: quartic-genus-one
+object_type:
+  - quartic Pell equation
+  - quadratic-field unit equation
+qualitative_behavior:
+  - at most one positive integer solution
+  - solution constrained by the fundamental unit of Q(sqrt(D))
+primary_source: "Mordell, Diophantine Equations, pp. 275--276"
+

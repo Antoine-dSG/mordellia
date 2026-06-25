@@ -1,0 +1,23 @@
+history:
+  rank: 1
+  claim: "Classical Mordell curve special case, now contained in the general integral-point problem for y^2=x^3+k."
+  references:
+    - "Mordell, Diophantine Equations, pp. 68--69, 238"
+    - "Bennett--Ghadermarzi, https://arxiv.org/abs/1311.7077"
+  confidence: high
+
+structure:
+  rank: 3
+  structure: "j=0 cubic twist; descent for integer points; group law for rational points."
+  determines: "integer uniqueness and rational infinitude"
+  novelty_status: known
+  confidence: high
+
+interconnection:
+  rank: 2
+  connected_equations: [LEC-066, LEC-084, LEC-086]
+  shared_mechanism: "Mordell curve and elliptic group law"
+  confidence: high
+
+status: deep_dive
+

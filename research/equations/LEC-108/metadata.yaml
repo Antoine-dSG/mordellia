@@ -1,0 +1,11 @@
+lec: LEC-108
+equation: "z^2=x^3+y^3"
+pages: "235"
+cluster: cubic-diagonal-sums
+statement_file: "blueprint/src/equations/LEC-108/LEC-108.tex"
+status: deep_dive
+tags:
+  - fermat_type
+  - parametrisation
+  - cyclotomic_factorization
+

@@ -1,0 +1,24 @@
+history:
+  rank: 2
+  claim: "Instance of the general binary quartic/genus-one curve problem."
+  references:
+    - "Mordell, Diophantine Equations, pp. 69--70, 268"
+    - "Bhargava--Cremona--Fisher, https://arxiv.org/abs/2004.12085"
+    - "Bhargava--Shankar, https://arxiv.org/abs/1006.1002"
+  confidence: high
+
+structure:
+  rank: 3
+  structure: "binary quartic genus-one curve and associated elliptic curve."
+  determines: "rational-point structure and finiteness of integral points"
+  novelty_status: known
+  confidence: high
+
+interconnection:
+  rank: 2
+  connected_equations: [LEC-136, LEC-140, LEC-145, LEC-060]
+  shared_mechanism: "genus-one quartic model"
+  confidence: high
+
+status: deep_dive
+

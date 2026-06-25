@@ -1,0 +1,11 @@
+tag: LEC-179
+equation: "N(\\alpha x+\\beta y+\\gamma z)=f(x,y,z)"
+pages: "pp. 209--211"
+cluster: norm-equations
+object_type:
+  - norm form equation
+  - number-field Diophantine equation
+qualitative_behavior:
+  - finitely many integer solutions under Mordell's degree and non-degeneracy hypotheses
+primary_source: "Mordell, Diophantine Equations, pp. 209--211"
+

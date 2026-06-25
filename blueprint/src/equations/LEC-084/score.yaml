@@ -1,0 +1,23 @@
+history:
+  rank: 1
+  claim: "Special case of the general Mordell curve integral-point problem."
+  references:
+    - "Mordell, Diophantine Equations, p. 123"
+    - "Bennett--Ghadermarzi, https://arxiv.org/abs/1311.7077"
+  confidence: high
+
+structure:
+  rank: 3
+  structure: "j=0 cubic twist and finite integral-point problem."
+  determines: "finite list of integer solutions"
+  novelty_status: known
+  confidence: high
+
+interconnection:
+  rank: 2
+  connected_equations: [LEC-066, LEC-085, LEC-088]
+  shared_mechanism: "special k-value in y^2=x^3+k"
+  confidence: high
+
+status: deep_dive
+

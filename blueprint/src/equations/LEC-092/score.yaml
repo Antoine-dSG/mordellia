@@ -1,0 +1,23 @@
+history:
+  rank: 1
+  claim: "Special case of Mordell curve non-solubility methods."
+  references:
+    - "Mordell, Diophantine Equations, p. 242"
+    - "Bennett--Ghadermarzi, https://arxiv.org/abs/1311.7077"
+  confidence: high
+
+structure:
+  rank: 3
+  structure: "descent and congruence obstruction on a cubic twist."
+  determines: "absence of integer solutions"
+  novelty_status: known
+  confidence: high
+
+interconnection:
+  rank: 2
+  connected_equations: [LEC-066, LEC-087, LEC-089, LEC-091]
+  shared_mechanism: "quadratic-field congruence obstruction"
+  confidence: high
+
+status: deep_dive
+

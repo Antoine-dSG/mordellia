@@ -1,0 +1,22 @@
+history:
+  rank: 2
+  claim: "Local obstruction for binary cubic representation of 1."
+  references:
+    - "Mordell, Diophantine Equations, p. 38"
+  confidence: high
+
+structure:
+  rank: 3
+  structure: "mod 9 local obstruction."
+  determines: "absence of congruence solutions"
+  novelty_status: known
+  confidence: high
+
+interconnection:
+  rank: 2
+  connected_equations: [LEC-037, LEC-038, LEC-050]
+  shared_mechanism: "binary cubic congruence modulo 9"
+  confidence: high
+
+status: deep_dive
+

@@ -1,0 +1,23 @@
+history:
+  rank: 2
+  claim: "Even binary quartic subfamily of the genus-one curve problem."
+  references:
+    - "Mordell, Diophantine Equations, pp. 268--272"
+    - "Bhargava--Cremona--Fisher, https://arxiv.org/abs/2004.12085"
+  confidence: high
+
+structure:
+  rank: 3
+  structure: "even binary quartic genus-one model."
+  determines: "finiteness of integer solutions under squarefree hypothesis"
+  novelty_status: known
+  confidence: high
+
+interconnection:
+  rank: 2
+  connected_equations: [LEC-135, LEC-140, LEC-145]
+  shared_mechanism: "binary quartic genus-one model"
+  confidence: high
+
+status: deep_dive
+

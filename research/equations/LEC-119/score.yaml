@@ -1,0 +1,34 @@
+lec: LEC-119
+cluster: quartic-surfaces-obstructions
+
+history:
+  rank: 2
+  claim: "The equation is a quartic-surface local obstruction problem built from ternary quadratic forms."
+  references:
+    - "Mordell, Diophantine Equations, p. 25"
+  evidence: "Mordell's theorem is explicitly a congruence obstruction to nonzero integer solutions."
+  confidence: medium
+
+structure:
+  rank: 3
+  structure: "Local 2-adic obstruction encoded by mod 8 coefficient and determinant hypotheses."
+  determines: "Determines non-solubility under Mordell's hypotheses."
+  novelty_status: known
+  references:
+    - "Mordell, Diophantine Equations, p. 25"
+  evidence: "All hypotheses are congruence or parity hypotheses."
+  confidence: medium
+
+interconnection:
+  rank: 3
+  connected_equations:
+    - LEC-122
+  shared_mechanism: "Quartic surface arithmetic, but with different local/global behavior."
+  larger_family: "Quartic surfaces and rational/integral points."
+  references:
+    - "Mordell, Diophantine Equations, pp. 25, 90--94"
+  evidence: "LEC-119 and LEC-122 both become quartic-surface rational-point questions."
+  confidence: medium
+
+status: deep_dive
+

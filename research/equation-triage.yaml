@@ -1,0 +1,5543 @@
+{
+  "generated_from": "blueprint/src/content.tex",
+  "note": "Provisional triage. triage_target_ranks are expected research targets, not final ranks.",
+  "entry_count": 187,
+  "deep_dive_shortlist": [
+    "LEC-041",
+    "LEC-043",
+    "LEC-060",
+    "LEC-066",
+    "LEC-096",
+    "LEC-100",
+    "LEC-108",
+    "LEC-109",
+    "LEC-114",
+    "LEC-190",
+    "LEC-119",
+    "LEC-122",
+    "LEC-140",
+    "LEC-145",
+    "LEC-162",
+    "LEC-165",
+    "LEC-178",
+    "LEC-179",
+    "LEC-180",
+    "LEC-181",
+    "LEC-191",
+    "LEC-183",
+    "LEC-188"
+  ],
+  "cluster_index": {
+    "binary_cubic_forms": [
+      "LEC-037",
+      "LEC-038",
+      "LEC-051"
+    ],
+    "binary_quartic_forms": [
+      "LEC-128"
+    ],
+    "cluster_algebras": [
+      "LEC-183"
+    ],
+    "congruences": [
+      "LEC-006",
+      "LEC-038",
+      "LEC-051",
+      "LEC-067"
+    ],
+    "conics": [
+      "LEC-017",
+      "LEC-018",
+      "LEC-019",
+      "LEC-020",
+      "LEC-021",
+      "LEC-022",
+      "LEC-023",
+      "LEC-024",
+      "LEC-025",
+      "LEC-026",
+      "LEC-027",
+      "LEC-028",
+      "LEC-029",
+      "LEC-030",
+      "LEC-031",
+      "LEC-032",
+      "LEC-033",
+      "LEC-034",
+      "LEC-035"
+    ],
+    "cubic_equations": [
+      "LEC-036",
+      "LEC-037",
+      "LEC-038",
+      "LEC-039",
+      "LEC-040",
+      "LEC-041",
+      "LEC-042",
+      "LEC-043",
+      "LEC-044",
+      "LEC-045",
+      "LEC-046",
+      "LEC-047",
+      "LEC-048",
+      "LEC-049",
+      "LEC-050",
+      "LEC-051",
+      "LEC-052",
+      "LEC-053",
+      "LEC-054",
+      "LEC-055",
+      "LEC-056",
+      "LEC-057",
+      "LEC-058",
+      "LEC-059",
+      "LEC-060",
+      "LEC-061",
+      "LEC-062",
+      "LEC-063",
+      "LEC-064",
+      "LEC-065",
+      "LEC-066",
+      "LEC-067",
+      "LEC-068",
+      "LEC-069",
+      "LEC-070",
+      "LEC-071",
+      "LEC-072",
+      "LEC-073",
+      "LEC-074",
+      "LEC-075",
+      "LEC-076",
+      "LEC-077",
+      "LEC-078",
+      "LEC-079",
+      "LEC-080",
+      "LEC-081",
+      "LEC-082",
+      "LEC-083",
+      "LEC-084",
+      "LEC-085",
+      "LEC-086",
+      "LEC-087",
+      "LEC-088",
+      "LEC-089",
+      "LEC-090",
+      "LEC-091",
+      "LEC-092",
+      "LEC-093",
+      "LEC-094",
+      "LEC-095",
+      "LEC-096",
+      "LEC-097",
+      "LEC-098",
+      "LEC-099",
+      "LEC-100",
+      "LEC-101",
+      "LEC-102",
+      "LEC-103",
+      "LEC-104",
+      "LEC-105",
+      "LEC-106",
+      "LEC-107",
+      "LEC-108",
+      "LEC-109",
+      "LEC-110",
+      "LEC-111",
+      "LEC-112",
+      "LEC-113",
+      "LEC-114",
+      "LEC-115",
+      "LEC-116",
+      "LEC-117",
+      "LEC-118",
+      "LEC-190"
+    ],
+    "cubic_surfaces": [
+      "LEC-045",
+      "LEC-046",
+      "LEC-047",
+      "LEC-048",
+      "LEC-114",
+      "LEC-115"
+    ],
+    "diagonal_quartics": [
+      "LEC-122",
+      "LEC-124",
+      "LEC-125",
+      "LEC-127",
+      "LEC-131",
+      "LEC-150",
+      "LEC-156",
+      "LEC-157"
+    ],
+    "egyptian_fractions": [
+      "LEC-188"
+    ],
+    "elliptic_curves": [
+      "LEC-060",
+      "LEC-061",
+      "LEC-065",
+      "LEC-066",
+      "LEC-068",
+      "LEC-069",
+      "LEC-070",
+      "LEC-071",
+      "LEC-072",
+      "LEC-073",
+      "LEC-074",
+      "LEC-075",
+      "LEC-076",
+      "LEC-077",
+      "LEC-078",
+      "LEC-079",
+      "LEC-080",
+      "LEC-081",
+      "LEC-082",
+      "LEC-083",
+      "LEC-084",
+      "LEC-085",
+      "LEC-086",
+      "LEC-087",
+      "LEC-088",
+      "LEC-089",
+      "LEC-090",
+      "LEC-091",
+      "LEC-092",
+      "LEC-103",
+      "LEC-104",
+      "LEC-105",
+      "LEC-106",
+      "LEC-107",
+      "LEC-108",
+      "LEC-109",
+      "LEC-190",
+      "LEC-134",
+      "LEC-135",
+      "LEC-136",
+      "LEC-137",
+      "LEC-138",
+      "LEC-139",
+      "LEC-140",
+      "LEC-141",
+      "LEC-144",
+      "LEC-145",
+      "LEC-147",
+      "LEC-148",
+      "LEC-149",
+      "LEC-150",
+      "LEC-151",
+      "LEC-154"
+    ],
+    "erdos_straus": [
+      "LEC-188"
+    ],
+    "genus_one_quartics": [
+      "LEC-134",
+      "LEC-135",
+      "LEC-136",
+      "LEC-137",
+      "LEC-138",
+      "LEC-139",
+      "LEC-140",
+      "LEC-141",
+      "LEC-144",
+      "LEC-145",
+      "LEC-147",
+      "LEC-148",
+      "LEC-149",
+      "LEC-150",
+      "LEC-151",
+      "LEC-154"
+    ],
+    "intersections_of_quadrics": [
+      "LEC-013",
+      "LEC-030",
+      "LEC-031",
+      "LEC-032"
+    ],
+    "linear_equations": [
+      "LEC-001",
+      "LEC-002",
+      "LEC-003"
+    ],
+    "local_obstructions": [
+      "LEC-006",
+      "LEC-038",
+      "LEC-051",
+      "LEC-067"
+    ],
+    "markoff_type": [
+      "LEC-043",
+      "LEC-044",
+      "LEC-094",
+      "LEC-096",
+      "LEC-098",
+      "LEC-101",
+      "LEC-117",
+      "LEC-118"
+    ],
+    "mordell_curves": [
+      "LEC-060",
+      "LEC-061",
+      "LEC-065",
+      "LEC-066",
+      "LEC-068",
+      "LEC-069",
+      "LEC-070",
+      "LEC-071",
+      "LEC-072",
+      "LEC-073",
+      "LEC-074",
+      "LEC-075",
+      "LEC-076",
+      "LEC-077",
+      "LEC-078",
+      "LEC-079",
+      "LEC-080",
+      "LEC-081",
+      "LEC-082",
+      "LEC-083",
+      "LEC-084",
+      "LEC-085",
+      "LEC-086",
+      "LEC-087",
+      "LEC-088",
+      "LEC-089",
+      "LEC-090",
+      "LEC-091",
+      "LEC-092",
+      "LEC-190"
+    ],
+    "mutation_dynamics": [
+      "LEC-096",
+      "LEC-117",
+      "LEC-118",
+      "LEC-183"
+    ],
+    "norm_equations": [
+      "LEC-179",
+      "LEC-180"
+    ],
+    "number_fields": [
+      "LEC-179",
+      "LEC-180"
+    ],
+    "pell_equations": [
+      "LEC-020"
+    ],
+    "quadratic_forms": [
+      "LEC-004",
+      "LEC-005",
+      "LEC-006",
+      "LEC-007",
+      "LEC-008",
+      "LEC-009",
+      "LEC-010",
+      "LEC-011",
+      "LEC-012",
+      "LEC-013",
+      "LEC-014",
+      "LEC-015",
+      "LEC-016",
+      "LEC-017",
+      "LEC-018",
+      "LEC-019",
+      "LEC-020",
+      "LEC-021",
+      "LEC-022",
+      "LEC-023",
+      "LEC-024",
+      "LEC-025",
+      "LEC-026",
+      "LEC-027",
+      "LEC-028",
+      "LEC-029",
+      "LEC-030",
+      "LEC-031",
+      "LEC-032",
+      "LEC-033",
+      "LEC-034",
+      "LEC-035"
+    ],
+    "quartic_equations": [
+      "LEC-119",
+      "LEC-120",
+      "LEC-121",
+      "LEC-122",
+      "LEC-123",
+      "LEC-124",
+      "LEC-125",
+      "LEC-126",
+      "LEC-127",
+      "LEC-128",
+      "LEC-129",
+      "LEC-130",
+      "LEC-131",
+      "LEC-132",
+      "LEC-133",
+      "LEC-134",
+      "LEC-135",
+      "LEC-136",
+      "LEC-137",
+      "LEC-138",
+      "LEC-139",
+      "LEC-140",
+      "LEC-141",
+      "LEC-142",
+      "LEC-143",
+      "LEC-144",
+      "LEC-145",
+      "LEC-146",
+      "LEC-147",
+      "LEC-148",
+      "LEC-149",
+      "LEC-150",
+      "LEC-151",
+      "LEC-152",
+      "LEC-153",
+      "LEC-154",
+      "LEC-155",
+      "LEC-156",
+      "LEC-157",
+      "LEC-158",
+      "LEC-159",
+      "LEC-160",
+      "LEC-161",
+      "LEC-162",
+      "LEC-163",
+      "LEC-164",
+      "LEC-165",
+      "LEC-166",
+      "LEC-167",
+      "LEC-168",
+      "LEC-169",
+      "LEC-170",
+      "LEC-171",
+      "LEC-172",
+      "LEC-173",
+      "LEC-174",
+      "LEC-175",
+      "LEC-176",
+      "LEC-177",
+      "LEC-178",
+      "LEC-179",
+      "LEC-180",
+      "LEC-181",
+      "LEC-191",
+      "LEC-185",
+      "LEC-182",
+      "LEC-183",
+      "LEC-188"
+    ],
+    "quartic_surfaces": [
+      "LEC-122",
+      "LEC-123",
+      "LEC-124",
+      "LEC-125"
+    ],
+    "sums_of_cubes": [
+      "LEC-041",
+      "LEC-044",
+      "LEC-099",
+      "LEC-100",
+      "LEC-108",
+      "LEC-109",
+      "LEC-114",
+      "LEC-115",
+      "LEC-116"
+    ],
+    "sums_of_squares": [
+      "LEC-007",
+      "LEC-008",
+      "LEC-009",
+      "LEC-011",
+      "LEC-021",
+      "LEC-024",
+      "LEC-027",
+      "LEC-049",
+      "LEC-096",
+      "LEC-117",
+      "LEC-118",
+      "LEC-152",
+      "LEC-178"
+    ],
+    "thue_equations": [
+      "LEC-037",
+      "LEC-038",
+      "LEC-051",
+      "LEC-128"
+    ],
+    "units": [
+      "LEC-020"
+    ],
+    "waring_type": [
+      "LEC-114",
+      "LEC-116"
+    ]
+  },
+  "entries": [
+    {
+      "tag": "LEC-001",
+      "equation_latex": "a_1x_1+a_2x_2+\\cdots+a_nx_n=a",
+      "pages": "p.~30",
+      "degree": 1,
+      "section": null,
+      "content_note": "",
+      "statement_status": "statement",
+      "clusters": [
+        "linear_equations"
+      ],
+      "research_priority": "medium",
+      "triage_target_ranks": {
+        "history": 1,
+        "structure": 4,
+        "interconnection": 3
+      },
+      "final_ranks": {
+        "history": null,
+        "structure": null,
+        "interconnection": null
+      },
+      "confidence": "low",
+      "reason": "Useful for baseline coverage or known-theory comparison.",
+      "next_action": "cluster_survey"
+    },
+    {
+      "tag": "LEC-002",
+      "equation_latex": "L_r(\\mathbf{x})=a_r\\quad(r=1,2,\\ldots,n)",
+      "pages": "p.~31",
+      "degree": 1,
+      "section": null,
+      "content_note": "",
+      "statement_status": "statement",
+      "clusters": [
+        "linear_equations"
+      ],
+      "research_priority": "medium",
+      "triage_target_ranks": {
+        "history": 1,
+        "structure": 4,
+        "interconnection": 3
+      },
+      "final_ranks": {
+        "history": null,
+        "structure": null,
+        "interconnection": null
+      },
+      "confidence": "low",
+      "reason": "Useful for baseline coverage or known-theory comparison.",
+      "next_action": "cluster_survey"
+    },
+    {
+      "tag": "LEC-003",
+      "equation_latex": "L_r(\\mathbf{x})=0\\quad(r=1,\\ldots,m),\\qquad m<n",
+      "pages": "p.~32",
+      "degree": 1,
+      "section": null,
+      "content_note": "",
+      "statement_status": "statement",
+      "clusters": [
+        "linear_equations"
+      ],
+      "research_priority": "medium",
+      "triage_target_ranks": {
+        "history": 1,
+        "structure": 4,
+        "interconnection": 3
+      },
+      "final_ranks": {
+        "history": null,
+        "structure": null,
+        "interconnection": null
+      },
+      "confidence": "low",
+      "reason": "Useful for baseline coverage or known-theory comparison.",
+      "next_action": "cluster_survey"
+    },
+    {
+      "tag": "LEC-004",
+      "equation_latex": "ax^2+by^2+cz^2+2fyz+2gzx+2hxy=0",
+      "pages": "p.~47",
+      "degree": 2,
+      "section": "Homogeneous",
+      "content_note": "",
+      "statement_status": "statement",
+      "clusters": [
+        "quadratic_forms"
+      ],
+      "research_priority": "medium",
+      "triage_target_ranks": {
+        "history": 1,
+        "structure": 4,
+        "interconnection": 3
+      },
+      "final_ranks": {
+        "history": null,
+        "structure": null,
+        "interconnection": null
+      },
+      "confidence": "low",
+      "reason": "Useful for baseline coverage or known-theory comparison.",
+      "next_action": "cluster_survey"
+    },
+    {
+      "tag": "LEC-005",
+      "equation_latex": "ax^2+by^2+cz^2=0",
+      "pages": "pp.~5, 43--48",
+      "degree": 2,
+      "section": "Homogeneous",
+      "content_note": "",
+      "statement_status": "statement",
+      "clusters": [
+        "quadratic_forms"
+      ],
+      "research_priority": "medium",
+      "triage_target_ranks": {
+        "history": 1,
+        "structure": 4,
+        "interconnection": 3
+      },
+      "final_ranks": {
+        "history": null,
+        "structure": null,
+        "interconnection": null
+      },
+      "confidence": "low",
+      "reason": "Useful for baseline coverage or known-theory comparison.",
+      "next_action": "cluster_survey"
+    },
+    {
+      "tag": "LEC-006",
+      "equation_latex": "ax^2+by^2+cz^2\\equiv0\\pmod M",
+      "pages": "p.~36",
+      "degree": 2,
+      "section": "Homogeneous",
+      "content_note": "",
+      "statement_status": "statement",
+      "clusters": [
+        "congruences",
+        "local_obstructions",
+        "quadratic_forms"
+      ],
+      "research_priority": "medium",
+      "triage_target_ranks": {
+        "history": 1,
+        "structure": 4,
+        "interconnection": 3
+      },
+      "final_ranks": {
+        "history": null,
+        "structure": null,
+        "interconnection": null
+      },
+      "confidence": "low",
+      "reason": "Useful for baseline coverage or known-theory comparison.",
+      "next_action": "cluster_survey"
+    },
+    {
+      "tag": "LEC-007",
+      "equation_latex": "x^2+y^2=(4a+3)z^2",
+      "pages": "p.~4",
+      "degree": 2,
+      "section": "Homogeneous",
+      "content_note": "",
+      "statement_status": "statement",
+      "clusters": [
+        "quadratic_forms",
+        "sums_of_squares"
+      ],
+      "research_priority": "medium",
+      "triage_target_ranks": {
+        "history": 1,
+        "structure": 4,
+        "interconnection": 3
+      },
+      "final_ranks": {
+        "history": null,
+        "structure": null,
+        "interconnection": null
+      },
+      "confidence": "low",
+      "reason": "Useful for baseline coverage or known-theory comparison.",
+      "next_action": "cluster_survey"
+    },
+    {
+      "tag": "LEC-008",
+      "equation_latex": "x^2+y^2=2z^2",
+      "pages": "p.~13",
+      "degree": 2,
+      "section": "Homogeneous",
+      "content_note": "",
+      "statement_status": "statement",
+      "clusters": [
+        "quadratic_forms",
+        "sums_of_squares"
+      ],
+      "research_priority": "medium",
+      "triage_target_ranks": {
+        "history": 1,
+        "structure": 4,
+        "interconnection": 3
+      },
+      "final_ranks": {
+        "history": null,
+        "structure": null,
+        "interconnection": null
+      },
+      "confidence": "low",
+      "reason": "Useful for baseline coverage or known-theory comparison.",
+      "next_action": "cluster_survey"
+    },
+    {
+      "tag": "LEC-009",
+      "equation_latex": "x^2+y^2=pz^2",
+      "pages": "p.~14",
+      "degree": 2,
+      "section": "Homogeneous",
+      "content_note": "",
+      "statement_status": "statement",
+      "clusters": [
+        "quadratic_forms",
+        "sums_of_squares"
+      ],
+      "research_priority": "medium",
+      "triage_target_ranks": {
+        "history": 1,
+        "structure": 4,
+        "interconnection": 3
+      },
+      "final_ranks": {
+        "history": null,
+        "structure": null,
+        "interconnection": null
+      },
+      "confidence": "low",
+      "reason": "Useful for baseline coverage or known-theory comparison.",
+      "next_action": "cluster_survey"
+    },
+    {
+      "tag": "LEC-010",
+      "equation_latex": "a_1x_1^2+a_2x_2^2+a_3x_3^2+a_4x_4^2=0",
+      "pages": "p.~49--51",
+      "degree": 2,
+      "section": "Homogeneous",
+      "content_note": "",
+      "statement_status": "statement",
+      "clusters": [
+        "quadratic_forms"
+      ],
+      "research_priority": "medium",
+      "triage_target_ranks": {
+        "history": 1,
+        "structure": 4,
+        "interconnection": 3
+      },
+      "final_ranks": {
+        "history": null,
+        "structure": null,
+        "interconnection": null
+      },
+      "confidence": "low",
+      "reason": "Useful for baseline coverage or known-theory comparison.",
+      "next_action": "cluster_survey"
+    },
+    {
+      "tag": "LEC-011",
+      "equation_latex": "x^2+y^2=z^2+w^2",
+      "pages": "pp.~15",
+      "degree": 2,
+      "section": "Homogeneous",
+      "content_note": "",
+      "statement_status": "statement",
+      "clusters": [
+        "quadratic_forms",
+        "sums_of_squares"
+      ],
+      "research_priority": "medium",
+      "triage_target_ranks": {
+        "history": 1,
+        "structure": 4,
+        "interconnection": 3
+      },
+      "final_ranks": {
+        "history": null,
+        "structure": null,
+        "interconnection": null
+      },
+      "confidence": "low",
+      "reason": "Useful for baseline coverage or known-theory comparison.",
+      "next_action": "cluster_survey"
+    },
+    {
+      "tag": "LEC-012",
+      "equation_latex": "x_1^2+x_2^2-p(x_3^2+x_4^2)=0",
+      "pages": "p.~9",
+      "degree": 2,
+      "section": "Homogeneous",
+      "content_note": "",
+      "statement_status": "statement",
+      "clusters": [
+        "quadratic_forms"
+      ],
+      "research_priority": "medium",
+      "triage_target_ranks": {
+        "history": 1,
+        "structure": 4,
+        "interconnection": 3
+      },
+      "final_ranks": {
+        "history": null,
+        "structure": null,
+        "interconnection": null
+      },
+      "confidence": "low",
+      "reason": "Useful for baseline coverage or known-theory comparison.",
+      "next_action": "cluster_survey"
+    },
+    {
+      "tag": "LEC-013",
+      "equation_latex": "\\begin{cases}x_1^2+x_3^2=2x_2^2\\\\x_2^2+x_4^2=2x_3^2\\end{cases}",
+      "pages": "p.~21",
+      "degree": 2,
+      "section": "Homogeneous",
+      "content_note": "",
+      "statement_status": "statement",
+      "clusters": [
+        "intersections_of_quadrics",
+        "quadratic_forms"
+      ],
+      "research_priority": "medium",
+      "triage_target_ranks": {
+        "history": 1,
+        "structure": 4,
+        "interconnection": 3
+      },
+      "final_ranks": {
+        "history": null,
+        "structure": null,
+        "interconnection": null
+      },
+      "confidence": "low",
+      "reason": "Useful for baseline coverage or known-theory comparison.",
+      "next_action": "cluster_survey"
+    },
+    {
+      "tag": "LEC-014",
+      "equation_latex": "\\sum_{r,s}a_{rs}x_rx_s=0",
+      "pages": "p.~42",
+      "degree": 2,
+      "section": "Homogeneous",
+      "content_note": "",
+      "statement_status": "statement",
+      "clusters": [
+        "quadratic_forms"
+      ],
+      "research_priority": "medium",
+      "triage_target_ranks": {
+        "history": 1,
+        "structure": 4,
+        "interconnection": 3
+      },
+      "final_ranks": {
+        "history": null,
+        "structure": null,
+        "interconnection": null
+      },
+      "confidence": "low",
+      "reason": "Useful for baseline coverage or known-theory comparison.",
+      "next_action": "cluster_survey"
+    },
+    {
+      "tag": "LEC-015",
+      "equation_latex": "a_1x_1^2+a_2x_2^2+\\cdots+a_5x_5^2=0",
+      "pages": "p.~51",
+      "degree": 2,
+      "section": "Homogeneous",
+      "content_note": "",
+      "statement_status": "statement",
+      "clusters": [
+        "quadratic_forms"
+      ],
+      "research_priority": "medium",
+      "triage_target_ranks": {
+        "history": 1,
+        "structure": 4,
+        "interconnection": 3
+      },
+      "final_ranks": {
+        "history": null,
+        "structure": null,
+        "interconnection": null
+      },
+      "confidence": "low",
+      "reason": "Useful for baseline coverage or known-theory comparison.",
+      "next_action": "cluster_survey"
+    },
+    {
+      "tag": "LEC-016",
+      "equation_latex": "x_1^2+x_2^2+\\cdots+x_n^2=x^2",
+      "pages": "p.~12",
+      "degree": 2,
+      "section": "Homogeneous",
+      "content_note": "",
+      "statement_status": "statement",
+      "clusters": [
+        "quadratic_forms"
+      ],
+      "research_priority": "medium",
+      "triage_target_ranks": {
+        "history": 1,
+        "structure": 4,
+        "interconnection": 3
+      },
+      "final_ranks": {
+        "history": null,
+        "structure": null,
+        "interconnection": null
+      },
+      "confidence": "low",
+      "reason": "Useful for baseline coverage or known-theory comparison.",
+      "next_action": "cluster_survey"
+    },
+    {
+      "tag": "LEC-017",
+      "equation_latex": "ax^2+bxy+cy^2+dx+ey+f=0",
+      "pages": "pp.~57--58",
+      "degree": 2,
+      "section": "Inhomogeneous",
+      "content_note": "",
+      "statement_status": "statement",
+      "clusters": [
+        "conics",
+        "quadratic_forms"
+      ],
+      "research_priority": "medium",
+      "triage_target_ranks": {
+        "history": 1,
+        "structure": 4,
+        "interconnection": 3
+      },
+      "final_ranks": {
+        "history": null,
+        "structure": null,
+        "interconnection": null
+      },
+      "confidence": "low",
+      "reason": "Useful for baseline coverage or known-theory comparison.",
+      "next_action": "cluster_survey"
+    },
+    {
+      "tag": "LEC-018",
+      "equation_latex": "ax^2+bxy+cy^2=m",
+      "pages": "p.~159",
+      "degree": 2,
+      "section": "Inhomogeneous",
+      "content_note": "",
+      "statement_status": "comment",
+      "clusters": [
+        "conics",
+        "quadratic_forms"
+      ],
+      "research_priority": "low",
+      "triage_target_ranks": {
+        "history": 4,
+        "structure": 5,
+        "interconnection": 4
+      },
+      "final_ranks": {
+        "history": null,
+        "structure": null,
+        "interconnection": null
+      },
+      "confidence": "low",
+      "reason": "Comment-only entry; use mainly as context for nearby equations.",
+      "next_action": "cluster_survey"
+    },
+    {
+      "tag": "LEC-019",
+      "equation_latex": "ax^2+by^2=m",
+      "pages": "pp.~7, 118--120, 164--169",
+      "degree": 2,
+      "section": "Inhomogeneous",
+      "content_note": "",
+      "statement_status": "statement",
+      "clusters": [
+        "conics",
+        "quadratic_forms"
+      ],
+      "research_priority": "medium",
+      "triage_target_ranks": {
+        "history": 1,
+        "structure": 4,
+        "interconnection": 3
+      },
+      "final_ranks": {
+        "history": null,
+        "structure": null,
+        "interconnection": null
+      },
+      "confidence": "low",
+      "reason": "Useful for baseline coverage or known-theory comparison.",
+      "next_action": "cluster_survey"
+    },
+    {
+      "tag": "LEC-020",
+      "equation_latex": "y^2-Dx^2=\\pm1,\\ \\pm4",
+      "pages": "pp.~53--57",
+      "degree": 2,
+      "section": "Inhomogeneous",
+      "content_note": "",
+      "statement_status": "statement",
+      "clusters": [
+        "conics",
+        "pell_equations",
+        "quadratic_forms",
+        "units"
+      ],
+      "research_priority": "medium",
+      "triage_target_ranks": {
+        "history": 1,
+        "structure": 4,
+        "interconnection": 3
+      },
+      "final_ranks": {
+        "history": null,
+        "structure": null,
+        "interconnection": null
+      },
+      "confidence": "low",
+      "reason": "Useful for baseline coverage or known-theory comparison.",
+      "next_action": "cluster_survey"
+    },
+    {
+      "tag": "LEC-021",
+      "equation_latex": "x^2+y^2=m",
+      "pages": "pp.~179",
+      "degree": 2,
+      "section": "Inhomogeneous",
+      "content_note": "",
+      "statement_status": "statement",
+      "clusters": [
+        "conics",
+        "quadratic_forms",
+        "sums_of_squares"
+      ],
+      "research_priority": "medium",
+      "triage_target_ranks": {
+        "history": 1,
+        "structure": 4,
+        "interconnection": 3
+      },
+      "final_ranks": {
+        "history": null,
+        "structure": null,
+        "interconnection": null
+      },
+      "confidence": "low",
+      "reason": "Useful for baseline coverage or known-theory comparison.",
+      "next_action": "cluster_survey"
+    },
+    {
+      "tag": "LEC-022",
+      "equation_latex": "x^2=a+by",
+      "pages": "pp.~3, 8",
+      "degree": 2,
+      "section": "Inhomogeneous",
+      "content_note": "",
+      "statement_status": "statement",
+      "clusters": [
+        "conics",
+        "quadratic_forms"
+      ],
+      "research_priority": "medium",
+      "triage_target_ranks": {
+        "history": 1,
+        "structure": 4,
+        "interconnection": 3
+      },
+      "final_ranks": {
+        "history": null,
+        "structure": null,
+        "interconnection": null
+      },
+      "confidence": "low",
+      "reason": "Useful for baseline coverage or known-theory comparison.",
+      "next_action": "cluster_survey"
+    },
+    {
+      "tag": "LEC-023",
+      "equation_latex": "x^2+ay^2+bz^2=m",
+      "pages": "pp.~175--178",
+      "degree": 2,
+      "section": "Inhomogeneous",
+      "content_note": "",
+      "statement_status": "statement",
+      "clusters": [
+        "conics",
+        "quadratic_forms"
+      ],
+      "research_priority": "medium",
+      "triage_target_ranks": {
+        "history": 1,
+        "structure": 4,
+        "interconnection": 3
+      },
+      "final_ranks": {
+        "history": null,
+        "structure": null,
+        "interconnection": null
+      },
+      "confidence": "low",
+      "reason": "Useful for baseline coverage or known-theory comparison.",
+      "next_action": "cluster_survey"
+    },
+    {
+      "tag": "LEC-024",
+      "equation_latex": "x^2+y^2+z^2=m",
+      "pages": "p.~4,175,179",
+      "degree": 2,
+      "section": "Inhomogeneous",
+      "content_note": "",
+      "statement_status": "statement",
+      "clusters": [
+        "conics",
+        "quadratic_forms",
+        "sums_of_squares"
+      ],
+      "research_priority": "medium",
+      "triage_target_ranks": {
+        "history": 1,
+        "structure": 4,
+        "interconnection": 3
+      },
+      "final_ranks": {
+        "history": null,
+        "structure": null,
+        "interconnection": null
+      },
+      "confidence": "low",
+      "reason": "Useful for baseline coverage or known-theory comparison.",
+      "next_action": "cluster_survey"
+    },
+    {
+      "tag": "LEC-025",
+      "equation_latex": "\\pm x^2\\pm y^2\\pm z^2=n",
+      "pages": "p.~181",
+      "degree": 2,
+      "section": "Inhomogeneous",
+      "content_note": "",
+      "statement_status": "statement",
+      "clusters": [
+        "conics",
+        "quadratic_forms"
+      ],
+      "research_priority": "medium",
+      "triage_target_ranks": {
+        "history": 1,
+        "structure": 4,
+        "interconnection": 3
+      },
+      "final_ranks": {
+        "history": null,
+        "structure": null,
+        "interconnection": null
+      },
+      "confidence": "low",
+      "reason": "Useful for baseline coverage or known-theory comparison.",
+      "next_action": "cluster_survey"
+    },
+    {
+      "tag": "LEC-026",
+      "equation_latex": "yz+zx+xy=d",
+      "pages": "p.~291--292",
+      "degree": 2,
+      "section": "Inhomogeneous",
+      "content_note": "",
+      "statement_status": "statement",
+      "clusters": [
+        "conics",
+        "quadratic_forms"
+      ],
+      "research_priority": "medium",
+      "triage_target_ranks": {
+        "history": 1,
+        "structure": 4,
+        "interconnection": 3
+      },
+      "final_ranks": {
+        "history": null,
+        "structure": null,
+        "interconnection": null
+      },
+      "confidence": "low",
+      "reason": "Useful for baseline coverage or known-theory comparison.",
+      "next_action": "cluster_survey"
+    },
+    {
+      "tag": "LEC-027",
+      "equation_latex": "x^2+y^2=4z+3",
+      "pages": "p.~3,8",
+      "degree": 2,
+      "section": "Inhomogeneous",
+      "content_note": "",
+      "statement_status": "statement",
+      "clusters": [
+        "conics",
+        "quadratic_forms",
+        "sums_of_squares"
+      ],
+      "research_priority": "medium",
+      "triage_target_ranks": {
+        "history": 1,
+        "structure": 4,
+        "interconnection": 3
+      },
+      "final_ranks": {
+        "history": null,
+        "structure": null,
+        "interconnection": null
+      },
+      "confidence": "low",
+      "reason": "Useful for baseline coverage or known-theory comparison.",
+      "next_action": "cluster_survey"
+    },
+    {
+      "tag": "LEC-028",
+      "equation_latex": "x^2+2y^2=8z+5\\ \\text{or}\\ 8z+7",
+      "pages": "p.~4",
+      "degree": 2,
+      "section": "Inhomogeneous",
+      "content_note": "",
+      "statement_status": "statement",
+      "clusters": [
+        "conics",
+        "quadratic_forms"
+      ],
+      "research_priority": "medium",
+      "triage_target_ranks": {
+        "history": 1,
+        "structure": 4,
+        "interconnection": 3
+      },
+      "final_ranks": {
+        "history": null,
+        "structure": null,
+        "interconnection": null
+      },
+      "confidence": "low",
+      "reason": "Useful for baseline coverage or known-theory comparison.",
+      "next_action": "cluster_survey"
+    },
+    {
+      "tag": "LEC-029",
+      "equation_latex": "x^2-2y^2=8z+3\\ \\text{or}\\ 8z+5",
+      "pages": "p.~4",
+      "degree": 2,
+      "section": "Inhomogeneous",
+      "content_note": "",
+      "statement_status": "statement",
+      "clusters": [
+        "conics",
+        "quadratic_forms"
+      ],
+      "research_priority": "medium",
+      "triage_target_ranks": {
+        "history": 1,
+        "structure": 4,
+        "interconnection": 3
+      },
+      "final_ranks": {
+        "history": null,
+        "structure": null,
+        "interconnection": null
+      },
+      "confidence": "low",
+      "reason": "Useful for baseline coverage or known-theory comparison.",
+      "next_action": "cluster_survey"
+    },
+    {
+      "tag": "LEC-030",
+      "equation_latex": "\\begin{cases}ax^2+bxy+cy^2&=d,\\\\a_1x^2+b_1xy+c_1y^2&=d_1z^2\\end{cases}",
+      "pages": "p.~59",
+      "degree": 2,
+      "section": "Inhomogeneous",
+      "content_note": "",
+      "statement_status": "statement",
+      "clusters": [
+        "conics",
+        "intersections_of_quadrics",
+        "quadratic_forms"
+      ],
+      "research_priority": "medium",
+      "triage_target_ranks": {
+        "history": 1,
+        "structure": 4,
+        "interconnection": 3
+      },
+      "final_ranks": {
+        "history": null,
+        "structure": null,
+        "interconnection": null
+      },
+      "confidence": "low",
+      "reason": "Useful for baseline coverage or known-theory comparison.",
+      "next_action": "cluster_survey"
+    },
+    {
+      "tag": "LEC-031",
+      "equation_latex": "\\begin{cases}y^2&=a_1x^2+b_1x+c_1,\\\\z^2&=a_2x^2+b_2x+c_2\\end{cases}",
+      "pages": "p.~70",
+      "degree": 2,
+      "section": "Inhomogeneous",
+      "content_note": "",
+      "statement_status": "statement",
+      "clusters": [
+        "conics",
+        "intersections_of_quadrics",
+        "quadratic_forms"
+      ],
+      "research_priority": "medium",
+      "triage_target_ranks": {
+        "history": 1,
+        "structure": 4,
+        "interconnection": 3
+      },
+      "final_ranks": {
+        "history": null,
+        "structure": null,
+        "interconnection": null
+      },
+      "confidence": "low",
+      "reason": "Useful for baseline coverage or known-theory comparison.",
+      "next_action": "cluster_survey"
+    },
+    {
+      "tag": "LEC-032",
+      "equation_latex": "\\begin{cases}y^2&=x^2+k,\\\\z^2&=x^2-k\\end{cases}",
+      "pages": "pp.~71--72",
+      "degree": 2,
+      "section": "Inhomogeneous",
+      "content_note": "",
+      "statement_status": "statement",
+      "clusters": [
+        "conics",
+        "intersections_of_quadrics",
+        "quadratic_forms"
+      ],
+      "research_priority": "medium",
+      "triage_target_ranks": {
+        "history": 1,
+        "structure": 4,
+        "interconnection": 3
+      },
+      "final_ranks": {
+        "history": null,
+        "structure": null,
+        "interconnection": null
+      },
+      "confidence": "low",
+      "reason": "Useful for baseline coverage or known-theory comparison.",
+      "next_action": "cluster_survey"
+    },
+    {
+      "tag": "LEC-033",
+      "equation_latex": "u_{n+2}+au_{n+1}+bu_n=c,\\qquad u_n\\ \\text{a square}",
+      "pages": "pp.~60--63",
+      "degree": 2,
+      "section": "Inhomogeneous",
+      "content_note": "The indexed condition requires every term $u_n$ to be a square.",
+      "statement_status": "statement",
+      "clusters": [
+        "conics",
+        "quadratic_forms"
+      ],
+      "research_priority": "medium",
+      "triage_target_ranks": {
+        "history": 1,
+        "structure": 4,
+        "interconnection": 3
+      },
+      "final_ranks": {
+        "history": null,
+        "structure": null,
+        "interconnection": null
+      },
+      "confidence": "low",
+      "reason": "Useful for baseline coverage or known-theory comparison.",
+      "next_action": "cluster_survey"
+    },
+    {
+      "tag": "LEC-034",
+      "equation_latex": "u_{n+2}+au_{n+1}+bu_n=c,\\qquad u_n\\ \\text{twice a square}",
+      "pages": "p.~63",
+      "degree": 2,
+      "section": "Inhomogeneous",
+      "content_note": "The indexed condition requires every term $u_n$ to be twice a square.",
+      "statement_status": "statement",
+      "clusters": [
+        "conics",
+        "quadratic_forms"
+      ],
+      "research_priority": "medium",
+      "triage_target_ranks": {
+        "history": 1,
+        "structure": 4,
+        "interconnection": 3
+      },
+      "final_ranks": {
+        "history": null,
+        "structure": null,
+        "interconnection": null
+      },
+      "confidence": "low",
+      "reason": "Useful for baseline coverage or known-theory comparison.",
+      "next_action": "cluster_survey"
+    },
+    {
+      "tag": "LEC-035",
+      "equation_latex": "x^2+bcy^2+caz^2+abw^2=m",
+      "pages": "pp.~169--173",
+      "degree": 2,
+      "section": "Inhomogeneous",
+      "content_note": "",
+      "statement_status": "statement",
+      "clusters": [
+        "conics",
+        "quadratic_forms"
+      ],
+      "research_priority": "medium",
+      "triage_target_ranks": {
+        "history": 1,
+        "structure": 4,
+        "interconnection": 3
+      },
+      "final_ranks": {
+        "history": null,
+        "structure": null,
+        "interconnection": null
+      },
+      "confidence": "low",
+      "reason": "Useful for baseline coverage or known-theory comparison.",
+      "next_action": "cluster_survey"
+    },
+    {
+      "tag": "LEC-036",
+      "equation_latex": "ax^3+bx^2y+cxy^2+dy^3=ez^3",
+      "pages": "pp.~226--228",
+      "degree": 3,
+      "section": "Homogeneous",
+      "content_note": "",
+      "statement_status": "comment",
+      "clusters": [
+        "cubic_equations"
+      ],
+      "research_priority": "low",
+      "triage_target_ranks": {
+        "history": 4,
+        "structure": 5,
+        "interconnection": 4
+      },
+      "final_ranks": {
+        "history": null,
+        "structure": null,
+        "interconnection": null
+      },
+      "confidence": "low",
+      "reason": "Comment-only entry; use mainly as context for nearby equations.",
+      "next_action": "cluster_survey"
+    },
+    {
+      "tag": "LEC-037",
+      "equation_latex": "ax^3+3bx^2y+3cxy^2+dy^3=z^3",
+      "pages": "p.~7",
+      "degree": 3,
+      "section": "Homogeneous",
+      "content_note": "",
+      "statement_status": "statement",
+      "clusters": [
+        "binary_cubic_forms",
+        "cubic_equations",
+        "thue_equations"
+      ],
+      "research_priority": "high",
+      "triage_target_ranks": {
+        "history": 2,
+        "structure": 3,
+        "interconnection": 2
+      },
+      "final_ranks": {
+        "history": null,
+        "structure": null,
+        "interconnection": null
+      },
+      "confidence": "low",
+      "reason": "Promising standard structure; worth cluster-level survey.",
+      "next_action": "cluster_survey"
+    },
+    {
+      "tag": "LEC-038",
+      "equation_latex": "ax^3+3bx^2y+3cxy^2+dy^3\\equiv z^3\\pmod 9",
+      "pages": "p.~37",
+      "degree": 3,
+      "section": "Homogeneous",
+      "content_note": "",
+      "statement_status": "statement",
+      "clusters": [
+        "binary_cubic_forms",
+        "congruences",
+        "cubic_equations",
+        "local_obstructions",
+        "thue_equations"
+      ],
+      "research_priority": "high",
+      "triage_target_ranks": {
+        "history": 2,
+        "structure": 3,
+        "interconnection": 2
+      },
+      "final_ranks": {
+        "history": null,
+        "structure": null,
+        "interconnection": null
+      },
+      "confidence": "low",
+      "reason": "Promising standard structure; worth cluster-level survey.",
+      "next_action": "cluster_survey"
+    },
+    {
+      "tag": "LEC-039",
+      "equation_latex": "Ax^3+By^3+Cz^3=0",
+      "pages": "pp.~226, 230",
+      "degree": 3,
+      "section": "Homogeneous",
+      "content_note": "",
+      "statement_status": "comment",
+      "clusters": [
+        "cubic_equations"
+      ],
+      "research_priority": "low",
+      "triage_target_ranks": {
+        "history": 4,
+        "structure": 5,
+        "interconnection": 4
+      },
+      "final_ranks": {
+        "history": null,
+        "structure": null,
+        "interconnection": null
+      },
+      "confidence": "low",
+      "reason": "Comment-only entry; use mainly as context for nearby equations.",
+      "next_action": "cluster_survey"
+    },
+    {
+      "tag": "LEC-040",
+      "equation_latex": "ax^3+bpy^3+cp^2z^3=0",
+      "pages": "p.~9",
+      "degree": 3,
+      "section": "Homogeneous",
+      "content_note": "",
+      "statement_status": "statement",
+      "clusters": [
+        "cubic_equations"
+      ],
+      "research_priority": "medium",
+      "triage_target_ranks": {
+        "history": 3,
+        "structure": 4,
+        "interconnection": 3
+      },
+      "final_ranks": {
+        "history": null,
+        "structure": null,
+        "interconnection": null
+      },
+      "confidence": "low",
+      "reason": "Useful for baseline coverage or known-theory comparison.",
+      "next_action": "cluster_survey"
+    },
+    {
+      "tag": "LEC-041",
+      "equation_latex": "x^3+y^3=az^3",
+      "pages": "pp.~124--130",
+      "degree": 3,
+      "section": "Homogeneous",
+      "content_note": "",
+      "statement_status": "statement",
+      "clusters": [
+        "cubic_equations",
+        "sums_of_cubes"
+      ],
+      "research_priority": "very_high",
+      "triage_target_ranks": {
+        "history": 2,
+        "structure": 2,
+        "interconnection": 2
+      },
+      "final_ranks": {
+        "history": null,
+        "structure": null,
+        "interconnection": null
+      },
+      "confidence": "low",
+      "reason": "High chance of nontrivial structure or interconnection.",
+      "next_action": "deep_dive"
+    },
+    {
+      "tag": "LEC-042",
+      "equation_latex": "x^3+dy^3=3z^3",
+      "pages": "p.~136",
+      "degree": 3,
+      "section": "Homogeneous",
+      "content_note": "",
+      "statement_status": "statement",
+      "clusters": [
+        "cubic_equations"
+      ],
+      "research_priority": "medium",
+      "triage_target_ranks": {
+        "history": 3,
+        "structure": 4,
+        "interconnection": 3
+      },
+      "final_ranks": {
+        "history": null,
+        "structure": null,
+        "interconnection": null
+      },
+      "confidence": "low",
+      "reason": "Useful for baseline coverage or known-theory comparison.",
+      "next_action": "cluster_survey"
+    },
+    {
+      "tag": "LEC-043",
+      "equation_latex": "ax^3+by^3+cz^3+dxyz=0",
+      "pages": "pp.~8, 78--80, 130--134, 226",
+      "degree": 3,
+      "section": "Homogeneous",
+      "content_note": "The index separately notes the specialization $a=b=1$ on pp.~131--134",
+      "statement_status": "statement",
+      "clusters": [
+        "cubic_equations",
+        "markoff_type"
+      ],
+      "research_priority": "very_high",
+      "triage_target_ranks": {
+        "history": 2,
+        "structure": 2,
+        "interconnection": 2
+      },
+      "final_ranks": {
+        "history": null,
+        "structure": null,
+        "interconnection": null
+      },
+      "confidence": "low",
+      "reason": "High chance of nontrivial structure or interconnection.",
+      "next_action": "deep_dive"
+    },
+    {
+      "tag": "LEC-044",
+      "equation_latex": "x^3+y^3+z^3-xyz=0",
+      "pages": "p.~80",
+      "degree": 3,
+      "section": "Homogeneous",
+      "content_note": "",
+      "statement_status": "statement",
+      "clusters": [
+        "cubic_equations",
+        "markoff_type",
+        "sums_of_cubes"
+      ],
+      "research_priority": "high",
+      "triage_target_ranks": {
+        "history": 2,
+        "structure": 3,
+        "interconnection": 2
+      },
+      "final_ranks": {
+        "history": null,
+        "structure": null,
+        "interconnection": null
+      },
+      "confidence": "low",
+      "reason": "Promising standard structure; worth cluster-level survey.",
+      "next_action": "cluster_survey"
+    },
+    {
+      "tag": "LEC-045",
+      "equation_latex": "ax^3+by^3+cz^3+dw^3=0",
+      "pages": "p.~88",
+      "degree": 3,
+      "section": "Homogeneous",
+      "content_note": "",
+      "statement_status": "comment",
+      "clusters": [
+        "cubic_equations",
+        "cubic_surfaces"
+      ],
+      "research_priority": "low",
+      "triage_target_ranks": {
+        "history": 4,
+        "structure": 5,
+        "interconnection": 4
+      },
+      "final_ranks": {
+        "history": null,
+        "structure": null,
+        "interconnection": null
+      },
+      "confidence": "low",
+      "reason": "Comment-only entry; use mainly as context for nearby equations.",
+      "next_action": "cluster_survey"
+    },
+    {
+      "tag": "LEC-046",
+      "equation_latex": "5x^3+9y^3+10z^3+12w^3=0",
+      "pages": "p.~88",
+      "degree": 3,
+      "section": "Homogeneous",
+      "content_note": "Mordell later records this as a locally solvable cubic surface with no rational solutions except $(0,0,0,0)$; see Theorem 3 on p.~88.",
+      "statement_status": "statement",
+      "clusters": [
+        "cubic_equations",
+        "cubic_surfaces"
+      ],
+      "research_priority": "medium",
+      "triage_target_ranks": {
+        "history": 3,
+        "structure": 4,
+        "interconnection": 3
+      },
+      "final_ranks": {
+        "history": null,
+        "structure": null,
+        "interconnection": null
+      },
+      "confidence": "low",
+      "reason": "Useful for baseline coverage or known-theory comparison.",
+      "next_action": "cluster_survey"
+    },
+    {
+      "tag": "LEC-047",
+      "equation_latex": "x_1^3+2x_2^3+4x_3^3=9x_4^3",
+      "pages": "p.~7",
+      "degree": 3,
+      "section": "Homogeneous",
+      "content_note": "",
+      "statement_status": "statement",
+      "clusters": [
+        "cubic_equations",
+        "cubic_surfaces"
+      ],
+      "research_priority": "medium",
+      "triage_target_ranks": {
+        "history": 3,
+        "structure": 4,
+        "interconnection": 3
+      },
+      "final_ranks": {
+        "history": null,
+        "structure": null,
+        "interconnection": null
+      },
+      "confidence": "low",
+      "reason": "Useful for baseline coverage or known-theory comparison.",
+      "next_action": "cluster_survey"
+    },
+    {
+      "tag": "LEC-048",
+      "equation_latex": "x_1^3+2x_2^3=7(x_3^3+2x_4^3)",
+      "pages": "p.~8",
+      "degree": 3,
+      "section": "Homogeneous",
+      "content_note": "",
+      "statement_status": "statement",
+      "clusters": [
+        "cubic_equations",
+        "cubic_surfaces"
+      ],
+      "research_priority": "medium",
+      "triage_target_ranks": {
+        "history": 3,
+        "structure": 4,
+        "interconnection": 3
+      },
+      "final_ranks": {
+        "history": null,
+        "structure": null,
+        "interconnection": null
+      },
+      "confidence": "low",
+      "reason": "Useful for baseline coverage or known-theory comparison.",
+      "next_action": "cluster_survey"
+    },
+    {
+      "tag": "LEC-049",
+      "equation_latex": "\\begin{aligned}&f_1(x_1,y_1,z_1)+pf_2(x_2,y_2,z_2)+p^2f_3(x_3,y_3,z_3)\\\\&\\qquad{}+p^3\\sum_{\\ell,m,n}a_{\\ell mn}x_\\ell y_mz_n=0\\end{aligned}",
+      "pages": "p.~9",
+      "degree": 3,
+      "section": "Homogeneous",
+      "content_note": "",
+      "statement_status": "statement",
+      "clusters": [
+        "cubic_equations",
+        "sums_of_squares"
+      ],
+      "research_priority": "medium",
+      "triage_target_ranks": {
+        "history": 3,
+        "structure": 4,
+        "interconnection": 3
+      },
+      "final_ranks": {
+        "history": null,
+        "structure": null,
+        "interconnection": null
+      },
+      "confidence": "low",
+      "reason": "Useful for baseline coverage or known-theory comparison.",
+      "next_action": "cluster_survey"
+    },
+    {
+      "tag": "LEC-050",
+      "equation_latex": "ax^3+bx^2y+cxy^2+dy^3=m",
+      "pages": "pp.~218--219, 226",
+      "degree": 3,
+      "section": "Inhomogeneous",
+      "content_note": "The index separately notes $m=1$ on pp.~218--219 and 226",
+      "statement_status": "statement",
+      "clusters": [
+        "cubic_equations"
+      ],
+      "research_priority": "high",
+      "triage_target_ranks": {
+        "history": 2,
+        "structure": 3,
+        "interconnection": 2
+      },
+      "final_ranks": {
+        "history": null,
+        "structure": null,
+        "interconnection": null
+      },
+      "confidence": "low",
+      "reason": "Promising standard structure; worth cluster-level survey.",
+      "next_action": "cluster_survey"
+    },
+    {
+      "tag": "LEC-051",
+      "equation_latex": "ax^3+3bx^2y+3cxy^2+dy^3\\equiv1\\pmod 9",
+      "pages": "p.~38",
+      "degree": 3,
+      "section": "Inhomogeneous",
+      "content_note": "",
+      "statement_status": "statement",
+      "clusters": [
+        "binary_cubic_forms",
+        "congruences",
+        "cubic_equations",
+        "local_obstructions",
+        "thue_equations"
+      ],
+      "research_priority": "high",
+      "triage_target_ranks": {
+        "history": 2,
+        "structure": 3,
+        "interconnection": 2
+      },
+      "final_ranks": {
+        "history": null,
+        "structure": null,
+        "interconnection": null
+      },
+      "confidence": "low",
+      "reason": "Promising standard structure; worth cluster-level survey.",
+      "next_action": "cluster_survey"
+    },
+    {
+      "tag": "LEC-052",
+      "equation_latex": "x^3-3xy^2-y^3=1",
+      "pages": "pp.~208--209",
+      "degree": 3,
+      "section": "Inhomogeneous",
+      "content_note": "",
+      "statement_status": "statement",
+      "clusters": [
+        "cubic_equations"
+      ],
+      "research_priority": "medium",
+      "triage_target_ranks": {
+        "history": 3,
+        "structure": 4,
+        "interconnection": 3
+      },
+      "final_ranks": {
+        "history": null,
+        "structure": null,
+        "interconnection": null
+      },
+      "confidence": "low",
+      "reason": "Useful for baseline coverage or known-theory comparison.",
+      "next_action": "cluster_survey"
+    },
+    {
+      "tag": "LEC-053",
+      "equation_latex": "ax^3+by^3=c",
+      "pages": "pp.~219, 225",
+      "degree": 3,
+      "section": "Inhomogeneous",
+      "content_note": "",
+      "statement_status": "statement",
+      "clusters": [
+        "cubic_equations"
+      ],
+      "research_priority": "high",
+      "triage_target_ranks": {
+        "history": 2,
+        "structure": 3,
+        "interconnection": 2
+      },
+      "final_ranks": {
+        "history": null,
+        "structure": null,
+        "interconnection": null
+      },
+      "confidence": "low",
+      "reason": "Promising standard structure; worth cluster-level survey.",
+      "next_action": "cluster_survey"
+    },
+    {
+      "tag": "LEC-054",
+      "equation_latex": "x^3+dy^3=1",
+      "pages": "pp.~203--205,219--225",
+      "degree": 3,
+      "section": "Inhomogeneous",
+      "content_note": "",
+      "statement_status": "statement",
+      "clusters": [
+        "cubic_equations"
+      ],
+      "research_priority": "high",
+      "triage_target_ranks": {
+        "history": 2,
+        "structure": 3,
+        "interconnection": 2
+      },
+      "final_ranks": {
+        "history": null,
+        "structure": null,
+        "interconnection": null
+      },
+      "confidence": "low",
+      "reason": "Promising standard structure; worth cluster-level survey.",
+      "next_action": "cluster_survey"
+    },
+    {
+      "tag": "LEC-055",
+      "equation_latex": "ax^3+bx^2y+cxy^2+dy^3=ex^2+fxy+gy^2",
+      "pages": "p.~67",
+      "degree": 3,
+      "section": "Inhomogeneous",
+      "content_note": "",
+      "statement_status": "statement",
+      "clusters": [
+        "cubic_equations"
+      ],
+      "research_priority": "medium",
+      "triage_target_ranks": {
+        "history": 3,
+        "structure": 4,
+        "interconnection": 3
+      },
+      "final_ranks": {
+        "history": null,
+        "structure": null,
+        "interconnection": null
+      },
+      "confidence": "low",
+      "reason": "Useful for baseline coverage or known-theory comparison.",
+      "next_action": "cluster_survey"
+    },
+    {
+      "tag": "LEC-056",
+      "equation_latex": "y^3=a^3+bx+cx^2+dx^3",
+      "pages": "p.~69",
+      "degree": 3,
+      "section": "Inhomogeneous",
+      "content_note": "",
+      "statement_status": "statement",
+      "clusters": [
+        "cubic_equations"
+      ],
+      "research_priority": "medium",
+      "triage_target_ranks": {
+        "history": 3,
+        "structure": 4,
+        "interconnection": 3
+      },
+      "final_ranks": {
+        "history": null,
+        "structure": null,
+        "interconnection": null
+      },
+      "confidence": "low",
+      "reason": "Useful for baseline coverage or known-theory comparison.",
+      "next_action": "cluster_survey"
+    },
+    {
+      "tag": "LEC-057",
+      "equation_latex": "y^3=a+bx+cx^2+d^3x^3",
+      "pages": "p.~69",
+      "degree": 3,
+      "section": "Inhomogeneous",
+      "content_note": "",
+      "statement_status": "statement",
+      "clusters": [
+        "cubic_equations"
+      ],
+      "research_priority": "medium",
+      "triage_target_ranks": {
+        "history": 3,
+        "structure": 4,
+        "interconnection": 3
+      },
+      "final_ranks": {
+        "history": null,
+        "structure": null,
+        "interconnection": null
+      },
+      "confidence": "low",
+      "reason": "Useful for baseline coverage or known-theory comparison.",
+      "next_action": "cluster_survey"
+    },
+    {
+      "tag": "LEC-058",
+      "equation_latex": "ey^2=ax^3+bx^2+cx+d",
+      "pages": "pp.~235,255",
+      "degree": 3,
+      "section": "Inhomogeneous",
+      "content_note": "",
+      "statement_status": "statement",
+      "clusters": [
+        "cubic_equations"
+      ],
+      "research_priority": "high",
+      "triage_target_ranks": {
+        "history": 2,
+        "structure": 3,
+        "interconnection": 2
+      },
+      "final_ranks": {
+        "history": null,
+        "structure": null,
+        "interconnection": null
+      },
+      "confidence": "low",
+      "reason": "Promising standard structure; worth cluster-level survey.",
+      "next_action": "cluster_survey"
+    },
+    {
+      "tag": "LEC-059",
+      "equation_latex": "y^2=ax^3+bx^2+cx+d",
+      "pages": "pp.~199,255--261",
+      "degree": 3,
+      "section": "Inhomogeneous",
+      "content_note": "",
+      "statement_status": "statement",
+      "clusters": [
+        "cubic_equations"
+      ],
+      "research_priority": "high",
+      "triage_target_ranks": {
+        "history": 2,
+        "structure": 3,
+        "interconnection": 2
+      },
+      "final_ranks": {
+        "history": null,
+        "structure": null,
+        "interconnection": null
+      },
+      "confidence": "low",
+      "reason": "Promising standard structure; worth cluster-level survey.",
+      "next_action": "cluster_survey"
+    },
+    {
+      "tag": "LEC-060",
+      "equation_latex": "y^2=x^3-h_2x-h_3",
+      "pages": "pp.~143--146",
+      "degree": 3,
+      "section": "Inhomogeneous",
+      "content_note": "",
+      "statement_status": "statement",
+      "clusters": [
+        "cubic_equations",
+        "elliptic_curves",
+        "mordell_curves"
+      ],
+      "research_priority": "very_high",
+      "triage_target_ranks": {
+        "history": 2,
+        "structure": 2,
+        "interconnection": 2
+      },
+      "final_ranks": {
+        "history": null,
+        "structure": null,
+        "interconnection": null
+      },
+      "confidence": "low",
+      "reason": "High chance of nontrivial structure or interconnection.",
+      "next_action": "deep_dive"
+    },
+    {
+      "tag": "LEC-061",
+      "equation_latex": "py^2=x^3+27",
+      "pages": "p.~74",
+      "degree": 3,
+      "section": "Inhomogeneous",
+      "content_note": "",
+      "statement_status": "statement",
+      "clusters": [
+        "cubic_equations",
+        "elliptic_curves",
+        "mordell_curves"
+      ],
+      "research_priority": "high",
+      "triage_target_ranks": {
+        "history": 2,
+        "structure": 3,
+        "interconnection": 2
+      },
+      "final_ranks": {
+        "history": null,
+        "structure": null,
+        "interconnection": null
+      },
+      "confidence": "low",
+      "reason": "Promising standard structure; worth cluster-level survey.",
+      "next_action": "cluster_survey"
+    },
+    {
+      "tag": "LEC-062",
+      "equation_latex": "y(y+1)=x(x+1)(x+2)",
+      "pages": "p.~257",
+      "degree": 3,
+      "section": "Inhomogeneous",
+      "content_note": "",
+      "statement_status": "statement",
+      "clusters": [
+        "cubic_equations"
+      ],
+      "research_priority": "medium",
+      "triage_target_ranks": {
+        "history": 3,
+        "structure": 4,
+        "interconnection": 3
+      },
+      "final_ranks": {
+        "history": null,
+        "structure": null,
+        "interconnection": null
+      },
+      "confidence": "low",
+      "reason": "Useful for baseline coverage or known-theory comparison.",
+      "next_action": "cluster_survey"
+    },
+    {
+      "tag": "LEC-063",
+      "equation_latex": "\\frac{1}{2}y(y+1)=\\frac{1}{6}x(x+1)(x+2)",
+      "pages": "p.~258",
+      "degree": 3,
+      "section": "Inhomogeneous",
+      "content_note": "",
+      "statement_status": "statement",
+      "clusters": [
+        "cubic_equations"
+      ],
+      "research_priority": "medium",
+      "triage_target_ranks": {
+        "history": 3,
+        "structure": 4,
+        "interconnection": 3
+      },
+      "final_ranks": {
+        "history": null,
+        "structure": null,
+        "interconnection": null
+      },
+      "confidence": "low",
+      "reason": "Useful for baseline coverage or known-theory comparison.",
+      "next_action": "cluster_survey"
+    },
+    {
+      "tag": "LEC-064",
+      "equation_latex": "6y^2=x(x+1)(2x+1)",
+      "pages": "p.~258",
+      "degree": 3,
+      "section": "Inhomogeneous",
+      "content_note": "",
+      "statement_status": "statement",
+      "clusters": [
+        "cubic_equations"
+      ],
+      "research_priority": "medium",
+      "triage_target_ranks": {
+        "history": 3,
+        "structure": 4,
+        "interconnection": 3
+      },
+      "final_ranks": {
+        "history": null,
+        "structure": null,
+        "interconnection": null
+      },
+      "confidence": "low",
+      "reason": "Useful for baseline coverage or known-theory comparison.",
+      "next_action": "cluster_survey"
+    },
+    {
+      "tag": "LEC-065",
+      "equation_latex": "6y^2=x^3+5x+6",
+      "pages": "p.~259",
+      "degree": 3,
+      "section": "Inhomogeneous",
+      "content_note": "",
+      "statement_status": "conjecture",
+      "clusters": [
+        "cubic_equations",
+        "elliptic_curves",
+        "mordell_curves"
+      ],
+      "research_priority": "high",
+      "triage_target_ranks": {
+        "history": 2,
+        "structure": 3,
+        "interconnection": 2
+      },
+      "final_ranks": {
+        "history": null,
+        "structure": null,
+        "interconnection": null
+      },
+      "confidence": "low",
+      "reason": "Promising standard structure; worth cluster-level survey.",
+      "next_action": "cluster_survey"
+    },
+    {
+      "tag": "LEC-066",
+      "equation_latex": "y^2=x^3+k",
+      "pages": "pp.~135, 218, 238--254",
+      "degree": 3,
+      "section": "Inhomogeneous",
+      "content_note": "",
+      "statement_status": "statement",
+      "clusters": [
+        "cubic_equations",
+        "elliptic_curves",
+        "mordell_curves"
+      ],
+      "research_priority": "very_high",
+      "triage_target_ranks": {
+        "history": 2,
+        "structure": 2,
+        "interconnection": 2
+      },
+      "final_ranks": {
+        "history": null,
+        "structure": null,
+        "interconnection": null
+      },
+      "confidence": "low",
+      "reason": "High chance of nontrivial structure or interconnection.",
+      "next_action": "deep_dive"
+    },
+    {
+      "tag": "LEC-067",
+      "equation_latex": "y^2\\equiv x^3+k\\pmod a",
+      "pages": "pp.~41, 48",
+      "degree": 3,
+      "section": "Inhomogeneous",
+      "content_note": "",
+      "statement_status": "statement",
+      "clusters": [
+        "congruences",
+        "cubic_equations",
+        "local_obstructions"
+      ],
+      "research_priority": "medium",
+      "triage_target_ranks": {
+        "history": 3,
+        "structure": 4,
+        "interconnection": 3
+      },
+      "final_ranks": {
+        "history": null,
+        "structure": null,
+        "interconnection": null
+      },
+      "confidence": "low",
+      "reason": "Useful for baseline coverage or known-theory comparison.",
+      "next_action": "cluster_survey"
+    },
+    {
+      "tag": "LEC-068",
+      "equation_latex": "y^2=x^3+k,\\qquad k=n^3-\\ell m^2",
+      "pages": "pp.~238--241",
+      "degree": 3,
+      "section": "Inhomogeneous",
+      "content_note": "Specialization of the preceding Mordell equation",
+      "statement_status": "comment",
+      "clusters": [
+        "cubic_equations",
+        "elliptic_curves",
+        "mordell_curves"
+      ],
+      "research_priority": "low",
+      "triage_target_ranks": {
+        "history": 4,
+        "structure": 5,
+        "interconnection": 4
+      },
+      "final_ranks": {
+        "history": null,
+        "structure": null,
+        "interconnection": null
+      },
+      "confidence": "low",
+      "reason": "Comment-only entry; use mainly as context for nearby equations.",
+      "next_action": "cluster_survey"
+    },
+    {
+      "tag": "LEC-069",
+      "equation_latex": "y^2=x^3+k,\\qquad k=2a^3-3b^2",
+      "pages": "pp.~244--245",
+      "degree": 3,
+      "section": "Inhomogeneous",
+      "content_note": "Specialization of the Mordell equation",
+      "statement_status": "statement",
+      "clusters": [
+        "cubic_equations",
+        "elliptic_curves",
+        "mordell_curves"
+      ],
+      "research_priority": "high",
+      "triage_target_ranks": {
+        "history": 2,
+        "structure": 3,
+        "interconnection": 2
+      },
+      "final_ranks": {
+        "history": null,
+        "structure": null,
+        "interconnection": null
+      },
+      "confidence": "low",
+      "reason": "Promising standard structure; worth cluster-level survey.",
+      "next_action": "cluster_survey"
+    },
+    {
+      "tag": "LEC-070",
+      "equation_latex": "y^2=x^3+k,\\qquad k=4a^3-3b^2",
+      "pages": "p.~245",
+      "degree": 3,
+      "section": "Inhomogeneous",
+      "content_note": "Specialization of the Mordell equation",
+      "statement_status": "statement",
+      "clusters": [
+        "cubic_equations",
+        "elliptic_curves",
+        "mordell_curves"
+      ],
+      "research_priority": "high",
+      "triage_target_ranks": {
+        "history": 2,
+        "structure": 3,
+        "interconnection": 2
+      },
+      "final_ranks": {
+        "history": null,
+        "structure": null,
+        "interconnection": null
+      },
+      "confidence": "low",
+      "reason": "Promising standard structure; worth cluster-level survey.",
+      "next_action": "cluster_survey"
+    },
+    {
+      "tag": "LEC-071",
+      "equation_latex": "y^2=x^3+k,\\qquad k=3a^3-3b^2",
+      "pages": "pp.~245--246",
+      "degree": 3,
+      "section": "Inhomogeneous",
+      "content_note": "Specialization of the Mordell equation",
+      "statement_status": "statement",
+      "clusters": [
+        "cubic_equations",
+        "elliptic_curves",
+        "mordell_curves"
+      ],
+      "research_priority": "high",
+      "triage_target_ranks": {
+        "history": 2,
+        "structure": 3,
+        "interconnection": 2
+      },
+      "final_ranks": {
+        "history": null,
+        "structure": null,
+        "interconnection": null
+      },
+      "confidence": "low",
+      "reason": "Promising standard structure; worth cluster-level survey.",
+      "next_action": "cluster_survey"
+    },
+    {
+      "tag": "LEC-072",
+      "equation_latex": "y^2=x^3-432",
+      "pages": "p.~247",
+      "degree": 3,
+      "section": "Inhomogeneous",
+      "content_note": "The index lists the special value $k=-432$",
+      "statement_status": "statement",
+      "clusters": [
+        "cubic_equations",
+        "elliptic_curves",
+        "mordell_curves"
+      ],
+      "research_priority": "high",
+      "triage_target_ranks": {
+        "history": 2,
+        "structure": 3,
+        "interconnection": 2
+      },
+      "final_ranks": {
+        "history": null,
+        "structure": null,
+        "interconnection": null
+      },
+      "confidence": "low",
+      "reason": "Promising standard structure; worth cluster-level survey.",
+      "next_action": "cluster_survey"
+    },
+    {
+      "tag": "LEC-073",
+      "equation_latex": "y^2=x^3-144",
+      "pages": "p.~251",
+      "degree": 3,
+      "section": "Inhomogeneous",
+      "content_note": "The index lists the special value $k=-144$",
+      "statement_status": "statement",
+      "clusters": [
+        "cubic_equations",
+        "elliptic_curves",
+        "mordell_curves"
+      ],
+      "research_priority": "high",
+      "triage_target_ranks": {
+        "history": 2,
+        "structure": 3,
+        "interconnection": 2
+      },
+      "final_ranks": {
+        "history": null,
+        "structure": null,
+        "interconnection": null
+      },
+      "confidence": "low",
+      "reason": "Promising standard structure; worth cluster-level survey.",
+      "next_action": "cluster_survey"
+    },
+    {
+      "tag": "LEC-074",
+      "equation_latex": "y^2=x^3-105",
+      "pages": "p.~251",
+      "degree": 3,
+      "section": "Inhomogeneous",
+      "content_note": "The index lists the special value $k=-105$",
+      "statement_status": "statement",
+      "clusters": [
+        "cubic_equations",
+        "elliptic_curves",
+        "mordell_curves"
+      ],
+      "research_priority": "high",
+      "triage_target_ranks": {
+        "history": 2,
+        "structure": 3,
+        "interconnection": 2
+      },
+      "final_ranks": {
+        "history": null,
+        "structure": null,
+        "interconnection": null
+      },
+      "confidence": "low",
+      "reason": "Promising standard structure; worth cluster-level survey.",
+      "next_action": "cluster_survey"
+    },
+    {
+      "tag": "LEC-075",
+      "equation_latex": "y^2=x^3-78",
+      "pages": "p.~251",
+      "degree": 3,
+      "section": "Inhomogeneous",
+      "content_note": "The index lists the special value $k=-78$",
+      "statement_status": "statement",
+      "clusters": [
+        "cubic_equations",
+        "elliptic_curves",
+        "mordell_curves"
+      ],
+      "research_priority": "high",
+      "triage_target_ranks": {
+        "history": 2,
+        "structure": 3,
+        "interconnection": 2
+      },
+      "final_ranks": {
+        "history": null,
+        "structure": null,
+        "interconnection": null
+      },
+      "confidence": "low",
+      "reason": "Promising standard structure; worth cluster-level survey.",
+      "next_action": "cluster_survey"
+    },
+    {
+      "tag": "LEC-076",
+      "equation_latex": "y^2=x^3-69",
+      "pages": "p.~251",
+      "degree": 3,
+      "section": "Inhomogeneous",
+      "content_note": "The index lists the special value $k=-69$",
+      "statement_status": "statement",
+      "clusters": [
+        "cubic_equations",
+        "elliptic_curves",
+        "mordell_curves"
+      ],
+      "research_priority": "high",
+      "triage_target_ranks": {
+        "history": 2,
+        "structure": 3,
+        "interconnection": 2
+      },
+      "final_ranks": {
+        "history": null,
+        "structure": null,
+        "interconnection": null
+      },
+      "confidence": "low",
+      "reason": "Promising standard structure; worth cluster-level survey.",
+      "next_action": "cluster_survey"
+    },
+    {
+      "tag": "LEC-077",
+      "equation_latex": "y^2=x^3-48",
+      "pages": "p.~247",
+      "degree": 3,
+      "section": "Inhomogeneous",
+      "content_note": "The index lists the special value $k=-48$",
+      "statement_status": "statement",
+      "clusters": [
+        "cubic_equations",
+        "elliptic_curves",
+        "mordell_curves"
+      ],
+      "research_priority": "high",
+      "triage_target_ranks": {
+        "history": 2,
+        "structure": 3,
+        "interconnection": 2
+      },
+      "final_ranks": {
+        "history": null,
+        "structure": null,
+        "interconnection": null
+      },
+      "confidence": "low",
+      "reason": "Promising standard structure; worth cluster-level survey.",
+      "next_action": "cluster_survey"
+    },
+    {
+      "tag": "LEC-078",
+      "equation_latex": "y^2=x^3-42",
+      "pages": "p.~251",
+      "degree": 3,
+      "section": "Inhomogeneous",
+      "content_note": "The index lists the special value $k=-42$",
+      "statement_status": "statement",
+      "clusters": [
+        "cubic_equations",
+        "elliptic_curves",
+        "mordell_curves"
+      ],
+      "research_priority": "high",
+      "triage_target_ranks": {
+        "history": 2,
+        "structure": 3,
+        "interconnection": 2
+      },
+      "final_ranks": {
+        "history": null,
+        "structure": null,
+        "interconnection": null
+      },
+      "confidence": "low",
+      "reason": "Promising standard structure; worth cluster-level survey.",
+      "next_action": "cluster_survey"
+    },
+    {
+      "tag": "LEC-079",
+      "equation_latex": "y^2=x^3-33",
+      "pages": "p.~251",
+      "degree": 3,
+      "section": "Inhomogeneous",
+      "content_note": "The index lists the special value $k=-33$",
+      "statement_status": "statement",
+      "clusters": [
+        "cubic_equations",
+        "elliptic_curves",
+        "mordell_curves"
+      ],
+      "research_priority": "high",
+      "triage_target_ranks": {
+        "history": 2,
+        "structure": 3,
+        "interconnection": 2
+      },
+      "final_ranks": {
+        "history": null,
+        "structure": null,
+        "interconnection": null
+      },
+      "confidence": "low",
+      "reason": "Promising standard structure; worth cluster-level survey.",
+      "next_action": "cluster_survey"
+    },
+    {
+      "tag": "LEC-080",
+      "equation_latex": "y^2=x^3-31",
+      "pages": "p.~244",
+      "degree": 3,
+      "section": "Inhomogeneous",
+      "content_note": "The index lists the special value $k=-31$",
+      "statement_status": "statement",
+      "clusters": [
+        "cubic_equations",
+        "elliptic_curves",
+        "mordell_curves"
+      ],
+      "research_priority": "high",
+      "triage_target_ranks": {
+        "history": 2,
+        "structure": 3,
+        "interconnection": 2
+      },
+      "final_ranks": {
+        "history": null,
+        "structure": null,
+        "interconnection": null
+      },
+      "confidence": "low",
+      "reason": "Promising standard structure; worth cluster-level survey.",
+      "next_action": "cluster_survey"
+    },
+    {
+      "tag": "LEC-081",
+      "equation_latex": "y^2=x^3-24",
+      "pages": "p.~246",
+      "degree": 3,
+      "section": "Inhomogeneous",
+      "content_note": "The index lists the special value $k=-24$",
+      "statement_status": "statement",
+      "clusters": [
+        "cubic_equations",
+        "elliptic_curves",
+        "mordell_curves"
+      ],
+      "research_priority": "high",
+      "triage_target_ranks": {
+        "history": 2,
+        "structure": 3,
+        "interconnection": 2
+      },
+      "final_ranks": {
+        "history": null,
+        "structure": null,
+        "interconnection": null
+      },
+      "confidence": "low",
+      "reason": "Promising standard structure; worth cluster-level survey.",
+      "next_action": "cluster_survey"
+    },
+    {
+      "tag": "LEC-082",
+      "equation_latex": "y^2=x^3-15",
+      "pages": "p.~247",
+      "degree": 3,
+      "section": "Inhomogeneous",
+      "content_note": "The index lists the special value $k=-15$",
+      "statement_status": "statement",
+      "clusters": [
+        "cubic_equations",
+        "elliptic_curves",
+        "mordell_curves"
+      ],
+      "research_priority": "high",
+      "triage_target_ranks": {
+        "history": 2,
+        "structure": 3,
+        "interconnection": 2
+      },
+      "final_ranks": {
+        "history": null,
+        "structure": null,
+        "interconnection": null
+      },
+      "confidence": "low",
+      "reason": "Promising standard structure; worth cluster-level survey.",
+      "next_action": "cluster_survey"
+    },
+    {
+      "tag": "LEC-083",
+      "equation_latex": "y^2=x^3-7",
+      "pages": "p.~247",
+      "degree": 3,
+      "section": "Inhomogeneous",
+      "content_note": "The index lists the special value $k=-7$",
+      "statement_status": "statement",
+      "clusters": [
+        "cubic_equations",
+        "elliptic_curves",
+        "mordell_curves"
+      ],
+      "research_priority": "high",
+      "triage_target_ranks": {
+        "history": 2,
+        "structure": 3,
+        "interconnection": 2
+      },
+      "final_ranks": {
+        "history": null,
+        "structure": null,
+        "interconnection": null
+      },
+      "confidence": "low",
+      "reason": "Promising standard structure; worth cluster-level survey.",
+      "next_action": "cluster_survey"
+    },
+    {
+      "tag": "LEC-084",
+      "equation_latex": "y^2=x^3-4",
+      "pages": "p.~123",
+      "degree": 3,
+      "section": "Inhomogeneous",
+      "content_note": "The index lists the special value $k=-4$",
+      "statement_status": "statement",
+      "clusters": [
+        "cubic_equations",
+        "elliptic_curves",
+        "mordell_curves"
+      ],
+      "research_priority": "high",
+      "triage_target_ranks": {
+        "history": 2,
+        "structure": 3,
+        "interconnection": 2
+      },
+      "final_ranks": {
+        "history": null,
+        "structure": null,
+        "interconnection": null
+      },
+      "confidence": "low",
+      "reason": "Promising standard structure; worth cluster-level survey.",
+      "next_action": "cluster_survey"
+    },
+    {
+      "tag": "LEC-085",
+      "equation_latex": "y^2=x^3-2",
+      "pages": "p.~124",
+      "degree": 3,
+      "section": "Inhomogeneous",
+      "content_note": "The index lists the special value $k=-2$",
+      "statement_status": "statement",
+      "clusters": [
+        "cubic_equations",
+        "elliptic_curves",
+        "mordell_curves"
+      ],
+      "research_priority": "high",
+      "triage_target_ranks": {
+        "history": 2,
+        "structure": 3,
+        "interconnection": 2
+      },
+      "final_ranks": {
+        "history": null,
+        "structure": null,
+        "interconnection": null
+      },
+      "confidence": "low",
+      "reason": "Promising standard structure; worth cluster-level survey.",
+      "next_action": "cluster_survey"
+    },
+    {
+      "tag": "LEC-086",
+      "equation_latex": "y^2=x^3+1",
+      "pages": "p.~247",
+      "degree": 3,
+      "section": "Inhomogeneous",
+      "content_note": "The index lists the special value $k=1$",
+      "statement_status": "statement",
+      "clusters": [
+        "cubic_equations",
+        "elliptic_curves",
+        "mordell_curves"
+      ],
+      "research_priority": "high",
+      "triage_target_ranks": {
+        "history": 2,
+        "structure": 3,
+        "interconnection": 2
+      },
+      "final_ranks": {
+        "history": null,
+        "structure": null,
+        "interconnection": null
+      },
+      "confidence": "low",
+      "reason": "Promising standard structure; worth cluster-level survey.",
+      "next_action": "cluster_survey"
+    },
+    {
+      "tag": "LEC-087",
+      "equation_latex": "y^2=x^3+7",
+      "pages": "p.~242",
+      "degree": 3,
+      "section": "Inhomogeneous",
+      "content_note": "The index lists the special value $k=7$",
+      "statement_status": "statement",
+      "clusters": [
+        "cubic_equations",
+        "elliptic_curves",
+        "mordell_curves"
+      ],
+      "research_priority": "high",
+      "triage_target_ranks": {
+        "history": 2,
+        "structure": 3,
+        "interconnection": 2
+      },
+      "final_ranks": {
+        "history": null,
+        "structure": null,
+        "interconnection": null
+      },
+      "confidence": "low",
+      "reason": "Promising standard structure; worth cluster-level survey.",
+      "next_action": "cluster_survey"
+    },
+    {
+      "tag": "LEC-088",
+      "equation_latex": "y^2=x^3+17",
+      "pages": "p.~246",
+      "degree": 3,
+      "section": "Inhomogeneous",
+      "content_note": "The index lists the special value $k=17$",
+      "statement_status": "statement",
+      "clusters": [
+        "cubic_equations",
+        "elliptic_curves",
+        "mordell_curves"
+      ],
+      "research_priority": "high",
+      "triage_target_ranks": {
+        "history": 2,
+        "structure": 3,
+        "interconnection": 2
+      },
+      "final_ranks": {
+        "history": null,
+        "structure": null,
+        "interconnection": null
+      },
+      "confidence": "low",
+      "reason": "Promising standard structure; worth cluster-level survey.",
+      "next_action": "cluster_survey"
+    },
+    {
+      "tag": "LEC-089",
+      "equation_latex": "y^2=x^3+34",
+      "pages": "p.~242",
+      "degree": 3,
+      "section": "Inhomogeneous",
+      "content_note": "The index lists the special value $k=34$",
+      "statement_status": "statement",
+      "clusters": [
+        "cubic_equations",
+        "elliptic_curves",
+        "mordell_curves"
+      ],
+      "research_priority": "high",
+      "triage_target_ranks": {
+        "history": 2,
+        "structure": 3,
+        "interconnection": 2
+      },
+      "final_ranks": {
+        "history": null,
+        "structure": null,
+        "interconnection": null
+      },
+      "confidence": "low",
+      "reason": "Promising standard structure; worth cluster-level survey.",
+      "next_action": "cluster_survey"
+    },
+    {
+      "tag": "LEC-090",
+      "equation_latex": "y^2=x^3+45",
+      "pages": "p.~239",
+      "degree": 3,
+      "section": "Inhomogeneous",
+      "content_note": "The index lists the special value $k=45$",
+      "statement_status": "statement",
+      "clusters": [
+        "cubic_equations",
+        "elliptic_curves",
+        "mordell_curves"
+      ],
+      "research_priority": "high",
+      "triage_target_ranks": {
+        "history": 2,
+        "structure": 3,
+        "interconnection": 2
+      },
+      "final_ranks": {
+        "history": null,
+        "structure": null,
+        "interconnection": null
+      },
+      "confidence": "low",
+      "reason": "Promising standard structure; worth cluster-level survey.",
+      "next_action": "cluster_survey"
+    },
+    {
+      "tag": "LEC-091",
+      "equation_latex": "y^2=x^3+58",
+      "pages": "p.~242",
+      "degree": 3,
+      "section": "Inhomogeneous",
+      "content_note": "The index lists the special value $k=58$",
+      "statement_status": "statement",
+      "clusters": [
+        "cubic_equations",
+        "elliptic_curves",
+        "mordell_curves"
+      ],
+      "research_priority": "high",
+      "triage_target_ranks": {
+        "history": 2,
+        "structure": 3,
+        "interconnection": 2
+      },
+      "final_ranks": {
+        "history": null,
+        "structure": null,
+        "interconnection": null
+      },
+      "confidence": "low",
+      "reason": "Promising standard structure; worth cluster-level survey.",
+      "next_action": "cluster_survey"
+    },
+    {
+      "tag": "LEC-092",
+      "equation_latex": "y^2=x^3+70",
+      "pages": "p.~242",
+      "degree": 3,
+      "section": "Inhomogeneous",
+      "content_note": "The index lists the special value $k=70$",
+      "statement_status": "statement",
+      "clusters": [
+        "cubic_equations",
+        "elliptic_curves",
+        "mordell_curves"
+      ],
+      "research_priority": "high",
+      "triage_target_ranks": {
+        "history": 2,
+        "structure": 3,
+        "interconnection": 2
+      },
+      "final_ranks": {
+        "history": null,
+        "structure": null,
+        "interconnection": null
+      },
+      "confidence": "low",
+      "reason": "Promising standard structure; worth cluster-level survey.",
+      "next_action": "cluster_survey"
+    },
+    {
+      "tag": "LEC-093",
+      "equation_latex": "x^3=a+by",
+      "pages": "pp.~3--4, 9",
+      "degree": 3,
+      "section": "Inhomogeneous",
+      "content_note": "",
+      "statement_status": "statement",
+      "clusters": [
+        "cubic_equations"
+      ],
+      "research_priority": "medium",
+      "triage_target_ranks": {
+        "history": 3,
+        "structure": 4,
+        "interconnection": 3
+      },
+      "final_ranks": {
+        "history": null,
+        "structure": null,
+        "interconnection": null
+      },
+      "confidence": "low",
+      "reason": "Useful for baseline coverage or known-theory comparison.",
+      "next_action": "cluster_survey"
+    },
+    {
+      "tag": "LEC-094",
+      "equation_latex": "ax^2+by^2+cz^2+dxyz=e",
+      "pages": "p.~110",
+      "degree": 3,
+      "section": "Inhomogeneous",
+      "content_note": "",
+      "statement_status": "statement",
+      "clusters": [
+        "cubic_equations",
+        "markoff_type"
+      ],
+      "research_priority": "high",
+      "triage_target_ranks": {
+        "history": 2,
+        "structure": 3,
+        "interconnection": 2
+      },
+      "final_ranks": {
+        "history": null,
+        "structure": null,
+        "interconnection": null
+      },
+      "confidence": "low",
+      "reason": "Promising standard structure; worth cluster-level survey.",
+      "next_action": "cluster_survey"
+    },
+    {
+      "tag": "LEC-095",
+      "equation_latex": "ax^3+ay^3+bz^3=bc^3",
+      "pages": "p.~102",
+      "degree": 3,
+      "section": "Inhomogeneous",
+      "content_note": "",
+      "statement_status": "statement",
+      "clusters": [
+        "cubic_equations"
+      ],
+      "research_priority": "medium",
+      "triage_target_ranks": {
+        "history": 3,
+        "structure": 4,
+        "interconnection": 3
+      },
+      "final_ranks": {
+        "history": null,
+        "structure": null,
+        "interconnection": null
+      },
+      "confidence": "low",
+      "reason": "Useful for baseline coverage or known-theory comparison.",
+      "next_action": "cluster_survey"
+    },
+    {
+      "tag": "LEC-096",
+      "equation_latex": "x^2+y^2+z^2-axyz=b",
+      "pages": "pp.~106--110",
+      "degree": 3,
+      "section": "Inhomogeneous",
+      "content_note": "",
+      "statement_status": "statement",
+      "clusters": [
+        "cubic_equations",
+        "markoff_type",
+        "mutation_dynamics",
+        "sums_of_squares"
+      ],
+      "research_priority": "very_high",
+      "triage_target_ranks": {
+        "history": 2,
+        "structure": 2,
+        "interconnection": 2
+      },
+      "final_ranks": {
+        "history": null,
+        "structure": null,
+        "interconnection": null
+      },
+      "confidence": "low",
+      "reason": "High chance of nontrivial structure or interconnection.",
+      "next_action": "deep_dive"
+    },
+    {
+      "tag": "LEC-097",
+      "equation_latex": "ax^3+by^3+cz^3+d=0",
+      "pages": "pp.~101--103",
+      "degree": 3,
+      "section": "Inhomogeneous",
+      "content_note": "",
+      "statement_status": "statement",
+      "clusters": [
+        "cubic_equations"
+      ],
+      "research_priority": "high",
+      "triage_target_ranks": {
+        "history": 2,
+        "structure": 3,
+        "interconnection": 2
+      },
+      "final_ranks": {
+        "history": null,
+        "structure": null,
+        "interconnection": null
+      },
+      "confidence": "low",
+      "reason": "Promising standard structure; worth cluster-level survey.",
+      "next_action": "cluster_survey"
+    },
+    {
+      "tag": "LEC-098",
+      "equation_latex": "ax^2+by^2+cz^2=2dxyz",
+      "pages": "p.~6",
+      "degree": 3,
+      "section": "Inhomogeneous",
+      "content_note": "",
+      "statement_status": "statement",
+      "clusters": [
+        "cubic_equations",
+        "markoff_type"
+      ],
+      "research_priority": "high",
+      "triage_target_ranks": {
+        "history": 2,
+        "structure": 3,
+        "interconnection": 2
+      },
+      "final_ranks": {
+        "history": null,
+        "structure": null,
+        "interconnection": null
+      },
+      "confidence": "low",
+      "reason": "Promising standard structure; worth cluster-level survey.",
+      "next_action": "cluster_survey"
+    },
+    {
+      "tag": "LEC-099",
+      "equation_latex": "a(x^3+y^3)+b(z^3+c^3)=0",
+      "pages": "p.~59",
+      "degree": 3,
+      "section": "Inhomogeneous",
+      "content_note": "",
+      "statement_status": "statement",
+      "clusters": [
+        "cubic_equations",
+        "sums_of_cubes"
+      ],
+      "research_priority": "medium",
+      "triage_target_ranks": {
+        "history": 3,
+        "structure": 4,
+        "interconnection": 3
+      },
+      "final_ranks": {
+        "history": null,
+        "structure": null,
+        "interconnection": null
+      },
+      "confidence": "low",
+      "reason": "Useful for baseline coverage or known-theory comparison.",
+      "next_action": "cluster_survey"
+    },
+    {
+      "tag": "LEC-100",
+      "equation_latex": "x^3+y^3+z^3=n",
+      "pages": "pp.~83--84, 100--101",
+      "degree": 3,
+      "section": "Inhomogeneous",
+      "content_note": "The index separately notes $n=1$ on p.~84",
+      "statement_status": "statement",
+      "clusters": [
+        "cubic_equations",
+        "sums_of_cubes"
+      ],
+      "research_priority": "very_high",
+      "triage_target_ranks": {
+        "history": 2,
+        "structure": 2,
+        "interconnection": 2
+      },
+      "final_ranks": {
+        "history": null,
+        "structure": null,
+        "interconnection": null
+      },
+      "confidence": "low",
+      "reason": "High chance of nontrivial structure or interconnection.",
+      "next_action": "deep_dive"
+    },
+    {
+      "tag": "LEC-101",
+      "equation_latex": "(x+y+z)^3-dxyz=m",
+      "pages": "p.~83",
+      "degree": 3,
+      "section": "Inhomogeneous",
+      "content_note": "",
+      "statement_status": "statement",
+      "clusters": [
+        "cubic_equations",
+        "markoff_type"
+      ],
+      "research_priority": "high",
+      "triage_target_ranks": {
+        "history": 2,
+        "structure": 3,
+        "interconnection": 2
+      },
+      "final_ranks": {
+        "history": null,
+        "structure": null,
+        "interconnection": null
+      },
+      "confidence": "low",
+      "reason": "Promising standard structure; worth cluster-level survey.",
+      "next_action": "cluster_survey"
+    },
+    {
+      "tag": "LEC-102",
+      "equation_latex": "z^2=f(x,y),\\qquad f\\ \\text{cubic}",
+      "pages": "pp.~85--87, 103--106",
+      "degree": 3,
+      "section": "Inhomogeneous",
+      "content_note": "Mordell records the conjecture on p.~103 that, for cubic $f(x,y)$ with integer coefficients, the equation has infinitely many integer solutions if it has one.",
+      "statement_status": "conjecture",
+      "clusters": [
+        "cubic_equations"
+      ],
+      "research_priority": "high",
+      "triage_target_ranks": {
+        "history": 2,
+        "structure": 3,
+        "interconnection": 2
+      },
+      "final_ranks": {
+        "history": null,
+        "structure": null,
+        "interconnection": null
+      },
+      "confidence": "low",
+      "reason": "Promising standard structure; worth cluster-level survey.",
+      "next_action": "cluster_survey"
+    },
+    {
+      "tag": "LEC-103",
+      "equation_latex": "\\begin{aligned}z^2={}&p^2+\\ell x+my+ax^2+bxy+cy^2\\\\&{}+Ax^3+Bx^2y+Cxy^2+Dy^3\\end{aligned}",
+      "pages": "p.~104",
+      "degree": 3,
+      "section": "Inhomogeneous",
+      "content_note": "",
+      "statement_status": "statement",
+      "clusters": [
+        "cubic_equations",
+        "elliptic_curves"
+      ],
+      "research_priority": "high",
+      "triage_target_ranks": {
+        "history": 2,
+        "structure": 3,
+        "interconnection": 2
+      },
+      "final_ranks": {
+        "history": null,
+        "structure": null,
+        "interconnection": null
+      },
+      "confidence": "low",
+      "reason": "Promising standard structure; worth cluster-level survey.",
+      "next_action": "cluster_survey"
+    },
+    {
+      "tag": "LEC-104",
+      "equation_latex": "z^2=p^2+\\ell x+my+ax^3+bx^2y+cxy^2+dy^3",
+      "pages": "p.~103",
+      "degree": 3,
+      "section": "Inhomogeneous",
+      "content_note": "Theorem 3 on p.~103 states that this equation has infinitely many integer solutions when $(\\ell,m)=1$.",
+      "statement_status": "statement",
+      "clusters": [
+        "cubic_equations",
+        "elliptic_curves"
+      ],
+      "research_priority": "high",
+      "triage_target_ranks": {
+        "history": 2,
+        "structure": 3,
+        "interconnection": 2
+      },
+      "final_ranks": {
+        "history": null,
+        "structure": null,
+        "interconnection": null
+      },
+      "confidence": "low",
+      "reason": "Promising standard structure; worth cluster-level survey.",
+      "next_action": "cluster_survey"
+    },
+    {
+      "tag": "LEC-105",
+      "equation_latex": "z^2=ax^3+bx^2y+cxy^2+dy^3",
+      "pages": "p.~112",
+      "degree": 3,
+      "section": "Inhomogeneous",
+      "content_note": "",
+      "statement_status": "statement",
+      "clusters": [
+        "cubic_equations",
+        "elliptic_curves"
+      ],
+      "research_priority": "high",
+      "triage_target_ranks": {
+        "history": 2,
+        "structure": 3,
+        "interconnection": 2
+      },
+      "final_ranks": {
+        "history": null,
+        "structure": null,
+        "interconnection": null
+      },
+      "confidence": "low",
+      "reason": "Promising standard structure; worth cluster-level survey.",
+      "next_action": "cluster_survey"
+    },
+    {
+      "tag": "LEC-106",
+      "equation_latex": "z^2=ax^3+by^3+c",
+      "pages": "pp.~104--106,115--116",
+      "degree": 3,
+      "section": "Inhomogeneous",
+      "content_note": "",
+      "statement_status": "statement",
+      "clusters": [
+        "cubic_equations",
+        "elliptic_curves"
+      ],
+      "research_priority": "high",
+      "triage_target_ranks": {
+        "history": 2,
+        "structure": 3,
+        "interconnection": 2
+      },
+      "final_ranks": {
+        "history": null,
+        "structure": null,
+        "interconnection": null
+      },
+      "confidence": "low",
+      "reason": "Promising standard structure; worth cluster-level survey.",
+      "next_action": "cluster_survey"
+    },
+    {
+      "tag": "LEC-107",
+      "equation_latex": "z^2=x^3-gxy^2-hy^3",
+      "pages": "p.~235",
+      "degree": 3,
+      "section": "Inhomogeneous",
+      "content_note": "",
+      "statement_status": "comment",
+      "clusters": [
+        "cubic_equations",
+        "elliptic_curves"
+      ],
+      "research_priority": "low",
+      "triage_target_ranks": {
+        "history": 4,
+        "structure": 5,
+        "interconnection": 4
+      },
+      "final_ranks": {
+        "history": null,
+        "structure": null,
+        "interconnection": null
+      },
+      "confidence": "low",
+      "reason": "Comment-only entry; use mainly as context for nearby equations.",
+      "next_action": "cluster_survey"
+    },
+    {
+      "tag": "LEC-108",
+      "equation_latex": "z^2=x^3+y^3",
+      "pages": "p.~235",
+      "degree": 3,
+      "section": "Inhomogeneous",
+      "content_note": "",
+      "statement_status": "statement",
+      "clusters": [
+        "cubic_equations",
+        "elliptic_curves",
+        "sums_of_cubes"
+      ],
+      "research_priority": "very_high",
+      "triage_target_ranks": {
+        "history": 2,
+        "structure": 2,
+        "interconnection": 2
+      },
+      "final_ranks": {
+        "history": null,
+        "structure": null,
+        "interconnection": null
+      },
+      "confidence": "low",
+      "reason": "High chance of nontrivial structure or interconnection.",
+      "next_action": "deep_dive"
+    },
+    {
+      "tag": "LEC-109",
+      "equation_latex": "2z^2=x^3+y^3",
+      "pages": "p.~235",
+      "degree": 3,
+      "section": "Inhomogeneous",
+      "content_note": "",
+      "statement_status": "comment",
+      "clusters": [
+        "cubic_equations",
+        "elliptic_curves",
+        "sums_of_cubes"
+      ],
+      "research_priority": "very_high",
+      "triage_target_ranks": {
+        "history": 4,
+        "structure": 5,
+        "interconnection": 4
+      },
+      "final_ranks": {
+        "history": null,
+        "structure": null,
+        "interconnection": null
+      },
+      "confidence": "low",
+      "reason": "Comment-only entry; use mainly as context for nearby equations.",
+      "next_action": "deep_dive"
+    },
+    {
+      "tag": "LEC-110",
+      "equation_latex": "y^2-ax^2=z^3+bz+c",
+      "pages": "p.~113",
+      "degree": 3,
+      "section": "Inhomogeneous",
+      "content_note": "",
+      "statement_status": "statement",
+      "clusters": [
+        "cubic_equations"
+      ],
+      "research_priority": "high",
+      "triage_target_ranks": {
+        "history": 2,
+        "structure": 3,
+        "interconnection": 2
+      },
+      "final_ranks": {
+        "history": null,
+        "structure": null,
+        "interconnection": null
+      },
+      "confidence": "low",
+      "reason": "Promising standard structure; worth cluster-level survey.",
+      "next_action": "cluster_survey"
+    },
+    {
+      "tag": "LEC-111",
+      "equation_latex": "z^3=p^3+\\ell x+my+ax^2+bxy+cy^2",
+      "pages": "p.~103",
+      "degree": 3,
+      "section": "Inhomogeneous",
+      "content_note": "Theorem 4 on p.~103 states that this equation has infinitely many solutions when $(\\ell,m)=1$.",
+      "statement_status": "statement",
+      "clusters": [
+        "cubic_equations"
+      ],
+      "research_priority": "medium",
+      "triage_target_ranks": {
+        "history": 3,
+        "structure": 4,
+        "interconnection": 3
+      },
+      "final_ranks": {
+        "history": null,
+        "structure": null,
+        "interconnection": null
+      },
+      "confidence": "low",
+      "reason": "Useful for baseline coverage or known-theory comparison.",
+      "next_action": "cluster_survey"
+    },
+    {
+      "tag": "LEC-112",
+      "equation_latex": "z^3=ax^2+by^2+c",
+      "pages": "pp.~106, 113--114",
+      "degree": 3,
+      "section": "Inhomogeneous",
+      "content_note": "",
+      "statement_status": "statement",
+      "clusters": [
+        "cubic_equations"
+      ],
+      "research_priority": "medium",
+      "triage_target_ranks": {
+        "history": 3,
+        "structure": 4,
+        "interconnection": 3
+      },
+      "final_ranks": {
+        "history": null,
+        "structure": null,
+        "interconnection": null
+      },
+      "confidence": "low",
+      "reason": "Useful for baseline coverage or known-theory comparison.",
+      "next_action": "cluster_survey"
+    },
+    {
+      "tag": "LEC-113",
+      "equation_latex": "z^3=x^2+ky^2",
+      "pages": "pp.~215--217",
+      "degree": 3,
+      "section": "Inhomogeneous",
+      "content_note": "",
+      "statement_status": "statement",
+      "clusters": [
+        "cubic_equations"
+      ],
+      "research_priority": "high",
+      "triage_target_ranks": {
+        "history": 2,
+        "structure": 3,
+        "interconnection": 2
+      },
+      "final_ranks": {
+        "history": null,
+        "structure": null,
+        "interconnection": null
+      },
+      "confidence": "low",
+      "reason": "Promising standard structure; worth cluster-level survey.",
+      "next_action": "cluster_survey"
+    },
+    {
+      "tag": "LEC-114",
+      "equation_latex": "x^3+y^3+z^3+w^3=n",
+      "pages": "pp.~58, 182",
+      "degree": 3,
+      "section": "Inhomogeneous",
+      "content_note": "Mordell records the four-cubes conjecture on p.~182: every integer is a sum of four integer cubes; he notes it is proved for all $n\\not\\equiv\\pm4\\pmod9$.",
+      "statement_status": "conjecture",
+      "clusters": [
+        "cubic_equations",
+        "cubic_surfaces",
+        "sums_of_cubes",
+        "waring_type"
+      ],
+      "research_priority": "very_high",
+      "triage_target_ranks": {
+        "history": 2,
+        "structure": 2,
+        "interconnection": 2
+      },
+      "final_ranks": {
+        "history": null,
+        "structure": null,
+        "interconnection": null
+      },
+      "confidence": "low",
+      "reason": "High chance of nontrivial structure or interconnection.",
+      "next_action": "deep_dive"
+    },
+    {
+      "tag": "LEC-115",
+      "equation_latex": "x_1^3+x_2^3+x_3^3=9x_4^3\\pm4",
+      "pages": "p.~7",
+      "degree": 3,
+      "section": "Inhomogeneous",
+      "content_note": "",
+      "statement_status": "statement",
+      "clusters": [
+        "cubic_equations",
+        "cubic_surfaces",
+        "sums_of_cubes"
+      ],
+      "research_priority": "medium",
+      "triage_target_ranks": {
+        "history": 3,
+        "structure": 4,
+        "interconnection": 3
+      },
+      "final_ranks": {
+        "history": null,
+        "structure": null,
+        "interconnection": null
+      },
+      "confidence": "low",
+      "reason": "Useful for baseline coverage or known-theory comparison.",
+      "next_action": "cluster_survey"
+    },
+    {
+      "tag": "LEC-116",
+      "equation_latex": "x_1^3+x_2^3+\\cdots+x_s^3=n",
+      "pages": "p.~181",
+      "degree": 3,
+      "section": "Inhomogeneous",
+      "content_note": "",
+      "statement_status": "statement",
+      "clusters": [
+        "cubic_equations",
+        "sums_of_cubes",
+        "waring_type"
+      ],
+      "research_priority": "medium",
+      "triage_target_ranks": {
+        "history": 3,
+        "structure": 4,
+        "interconnection": 3
+      },
+      "final_ranks": {
+        "history": null,
+        "structure": null,
+        "interconnection": null
+      },
+      "confidence": "low",
+      "reason": "Useful for baseline coverage or known-theory comparison.",
+      "next_action": "cluster_survey"
+    },
+    {
+      "tag": "LEC-117",
+      "equation_latex": "x^2+y^2+1=xyz",
+      "pages": "p.~299",
+      "degree": 3,
+      "section": "Inhomogeneous",
+      "content_note": "",
+      "statement_status": "statement",
+      "clusters": [
+        "cubic_equations",
+        "markoff_type",
+        "mutation_dynamics",
+        "sums_of_squares"
+      ],
+      "research_priority": "high",
+      "triage_target_ranks": {
+        "history": 2,
+        "structure": 3,
+        "interconnection": 2
+      },
+      "final_ranks": {
+        "history": null,
+        "structure": null,
+        "interconnection": null
+      },
+      "confidence": "low",
+      "reason": "Promising standard structure; worth cluster-level survey.",
+      "next_action": "cluster_survey"
+    },
+    {
+      "tag": "LEC-118",
+      "equation_latex": "x^2+y^2\\pm x\\pm y+1=xyz",
+      "pages": "pp.~299--300",
+      "degree": 3,
+      "section": "Inhomogeneous",
+      "content_note": "",
+      "statement_status": "statement",
+      "clusters": [
+        "cubic_equations",
+        "markoff_type",
+        "mutation_dynamics",
+        "sums_of_squares"
+      ],
+      "research_priority": "high",
+      "triage_target_ranks": {
+        "history": 2,
+        "structure": 3,
+        "interconnection": 2
+      },
+      "final_ranks": {
+        "history": null,
+        "structure": null,
+        "interconnection": null
+      },
+      "confidence": "low",
+      "reason": "Promising standard structure; worth cluster-level survey.",
+      "next_action": "cluster_survey"
+    },
+    {
+      "tag": "LEC-190",
+      "equation_latex": "y^2=x^3-Ax-B",
+      "pages": "p.~147",
+      "degree": 3,
+      "section": "Inhomogeneous",
+      "content_note": "Mordell's summary of Birch--Swinnerton-Dyer conjectures associates this curve with a congruence zeta-function; the conjectural pole order at $s=1$ is the number of generators of rational points of infinite order. Supplemental entry not listed in Mordell's printed equation list.",
+      "statement_status": "conjecture",
+      "clusters": [
+        "cubic_equations",
+        "elliptic_curves",
+        "mordell_curves"
+      ],
+      "research_priority": "very_high",
+      "triage_target_ranks": {
+        "history": 2,
+        "structure": 2,
+        "interconnection": 2
+      },
+      "final_ranks": {
+        "history": null,
+        "structure": null,
+        "interconnection": null
+      },
+      "confidence": "low",
+      "reason": "High chance of nontrivial structure or interconnection.",
+      "next_action": "deep_dive"
+    },
+    {
+      "tag": "LEC-119",
+      "equation_latex": "k_1(ax^2+by^2+cz^2)(a_1x^2+b_1y^2+c_1z^2)=k_2(px^2+qy^2+rz^2)^2",
+      "pages": "p.~25",
+      "degree": 4,
+      "section": "Homogeneous",
+      "content_note": "",
+      "statement_status": "statement",
+      "clusters": [
+        "quartic_equations"
+      ],
+      "research_priority": "very_high",
+      "triage_target_ranks": {
+        "history": 2,
+        "structure": 2,
+        "interconnection": 2
+      },
+      "final_ranks": {
+        "history": null,
+        "structure": null,
+        "interconnection": null
+      },
+      "confidence": "low",
+      "reason": "High chance of nontrivial structure or interconnection.",
+      "next_action": "deep_dive"
+    },
+    {
+      "tag": "LEC-120",
+      "equation_latex": "\\left(\\frac{br-cq}{a}\\right)^3x^4+\\left(\\frac{cp-ar}{b}\\right)^3y^4+\\left(\\frac{aq-bp}{c}\\right)^3z^4=0",
+      "pages": "p.~27",
+      "degree": 4,
+      "section": "Homogeneous",
+      "content_note": "",
+      "statement_status": "statement",
+      "clusters": [
+        "quartic_equations"
+      ],
+      "research_priority": "high",
+      "triage_target_ranks": {
+        "history": 2,
+        "structure": 3,
+        "interconnection": 2
+      },
+      "final_ranks": {
+        "history": null,
+        "structure": null,
+        "interconnection": null
+      },
+      "confidence": "low",
+      "reason": "Promising standard structure; worth cluster-level survey.",
+      "next_action": "cluster_survey"
+    },
+    {
+      "tag": "LEC-121",
+      "equation_latex": "\\begin{aligned}&(a_1x_1^2+a_2x_2^2+a_3x_3^2+a_4x_4^2)(b_1x_1^2+b_2x_2^2+b_3x_3^2+b_4x_4^2)\\\\&\\qquad=2k(c_1x_1^2+c_2x_2^2+c_3x_3^2+c_4x_4^2)(d_1x_1^2+d_2x_2^2+d_3x_3^2+d_4x_4^2)\\end{aligned}",
+      "pages": "p.~6",
+      "degree": 4,
+      "section": "Homogeneous",
+      "content_note": "",
+      "statement_status": "statement",
+      "clusters": [
+        "quartic_equations"
+      ],
+      "research_priority": "medium",
+      "triage_target_ranks": {
+        "history": 3,
+        "structure": 4,
+        "interconnection": 3
+      },
+      "final_ranks": {
+        "history": null,
+        "structure": null,
+        "interconnection": null
+      },
+      "confidence": "low",
+      "reason": "Useful for baseline coverage or known-theory comparison.",
+      "next_action": "cluster_survey"
+    },
+    {
+      "tag": "LEC-122",
+      "equation_latex": "a_1x_1^4+a_2x_2^4+a_3x_3^4+a_4x_4^4=0",
+      "pages": "pp.~5, 90--94",
+      "degree": 4,
+      "section": "Homogeneous",
+      "content_note": "",
+      "statement_status": "statement",
+      "clusters": [
+        "diagonal_quartics",
+        "quartic_equations",
+        "quartic_surfaces"
+      ],
+      "research_priority": "very_high",
+      "triage_target_ranks": {
+        "history": 2,
+        "structure": 2,
+        "interconnection": 2
+      },
+      "final_ranks": {
+        "history": null,
+        "structure": null,
+        "interconnection": null
+      },
+      "confidence": "low",
+      "reason": "High chance of nontrivial structure or interconnection.",
+      "next_action": "deep_dive"
+    },
+    {
+      "tag": "LEC-123",
+      "equation_latex": "a(x^4-y^4)+c(z^4-w^4)=0",
+      "pages": "p.~91",
+      "degree": 4,
+      "section": "Homogeneous",
+      "content_note": "",
+      "statement_status": "statement",
+      "clusters": [
+        "quartic_equations",
+        "quartic_surfaces"
+      ],
+      "research_priority": "high",
+      "triage_target_ranks": {
+        "history": 2,
+        "structure": 3,
+        "interconnection": 2
+      },
+      "final_ranks": {
+        "history": null,
+        "structure": null,
+        "interconnection": null
+      },
+      "confidence": "low",
+      "reason": "Promising standard structure; worth cluster-level survey.",
+      "next_action": "cluster_survey"
+    },
+    {
+      "tag": "LEC-124",
+      "equation_latex": "x^4+y^4=z^4+w^4",
+      "pages": "p.~90",
+      "degree": 4,
+      "section": "Homogeneous",
+      "content_note": "",
+      "statement_status": "statement",
+      "clusters": [
+        "diagonal_quartics",
+        "quartic_equations",
+        "quartic_surfaces"
+      ],
+      "research_priority": "high",
+      "triage_target_ranks": {
+        "history": 2,
+        "structure": 3,
+        "interconnection": 2
+      },
+      "final_ranks": {
+        "history": null,
+        "structure": null,
+        "interconnection": null
+      },
+      "confidence": "low",
+      "reason": "Promising standard structure; worth cluster-level survey.",
+      "next_action": "cluster_survey"
+    },
+    {
+      "tag": "LEC-125",
+      "equation_latex": "x^4+y^4+z^4=w^4",
+      "pages": "p.~94",
+      "degree": 4,
+      "section": "Homogeneous",
+      "content_note": "",
+      "statement_status": "conjecture",
+      "clusters": [
+        "diagonal_quartics",
+        "quartic_equations",
+        "quartic_surfaces"
+      ],
+      "research_priority": "medium",
+      "triage_target_ranks": {
+        "history": 3,
+        "structure": 4,
+        "interconnection": 3
+      },
+      "final_ranks": {
+        "history": null,
+        "structure": null,
+        "interconnection": null
+      },
+      "confidence": "low",
+      "reason": "Useful for baseline coverage or known-theory comparison.",
+      "next_action": "cluster_survey"
+    },
+    {
+      "tag": "LEC-126",
+      "equation_latex": "xy(mx^2+ny^2)=zw(mz^2+nw^2)",
+      "pages": "p.~91",
+      "degree": 4,
+      "section": "Homogeneous",
+      "content_note": "",
+      "statement_status": "comment",
+      "clusters": [
+        "quartic_equations"
+      ],
+      "research_priority": "low",
+      "triage_target_ranks": {
+        "history": 4,
+        "structure": 5,
+        "interconnection": 4
+      },
+      "final_ranks": {
+        "history": null,
+        "structure": null,
+        "interconnection": null
+      },
+      "confidence": "low",
+      "reason": "Comment-only entry; use mainly as context for nearby equations.",
+      "next_action": "cluster_survey"
+    },
+    {
+      "tag": "LEC-127",
+      "equation_latex": "\\begin{aligned}f(\\mathbf{x})+f(\\mathbf{y})+f(\\mathbf{z})-4\\{f(\\mathbf{u})+f(\\mathbf{v})+f(\\mathbf{w})\\}&=0,\\\\f(\\mathbf{x})&=x_1^4+x_2^4+x_3^4-x_2^2x_3^2-x_3^2x_1^2-x_1^2x_2^2\\\\&\\qquad-x_1x_2x_3(x_1+x_2+x_3)\\end{aligned}",
+      "pages": "p.~10",
+      "degree": 4,
+      "section": "Homogeneous",
+      "content_note": "",
+      "statement_status": "statement",
+      "clusters": [
+        "diagonal_quartics",
+        "quartic_equations"
+      ],
+      "research_priority": "medium",
+      "triage_target_ranks": {
+        "history": 3,
+        "structure": 4,
+        "interconnection": 3
+      },
+      "final_ranks": {
+        "history": null,
+        "structure": null,
+        "interconnection": null
+      },
+      "confidence": "low",
+      "reason": "Useful for baseline coverage or known-theory comparison.",
+      "next_action": "cluster_survey"
+    },
+    {
+      "tag": "LEC-128",
+      "equation_latex": "Ax^4+Bx^3y+Cx^2y^2+Dxy^3+Ey^4=1",
+      "pages": "pp.~236--237",
+      "degree": 4,
+      "section": "Inhomogeneous",
+      "content_note": "",
+      "statement_status": "statement",
+      "clusters": [
+        "binary_quartic_forms",
+        "quartic_equations",
+        "thue_equations"
+      ],
+      "research_priority": "high",
+      "triage_target_ranks": {
+        "history": 2,
+        "structure": 3,
+        "interconnection": 2
+      },
+      "final_ranks": {
+        "history": null,
+        "structure": null,
+        "interconnection": null
+      },
+      "confidence": "low",
+      "reason": "Promising standard structure; worth cluster-level survey.",
+      "next_action": "cluster_survey"
+    },
+    {
+      "tag": "LEC-129",
+      "equation_latex": "ax^4-by^4=c",
+      "pages": "p.~274",
+      "degree": 4,
+      "section": "Inhomogeneous",
+      "content_note": "",
+      "statement_status": "statement",
+      "clusters": [
+        "quartic_equations"
+      ],
+      "research_priority": "high",
+      "triage_target_ranks": {
+        "history": 2,
+        "structure": 3,
+        "interconnection": 2
+      },
+      "final_ranks": {
+        "history": null,
+        "structure": null,
+        "interconnection": null
+      },
+      "confidence": "low",
+      "reason": "Promising standard structure; worth cluster-level survey.",
+      "next_action": "cluster_survey"
+    },
+    {
+      "tag": "LEC-130",
+      "equation_latex": "x^4-Dy^4=\\pm1",
+      "pages": "pp.~275--276",
+      "degree": 4,
+      "section": "Inhomogeneous",
+      "content_note": "",
+      "statement_status": "statement",
+      "clusters": [
+        "quartic_equations"
+      ],
+      "research_priority": "high",
+      "triage_target_ranks": {
+        "history": 2,
+        "structure": 3,
+        "interconnection": 2
+      },
+      "final_ranks": {
+        "history": null,
+        "structure": null,
+        "interconnection": null
+      },
+      "confidence": "low",
+      "reason": "Promising standard structure; worth cluster-level survey.",
+      "next_action": "cluster_survey"
+    },
+    {
+      "tag": "LEC-131",
+      "equation_latex": "x^4+y^4=1",
+      "pages": "pp.~116--117",
+      "degree": 4,
+      "section": "Inhomogeneous",
+      "content_note": "",
+      "statement_status": "statement",
+      "clusters": [
+        "diagonal_quartics",
+        "quartic_equations"
+      ],
+      "research_priority": "high",
+      "triage_target_ranks": {
+        "history": 2,
+        "structure": 3,
+        "interconnection": 2
+      },
+      "final_ranks": {
+        "history": null,
+        "structure": null,
+        "interconnection": null
+      },
+      "confidence": "low",
+      "reason": "Promising standard structure; worth cluster-level survey.",
+      "next_action": "cluster_survey"
+    },
+    {
+      "tag": "LEC-132",
+      "equation_latex": "x^4-2y^4=1",
+      "pages": "p.~207",
+      "degree": 4,
+      "section": "Inhomogeneous",
+      "content_note": "",
+      "statement_status": "statement",
+      "clusters": [
+        "quartic_equations"
+      ],
+      "research_priority": "medium",
+      "triage_target_ranks": {
+        "history": 3,
+        "structure": 4,
+        "interconnection": 3
+      },
+      "final_ranks": {
+        "history": null,
+        "structure": null,
+        "interconnection": null
+      },
+      "confidence": "low",
+      "reason": "Useful for baseline coverage or known-theory comparison.",
+      "next_action": "cluster_survey"
+    },
+    {
+      "tag": "LEC-133",
+      "equation_latex": "x^4-8y^4=1",
+      "pages": "p.~208",
+      "degree": 4,
+      "section": "Inhomogeneous",
+      "content_note": "",
+      "statement_status": "statement",
+      "clusters": [
+        "quartic_equations"
+      ],
+      "research_priority": "medium",
+      "triage_target_ranks": {
+        "history": 3,
+        "structure": 4,
+        "interconnection": 3
+      },
+      "final_ranks": {
+        "history": null,
+        "structure": null,
+        "interconnection": null
+      },
+      "confidence": "low",
+      "reason": "Useful for baseline coverage or known-theory comparison.",
+      "next_action": "cluster_survey"
+    },
+    {
+      "tag": "LEC-134",
+      "equation_latex": "ky^2=ax^4+bx^3+cx^2+dx+e",
+      "pages": "pp.~268--272",
+      "degree": 4,
+      "section": "Inhomogeneous",
+      "content_note": "",
+      "statement_status": "statement",
+      "clusters": [
+        "elliptic_curves",
+        "genus_one_quartics",
+        "quartic_equations"
+      ],
+      "research_priority": "high",
+      "triage_target_ranks": {
+        "history": 2,
+        "structure": 3,
+        "interconnection": 2
+      },
+      "final_ranks": {
+        "history": null,
+        "structure": null,
+        "interconnection": null
+      },
+      "confidence": "low",
+      "reason": "Promising standard structure; worth cluster-level survey.",
+      "next_action": "cluster_survey"
+    },
+    {
+      "tag": "LEC-135",
+      "equation_latex": "y^2=ax^4+bx^3+cx^2+dx+e",
+      "pages": "pp.~69--70, 74, 77, 268",
+      "degree": 4,
+      "section": "Inhomogeneous",
+      "content_note": "",
+      "statement_status": "statement",
+      "clusters": [
+        "elliptic_curves",
+        "genus_one_quartics",
+        "quartic_equations"
+      ],
+      "research_priority": "high",
+      "triage_target_ranks": {
+        "history": 2,
+        "structure": 3,
+        "interconnection": 2
+      },
+      "final_ranks": {
+        "history": null,
+        "structure": null,
+        "interconnection": null
+      },
+      "confidence": "low",
+      "reason": "Promising standard structure; worth cluster-level survey.",
+      "next_action": "cluster_survey"
+    },
+    {
+      "tag": "LEC-136",
+      "equation_latex": "dy^2=ax^4+bx^2+c",
+      "pages": "pp.~63--64, 236, 268--272",
+      "degree": 4,
+      "section": "Inhomogeneous",
+      "content_note": "",
+      "statement_status": "statement",
+      "clusters": [
+        "elliptic_curves",
+        "genus_one_quartics",
+        "quartic_equations"
+      ],
+      "research_priority": "high",
+      "triage_target_ranks": {
+        "history": 2,
+        "structure": 3,
+        "interconnection": 2
+      },
+      "final_ranks": {
+        "history": null,
+        "structure": null,
+        "interconnection": null
+      },
+      "confidence": "low",
+      "reason": "Promising standard structure; worth cluster-level survey.",
+      "next_action": "cluster_survey"
+    },
+    {
+      "tag": "LEC-137",
+      "equation_latex": "py^2=2x^4+1",
+      "pages": "p.~74",
+      "degree": 4,
+      "section": "Inhomogeneous",
+      "content_note": "",
+      "statement_status": "statement",
+      "clusters": [
+        "elliptic_curves",
+        "genus_one_quartics",
+        "quartic_equations"
+      ],
+      "research_priority": "high",
+      "triage_target_ranks": {
+        "history": 2,
+        "structure": 3,
+        "interconnection": 2
+      },
+      "final_ranks": {
+        "history": null,
+        "structure": null,
+        "interconnection": null
+      },
+      "confidence": "low",
+      "reason": "Promising standard structure; worth cluster-level survey.",
+      "next_action": "cluster_survey"
+    },
+    {
+      "tag": "LEC-138",
+      "equation_latex": "py^2=4x^4-1",
+      "pages": "p.~74",
+      "degree": 4,
+      "section": "Inhomogeneous",
+      "content_note": "",
+      "statement_status": "statement",
+      "clusters": [
+        "elliptic_curves",
+        "genus_one_quartics",
+        "quartic_equations"
+      ],
+      "research_priority": "high",
+      "triage_target_ranks": {
+        "history": 2,
+        "structure": 3,
+        "interconnection": 2
+      },
+      "final_ranks": {
+        "history": null,
+        "structure": null,
+        "interconnection": null
+      },
+      "confidence": "low",
+      "reason": "Promising standard structure; worth cluster-level survey.",
+      "next_action": "cluster_survey"
+    },
+    {
+      "tag": "LEC-139",
+      "equation_latex": "py^2=8-x^4",
+      "pages": "p.~74",
+      "degree": 4,
+      "section": "Inhomogeneous",
+      "content_note": "",
+      "statement_status": "statement",
+      "clusters": [
+        "elliptic_curves",
+        "genus_one_quartics",
+        "quartic_equations"
+      ],
+      "research_priority": "high",
+      "triage_target_ranks": {
+        "history": 2,
+        "structure": 3,
+        "interconnection": 2
+      },
+      "final_ranks": {
+        "history": null,
+        "structure": null,
+        "interconnection": null
+      },
+      "confidence": "low",
+      "reason": "Promising standard structure; worth cluster-level survey.",
+      "next_action": "cluster_survey"
+    },
+    {
+      "tag": "LEC-140",
+      "equation_latex": "y^2=Dx^4\\pm1",
+      "pages": "pp.~269--271",
+      "degree": 4,
+      "section": "Inhomogeneous",
+      "content_note": "",
+      "statement_status": "statement",
+      "clusters": [
+        "elliptic_curves",
+        "genus_one_quartics",
+        "quartic_equations"
+      ],
+      "research_priority": "very_high",
+      "triage_target_ranks": {
+        "history": 2,
+        "structure": 2,
+        "interconnection": 2
+      },
+      "final_ranks": {
+        "history": null,
+        "structure": null,
+        "interconnection": null
+      },
+      "confidence": "low",
+      "reason": "High chance of nontrivial structure or interconnection.",
+      "next_action": "deep_dive"
+    },
+    {
+      "tag": "LEC-141",
+      "equation_latex": "y^2=x^4+1",
+      "pages": "p.~17",
+      "degree": 4,
+      "section": "Inhomogeneous",
+      "content_note": "",
+      "statement_status": "statement",
+      "clusters": [
+        "elliptic_curves",
+        "genus_one_quartics",
+        "quartic_equations"
+      ],
+      "research_priority": "high",
+      "triage_target_ranks": {
+        "history": 2,
+        "structure": 3,
+        "interconnection": 2
+      },
+      "final_ranks": {
+        "history": null,
+        "structure": null,
+        "interconnection": null
+      },
+      "confidence": "low",
+      "reason": "Promising standard structure; worth cluster-level survey.",
+      "next_action": "cluster_survey"
+    },
+    {
+      "tag": "LEC-142",
+      "equation_latex": "\\begin{aligned}y^2(ax^2+bx+c)&+y(a_1x^2+b_1x+c_1)\\\\&\\qquad+a_2x^2+b_2x+c_2=0\\end{aligned}",
+      "pages": "p.~70",
+      "degree": 4,
+      "section": "Inhomogeneous",
+      "content_note": "",
+      "statement_status": "statement",
+      "clusters": [
+        "quartic_equations"
+      ],
+      "research_priority": "high",
+      "triage_target_ranks": {
+        "history": 2,
+        "structure": 3,
+        "interconnection": 2
+      },
+      "final_ranks": {
+        "history": null,
+        "structure": null,
+        "interconnection": null
+      },
+      "confidence": "low",
+      "reason": "Promising standard structure; worth cluster-level survey.",
+      "next_action": "cluster_survey"
+    },
+    {
+      "tag": "LEC-143",
+      "equation_latex": "(x(x-1)/2)^2 = y(y-1)/2",
+      "pages": "p.~268",
+      "degree": 4,
+      "section": "Inhomogeneous",
+      "content_note": "",
+      "statement_status": "statement",
+      "clusters": [
+        "quartic_equations"
+      ],
+      "research_priority": "medium",
+      "triage_target_ranks": {
+        "history": 3,
+        "structure": 4,
+        "interconnection": 3
+      },
+      "final_ranks": {
+        "history": null,
+        "structure": null,
+        "interconnection": null
+      },
+      "confidence": "low",
+      "reason": "Useful for baseline coverage or known-theory comparison.",
+      "next_action": "cluster_survey"
+    },
+    {
+      "tag": "LEC-144",
+      "equation_latex": "ax^4+bx^3y+cx^2y^2+dxy^3+ey^4=z^2",
+      "pages": "p.~138",
+      "degree": 4,
+      "section": "Inhomogeneous",
+      "content_note": "",
+      "statement_status": "comment",
+      "clusters": [
+        "elliptic_curves",
+        "genus_one_quartics",
+        "quartic_equations"
+      ],
+      "research_priority": "low",
+      "triage_target_ranks": {
+        "history": 4,
+        "structure": 5,
+        "interconnection": 4
+      },
+      "final_ranks": {
+        "history": null,
+        "structure": null,
+        "interconnection": null
+      },
+      "confidence": "low",
+      "reason": "Comment-only entry; use mainly as context for nearby equations.",
+      "next_action": "cluster_survey"
+    },
+    {
+      "tag": "LEC-145",
+      "equation_latex": "ax^4+bx^2y^2+dy^4=cz^2",
+      "pages": "pp.~16--25",
+      "degree": 4,
+      "section": "Inhomogeneous",
+      "content_note": "The index separately notes $b=0$ on pp.~23--25 and $c=1$ on p.~22",
+      "statement_status": "statement",
+      "clusters": [
+        "elliptic_curves",
+        "genus_one_quartics",
+        "quartic_equations"
+      ],
+      "research_priority": "very_high",
+      "triage_target_ranks": {
+        "history": 2,
+        "structure": 2,
+        "interconnection": 2
+      },
+      "final_ranks": {
+        "history": null,
+        "structure": null,
+        "interconnection": null
+      },
+      "confidence": "low",
+      "reason": "High chance of nontrivial structure or interconnection.",
+      "next_action": "deep_dive"
+    },
+    {
+      "tag": "LEC-146",
+      "equation_latex": "(ax^2+by^2)^2-2k(cx^2+dy^2)^2=z^2",
+      "pages": "p.~5",
+      "degree": 4,
+      "section": "Inhomogeneous",
+      "content_note": "",
+      "statement_status": "statement",
+      "clusters": [
+        "quartic_equations"
+      ],
+      "research_priority": "medium",
+      "triage_target_ranks": {
+        "history": 3,
+        "structure": 4,
+        "interconnection": 3
+      },
+      "final_ranks": {
+        "history": null,
+        "structure": null,
+        "interconnection": null
+      },
+      "confidence": "low",
+      "reason": "Useful for baseline coverage or known-theory comparison.",
+      "next_action": "cluster_survey"
+    },
+    {
+      "tag": "LEC-147",
+      "equation_latex": "x^4-py^4=2z^2",
+      "pages": "p.~25",
+      "degree": 4,
+      "section": "Inhomogeneous",
+      "content_note": "",
+      "statement_status": "statement",
+      "clusters": [
+        "elliptic_curves",
+        "genus_one_quartics",
+        "quartic_equations"
+      ],
+      "research_priority": "high",
+      "triage_target_ranks": {
+        "history": 2,
+        "structure": 3,
+        "interconnection": 2
+      },
+      "final_ranks": {
+        "history": null,
+        "structure": null,
+        "interconnection": null
+      },
+      "confidence": "low",
+      "reason": "Promising standard structure; worth cluster-level survey.",
+      "next_action": "cluster_survey"
+    },
+    {
+      "tag": "LEC-148",
+      "equation_latex": "x^4-2y^4=\\pm z^2",
+      "pages": "p.~18",
+      "degree": 4,
+      "section": "Inhomogeneous",
+      "content_note": "",
+      "statement_status": "statement",
+      "clusters": [
+        "elliptic_curves",
+        "genus_one_quartics",
+        "quartic_equations"
+      ],
+      "research_priority": "high",
+      "triage_target_ranks": {
+        "history": 2,
+        "structure": 3,
+        "interconnection": 2
+      },
+      "final_ranks": {
+        "history": null,
+        "structure": null,
+        "interconnection": null
+      },
+      "confidence": "low",
+      "reason": "Promising standard structure; worth cluster-level survey.",
+      "next_action": "cluster_survey"
+    },
+    {
+      "tag": "LEC-149",
+      "equation_latex": "x^4-y^4=z^2",
+      "pages": "p.~17",
+      "degree": 4,
+      "section": "Inhomogeneous",
+      "content_note": "",
+      "statement_status": "statement",
+      "clusters": [
+        "elliptic_curves",
+        "genus_one_quartics",
+        "quartic_equations"
+      ],
+      "research_priority": "high",
+      "triage_target_ranks": {
+        "history": 2,
+        "structure": 3,
+        "interconnection": 2
+      },
+      "final_ranks": {
+        "history": null,
+        "structure": null,
+        "interconnection": null
+      },
+      "confidence": "low",
+      "reason": "Promising standard structure; worth cluster-level survey.",
+      "next_action": "cluster_survey"
+    },
+    {
+      "tag": "LEC-150",
+      "equation_latex": "x^4+y^4=2z^2",
+      "pages": "p.~18",
+      "degree": 4,
+      "section": "Inhomogeneous",
+      "content_note": "",
+      "statement_status": "statement",
+      "clusters": [
+        "diagonal_quartics",
+        "elliptic_curves",
+        "genus_one_quartics",
+        "quartic_equations"
+      ],
+      "research_priority": "high",
+      "triage_target_ranks": {
+        "history": 2,
+        "structure": 3,
+        "interconnection": 2
+      },
+      "final_ranks": {
+        "history": null,
+        "structure": null,
+        "interconnection": null
+      },
+      "confidence": "low",
+      "reason": "Promising standard structure; worth cluster-level survey.",
+      "next_action": "cluster_survey"
+    },
+    {
+      "tag": "LEC-151",
+      "equation_latex": "x^4+kx^2y^2+y^4=z^2",
+      "pages": "p.~19",
+      "degree": 4,
+      "section": "Inhomogeneous",
+      "content_note": "",
+      "statement_status": "statement",
+      "clusters": [
+        "elliptic_curves",
+        "genus_one_quartics",
+        "quartic_equations"
+      ],
+      "research_priority": "high",
+      "triage_target_ranks": {
+        "history": 2,
+        "structure": 3,
+        "interconnection": 2
+      },
+      "final_ranks": {
+        "history": null,
+        "structure": null,
+        "interconnection": null
+      },
+      "confidence": "low",
+      "reason": "Promising standard structure; worth cluster-level survey.",
+      "next_action": "cluster_survey"
+    },
+    {
+      "tag": "LEC-152",
+      "equation_latex": "\\sum_{r,s=0}^{2}a_{rs}x^ry^s=dz^2",
+      "pages": "p.~97",
+      "degree": 4,
+      "section": "Inhomogeneous",
+      "content_note": "A bidegree-$(2,2)$ polynomial equation.",
+      "statement_status": "conjecture",
+      "clusters": [
+        "quartic_equations",
+        "sums_of_squares"
+      ],
+      "research_priority": "medium",
+      "triage_target_ranks": {
+        "history": 3,
+        "structure": 4,
+        "interconnection": 3
+      },
+      "final_ranks": {
+        "history": null,
+        "structure": null,
+        "interconnection": null
+      },
+      "confidence": "low",
+      "reason": "Useful for baseline coverage or known-theory comparison.",
+      "next_action": "cluster_survey"
+    },
+    {
+      "tag": "LEC-153",
+      "equation_latex": "z^2=k^2+x^2(ax^2+by^2)",
+      "pages": "p.~97",
+      "degree": 4,
+      "section": "Inhomogeneous",
+      "content_note": "",
+      "statement_status": "statement",
+      "clusters": [
+        "quartic_equations"
+      ],
+      "research_priority": "medium",
+      "triage_target_ranks": {
+        "history": 3,
+        "structure": 4,
+        "interconnection": 3
+      },
+      "final_ranks": {
+        "history": null,
+        "structure": null,
+        "interconnection": null
+      },
+      "confidence": "low",
+      "reason": "Useful for baseline coverage or known-theory comparison.",
+      "next_action": "cluster_survey"
+    },
+    {
+      "tag": "LEC-154",
+      "equation_latex": "ax^4+by^4+c=z^2",
+      "pages": "p.~95",
+      "degree": 4,
+      "section": "Inhomogeneous",
+      "content_note": "",
+      "statement_status": "statement",
+      "clusters": [
+        "elliptic_curves",
+        "genus_one_quartics",
+        "quartic_equations"
+      ],
+      "research_priority": "high",
+      "triage_target_ranks": {
+        "history": 2,
+        "structure": 3,
+        "interconnection": 2
+      },
+      "final_ranks": {
+        "history": null,
+        "structure": null,
+        "interconnection": null
+      },
+      "confidence": "low",
+      "reason": "Promising standard structure; worth cluster-level survey.",
+      "next_action": "cluster_survey"
+    },
+    {
+      "tag": "LEC-155",
+      "equation_latex": "\\begin{aligned}z^2&=U_1^2+U_2U_3,\\\\U_r&=a_rx^2+h_rxy+b_ry^2+f_ry+g_rx\\end{aligned}",
+      "pages": "p.~96",
+      "degree": 4,
+      "section": "Inhomogeneous",
+      "content_note": "",
+      "statement_status": "statement",
+      "clusters": [
+        "quartic_equations"
+      ],
+      "research_priority": "medium",
+      "triage_target_ranks": {
+        "history": 3,
+        "structure": 4,
+        "interconnection": 3
+      },
+      "final_ranks": {
+        "history": null,
+        "structure": null,
+        "interconnection": null
+      },
+      "confidence": "low",
+      "reason": "Useful for baseline coverage or known-theory comparison.",
+      "next_action": "cluster_survey"
+    },
+    {
+      "tag": "LEC-156",
+      "equation_latex": "x^4+y^4+4z^4=1",
+      "pages": "p.~94",
+      "degree": 4,
+      "section": "Inhomogeneous",
+      "content_note": "",
+      "statement_status": "statement",
+      "clusters": [
+        "diagonal_quartics",
+        "quartic_equations"
+      ],
+      "research_priority": "medium",
+      "triage_target_ranks": {
+        "history": 3,
+        "structure": 4,
+        "interconnection": 3
+      },
+      "final_ranks": {
+        "history": null,
+        "structure": null,
+        "interconnection": null
+      },
+      "confidence": "low",
+      "reason": "Useful for baseline coverage or known-theory comparison.",
+      "next_action": "cluster_survey"
+    },
+    {
+      "tag": "LEC-157",
+      "equation_latex": "x^4+y^4+z^4=2",
+      "pages": "p.~95",
+      "degree": 4,
+      "section": "Inhomogeneous",
+      "content_note": "",
+      "statement_status": "statement",
+      "clusters": [
+        "diagonal_quartics",
+        "quartic_equations"
+      ],
+      "research_priority": "medium",
+      "triage_target_ranks": {
+        "history": 3,
+        "structure": 4,
+        "interconnection": 3
+      },
+      "final_ranks": {
+        "history": null,
+        "structure": null,
+        "interconnection": null
+      },
+      "confidence": "low",
+      "reason": "Useful for baseline coverage or known-theory comparison.",
+      "next_action": "cluster_survey"
+    },
+    {
+      "tag": "LEC-158",
+      "equation_latex": "x^4+ay^4+bz^4=w^2",
+      "pages": "p.~95",
+      "degree": 4,
+      "section": "Inhomogeneous",
+      "content_note": "",
+      "statement_status": "statement",
+      "clusters": [
+        "quartic_equations"
+      ],
+      "research_priority": "high",
+      "triage_target_ranks": {
+        "history": 2,
+        "structure": 3,
+        "interconnection": 2
+      },
+      "final_ranks": {
+        "history": null,
+        "structure": null,
+        "interconnection": null
+      },
+      "confidence": "low",
+      "reason": "Promising standard structure; worth cluster-level survey.",
+      "next_action": "cluster_survey"
+    },
+    {
+      "tag": "LEC-159",
+      "equation_latex": "(x^2+a)(y^2+a)=(az^2+b^2)^2",
+      "pages": "p.~95",
+      "degree": 4,
+      "section": "Inhomogeneous",
+      "content_note": "",
+      "statement_status": "statement",
+      "clusters": [
+        "quartic_equations"
+      ],
+      "research_priority": "medium",
+      "triage_target_ranks": {
+        "history": 3,
+        "structure": 4,
+        "interconnection": 3
+      },
+      "final_ranks": {
+        "history": null,
+        "structure": null,
+        "interconnection": null
+      },
+      "confidence": "low",
+      "reason": "Useful for baseline coverage or known-theory comparison.",
+      "next_action": "cluster_survey"
+    },
+    {
+      "tag": "LEC-160",
+      "equation_latex": "x^n+y^n=z^n",
+      "pages": "pp.~137, 280--286",
+      "degree": 4,
+      "section": "Homogeneous",
+      "content_note": "",
+      "statement_status": "statement",
+      "clusters": [
+        "quartic_equations"
+      ],
+      "research_priority": "medium",
+      "triage_target_ranks": {
+        "history": 3,
+        "structure": 4,
+        "interconnection": 3
+      },
+      "final_ranks": {
+        "history": null,
+        "structure": null,
+        "interconnection": null
+      },
+      "confidence": "low",
+      "reason": "Useful for baseline coverage or known-theory comparison.",
+      "next_action": "cluster_survey"
+    },
+    {
+      "tag": "LEC-161",
+      "equation_latex": "f(\\mathbf{x})=m,\\qquad f\\ \\text{homogeneous of degree }d\\text{ in }n\\text{ variables}",
+      "pages": "pp.~174--180",
+      "degree": 4,
+      "section": "Inhomogeneous",
+      "content_note": "",
+      "statement_status": "comment",
+      "clusters": [
+        "quartic_equations"
+      ],
+      "research_priority": "low",
+      "triage_target_ranks": {
+        "history": 4,
+        "structure": 5,
+        "interconnection": 4
+      },
+      "final_ranks": {
+        "history": null,
+        "structure": null,
+        "interconnection": null
+      },
+      "confidence": "low",
+      "reason": "Comment-only entry; use mainly as context for nearby equations.",
+      "next_action": "cluster_survey"
+    },
+    {
+      "tag": "LEC-162",
+      "equation_latex": "a_0x^n+a_1x^{n-1}y+\\cdots+a_ny^n=m",
+      "pages": "pp.~157--163, 186--199, 218",
+      "degree": 4,
+      "section": "Inhomogeneous",
+      "content_note": "",
+      "statement_status": "statement",
+      "clusters": [
+        "quartic_equations"
+      ],
+      "research_priority": "very_high",
+      "triage_target_ranks": {
+        "history": 2,
+        "structure": 2,
+        "interconnection": 2
+      },
+      "final_ranks": {
+        "history": null,
+        "structure": null,
+        "interconnection": null
+      },
+      "confidence": "low",
+      "reason": "High chance of nontrivial structure or interconnection.",
+      "next_action": "deep_dive"
+    },
+    {
+      "tag": "LEC-163",
+      "equation_latex": "ax^n-by^n=c",
+      "pages": "pp.~273--275",
+      "degree": 4,
+      "section": "Inhomogeneous",
+      "content_note": "The index separately notes $c=\\pm1$ on pp.~274--275 and $n=5$ on p.~275",
+      "statement_status": "statement",
+      "clusters": [
+        "quartic_equations"
+      ],
+      "research_priority": "medium",
+      "triage_target_ranks": {
+        "history": 3,
+        "structure": 4,
+        "interconnection": 3
+      },
+      "final_ranks": {
+        "history": null,
+        "structure": null,
+        "interconnection": null
+      },
+      "confidence": "low",
+      "reason": "Useful for baseline coverage or known-theory comparison.",
+      "next_action": "cluster_survey"
+    },
+    {
+      "tag": "LEC-164",
+      "equation_latex": "x^n-Dy^n=\\pm1",
+      "pages": "pp.~274--276",
+      "degree": 4,
+      "section": "Inhomogeneous",
+      "content_note": "",
+      "statement_status": "statement",
+      "clusters": [
+        "quartic_equations"
+      ],
+      "research_priority": "medium",
+      "triage_target_ranks": {
+        "history": 3,
+        "structure": 4,
+        "interconnection": 3
+      },
+      "final_ranks": {
+        "history": null,
+        "structure": null,
+        "interconnection": null
+      },
+      "confidence": "low",
+      "reason": "Useful for baseline coverage or known-theory comparison.",
+      "next_action": "cluster_survey"
+    },
+    {
+      "tag": "LEC-165",
+      "equation_latex": "f(x,y)=0",
+      "pages": "pp.~262--263, 276--277",
+      "degree": 4,
+      "section": "Inhomogeneous",
+      "content_note": "",
+      "statement_status": "statement",
+      "clusters": [
+        "quartic_equations"
+      ],
+      "research_priority": "very_high",
+      "triage_target_ranks": {
+        "history": 2,
+        "structure": 2,
+        "interconnection": 2
+      },
+      "final_ranks": {
+        "history": null,
+        "structure": null,
+        "interconnection": null
+      },
+      "confidence": "low",
+      "reason": "High chance of nontrivial structure or interconnection.",
+      "next_action": "deep_dive"
+    },
+    {
+      "tag": "LEC-166",
+      "equation_latex": "y^2=f(x)",
+      "pages": "pp.~263--265",
+      "degree": 4,
+      "section": "Inhomogeneous",
+      "content_note": "",
+      "statement_status": "statement",
+      "clusters": [
+        "quartic_equations"
+      ],
+      "research_priority": "medium",
+      "triage_target_ranks": {
+        "history": 3,
+        "structure": 4,
+        "interconnection": 3
+      },
+      "final_ranks": {
+        "history": null,
+        "structure": null,
+        "interconnection": null
+      },
+      "confidence": "low",
+      "reason": "Useful for baseline coverage or known-theory comparison.",
+      "next_action": "cluster_survey"
+    },
+    {
+      "tag": "LEC-167",
+      "equation_latex": "ay^2+by+c=dx^n",
+      "pages": "p.~265",
+      "degree": 4,
+      "section": "Inhomogeneous",
+      "content_note": "",
+      "statement_status": "statement",
+      "clusters": [
+        "quartic_equations"
+      ],
+      "research_priority": "medium",
+      "triage_target_ranks": {
+        "history": 3,
+        "structure": 4,
+        "interconnection": 3
+      },
+      "final_ranks": {
+        "history": null,
+        "structure": null,
+        "interconnection": null
+      },
+      "confidence": "low",
+      "reason": "Useful for baseline coverage or known-theory comparison.",
+      "next_action": "cluster_survey"
+    },
+    {
+      "tag": "LEC-168",
+      "equation_latex": "y^m=x(x+1)\\cdots(x+n)",
+      "pages": "pp.~267--268",
+      "degree": 4,
+      "section": "Inhomogeneous",
+      "content_note": "The index separately notes $m=2$ on p.~267",
+      "statement_status": "statement",
+      "clusters": [
+        "quartic_equations"
+      ],
+      "research_priority": "medium",
+      "triage_target_ranks": {
+        "history": 3,
+        "structure": 4,
+        "interconnection": 3
+      },
+      "final_ranks": {
+        "history": null,
+        "structure": null,
+        "interconnection": null
+      },
+      "confidence": "low",
+      "reason": "Useful for baseline coverage or known-theory comparison.",
+      "next_action": "cluster_survey"
+    },
+    {
+      "tag": "LEC-169",
+      "equation_latex": "ax^m-by^n=c",
+      "pages": "pp.~272--276, 300",
+      "degree": 4,
+      "section": "Inhomogeneous",
+      "content_note": "",
+      "statement_status": "comment",
+      "clusters": [
+        "quartic_equations"
+      ],
+      "research_priority": "low",
+      "triage_target_ranks": {
+        "history": 4,
+        "structure": 5,
+        "interconnection": 4
+      },
+      "final_ranks": {
+        "history": null,
+        "structure": null,
+        "interconnection": null
+      },
+      "confidence": "low",
+      "reason": "Comment-only entry; use mainly as context for nearby equations.",
+      "next_action": "cluster_survey"
+    },
+    {
+      "tag": "LEC-170",
+      "equation_latex": "y^2+1=x^m",
+      "pages": "pp.~276, 301",
+      "degree": 4,
+      "section": "Inhomogeneous",
+      "content_note": "",
+      "statement_status": "statement",
+      "clusters": [
+        "quartic_equations"
+      ],
+      "research_priority": "medium",
+      "triage_target_ranks": {
+        "history": 3,
+        "structure": 4,
+        "interconnection": 3
+      },
+      "final_ranks": {
+        "history": null,
+        "structure": null,
+        "interconnection": null
+      },
+      "confidence": "low",
+      "reason": "Useful for baseline coverage or known-theory comparison.",
+      "next_action": "cluster_survey"
+    },
+    {
+      "tag": "LEC-171",
+      "equation_latex": "y^2-1=x^m",
+      "pages": "pp.~276, 302",
+      "degree": 4,
+      "section": "Inhomogeneous",
+      "content_note": "",
+      "statement_status": "statement",
+      "clusters": [
+        "quartic_equations"
+      ],
+      "research_priority": "medium",
+      "triage_target_ranks": {
+        "history": 3,
+        "structure": 4,
+        "interconnection": 3
+      },
+      "final_ranks": {
+        "history": null,
+        "structure": null,
+        "interconnection": null
+      },
+      "confidence": "low",
+      "reason": "Useful for baseline coverage or known-theory comparison.",
+      "next_action": "cluster_survey"
+    },
+    {
+      "tag": "LEC-172",
+      "equation_latex": "y^3=x^m\\pm1",
+      "pages": "pp.~276, 304",
+      "degree": 4,
+      "section": "Inhomogeneous",
+      "content_note": "",
+      "statement_status": "statement",
+      "clusters": [
+        "quartic_equations"
+      ],
+      "research_priority": "medium",
+      "triage_target_ranks": {
+        "history": 3,
+        "structure": 4,
+        "interconnection": 3
+      },
+      "final_ranks": {
+        "history": null,
+        "structure": null,
+        "interconnection": null
+      },
+      "confidence": "low",
+      "reason": "Useful for baseline coverage or known-theory comparison.",
+      "next_action": "cluster_survey"
+    },
+    {
+      "tag": "LEC-173",
+      "equation_latex": "y^4=x^p+1",
+      "pages": "p.~304",
+      "degree": 4,
+      "section": "Inhomogeneous",
+      "content_note": "",
+      "statement_status": "statement",
+      "clusters": [
+        "quartic_equations"
+      ],
+      "research_priority": "medium",
+      "triage_target_ranks": {
+        "history": 3,
+        "structure": 4,
+        "interconnection": 3
+      },
+      "final_ranks": {
+        "history": null,
+        "structure": null,
+        "interconnection": null
+      },
+      "confidence": "low",
+      "reason": "Useful for baseline coverage or known-theory comparison.",
+      "next_action": "cluster_survey"
+    },
+    {
+      "tag": "LEC-174",
+      "equation_latex": "x^n=a+by",
+      "pages": "pp.~3--4",
+      "degree": 4,
+      "section": "Inhomogeneous",
+      "content_note": "",
+      "statement_status": "comment",
+      "clusters": [
+        "quartic_equations"
+      ],
+      "research_priority": "low",
+      "triage_target_ranks": {
+        "history": 4,
+        "structure": 5,
+        "interconnection": 4
+      },
+      "final_ranks": {
+        "history": null,
+        "structure": null,
+        "interconnection": null
+      },
+      "confidence": "low",
+      "reason": "Comment-only entry; use mainly as context for nearby equations.",
+      "next_action": "cluster_survey"
+    },
+    {
+      "tag": "LEC-175",
+      "equation_latex": "P(x,y)=Q(x,y)",
+      "pages": "pp.~188, 198, 278",
+      "degree": 4,
+      "section": "Inhomogeneous",
+      "content_note": "",
+      "statement_status": "statement",
+      "clusters": [
+        "quartic_equations"
+      ],
+      "research_priority": "high",
+      "triage_target_ranks": {
+        "history": 2,
+        "structure": 3,
+        "interconnection": 2
+      },
+      "final_ranks": {
+        "history": null,
+        "structure": null,
+        "interconnection": null
+      },
+      "confidence": "low",
+      "reason": "Promising standard structure; worth cluster-level survey.",
+      "next_action": "cluster_survey"
+    },
+    {
+      "tag": "LEC-176",
+      "equation_latex": "z^m=Ax^2+Bxy+Cy^2",
+      "pages": "p.~111",
+      "degree": 4,
+      "section": "Inhomogeneous",
+      "content_note": "",
+      "statement_status": "comment",
+      "clusters": [
+        "quartic_equations"
+      ],
+      "research_priority": "low",
+      "triage_target_ranks": {
+        "history": 4,
+        "structure": 5,
+        "interconnection": 4
+      },
+      "final_ranks": {
+        "history": null,
+        "structure": null,
+        "interconnection": null
+      },
+      "confidence": "low",
+      "reason": "Comment-only entry; use mainly as context for nearby equations.",
+      "next_action": "cluster_survey"
+    },
+    {
+      "tag": "LEC-177",
+      "equation_latex": "ax^2+by^2=cz^n",
+      "pages": "p.~111",
+      "degree": 4,
+      "section": "Inhomogeneous",
+      "content_note": "",
+      "statement_status": "comment",
+      "clusters": [
+        "quartic_equations"
+      ],
+      "research_priority": "low",
+      "triage_target_ranks": {
+        "history": 4,
+        "structure": 5,
+        "interconnection": 4
+      },
+      "final_ranks": {
+        "history": null,
+        "structure": null,
+        "interconnection": null
+      },
+      "confidence": "low",
+      "reason": "Comment-only entry; use mainly as context for nearby equations.",
+      "next_action": "cluster_survey"
+    },
+    {
+      "tag": "LEC-178",
+      "equation_latex": "x^2+y^2=z^n",
+      "pages": "p.~122",
+      "degree": 4,
+      "section": "Inhomogeneous",
+      "content_note": "",
+      "statement_status": "statement",
+      "clusters": [
+        "quartic_equations",
+        "sums_of_squares"
+      ],
+      "research_priority": "very_high",
+      "triage_target_ranks": {
+        "history": 2,
+        "structure": 2,
+        "interconnection": 2
+      },
+      "final_ranks": {
+        "history": null,
+        "structure": null,
+        "interconnection": null
+      },
+      "confidence": "low",
+      "reason": "High chance of nontrivial structure or interconnection.",
+      "next_action": "deep_dive"
+    },
+    {
+      "tag": "LEC-179",
+      "equation_latex": "N(\\alpha x+\\beta y+\\gamma z)=f(x,y,z)",
+      "pages": "pp.~209--211",
+      "degree": 4,
+      "section": "Inhomogeneous",
+      "content_note": "",
+      "statement_status": "statement",
+      "clusters": [
+        "norm_equations",
+        "number_fields",
+        "quartic_equations"
+      ],
+      "research_priority": "very_high",
+      "triage_target_ranks": {
+        "history": 2,
+        "structure": 2,
+        "interconnection": 2
+      },
+      "final_ranks": {
+        "history": null,
+        "structure": null,
+        "interconnection": null
+      },
+      "confidence": "low",
+      "reason": "High chance of nontrivial structure or interconnection.",
+      "next_action": "deep_dive"
+    },
+    {
+      "tag": "LEC-180",
+      "equation_latex": "N(\\alpha x+\\beta y+\\gamma z)=n",
+      "pages": "p.~211",
+      "degree": 4,
+      "section": "Inhomogeneous",
+      "content_note": "",
+      "statement_status": "statement",
+      "clusters": [
+        "norm_equations",
+        "number_fields",
+        "quartic_equations"
+      ],
+      "research_priority": "very_high",
+      "triage_target_ranks": {
+        "history": 2,
+        "structure": 2,
+        "interconnection": 2
+      },
+      "final_ranks": {
+        "history": null,
+        "structure": null,
+        "interconnection": null
+      },
+      "confidence": "low",
+      "reason": "High chance of nontrivial structure or interconnection.",
+      "next_action": "deep_dive"
+    },
+    {
+      "tag": "LEC-181",
+      "equation_latex": "z^2=(a_1x^2+b_1y^2)(a_2x^2+b_2y^2)(a_3x^2+b_3y^2)",
+      "pages": "p.~154",
+      "degree": 4,
+      "section": "Inhomogeneous",
+      "content_note": "",
+      "statement_status": "statement",
+      "clusters": [
+        "quartic_equations"
+      ],
+      "research_priority": "very_high",
+      "triage_target_ranks": {
+        "history": 2,
+        "structure": 2,
+        "interconnection": 2
+      },
+      "final_ranks": {
+        "history": null,
+        "structure": null,
+        "interconnection": null
+      },
+      "confidence": "low",
+      "reason": "High chance of nontrivial structure or interconnection.",
+      "next_action": "deep_dive"
+    },
+    {
+      "tag": "LEC-191",
+      "equation_latex": "x^m-y^n=1",
+      "pages": "p.~300",
+      "degree": 4,
+      "section": "Inhomogeneous",
+      "content_note": "Catalan's conjecture as stated by Mordell: for integers $m,n,x,y>1$, the only solution is $m=3$, $n=2$, $x=2$, $y=3$. Supplemental entry not listed in Mordell's printed equation list.",
+      "statement_status": "conjecture",
+      "clusters": [
+        "quartic_equations"
+      ],
+      "research_priority": "very_high",
+      "triage_target_ranks": {
+        "history": 2,
+        "structure": 2,
+        "interconnection": 2
+      },
+      "final_ranks": {
+        "history": null,
+        "structure": null,
+        "interconnection": null
+      },
+      "confidence": "low",
+      "reason": "High chance of nontrivial structure or interconnection.",
+      "next_action": "deep_dive"
+    },
+    {
+      "tag": "LEC-185",
+      "equation_latex": "f(\\mathbf{x})=0",
+      "pages": "p.~10",
+      "degree": 4,
+      "section": "Homogeneous",
+      "content_note": "Artin's conjecture as stated by Mordell: a homogeneous equation of degree $r$ in $n>r^2$ variables should have a non-trivial solution in every $p$-adic field. Supplemental entry not listed in Mordell's printed equation list.",
+      "statement_status": "conjecture",
+      "clusters": [
+        "quartic_equations"
+      ],
+      "research_priority": "medium",
+      "triage_target_ranks": {
+        "history": 3,
+        "structure": 4,
+        "interconnection": 3
+      },
+      "final_ranks": {
+        "history": null,
+        "structure": null,
+        "interconnection": null
+      },
+      "confidence": "low",
+      "reason": "Useful for baseline coverage or known-theory comparison.",
+      "next_action": "cluster_survey"
+    },
+    {
+      "tag": "LEC-182",
+      "equation_latex": "x^2+7=2^n",
+      "pages": "pp.~205--206",
+      "degree": 4,
+      "section": "Inhomogeneous",
+      "content_note": "Ramanujan--Nagell theorem as stated by Mordell: the positive integer solutions are $x=1,3,5,11,181$ for $n=3,4,5,7,15$.",
+      "statement_status": "statement",
+      "clusters": [
+        "quartic_equations"
+      ],
+      "research_priority": "medium",
+      "triage_target_ranks": {
+        "history": 3,
+        "structure": 4,
+        "interconnection": 3
+      },
+      "final_ranks": {
+        "history": null,
+        "structure": null,
+        "interconnection": null
+      },
+      "confidence": "low",
+      "reason": "Useful for baseline coverage or known-theory comparison.",
+      "next_action": "cluster_survey"
+    },
+    {
+      "tag": "LEC-183",
+      "equation_latex": "f_1(x,y)=g(x)+h(y)+c=zxy",
+      "pages": "p.~293",
+      "degree": 4,
+      "section": "Inhomogeneous",
+      "content_note": "Mordell equation (29), where $g(x)$ and $h(y)$ are polynomials without constant term. Supplemental entry not listed in Mordell's printed equation list.",
+      "statement_status": "statement",
+      "clusters": [
+        "cluster_algebras",
+        "mutation_dynamics",
+        "quartic_equations"
+      ],
+      "research_priority": "very_high",
+      "triage_target_ranks": {
+        "history": 2,
+        "structure": 2,
+        "interconnection": 2
+      },
+      "final_ranks": {
+        "history": null,
+        "structure": null,
+        "interconnection": null
+      },
+      "confidence": "low",
+      "reason": "High chance of nontrivial structure or interconnection.",
+      "next_action": "deep_dive"
+    },
+    {
+      "tag": "LEC-188",
+      "equation_latex": "\\frac{4}{n}=\\frac{1}{x}+\\frac{1}{y}+\\frac{1}{z}",
+      "pages": "p.~287",
+      "degree": 4,
+      "section": "Inhomogeneous",
+      "content_note": "Erdos--Straus conjecture, Mordell equation (1): for every integer $n>3$, the equation is solvable in positive integers $x,y,z$. Supplemental entry not listed in Mordell's printed equation list.",
+      "statement_status": "conjecture",
+      "clusters": [
+        "egyptian_fractions",
+        "erdos_straus",
+        "quartic_equations"
+      ],
+      "research_priority": "very_high",
+      "triage_target_ranks": {
+        "history": 2,
+        "structure": 2,
+        "interconnection": 2
+      },
+      "final_ranks": {
+        "history": null,
+        "structure": null,
+        "interconnection": null
+      },
+      "confidence": "low",
+      "reason": "High chance of nontrivial structure or interconnection.",
+      "next_action": "deep_dive"
+    }
+  ]
+}

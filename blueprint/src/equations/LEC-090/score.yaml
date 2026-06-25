@@ -1,0 +1,23 @@
+history:
+  rank: 1
+  claim: "Special case of Mordell curve non-solubility methods."
+  references:
+    - "Mordell, Diophantine Equations, p. 239"
+    - "Bennett--Ghadermarzi, https://arxiv.org/abs/1311.7077"
+  confidence: high
+
+structure:
+  rank: 3
+  structure: "local congruence obstruction in the Mordell curve family."
+  determines: "absence of integer solutions"
+  novelty_status: known
+  confidence: high
+
+interconnection:
+  rank: 2
+  connected_equations: [LEC-066, LEC-089, LEC-091, LEC-092]
+  shared_mechanism: "Mordell curve congruence obstruction"
+  confidence: high
+
+status: deep_dive
+

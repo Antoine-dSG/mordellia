@@ -1,0 +1,23 @@
+history:
+  rank: 1
+  claim: "General Thue equation; the finiteness problem is classically solved."
+  references:
+    - "Mordell, Diophantine Equations, Chapter 22"
+    - "Bennett--Ghadermarzi, https://arxiv.org/abs/1311.7077"
+  confidence: high
+
+structure:
+  rank: 4
+  structure: "Thue finiteness via Diophantine approximation."
+  determines: "finiteness of integer solutions"
+  novelty_status: known
+  confidence: high
+
+interconnection:
+  rank: 2
+  connected_equations: [LEC-037, LEC-050]
+  shared_mechanism: "binary form equation"
+  confidence: high
+
+status: deep_dive
+

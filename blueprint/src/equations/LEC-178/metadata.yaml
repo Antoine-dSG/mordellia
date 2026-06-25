@@ -1,0 +1,12 @@
+tag: LEC-178
+equation: "x^2+y^2=z^n"
+pages: "p. 122"
+cluster: norm-equations
+object_type:
+  - Gaussian norm equation
+  - sum of two squares
+  - power parametrisation
+qualitative_behavior:
+  - primitive solutions are parametrised by Gaussian n-th powers
+primary_source: "Mordell, Diophantine Equations, p. 122"
+

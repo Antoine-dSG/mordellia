@@ -1,0 +1,12 @@
+tag: LEC-162
+equation: "a_0x^n+a_1x^{n-1}y+\\cdots+a_ny^n=m"
+pages: "pp. 157--163, 186--199, 218"
+cluster: binary-forms-thue
+object_type:
+  - Thue equation
+  - irreducible binary form
+  - Diophantine approximation
+qualitative_behavior:
+  - finitely many integer solutions for irreducible forms of degree at least 3
+primary_source: "Mordell, Diophantine Equations, pp. 157--163, 186--199, 218"
+

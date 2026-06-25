@@ -1,0 +1,49 @@
+cluster: binary-forms-thue
+entries:
+  - LEC-037
+  - LEC-038
+  - LEC-050
+  - LEC-051
+  - LEC-162
+
+history:
+  rank: 1
+  claim: "These entries are instances of the classical Thue/binary-form theory, with modern effective methods for many cases."
+  references:
+    - "Mordell, Diophantine Equations, pp. 7, 37--38, 157--163, 186--199, 218--226"
+    - "Bennett--Ghadermarzi, Mordell's equation: a classical approach, https://arxiv.org/abs/1311.7077"
+  evidence: "LEC-162 is Thue's theorem; LEC-050 is the binary cubic case; LEC-037/038/051 are cubic-form congruence obstructions."
+  confidence: high
+
+structure:
+  rank: 4
+  structure: "Diophantine approximation/Thue finiteness plus local congruence obstructions."
+  determines: "finiteness of integer solutions and local impossibility in selected cubic cases."
+  novelty_status: known
+  references:
+    - "Mordell, Diophantine Equations, Chapter 22"
+    - "Bennett--Ghadermarzi, https://arxiv.org/abs/1311.7077"
+  evidence: "The qualitative behaviour is exactly the standard Thue phenomenon for irreducible binary forms of degree at least three."
+  confidence: high
+
+interconnection:
+  rank: 2
+  connected_equations:
+    - LEC-037
+    - LEC-038
+    - LEC-050
+    - LEC-051
+    - LEC-162
+  shared_mechanism: "Binary form, discriminant, local obstruction, and Thue finiteness."
+  larger_family: "Irreducible binary form equations F(x,y)=m."
+  references:
+    - "Mordell, Diophantine Equations, Chapters 21--24"
+  evidence: "The special cubic congruences and binary cubic equations are special cases or local shadows of the general binary-form problem."
+  confidence: high
+
+status: deep_dive
+next_steps:
+  - "Record, for every equation in the blueprint, whether it reduces to a Thue equation."
+  - "Build a discriminant/equivalence-class table for all binary cubic and quartic entries."
+  - "Separate local obstruction entries from global finiteness entries in the graph."
+

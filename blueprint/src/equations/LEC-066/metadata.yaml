@@ -1,0 +1,14 @@
+tag: LEC-066
+equation: "y^2=x^3+k"
+pages: "pp. 135, 218, 238--254"
+cluster: mordell-elliptic
+object_type:
+  - Mordell curve
+  - j=0 elliptic curve
+  - cubic twist
+qualitative_behavior:
+  - finitely many integer solutions
+  - rational solutions controlled by Mordell-Weil rank
+  - non-solubility detected by descent, class groups, and congruences
+primary_source: "Mordell, Diophantine Equations, pp. 68--69, 218, 238--254"
+

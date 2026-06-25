@@ -1,0 +1,22 @@
+history:
+  rank: 2
+  claim: "Special case of quartic Pell/unit uniqueness phenomena."
+  references:
+    - "Mordell, Diophantine Equations, p. 274"
+  confidence: high
+
+structure:
+  rank: 3
+  structure: "Pell-unit restriction for a quartic equation."
+  determines: "at most one positive integer solution in the stated cases"
+  novelty_status: known
+  confidence: high
+
+interconnection:
+  rank: 2
+  connected_equations: [LEC-130, LEC-140]
+  shared_mechanism: "quartic Pell/unit structure"
+  confidence: high
+
+status: deep_dive
+

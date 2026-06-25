@@ -1,0 +1,22 @@
+history:
+  rank: 1
+  claim: "Solved Gaussian norm-power equation."
+  references:
+    - "Mordell, Diophantine Equations, p. 122"
+  confidence: high
+
+structure:
+  rank: 3
+  structure: "Gaussian integer norm and unique factorization."
+  determines: "complete primitive parametrisation"
+  novelty_status: known
+  confidence: high
+
+interconnection:
+  rank: 2
+  connected_equations: [LEC-179, LEC-180, LEC-130, LEC-140]
+  shared_mechanism: "number-field norm equation"
+  confidence: high
+
+status: deep_dive
+

@@ -1,0 +1,24 @@
+history:
+  rank: 2
+  claim: "Instance of norm-form finiteness theory."
+  references:
+    - "Mordell, Diophantine Equations, pp. 209--211"
+    - "Akhtari--Vaaler, https://arxiv.org/abs/1709.02485"
+    - "Bajpai, https://arxiv.org/abs/2112.13441"
+  confidence: high
+
+structure:
+  rank: 3
+  structure: "higher-degree number-field norm form."
+  determines: "finiteness under Mordell's non-degeneracy and degree hypotheses"
+  novelty_status: known
+  confidence: high
+
+interconnection:
+  rank: 2
+  connected_equations: [LEC-178, LEC-180, LEC-162]
+  shared_mechanism: "norm form and unit group"
+  confidence: high
+
+status: deep_dive
+

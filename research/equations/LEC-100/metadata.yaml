@@ -1,0 +1,11 @@
+lec: LEC-100
+equation: "x^3+y^3+z^3=n"
+pages: "83--84, 100--101"
+cluster: cubic-diagonal-sums
+statement_file: "blueprint/src/equations/LEC-100/LEC-100.tex"
+status: deep_dive
+tags:
+  - sums_of_three_cubes
+  - local_obstruction
+  - computational_number_theory
+

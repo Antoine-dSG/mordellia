@@ -1,0 +1,23 @@
+history:
+  rank: 2
+  claim: "Instance of the general Birch--Swinnerton-Dyer problem for elliptic curves."
+  references:
+    - "Mordell, Diophantine Equations, pp. 147--148"
+    - "Clay Mathematics Institute, https://www.claymath.org/millennium/birch-and-swinnerton-dyer-conjecture/"
+  confidence: high
+
+structure:
+  rank: 3
+  structure: "analytic rank and Mordell-Weil rank."
+  determines: "conjectural criterion for rational-point rank"
+  novelty_status: known
+  confidence: high
+
+interconnection:
+  rank: 2
+  connected_equations: [LEC-060, LEC-066, LEC-086]
+  shared_mechanism: "rank of elliptic curves"
+  confidence: high
+
+status: deep_dive
+

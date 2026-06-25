@@ -1,0 +1,36 @@
+lec: LEC-108
+cluster: cubic-diagonal-sums
+
+history:
+  rank: 1
+  claim: "The equation is a solved Fermat-type special case with explicit parametrisation in Mordell."
+  references:
+    - "Mordell, Diophantine Equations, p. 235"
+  evidence: "The statement file contains Mordell's explicit parametrisation."
+  confidence: high
+
+structure:
+  rank: 3
+  structure: "Cyclotomic factorization of x^3+y^3 and low-genus Fermat-type parametrisation."
+  determines: "Gives the full parametrised solution set under Mordell's parity and coprimality hypotheses."
+  novelty_status: known
+  references:
+    - "Mordell, Diophantine Equations, p. 235"
+    - "Elkies--Rogers, https://arxiv.org/abs/math/0403116"
+  evidence: "Mordell's formula is explicit; modern x^3+y^3=k theory supplies the adjacent elliptic context."
+  confidence: medium
+
+interconnection:
+  rank: 2
+  connected_equations:
+    - LEC-041
+    - LEC-109
+  shared_mechanism: "Cyclotomic factorization of x^3+y^3."
+  larger_family: "Fermat-type equations with exponents 2 and 3."
+  references:
+    - "Mordell, Diophantine Equations, p. 235"
+  evidence: "LEC-109 is the quadratic twist with coefficient 2."
+  confidence: medium
+
+status: deep_dive
+

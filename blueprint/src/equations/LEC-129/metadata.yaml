@@ -1,0 +1,11 @@
+tag: LEC-129
+equation: "ax^4-by^4=c"
+pages: "p. 274"
+cluster: quartic-genus-one
+object_type:
+  - quartic Diophantine equation
+  - Pell-unit related equation
+qualitative_behavior:
+  - at most one positive integer solution for specified c
+primary_source: "Mordell, Diophantine Equations, p. 274"
+

@@ -1,0 +1,11 @@
+lec: LEC-043
+equation: "ax^3+by^3+cz^3+dxyz=0"
+pages: "8, 78--80, 130--134, 226"
+cluster: cubic-diagonal-sums
+statement_file: "blueprint/src/equations/LEC-043/LEC-043.tex"
+status: deep_dive
+tags:
+  - ternary_cubic
+  - hesse_pencil
+  - elliptic_curve
+

@@ -1,0 +1,12 @@
+lec: LEC-122
+equation: "a_1x_1^4+a_2x_2^4+a_3x_3^4+a_4x_4^4=0"
+pages: "5, 90--94"
+cluster: quartic-surfaces-obstructions
+statement_file: "blueprint/src/equations/LEC-122/LEC-122.tex"
+status: deep_dive
+tags:
+  - diagonal_quartic_surface
+  - k3_surface
+  - rational_points
+  - density
+

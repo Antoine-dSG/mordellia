@@ -1,0 +1,23 @@
+{
+  "cluster": "classical-conjectures",
+  "nodes": [
+    {"id": "LEC-188", "type": "equation", "object": "Erdos-Straus unit fraction conjecture"},
+    {"id": "LEC-191", "type": "equation", "object": "Catalan-Mihailescu perfect power equation"},
+    {"id": "EgyptianFractions", "type": "family"},
+    {"id": "CongruenceSieve", "type": "method"},
+    {"id": "PrimeReduction", "type": "method"},
+    {"id": "PerfectPowerGaps", "type": "family"},
+    {"id": "CyclotomicFields", "type": "structure"},
+    {"id": "GaloisModules", "type": "structure"}
+  ],
+  "edges": [
+    {"source": "LEC-188", "target": "EgyptianFractions", "relation": "is"},
+    {"source": "LEC-188", "target": "PrimeReduction", "relation": "reduced_to"},
+    {"source": "LEC-188", "target": "CongruenceSieve", "relation": "studied_by"},
+    {"source": "LEC-191", "target": "PerfectPowerGaps", "relation": "is"},
+    {"source": "LEC-191", "target": "CyclotomicFields", "relation": "proved_using"},
+    {"source": "CyclotomicFields", "target": "GaloisModules", "relation": "uses"},
+    {"source": "LEC-188", "target": "LEC-191", "relation": "bookkeeping_only_no_shared_structure"}
+  ]
+}
+

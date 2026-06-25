@@ -1,0 +1,13 @@
+tag: LEC-060
+equation: "y^2=x^3-h_2x-h_3"
+pages: "pp. 143--146"
+cluster: mordell-elliptic
+object_type:
+  - elliptic curve
+  - Weierstrass cubic
+  - Mordell-Weil group
+qualitative_behavior:
+  - rational points form a finitely generated abelian group
+  - all rational points are obtained from finitely many by chord and tangent
+primary_source: "Mordell, Diophantine Equations, pp. 143--146"
+

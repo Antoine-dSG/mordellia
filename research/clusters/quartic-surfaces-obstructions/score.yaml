@@ -1,0 +1,45 @@
+cluster: quartic-surfaces-obstructions
+entries:
+  - LEC-119
+  - LEC-122
+
+history:
+  rank: 2
+  claim: "Both entries are instances of arithmetic questions on quartic surfaces: local obstruction for a product-of-quadratics quartic and rational-point propagation on diagonal quartic K3 surfaces."
+  references:
+    - "Mordell, Diophantine Equations, pp. 25, 90--94"
+    - "Elsenhans, Rational points on diagonal quartic surfaces, https://arxiv.org/abs/1008.3275"
+    - "Logan--McKinnon--van Luijk, Density of rational points on diagonal quartic surfaces, https://arxiv.org/abs/0812.4779"
+  evidence: "The diagonal quartic literature directly treats the form in LEC-122. LEC-119 is an explicit local obstruction theorem for a quartic surface built from ternary quadratic forms."
+  confidence: medium
+
+structure:
+  rank: 3
+  structure: "Quartic surfaces; local 2-adic obstruction; diagonal quartic K3 surfaces; line configurations and rational-point generation."
+  determines: "Non-solubility for LEC-119 under Mordell's congruence hypotheses; generation or density phenomena for LEC-122 when a suitable rational point exists."
+  novelty_status: known
+  references:
+    - "Mordell, Diophantine Equations, pp. 25, 90--94"
+    - "Logan--McKinnon--van Luijk, https://arxiv.org/abs/0812.4779"
+  evidence: "Mordell's determinant and mod 8 hypotheses in LEC-119 are local obstruction data; the square product and line exception in LEC-122 match the modern diagonal quartic density criterion."
+  confidence: medium
+
+interconnection:
+  rank: 2
+  connected_equations:
+    - LEC-119
+    - LEC-122
+  shared_mechanism: "Quartic surfaces controlled by quadratic auxiliary data and local/global rational-point behavior."
+  larger_family: "Arithmetic of quartic surfaces, including diagonal quartic K3 surfaces and product-of-quadratic quartics."
+  references:
+    - "Elsenhans, https://arxiv.org/abs/1008.3275"
+    - "Logan--McKinnon--van Luijk, https://arxiv.org/abs/0812.4779"
+  evidence: "The equations look different in Mordell, but both become quartic-surface rational-point problems after homogenization."
+  confidence: medium
+
+status: deep_dive
+next_steps:
+  - "Rewrite LEC-119 as a local solubility statement over Q_2."
+  - "For LEC-122, compute the 48-line condition for Mordell's displayed construction."
+  - "Check whether LEC-119 admits a Brauer-Manin reinterpretation or is purely elementary 2-adic."
+

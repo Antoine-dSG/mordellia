@@ -1,0 +1,11 @@
+lec: LEC-109
+equation: "2z^2=x^3+y^3"
+pages: "235"
+cluster: cubic-diagonal-sums
+statement_file: "blueprint/src/equations/LEC-109/LEC-109.tex"
+status: deep_dive
+tags:
+  - fermat_type
+  - quadratic_twist
+  - deferred_reference
+

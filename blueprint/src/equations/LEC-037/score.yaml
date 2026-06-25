@@ -1,0 +1,22 @@
+history:
+  rank: 2
+  claim: "Cubic-form obstruction related to the general binary-form problem."
+  references:
+    - "Mordell, Diophantine Equations, p. 7"
+  confidence: high
+
+structure:
+  rank: 3
+  structure: "mod 9 obstruction for a binary cubic."
+  determines: "absence of integer/rational solutions under the stated hypotheses"
+  novelty_status: known
+  confidence: high
+
+interconnection:
+  rank: 2
+  connected_equations: [LEC-038, LEC-050, LEC-051, LEC-162]
+  shared_mechanism: "binary cubic form"
+  confidence: high
+
+status: deep_dive
+

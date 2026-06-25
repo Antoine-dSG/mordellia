@@ -1,0 +1,13 @@
+tag: LEC-135
+equation: "y^2=ax^4+bx^3+cx^2+dx+e"
+pages: "pp. 69--70, 74, 77, 268"
+cluster: quartic-genus-one
+object_type:
+  - binary quartic model
+  - genus-one curve
+  - elliptic curve after rational base point
+qualitative_behavior:
+  - finitely many integer solutions under squarefree quartic hypothesis
+  - rational solution descends from odd-degree field solution
+primary_source: "Mordell, Diophantine Equations, pp. 69--70, 74, 77, 268"
+

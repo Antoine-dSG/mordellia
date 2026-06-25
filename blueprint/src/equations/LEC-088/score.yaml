@@ -1,0 +1,23 @@
+history:
+  rank: 1
+  claim: "Special case of the solved Mordell curve integral-point problem."
+  references:
+    - "Mordell, Diophantine Equations, p. 246"
+    - "Bennett--Ghadermarzi, https://arxiv.org/abs/1311.7077"
+  confidence: high
+
+structure:
+  rank: 3
+  structure: "binary cubic forms / Thue equations for integral points."
+  determines: "exact finite solution list"
+  novelty_status: known
+  confidence: high
+
+interconnection:
+  rank: 2
+  connected_equations: [LEC-066, LEC-084, LEC-085]
+  shared_mechanism: "Mordell curve integral-point computation"
+  confidence: high
+
+status: deep_dive
+

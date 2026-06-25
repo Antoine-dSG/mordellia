@@ -1,0 +1,12 @@
+tag: LEC-037
+equation: "ax^3+3bx^2y+3cxy^2+dy^3=z^3"
+pages: "p. 7"
+cluster: binary-forms-thue
+object_type:
+  - binary cubic form
+  - superelliptic equation
+  - local obstruction
+qualitative_behavior:
+  - no integer solutions under Mordell's congruence hypotheses
+primary_source: "Mordell, Diophantine Equations, p. 7"
+

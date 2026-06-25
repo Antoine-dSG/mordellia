@@ -1,0 +1,23 @@
+history:
+  rank: 1
+  claim: "Special case of general Mordell-curve descent and rational-solubility criteria."
+  references:
+    - "Mordell, Diophantine Equations, pp. 242, 250"
+    - "Bennett--Ghadermarzi, https://arxiv.org/abs/1311.7077"
+  confidence: high
+
+structure:
+  rank: 3
+  structure: "descent obstruction on a j=0 cubic twist."
+  determines: "absence of rational affine solutions"
+  novelty_status: known
+  confidence: high
+
+interconnection:
+  rank: 2
+  connected_equations: [LEC-066, LEC-089, LEC-091, LEC-092]
+  shared_mechanism: "Mordell curve descent obstruction"
+  confidence: high
+
+status: deep_dive
+

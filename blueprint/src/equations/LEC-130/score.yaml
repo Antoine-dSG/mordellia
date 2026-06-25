@@ -1,0 +1,22 @@
+history:
+  rank: 1
+  claim: "Classical solved quartic Pell problem controlled by fundamental units."
+  references:
+    - "Mordell, Diophantine Equations, pp. 275--276"
+  confidence: high
+
+structure:
+  rank: 3
+  structure: "quadratic-field unit group."
+  determines: "at most one positive solution and possible fundamental-unit source"
+  novelty_status: known
+  confidence: high
+
+interconnection:
+  rank: 2
+  connected_equations: [LEC-129, LEC-140, LEC-178]
+  shared_mechanism: "norm/unit equation"
+  confidence: high
+
+status: deep_dive
+

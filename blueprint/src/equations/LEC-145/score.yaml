@@ -1,0 +1,23 @@
+history:
+  rank: 2
+  claim: "Ternary quartic instance connected to binary quartic/genus-one finiteness and local obstruction."
+  references:
+    - "Mordell, Diophantine Equations, pp. 16--25"
+    - "Bhargava--Cremona--Fisher, https://arxiv.org/abs/2004.12085"
+  confidence: medium
+
+structure:
+  rank: 3
+  structure: "binary quartic/genus-one reduction plus local obstruction."
+  determines: "finite rational-solution implications and no-solution families"
+  novelty_status: known
+  confidence: medium
+
+interconnection:
+  rank: 2
+  connected_equations: [LEC-135, LEC-136, LEC-140]
+  shared_mechanism: "quartic genus-one obstruction"
+  confidence: medium
+
+status: deep_dive
+

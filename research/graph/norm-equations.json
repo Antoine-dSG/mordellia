@@ -1,0 +1,25 @@
+{
+  "cluster": "norm-equations",
+  "nodes": [
+    {"id": "LEC-178", "type": "equation", "object": "Gaussian norm power"},
+    {"id": "LEC-179", "type": "equation", "object": "norm form equals polynomial"},
+    {"id": "LEC-180", "type": "equation", "object": "constant norm form equation"},
+    {"id": "GaussianIntegers", "type": "structure"},
+    {"id": "NumberFieldNorm", "type": "structure"},
+    {"id": "UnitGroup", "type": "structure"},
+    {"id": "DirichletUnitRank", "type": "theorem"},
+    {"id": "SubspaceTheorem", "type": "method"},
+    {"id": "NormFormEquation", "type": "family"}
+  ],
+  "edges": [
+    {"source": "LEC-178", "target": "GaussianIntegers", "relation": "solved_by"},
+    {"source": "GaussianIntegers", "target": "NumberFieldNorm", "relation": "example_of"},
+    {"source": "LEC-179", "target": "NormFormEquation", "relation": "general_case"},
+    {"source": "LEC-180", "target": "NormFormEquation", "relation": "constant_case"},
+    {"source": "NormFormEquation", "target": "NumberFieldNorm", "relation": "built_from"},
+    {"source": "NormFormEquation", "target": "UnitGroup", "relation": "solution_equivalence_by"},
+    {"source": "UnitGroup", "target": "DirichletUnitRank", "relation": "rank_given_by"},
+    {"source": "NormFormEquation", "target": "SubspaceTheorem", "relation": "modern_finiteness_method"}
+  ]
+}
+

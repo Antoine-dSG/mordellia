@@ -1,0 +1,40 @@
+lec: LEC-122
+cluster: quartic-surfaces-obstructions
+
+history:
+  rank: 2
+  claim: "The equation is a diagonal quartic surface, with substantial modern literature on rational points and density."
+  references:
+    - "Mordell, Diophantine Equations, pp. 90--94"
+    - "Elsenhans, https://arxiv.org/abs/1008.3275"
+    - "Logan--McKinnon--van Luijk, https://arxiv.org/abs/0812.4779"
+  evidence: "Modern diagonal quartic surface papers directly address the same equation shape."
+  confidence: high
+
+structure:
+  rank: 3
+  structure: "Diagonal quartic K3 surface, line configuration, rational-point generation and density."
+  determines: "Explains Mordell's construction of new rational points from a known point, with line exceptions."
+  novelty_status: known
+  references:
+    - "Logan--McKinnon--van Luijk, https://arxiv.org/abs/0812.4779"
+  evidence: "The square product and line exception match the modern density theorem's hypotheses."
+  confidence: medium
+
+interconnection:
+  rank: 2
+  connected_equations:
+    - LEC-119
+    - LEC-135
+    - LEC-136
+    - LEC-145
+  shared_mechanism: "Quartic rational-point geometry and genus-one fibrations."
+  larger_family: "Quartic surfaces and genus-one quartic models."
+  references:
+    - "Elsenhans, https://arxiv.org/abs/1008.3275"
+    - "Logan--McKinnon--van Luijk, https://arxiv.org/abs/0812.4779"
+  evidence: "Diagonal quartic surfaces often carry elliptic fibrations, linking them to quartic genus-one models."
+  confidence: medium
+
+status: deep_dive
+

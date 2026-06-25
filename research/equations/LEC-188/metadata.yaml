@@ -1,0 +1,12 @@
+lec: LEC-188
+equation: "4/n=1/x+1/y+1/z"
+pages: "287"
+cluster: classical-conjectures
+statement_file: "blueprint/src/equations/LEC-188/LEC-188.tex"
+status: deep_dive
+tags:
+  - erdos_straus
+  - egyptian_fractions
+  - open_conjecture
+  - congruence_sieve
+

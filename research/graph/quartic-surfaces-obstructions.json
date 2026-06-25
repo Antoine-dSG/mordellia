@@ -1,0 +1,24 @@
+{
+  "cluster": "quartic-surfaces-obstructions",
+  "nodes": [
+    {"id": "LEC-119", "type": "equation", "object": "quartic product of ternary quadratic forms"},
+    {"id": "LEC-122", "type": "equation", "object": "diagonal quartic surface"},
+    {"id": "QuarticSurface", "type": "family"},
+    {"id": "Local2AdicObstruction", "type": "structure"},
+    {"id": "DiagonalQuarticK3", "type": "family"},
+    {"id": "LineConfiguration48", "type": "structure"},
+    {"id": "RationalPointPropagation", "type": "method"},
+    {"id": "RationalPointDensity", "type": "structure"}
+  ],
+  "edges": [
+    {"source": "LEC-119", "target": "QuarticSurface", "relation": "is"},
+    {"source": "LEC-119", "target": "Local2AdicObstruction", "relation": "obstructed_by"},
+    {"source": "LEC-122", "target": "QuarticSurface", "relation": "is"},
+    {"source": "LEC-122", "target": "DiagonalQuarticK3", "relation": "is_smooth_case_of"},
+    {"source": "DiagonalQuarticK3", "target": "LineConfiguration48", "relation": "has"},
+    {"source": "LEC-122", "target": "RationalPointPropagation", "relation": "uses"},
+    {"source": "RationalPointPropagation", "target": "RationalPointDensity", "relation": "feeds"},
+    {"source": "LEC-119", "target": "LEC-122", "relation": "shared_quartic_surface_context"}
+  ]
+}
+

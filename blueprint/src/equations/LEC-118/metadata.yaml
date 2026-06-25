@@ -1,0 +1,12 @@
+tag: LEC-118
+equation: "x^2+y^2\\pm x\\pm y+1=xyz"
+pages: "pp. 299--300"
+cluster: markoff-mutation
+object_type:
+  - shifted Barnes-Mordell equation
+  - exchange relation
+  - mutation recurrence
+qualitative_behavior:
+  - shifted recurrence sequence
+primary_source: "Mordell, Diophantine Equations, pp. 299--300"
+

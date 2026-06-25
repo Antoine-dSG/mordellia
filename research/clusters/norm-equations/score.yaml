@@ -1,0 +1,47 @@
+cluster: norm-equations
+entries:
+  - LEC-178
+  - LEC-179
+  - LEC-180
+
+history:
+  rank: 2
+  claim: "The entries are instances of norm-form equations, from the solved Gaussian integer case to higher-degree finiteness theorems."
+  references:
+    - "Mordell, Diophantine Equations, pp. 122, 209--211"
+    - "Akhtari--Vaaler, On the height of solutions to norm form equations, https://arxiv.org/abs/1709.02485"
+    - "Bajpai, Effective Methods for Norm-Form Equations, https://arxiv.org/abs/2112.13441"
+  evidence: "LEC-178 is exactly a Gaussian norm power; LEC-179 and LEC-180 are norm-form finiteness statements."
+  confidence: high
+
+structure:
+  rank: 3
+  structure: "Number-field norm forms, unique factorization, unit groups, and subspace-theorem/unit-equation finiteness."
+  determines: "parametrisation for the Gaussian power case; finiteness for higher-degree norm forms under rank/degree hypotheses."
+  novelty_status: known
+  references:
+    - "Mordell, Diophantine Equations, Chapters 15, 23"
+    - "Akhtari--Vaaler, https://arxiv.org/abs/1709.02485"
+    - "Bajpai, https://arxiv.org/abs/2112.13441"
+  evidence: "The same norm/unit mechanism appears explicitly in all three entries."
+  confidence: high
+
+interconnection:
+  rank: 2
+  connected_equations:
+    - LEC-178
+    - LEC-179
+    - LEC-180
+  shared_mechanism: "Norm forms and unit groups."
+  larger_family: "Norm-form Diophantine equations over number fields."
+  references:
+    - "Mordell, Diophantine Equations, pp. 122, 209--211"
+  evidence: "LEC-178 is the two-variable Gaussian norm prototype; LEC-179 and LEC-180 are higher-degree norm-form generalizations."
+  confidence: high
+
+status: deep_dive
+next_steps:
+  - "Mark every Mordell entry whose proof uses a quadratic, cubic, or quartic field norm."
+  - "For LEC-179 and LEC-180, rewrite Mordell's hypotheses in modern norm-form terminology."
+  - "Build a unit-rank table for norm-form equations across the document."
+

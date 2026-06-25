@@ -1,0 +1,13 @@
+tag: LEC-140
+equation: "y^2=Dx^4\\pm1"
+pages: "pp. 269--271"
+cluster: quartic-genus-one
+object_type:
+  - quartic Pell equation
+  - quadratic-field unit equation
+qualitative_behavior:
+  - local obstruction in selected cases
+  - at most two positive integer solutions for D positive nonsquare
+  - finite algorithm in selected minus cases
+primary_source: "Mordell, Diophantine Equations, pp. 269--271"
+

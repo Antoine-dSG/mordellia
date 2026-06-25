@@ -1,0 +1,30 @@
+{
+  "cluster": "quartic-genus-one",
+  "nodes": [
+    {"id": "LEC-129", "type": "equation", "object": "quartic difference"},
+    {"id": "LEC-130", "type": "equation", "object": "quartic Pell equation"},
+    {"id": "LEC-135", "type": "equation", "object": "general binary quartic genus-one model"},
+    {"id": "LEC-136", "type": "equation", "object": "even binary quartic genus-one model"},
+    {"id": "LEC-140", "type": "equation", "object": "quartic Pell plus/minus one"},
+    {"id": "LEC-145", "type": "equation", "object": "ternary quartic genus-one obstruction"},
+    {"id": "BinaryQuartic", "type": "structure"},
+    {"id": "GenusOneCurve", "type": "structure"},
+    {"id": "EllipticCurve", "type": "structure"},
+    {"id": "PellUnits", "type": "method"},
+    {"id": "ThueFiniteness", "type": "method"},
+    {"id": "SelmerTwoCovering", "type": "structure"}
+  ],
+  "edges": [
+    {"source": "LEC-135", "target": "BinaryQuartic", "relation": "general_model"},
+    {"source": "LEC-136", "target": "BinaryQuartic", "relation": "even_subfamily"},
+    {"source": "BinaryQuartic", "target": "GenusOneCurve", "relation": "defines"},
+    {"source": "GenusOneCurve", "target": "EllipticCurve", "relation": "with_rational_point"},
+    {"source": "BinaryQuartic", "target": "SelmerTwoCovering", "relation": "modern_interpretation"},
+    {"source": "LEC-130", "target": "PellUnits", "relation": "controlled_by"},
+    {"source": "LEC-140", "target": "PellUnits", "relation": "controlled_by"},
+    {"source": "LEC-129", "target": "PellUnits", "relation": "related_to"},
+    {"source": "LEC-145", "target": "GenusOneCurve", "relation": "reduced_to"},
+    {"source": "BinaryQuartic", "target": "ThueFiniteness", "relation": "integral_points_use"}
+  ]
+}
+

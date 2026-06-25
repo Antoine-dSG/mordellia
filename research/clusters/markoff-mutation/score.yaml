@@ -1,0 +1,52 @@
+cluster: markoff-mutation
+entries:
+  - LEC-096
+  - LEC-117
+  - LEC-118
+  - LEC-183
+
+history:
+  rank: 1
+  claim: "The cluster contains a solved/studied Markoff-Hurwitz special case and Barnes/Mordell exchange-relation instances."
+  references:
+    - "Mordell, Diophantine Equations, pp. 106--110, 292--300"
+    - "Bourgain-Gamburd-Sarnak, Markoff Triples and Strong Approximation, https://arxiv.org/abs/1505.06411"
+    - "Hu-Tan-Zhang, Polynomial automorphisms preserving the Markoff-Hurwitz polynomial, https://arxiv.org/abs/1501.06955"
+    - "Lam-Pylyavskyy, Laurent phenomenon algebras, https://arxiv.org/abs/1206.2611"
+  evidence: "LEC-096 is a Markoff-Hurwitz surface after scaling; LEC-117 and LEC-118 are special cases of Mordell's LEC-183 exchange family."
+  confidence: medium
+
+structure:
+  rank: 2
+  structure: "Vieta mutation / exchange-polynomial mutation; Markoff-Hurwitz automorphism group; LP-algebra envelope for LEC-183."
+  determines: "generation of infinitely many solutions from seeds; exceptional finite behavior; divisibility constraints for exchange integrality."
+  novelty_status: known
+  references:
+    - "Fomin-Zelevinsky, The Laurent phenomenon, https://arxiv.org/abs/math/0104241"
+    - "Lam-Pylyavskyy, Laurent phenomenon algebras, https://arxiv.org/abs/1206.2611"
+    - "Goldman-Neumann, Homological action of the modular group on some cubic moduli spaces, https://arxiv.org/abs/math/0402039"
+  evidence: "The coordinate replacement maps are exactly the complementary-root maps in LEC-096, LEC-117, and LEC-118; LEC-183 records the integrality condition for an exchange value."
+  confidence: medium
+
+interconnection:
+  rank: 1
+  connected_equations:
+    - LEC-096
+    - LEC-117
+    - LEC-118
+    - LEC-183
+  shared_mechanism: "Mutation/Vieta involution/exchange relation."
+  larger_family: "Markoff-Hurwitz plus Barnes/Mordell exchange-polynomial equations."
+  references:
+    - "Mordell, Diophantine Equations, pp. 106--110, 292--300"
+    - "Lam-Pylyavskyy, Laurent phenomenon algebras, https://arxiv.org/abs/1206.2611"
+  evidence: "LEC-117 and LEC-118 are literal specializations of LEC-183. LEC-096 shares the same complementary-root mutation mechanism."
+  confidence: medium
+
+status: deep_dive
+next_steps:
+  - "Prove a precise LP-algebra statement for the quadratic subfamily of LEC-183."
+  - "Check whether the LEC-183 exchange graph contains the Markoff tree as a degeneration or boundary case."
+  - "Search Barnes' paper and later citations for x^2+y^2+c=xyz."
+  - "Compute explicit mutation graphs for LEC-117 and LEC-118 and compare them to Markoff trees."
+

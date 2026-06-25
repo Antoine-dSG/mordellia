@@ -1,0 +1,13 @@
+tag: LEC-096
+equation: "x^2+y^2+z^2-axyz=b"
+pages: "pp. 106--110"
+cluster: markoff-mutation
+object_type:
+  - Markoff-Hurwitz surface
+  - affine cubic surface
+  - mutation dynamics
+qualitative_behavior:
+  - solutions generated from fundamental solutions
+  - infinite orbits except exceptional finite cases
+primary_source: "Mordell, Diophantine Equations, pp. 106--110"
+

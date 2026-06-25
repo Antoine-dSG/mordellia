@@ -1,0 +1,23 @@
+history:
+  rank: 1
+  claim: "Special case of the general Mordell-Weil theorem."
+  references:
+    - "Mordell, Diophantine Equations, pp. 143--146"
+    - "Weil, L'arithmetique sur les courbes algebriques"
+  confidence: high
+
+structure:
+  rank: 3
+  structure: "Elliptic-curve group law and finite generation."
+  determines: "all rational points from a finite basis"
+  novelty_status: known
+  confidence: high
+
+interconnection:
+  rank: 2
+  connected_equations: [LEC-066, LEC-084, LEC-085, LEC-086, LEC-087, LEC-088, LEC-089, LEC-090, LEC-091, LEC-092, LEC-190]
+  shared_mechanism: "Mordell-Weil group law"
+  confidence: high
+
+status: deep_dive
+

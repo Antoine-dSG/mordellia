@@ -1,0 +1,39 @@
+lec: LEC-041
+cluster: cubic-diagonal-sums
+
+history:
+  rank: 2
+  claim: "The equation is an instance of the j=0 elliptic-curve/cubic-twist problem x^3+y^3=k, with many solved subfamilies."
+  references:
+    - "Mordell, Diophantine Equations, pp. 124--130"
+    - "Elkies--Rogers, https://arxiv.org/abs/math/0403116"
+  evidence: "Mordell's Q(rho) formulation and the modern x^3+y^3=k literature identify the same cubic-twist family."
+  confidence: medium
+
+structure:
+  rank: 3
+  structure: "Cyclotomic factorization over Q(rho), j=0 elliptic curves, and 3-isogeny descent."
+  determines: "Explains Mordell's non-solubility criteria for specified prime congruence classes."
+  novelty_status: known
+  references:
+    - "Mordell, Diophantine Equations, pp. 124--130"
+    - "Elkies--Rogers, https://arxiv.org/abs/math/0403116"
+  evidence: "The descent field Q(rho) is explicit in Mordell's statement."
+  confidence: medium
+
+interconnection:
+  rank: 2
+  connected_equations:
+    - LEC-043
+    - LEC-108
+    - LEC-109
+    - LEC-066
+  shared_mechanism: "Two-cube factorization and j=0 elliptic-curve descent."
+  larger_family: "Cubic twists of j=0 elliptic curves and Hesse cubics."
+  references:
+    - "Elkies--Rogers, https://arxiv.org/abs/math/0403116"
+  evidence: "LEC-108 and LEC-109 use the same left side x^3+y^3; LEC-043 contains the Hesse cubic extension."
+  confidence: medium
+
+status: deep_dive
+

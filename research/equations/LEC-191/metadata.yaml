@@ -1,0 +1,12 @@
+lec: LEC-191
+equation: "x^m-y^n=1"
+pages: "300"
+cluster: classical-conjectures
+statement_file: "blueprint/src/equations/LEC-191/LEC-191.tex"
+status: deep_dive
+tags:
+  - catalan
+  - mihailescu
+  - perfect_powers
+  - cyclotomic_fields
+

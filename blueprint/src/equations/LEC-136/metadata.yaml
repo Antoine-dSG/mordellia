@@ -1,0 +1,11 @@
+tag: LEC-136
+equation: "dy^2=ax^4+bx^2+c"
+pages: "pp. 63--64, 236, 268--272"
+cluster: quartic-genus-one
+object_type:
+  - even binary quartic
+  - genus-one curve
+qualitative_behavior:
+  - finitely many integer solutions under squarefree quartic hypothesis
+primary_source: "Mordell, Diophantine Equations, pp. 63--64, 236, 268--272"
+

@@ -1,0 +1,36 @@
+lec: LEC-114
+cluster: cubic-diagonal-sums
+
+history:
+  rank: 2
+  claim: "The equation is the classical four-cubes problem, with many congruence classes solved and the n congruent to plus or minus 4 modulo 9 classes remaining central."
+  references:
+    - "Mordell, Diophantine Equations, pp. 58, 182"
+    - "Sierpinski--Schinzel, Sur les sommes de quatre cubes, Acta Arith. 4 (1959)"
+    - "Demjanenko, On sums of four cubes, Izv. Vyssh. Uchebn. Zaved. Mat. 54 (1966)"
+  evidence: "Mordell records the conjecture and the solved complement of the plus or minus 4 modulo 9 classes."
+  confidence: medium
+
+structure:
+  rank: 5
+  structure: "Congruence classes and explicit additive identities."
+  determines: "Determines many positive cases, but not the full conjecture."
+  novelty_status: unresolved
+  references:
+    - "Mordell, Diophantine Equations, p. 182"
+  evidence: "No complete determining structure was found."
+  confidence: medium
+
+interconnection:
+  rank: 2
+  connected_equations:
+    - LEC-100
+  shared_mechanism: "Additive representation by cubes and modulo 9 residue obstruction."
+  larger_family: "Sums of integral cubes."
+  references:
+    - "Mordell, Diophantine Equations, pp. 83--84, 182"
+  evidence: "The same residue obstruction appears in the three-cube and four-cube problems."
+  confidence: medium
+
+status: deep_dive
+

@@ -1,0 +1,58 @@
+cluster: cubic-diagonal-sums
+entries:
+  - LEC-041
+  - LEC-043
+  - LEC-100
+  - LEC-108
+  - LEC-109
+  - LEC-114
+
+history:
+  rank: 2
+  claim: "The cluster contains instances of solved or heavily studied general problems: j=0 elliptic cubic twists, the Hesse pencil of plane cubics, sums of three cubes, and the four-cubes problem."
+  references:
+    - "Mordell, Diophantine Equations, pp. 58, 78--84, 100--101, 124--134, 182, 235"
+    - "Elkies--Rogers, Elliptic Curves x^3 + y^3 = k of High Rank, https://arxiv.org/abs/math/0403116"
+    - "Artebani--Dolgachev, The Hesse pencil of plane cubic curves, https://arxiv.org/abs/math/0611590"
+    - "Booker, Cracking the problem with 33, https://arxiv.org/abs/1903.04284"
+    - "University of Bristol, Sum of three cubes for 42 finally solved, https://www.bristol.ac.uk/news/2019/september/sum-of-three-cubes-.html"
+  evidence: "The selected equations are not isolated: the two-cube cases sit inside j=0 elliptic-curve theory, LEC-043 is a Hesse pencil, and LEC-100/114 are classical additive cube problems."
+  confidence: medium
+
+structure:
+  rank: 3
+  structure: "Modulo 9 cube obstruction; cyclotomic factorization in Q(rho); j=0 elliptic curves and 3-isogeny descent; Hesse-pencil plane-cubic geometry; Waring-type identities for four cubes."
+  determines: "Determines the qualitative behavior for LEC-041, LEC-043, LEC-108, and LEC-109; gives only partial obstruction and construction data for LEC-100 and LEC-114."
+  novelty_status: known
+  references:
+    - "Elkies--Rogers, https://arxiv.org/abs/math/0403116"
+    - "Artebani--Dolgachev, https://arxiv.org/abs/math/0611590"
+    - "Mordell, Diophantine Equations, pp. 124--134, 235"
+  evidence: "Mordell's Q(rho) descent language and the Hesse specialization are direct evidence for the elliptic/cyclotomic layer."
+  confidence: medium
+
+interconnection:
+  rank: 2
+  connected_equations:
+    - LEC-041
+    - LEC-043
+    - LEC-100
+    - LEC-108
+    - LEC-109
+    - LEC-114
+  shared_mechanism: "Cube residues modulo 9, cyclotomic factorization, and j=0/Hesse cubic geometry."
+  larger_family: "Diagonal and Hesse cubic equations, plus additive representation by integral cubes."
+  references:
+    - "Mordell, Diophantine Equations, Chapters 7, 11, 12, 16, 29"
+    - "Elkies--Rogers, https://arxiv.org/abs/math/0403116"
+    - "Artebani--Dolgachev, https://arxiv.org/abs/math/0611590"
+  evidence: "LEC-041, LEC-108, and LEC-109 share the two-cube factorization; LEC-043 is the Hesse cubic extension; LEC-100 and LEC-114 share the additive modulo 9 obstruction."
+  confidence: medium
+
+status: deep_dive
+next_steps:
+  - "Write explicit birational maps between x^3+y^3=k and short Weierstrass j=0 models."
+  - "Separate LEC-100 and LEC-114 into an additive-cube subcluster if future work focuses on search heuristics rather than elliptic geometry."
+  - "For LEC-041, compute the precise class-group or 3-isogeny descent statement behind Mordell's prime congruence cases."
+  - "For LEC-043, tabulate singular Hesse parameters and compare them with Mordell's exceptional d values."
+

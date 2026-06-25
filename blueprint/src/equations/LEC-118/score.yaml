@@ -1,0 +1,22 @@
+history:
+  rank: 2
+  claim: "Shifted instance of the Barnes/Mordell exchange family."
+  references:
+    - "Mordell, Diophantine Equations, pp. 299--300"
+  confidence: medium
+
+structure:
+  rank: 2
+  structure: "Shifted exchange/Vieta mutation."
+  determines: "recurrence behavior for positive solutions"
+  novelty_status: known
+  confidence: medium
+
+interconnection:
+  rank: 2
+  connected_equations: [LEC-096, LEC-117, LEC-183]
+  shared_mechanism: "Vieta mutation and exchange integrality"
+  confidence: high
+
+status: deep_dive
+

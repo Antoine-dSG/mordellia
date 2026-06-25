@@ -1,0 +1,13 @@
+tag: LEC-145
+equation: "ax^4+bx^2y^2+dy^4=cz^2"
+pages: "pp. 16--25"
+cluster: quartic-genus-one
+object_type:
+  - ternary quartic
+  - binary quartic reduction
+  - genus-one obstruction
+qualitative_behavior:
+  - rational finiteness can follow from an associated quartic
+  - explicit local obstruction families
+primary_source: "Mordell, Diophantine Equations, pp. 16--25"
+

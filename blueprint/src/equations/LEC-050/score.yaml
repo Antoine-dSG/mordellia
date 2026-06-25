@@ -1,0 +1,23 @@
+history:
+  rank: 1
+  claim: "Binary cubic instance of Thue's theorem and reduction theory."
+  references:
+    - "Mordell, Diophantine Equations, pp. 218--219, 226"
+    - "Bennett--Ghadermarzi, https://arxiv.org/abs/1311.7077"
+  confidence: high
+
+structure:
+  rank: 4
+  structure: "Thue finiteness for irreducible binary cubics."
+  determines: "finiteness and upper bounds for integer solutions"
+  novelty_status: known
+  confidence: high
+
+interconnection:
+  rank: 2
+  connected_equations: [LEC-037, LEC-038, LEC-051, LEC-162]
+  shared_mechanism: "binary cubic form"
+  confidence: high
+
+status: deep_dive
+

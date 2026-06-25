@@ -1,0 +1,12 @@
+tag: LEC-183
+equation: "g(x)+h(y)+c=zxy"
+pages: "p. 293"
+cluster: markoff-mutation
+object_type:
+  - exchange-polynomial equation
+  - divisibility problem
+  - Laurent phenomenon candidate
+qualitative_behavior:
+  - integrality controlled by congruence modulo xy
+primary_source: "Mordell, Diophantine Equations, p. 293"
+

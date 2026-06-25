@@ -12,6 +12,8 @@ Mathematical notation has been normalized and modernised, when deemed necessary.
 
 All mistakes and omissions are my responsibility. Please consult the printed edition in case of doubt.
 
+\input{deep_dive_summary_tables}
+
 \DegreeChapter{Degree 1}
 
 \PrimaryEquation{LEC-001}{a_1x_1+a_2x_2+\cdots+a_nx_n=a}{p.~30}{}
@@ -175,6 +177,10 @@ All mistakes and omissions are my responsibility. Please consult the printed edi
 
 \PrimaryEquation{LEC-018}{ax^2+bxy+cy^2=m}{p.~159}{}
 
+\begin{proof}[Comment]\renewcommand{\qedsymbol}{}
+\input{equations/LEC-018/LEC-018.tex}
+\end{proof}
+
 \PrimaryEquation{LEC-019}{ax^2+by^2=m}{pp.~7, 118--120, 164--169}{}
 
 \begin{proof}[Statement]\renewcommand{\qedsymbol}{}
@@ -334,6 +340,10 @@ All mistakes and omissions are my responsibility. Please consult the printed edi
 
 \PrimaryEquation{LEC-036}{ax^3+bx^2y+cxy^2+dy^3=ez^3}{pp.~226--228}{}
 
+\begin{proof}[Comment]\renewcommand{\qedsymbol}{}
+\input{equations/LEC-036/LEC-036.tex}
+\end{proof}
+
 \PrimaryEquation{LEC-037}{ax^3+3bx^2y+3cxy^2+dy^3=z^3}{p.~7}{}
 
 \begin{proof}[Statement]\renewcommand{\qedsymbol}{}
@@ -353,6 +363,10 @@ All mistakes and omissions are my responsibility. Please consult the printed edi
 \end{proof}
 
 \PrimaryEquation{LEC-039}{Ax^3+By^3+Cz^3=0}{pp.~226, 230}{}
+
+\begin{proof}[Comment]\renewcommand{\qedsymbol}{}
+\input{equations/LEC-039/LEC-039.tex}
+\end{proof}
 
 \PrimaryEquation{LEC-040}{ax^3+bpy^3+cp^2z^3=0}{p.~9}{}
 
@@ -400,6 +414,10 @@ All mistakes and omissions are my responsibility. Please consult the printed edi
 \end{proof}
 
 \PrimaryEquation{LEC-045}{ax^3+by^3+cz^3+dw^3=0}{p.~88}{}
+
+\begin{proof}[Comment]\renewcommand{\qedsymbol}{}
+\input{equations/LEC-045/LEC-045.tex}
+\end{proof}
 
 \PrimaryEquation{LEC-046}{5x^3+9y^3+10z^3+12w^3=0}{p.~88}{Mordell later records this as a locally solvable cubic surface with no rational solutions except $(0,0,0,0)$; see Theorem 3 on p.~88.}
 
@@ -594,7 +612,18 @@ All mistakes and omissions are my responsibility. Please consult the printed edi
 
 \PrimaryEquation{LEC-067}{y^2\equiv x^3+k\pmod a}{pp.~41, 48}{}
 
+\begin{proof}[Statement]\renewcommand{\qedsymbol}{}
+\input{equations/LEC-067/LEC-067.tex}
+\end{proof}
+\begin{proof}[Proof]\renewcommand{\qedsymbol}{}
+\input{equations/LEC-067/LEC-067_proof.tex}
+\end{proof}
+
 \PrimaryEquation{LEC-068}{y^2=x^3+k,\qquad k=n^3-\ell m^2}{pp.~238--241}{Specialization of the preceding Mordell equation}
+
+\begin{proof}[Comment]\renewcommand{\qedsymbol}{}
+\input{equations/LEC-068/LEC-068.tex}
+\end{proof}
 
 \PrimaryEquation{LEC-069}{y^2=x^3+k,\qquad k=2a^3-3b^2}{pp.~244--245}{Specialization of the Mordell equation}
 
@@ -940,6 +969,10 @@ All mistakes and omissions are my responsibility. Please consult the printed edi
 
 \PrimaryEquation{LEC-107}{z^2=x^3-gxy^2-hy^3}{p.~235}{}
 
+\begin{proof}[Comment]\renewcommand{\qedsymbol}{}
+\input{equations/LEC-107/LEC-107.tex}
+\end{proof}
+
 \PrimaryEquation{LEC-108}{z^2=x^3+y^3}{p.~235}{}
 
 \begin{proof}[Statement]\renewcommand{\qedsymbol}{}
@@ -950,6 +983,10 @@ All mistakes and omissions are my responsibility. Please consult the printed edi
 \end{proof}
 
 \PrimaryEquation{LEC-109}{2z^2=x^3+y^3}{p.~235}{}
+
+\begin{proof}[Comment]\renewcommand{\qedsymbol}{}
+\input{equations/LEC-109/LEC-109.tex}
+\end{proof}
 
 \PrimaryEquation{LEC-110}{y^2-ax^2=z^3+bz+c}{p.~113}{}
 
@@ -1047,6 +1084,13 @@ All mistakes and omissions are my responsibility. Please consult the printed edi
 
 \PrimaryEquation{LEC-119}{k_1(ax^2+by^2+cz^2)(a_1x^2+b_1y^2+c_1z^2)=k_2(px^2+qy^2+rz^2)^2}{p.~25}{}
 
+\begin{proof}[Statement]\renewcommand{\qedsymbol}{}
+\input{equations/LEC-119/LEC-119.tex}
+\end{proof}
+\begin{proof}[Proof]\renewcommand{\qedsymbol}{}
+\input{equations/LEC-119/LEC-119_proof.tex}
+\end{proof}
+
 \PrimaryEquation{LEC-120}{\left(\frac{br-cq}{a}\right)^3x^4+\left(\frac{cp-ar}{b}\right)^3y^4+\left(\frac{aq-bp}{c}\right)^3z^4=0}{p.~27}{}
 
 \begin{proof}[Statement]\renewcommand{\qedsymbol}{}
@@ -1102,6 +1146,10 @@ All mistakes and omissions are my responsibility. Please consult the printed edi
 \end{proof}
 
 \PrimaryEquation{LEC-126}{xy(mx^2+ny^2)=zw(mz^2+nw^2)}{p.~91}{}
+
+\begin{proof}[Comment]\renewcommand{\qedsymbol}{}
+\input{equations/LEC-126/LEC-126.tex}
+\end{proof}
 
 \PrimaryEquation{LEC-127}{\begin{aligned}f(\mathbf{x})+f(\mathbf{y})+f(\mathbf{z})-4\{f(\mathbf{u})+f(\mathbf{v})+f(\mathbf{w})\}&=0,\\f(\mathbf{x})&=x_1^4+x_2^4+x_3^4-x_2^2x_3^2-x_3^2x_1^2-x_1^2x_2^2\\&\qquad-x_1x_2x_3(x_1+x_2+x_3)\end{aligned}}{p.~10}{}
 
@@ -1260,6 +1308,10 @@ All mistakes and omissions are my responsibility. Please consult the printed edi
 
 \PrimaryEquation{LEC-144}{ax^4+bx^3y+cx^2y^2+dxy^3+ey^4=z^2}{p.~138}{}
 
+\begin{proof}[Comment]\renewcommand{\qedsymbol}{}
+\input{equations/LEC-144/LEC-144.tex}
+\end{proof}
+
 \PrimaryEquation{LEC-145}{ax^4+bx^2y^2+dy^4=cz^2}{pp.~16--25}{The index separately notes $b=0$ on pp.~23--25 and $c=1$ on p.~22}
 
 \begin{proof}[Statement]\renewcommand{\qedsymbol}{}
@@ -1412,6 +1464,10 @@ All mistakes and omissions are my responsibility. Please consult the printed edi
 
 \PrimaryEquation{LEC-161}{f(\mathbf{x})=m,\qquad f\ \text{homogeneous of degree }d\text{ in }n\text{ variables}}{pp.~174--180}{}
 
+\begin{proof}[Comment]\renewcommand{\qedsymbol}{}
+\input{equations/LEC-161/LEC-161.tex}
+\end{proof}
+
 \PrimaryEquation{LEC-162}{a_0x^n+a_1x^{n-1}y+\cdots+a_ny^n=m}{pp.~157--163, 186--199, 218}{}
 
 \begin{proof}[Statement]\renewcommand{\qedsymbol}{}
@@ -1476,6 +1532,11 @@ All mistakes and omissions are my responsibility. Please consult the printed edi
 \end{proof}
 
 \PrimaryEquation{LEC-169}{ax^m-by^n=c}{pp.~272--276, 300}{}
+
+\begin{proof}[Comment]\renewcommand{\qedsymbol}{}
+\input{equations/LEC-169/LEC-169.tex}
+\end{proof}
+
 \PrimaryEquation{LEC-170}{y^2+1=x^m}{pp.~276, 301}{}
 
 \begin{proof}[Statement]\renewcommand{\qedsymbol}{}
@@ -1529,7 +1590,15 @@ All mistakes and omissions are my responsibility. Please consult the printed edi
 
 \PrimaryEquation{LEC-176}{z^m=Ax^2+Bxy+Cy^2}{p.~111}{}
 
+\begin{proof}[Comment]\renewcommand{\qedsymbol}{}
+\input{equations/LEC-176/LEC-176.tex}
+\end{proof}
+
 \PrimaryEquation{LEC-177}{ax^2+by^2=cz^n}{p.~111}{}
+
+\begin{proof}[Comment]\renewcommand{\qedsymbol}{}
+\input{equations/LEC-177/LEC-177.tex}
+\end{proof}
 
 \PrimaryEquation{LEC-178}{x^2+y^2=z^n}{p.~122}{}
 

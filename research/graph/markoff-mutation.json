@@ -1,0 +1,26 @@
+{
+  "cluster": "markoff-mutation",
+  "nodes": [
+    {"id": "LEC-096", "type": "equation", "object": "Markoff-Hurwitz surface"},
+    {"id": "LEC-117", "type": "equation", "object": "Barnes-Mordell exchange equation"},
+    {"id": "LEC-118", "type": "equation", "object": "shifted Barnes-Mordell exchange equation"},
+    {"id": "LEC-183", "type": "equation", "object": "general exchange-polynomial equation"},
+    {"id": "VietaMutation", "type": "method"},
+    {"id": "MarkoffHurwitz", "type": "family"},
+    {"id": "LaurentPhenomenonAlgebra", "type": "structure"},
+    {"id": "CharacterVariety", "type": "structure"}
+  ],
+  "edges": [
+    {"source": "LEC-096", "target": "VietaMutation", "relation": "generated_by"},
+    {"source": "LEC-117", "target": "VietaMutation", "relation": "generated_by"},
+    {"source": "LEC-118", "target": "VietaMutation", "relation": "generated_by"},
+    {"source": "LEC-183", "target": "LaurentPhenomenonAlgebra", "relation": "candidate_envelope"},
+    {"source": "LEC-117", "target": "LEC-183", "relation": "specialization"},
+    {"source": "LEC-118", "target": "LEC-183", "relation": "specialization"},
+    {"source": "LEC-096", "target": "MarkoffHurwitz", "relation": "special_case_after_scaling"},
+    {"source": "LEC-096", "target": "CharacterVariety", "relation": "normalization_related"},
+    {"source": "CharacterVariety", "target": "VietaMutation", "relation": "mutation_automorphisms"},
+    {"source": "LaurentPhenomenonAlgebra", "target": "VietaMutation", "relation": "exchange_mutation"}
+  ]
+}
+

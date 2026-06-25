@@ -1,0 +1,28 @@
+history:
+  rank: null
+  claim: ""
+  general_problem: ""
+  references: []
+  evidence: ""
+  confidence: low
+
+structure:
+  rank: null
+  structure: ""
+  determines: ""
+  novelty_status: unsearched
+  references: []
+  evidence: ""
+  confidence: low
+
+interconnection:
+  rank: null
+  connected_equations: []
+  shared_mechanism: ""
+  larger_family: ""
+  references: []
+  evidence: ""
+  confidence: low
+
+status: unsearched
+

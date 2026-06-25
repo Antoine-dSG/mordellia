@@ -1,0 +1,24 @@
+history:
+  rank: 1
+  claim: "Special case of Markoff-Hurwitz theory."
+  references:
+    - "Mordell, Diophantine Equations, pp. 106--110"
+    - "Bourgain-Gamburd-Sarnak, https://arxiv.org/abs/1505.06411"
+    - "Hu-Tan-Zhang, https://arxiv.org/abs/1501.06955"
+  confidence: medium
+
+structure:
+  rank: 3
+  structure: "Known Markoff-Hurwitz/Vieta-involution structure."
+  determines: "generation from fundamental solutions and infinite mutation orbits"
+  novelty_status: known
+  confidence: high
+
+interconnection:
+  rank: 1
+  connected_equations: [LEC-117, LEC-118, LEC-183]
+  shared_mechanism: "Vieta mutation"
+  confidence: medium
+
+status: deep_dive
+

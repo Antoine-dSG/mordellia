@@ -1,0 +1,37 @@
+lec: LEC-188
+cluster: classical-conjectures
+
+history:
+  rank: 2
+  claim: "The equation is the Erdos--Straus conjecture, an active Egyptian-fraction problem with many solved congruence classes and large computational verification."
+  references:
+    - "Mordell, Diophantine Equations, p. 287"
+    - "Elsholtz--Tao, https://arxiv.org/abs/1107.1010"
+    - "Salez, https://arxiv.org/abs/1406.6307"
+  evidence: "Elsholtz--Tao reduce counting to prime cases and Salez records verification up to N=10^17."
+  confidence: medium
+
+structure:
+  rank: 5
+  structure: "Congruence families, divisor patterns, and prime reduction."
+  determines: "Does not determine the full conjecture."
+  novelty_status: unresolved
+  references:
+    - "Elsholtz--Tao, https://arxiv.org/abs/1107.1010"
+    - "Salez, https://arxiv.org/abs/1406.6307"
+  evidence: "No complete structural criterion found."
+  confidence: medium
+
+interconnection:
+  rank: 3
+  connected_equations:
+    - LEC-188
+  shared_mechanism: "Egyptian-fraction decomposition by congruence classes."
+  larger_family: "Unit-fraction decompositions of k/n."
+  references:
+    - "Elsholtz--Tao, https://arxiv.org/abs/1107.1010"
+  evidence: "The equation is an instance of broader unit-fraction decomposition problems."
+  confidence: medium
+
+status: deep_dive
+

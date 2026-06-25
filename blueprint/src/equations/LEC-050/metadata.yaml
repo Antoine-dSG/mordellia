@@ -1,0 +1,12 @@
+tag: LEC-050
+equation: "ax^3+bx^2y+cxy^2+dy^3=m"
+pages: "pp. 218--219, 226"
+cluster: binary-forms-thue
+object_type:
+  - binary cubic form
+  - Thue equation
+qualitative_behavior:
+  - finitely many integer solutions when irreducible
+  - quantitative bounds depend on discriminant and form class
+primary_source: "Mordell, Diophantine Equations, pp. 218--219, 226"
+

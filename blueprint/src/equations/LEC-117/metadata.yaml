@@ -1,0 +1,13 @@
+tag: LEC-117
+equation: "x^2+y^2+1=xyz"
+pages: "p. 299"
+cluster: markoff-mutation
+object_type:
+  - Barnes-Mordell equation
+  - exchange relation
+  - mutation recurrence
+qualitative_behavior:
+  - recurrence sequence
+  - infinite positive solutions for z=3
+primary_source: "Mordell, Diophantine Equations, p. 299"
+

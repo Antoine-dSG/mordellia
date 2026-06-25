@@ -1,0 +1,38 @@
+lec: LEC-043
+cluster: cubic-diagonal-sums
+
+history:
+  rank: 2
+  claim: "The equation is a Hesse-type plane cubic, hence an instance of elliptic-curve theory when nonsingular and rationally pointed."
+  references:
+    - "Mordell, Diophantine Equations, pp. 130--134"
+    - "Artebani--Dolgachev, https://arxiv.org/abs/math/0611590"
+  evidence: "The case a=b=c=1 is exactly a Hesse pencil member after rescaling the xyz coefficient."
+  confidence: medium
+
+structure:
+  rank: 3
+  structure: "Hesse pencil, plane cubic group law, singular parameter exceptions."
+  determines: "Explains Mordell's finite exceptional cases versus infinite point sets."
+  novelty_status: known
+  references:
+    - "Artebani--Dolgachev, https://arxiv.org/abs/math/0611590"
+  evidence: "The Hesse normal form is a standard normal form for plane cubic curves."
+  confidence: medium
+
+interconnection:
+  rank: 2
+  connected_equations:
+    - LEC-041
+    - LEC-060
+    - LEC-066
+    - LEC-108
+  shared_mechanism: "Plane cubic elliptic-curve structure and visible 3-torsion geometry."
+  larger_family: "Hesse pencil of plane cubics."
+  references:
+    - "Artebani--Dolgachev, https://arxiv.org/abs/math/0611590"
+  evidence: "The equation contains the Hesse pencil and shares its j=0 special geometry with two-cube equations."
+  confidence: medium
+
+status: deep_dive
+

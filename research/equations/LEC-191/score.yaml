@@ -1,0 +1,34 @@
+lec: LEC-191
+cluster: classical-conjectures
+
+history:
+  rank: 1
+  claim: "Mordell's conjecture is now Mihailescu's theorem, solving Catalan's conjecture."
+  references:
+    - "Mordell, Diophantine Equations, p. 300"
+    - "Mihailescu, Primary Cyclotomic Units and a Proof of Catalan's Conjecture, J. Reine Angew. Math. 572 (2004), 167--195"
+  evidence: "The later theorem proves the exact statement Mordell records."
+  confidence: high
+
+structure:
+  rank: 4
+  structure: "Cyclotomic fields, primary cyclotomic units, and Galois modules."
+  determines: "Determines the unique perfect-power gap of size 1."
+  novelty_status: known
+  references:
+    - "Mihailescu, J. Reine Angew. Math. 572 (2004), 167--195"
+  evidence: "The determining structure is exactly the known proof structure in the literature."
+  confidence: high
+
+interconnection:
+  rank: 3
+  connected_equations:
+    - LEC-191
+  shared_mechanism: "Perfect-power gap methods in the Fermat-Catalan/Pillai direction."
+  larger_family: "Equations Ax^m-By^n=C and gaps between perfect powers."
+  references:
+    - "Mihailescu, J. Reine Angew. Math. 572 (2004), 167--195"
+  evidence: "LEC-191 is a special case of the perfect-power gap problem."
+  confidence: medium
+
+status: deep_dive

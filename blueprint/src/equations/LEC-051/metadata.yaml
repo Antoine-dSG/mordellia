@@ -1,0 +1,11 @@
+tag: LEC-051
+equation: "ax^3+3bx^2y+3cxy^2+dy^3\\equiv1\\pmod 9"
+pages: "p. 38"
+cluster: binary-forms-thue
+object_type:
+  - binary cubic congruence
+  - local obstruction
+qualitative_behavior:
+  - no solutions under Mordell's congruence hypotheses
+primary_source: "Mordell, Diophantine Equations, p. 38"
+

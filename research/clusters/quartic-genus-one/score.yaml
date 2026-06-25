@@ -1,0 +1,53 @@
+cluster: quartic-genus-one
+entries:
+  - LEC-129
+  - LEC-130
+  - LEC-135
+  - LEC-136
+  - LEC-140
+  - LEC-145
+
+history:
+  rank: 2
+  claim: "The equations are instances of binary quartic/genus-one and Pell-unit problems; several special cases are classically solved."
+  references:
+    - "Mordell, Diophantine Equations, pp. 16--25, 63--70, 236, 268--276"
+    - "Bhargava--Shankar, Binary quartic forms having bounded invariants, https://arxiv.org/abs/1006.1002"
+    - "Bhargava--Cremona--Fisher, The proportion of genus one curves over Q defined by a binary quartic that everywhere locally have a point, https://arxiv.org/abs/2004.12085"
+  evidence: "Mordell's quartics are binary quartic genus-one models or Pell-type quartics; modern work treats binary quartics as genus-one curves and 2-Selmer objects."
+  confidence: high
+
+structure:
+  rank: 3
+  structure: "Binary quartic genus-one models, elliptic curves/torsors, Pell units, and Thue finiteness."
+  determines: "rational-point group structure when a point exists; finiteness or uniqueness of many integral solutions."
+  novelty_status: known
+  references:
+    - "Mordell, Diophantine Equations, pp. 69--70, 268--276"
+    - "Bhargava--Shankar, https://arxiv.org/abs/1006.1002"
+    - "Bhargava--Cremona--Fisher, https://arxiv.org/abs/2004.12085"
+  evidence: "LEC-135 is explicitly a quartic genus-one model; LEC-130 and LEC-140 are controlled by fundamental units."
+  confidence: high
+
+interconnection:
+  rank: 2
+  connected_equations:
+    - LEC-129
+    - LEC-130
+    - LEC-135
+    - LEC-136
+    - LEC-140
+    - LEC-145
+  shared_mechanism: "Binary quartic/genus-one model and Pell-unit norm structure."
+  larger_family: "Genus-one curves represented by binary quartics, with Pell-type subfamilies."
+  references:
+    - "Mordell, Diophantine Equations, Chapters 4, 9, 27, 28"
+  evidence: "The equations are quartic models whose arithmetic is governed by elliptic curves, binary quartic invariants, or units."
+  confidence: high
+
+status: deep_dive
+next_steps:
+  - "Compute the associated elliptic curve/invariants for LEC-135, LEC-136, and LEC-145 subfamilies."
+  - "For LEC-130 and LEC-140, build a unit-field obstruction table."
+  - "Separate rational-point and integer-point claims for each quartic entry."
+
