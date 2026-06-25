@@ -1,0 +1,13 @@
+{
+  "lec": "LEC-052",
+  "equation": "x^3-3xy^2-y^3=1",
+  "pages": "pp.~208--209",
+  "cluster": "cubic-general",
+  "statement_status": "statement",
+  "statement_file": "blueprint/src/equations/LEC-052/LEC-052.tex",
+  "status": "deep_dive",
+  "coverage": "full_pass",
+  "tags": [
+    "cubic_equations"
+  ]
+}

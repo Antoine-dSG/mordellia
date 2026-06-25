@@ -1,0 +1,13 @@
+{
+  "lec": "LEC-163",
+  "equation": "ax^n-by^n=c",
+  "pages": "pp.~273--275",
+  "cluster": "quartic-general",
+  "statement_status": "statement",
+  "statement_file": "blueprint/src/equations/LEC-163/LEC-163.tex",
+  "status": "deep_dive",
+  "coverage": "full_pass",
+  "tags": [
+    "quartic_equations"
+  ]
+}

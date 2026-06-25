@@ -1,0 +1,13 @@
+{
+  "lec": "LEC-181",
+  "equation": "z^2=(a_1x^2+b_1y^2)(a_2x^2+b_2y^2)(a_3x^2+b_3y^2)",
+  "pages": "p.~154",
+  "cluster": "quartic-general",
+  "statement_status": "statement",
+  "statement_file": "blueprint/src/equations/LEC-181/LEC-181.tex",
+  "status": "deep_dive",
+  "coverage": "full_pass",
+  "tags": [
+    "quartic_equations"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "lec": "LEC-064",
+  "equation": "6y^2=x(x+1)(2x+1)",
+  "pages": "p.~258",
+  "cluster": "cubic-general",
+  "statement_status": "statement",
+  "statement_file": "blueprint/src/equations/LEC-064/LEC-064.tex",
+  "status": "deep_dive",
+  "coverage": "full_pass",
+  "tags": [
+    "cubic_equations"
+  ]
+}

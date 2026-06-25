@@ -1,0 +1,13 @@
+{
+  "lec": "LEC-167",
+  "equation": "ay^2+by+c=dx^n",
+  "pages": "p.~265",
+  "cluster": "quartic-general",
+  "statement_status": "statement",
+  "statement_file": "blueprint/src/equations/LEC-167/LEC-167.tex",
+  "status": "deep_dive",
+  "coverage": "full_pass",
+  "tags": [
+    "quartic_equations"
+  ]
+}

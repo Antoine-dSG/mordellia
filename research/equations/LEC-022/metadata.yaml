@@ -1,0 +1,14 @@
+{
+  "lec": "LEC-022",
+  "equation": "x^2=a+by",
+  "pages": "pp.~3, 8",
+  "cluster": "quadratic-forms-conics",
+  "statement_status": "statement",
+  "statement_file": "blueprint/src/equations/LEC-022/LEC-022.tex",
+  "status": "deep_dive",
+  "coverage": "full_pass",
+  "tags": [
+    "conics",
+    "quadratic_forms"
+  ]
+}

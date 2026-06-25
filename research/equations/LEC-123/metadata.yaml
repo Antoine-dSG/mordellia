@@ -1,0 +1,14 @@
+{
+  "lec": "LEC-123",
+  "equation": "a(x^4-y^4)+c(z^4-w^4)=0",
+  "pages": "p.~91",
+  "cluster": "quartic-surfaces-obstructions",
+  "statement_status": "statement",
+  "statement_file": "blueprint/src/equations/LEC-123/LEC-123.tex",
+  "status": "deep_dive",
+  "coverage": "full_pass",
+  "tags": [
+    "quartic_equations",
+    "quartic_surfaces"
+  ]
+}

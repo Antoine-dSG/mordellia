@@ -1,0 +1,13 @@
+{
+  "lec": "LEC-142",
+  "equation": "\\begin{aligned}y^2(ax^2+bx+c)&+y(a_1x^2+b_1x+c_1)\\\\&\\qquad+a_2x^2+b_2x+c_2=0\\end{aligned}",
+  "pages": "p.~70",
+  "cluster": "quartic-general",
+  "statement_status": "statement",
+  "statement_file": "blueprint/src/equations/LEC-142/LEC-142.tex",
+  "status": "deep_dive",
+  "coverage": "full_pass",
+  "tags": [
+    "quartic_equations"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "lec": "LEC-018",
+  "equation": "ax^2+bxy+cy^2=m",
+  "pages": "p.~159",
+  "cluster": "quadratic-forms-conics",
+  "statement_status": "comment",
+  "statement_file": "blueprint/src/equations/LEC-018/LEC-018.tex",
+  "status": "deep_dive",
+  "coverage": "full_pass",
+  "tags": [
+    "conics",
+    "quadratic_forms"
+  ]
+}

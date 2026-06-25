@@ -1,0 +1,42 @@
+{
+  "lec": "LEC-045",
+  "cluster": "cubic-surfaces",
+  "history": {
+    "rank": 2,
+    "claim": "The entry is part of the arithmetic of cubic surfaces and diagonal cubic forms.",
+    "general_problem": "Cubic surfaces",
+    "references": [
+      "Mordell, Diophantine Equations, Chapters 7 and 11"
+    ],
+    "evidence": "Mordell pages p.~88; triage clusters: cubic_equations, cubic_surfaces.",
+    "confidence": "medium"
+  },
+  "structure": {
+    "rank": 3,
+    "structure": "local-global failure, rational surfaces, descent",
+    "determines": "Local solubility, rational parametrisation, and descent distinguish the qualitative cases.",
+    "novelty_status": "known",
+    "references": [
+      "Mordell, Diophantine Equations, Chapters 7 and 11"
+    ],
+    "evidence": "Assigned by the full-pass taxonomy; refine in a source-level follow-up.",
+    "confidence": "medium"
+  },
+  "interconnection": {
+    "rank": 2,
+    "connected_equations": [],
+    "shared_mechanism": "local-global failure, rational surfaces, descent",
+    "larger_family": "Cubic surfaces",
+    "references": [
+      "Mordell, Diophantine Equations, Chapters 7 and 11"
+    ],
+    "evidence": "Shared research family in full-pass coverage.",
+    "confidence": "medium"
+  },
+  "status": "deep_dive",
+  "coverage": {
+    "kind": "full_pass",
+    "generated_from": "research/equation-triage.yaml",
+    "note": "Conservative full-coverage record; not an exhaustive individual literature survey."
+  }
+}

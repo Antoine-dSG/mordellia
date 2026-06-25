@@ -1,0 +1,13 @@
+{
+  "lec": "LEC-173",
+  "equation": "y^4=x^p+1",
+  "pages": "p.~304",
+  "cluster": "quartic-general",
+  "statement_status": "statement",
+  "statement_file": "blueprint/src/equations/LEC-173/LEC-173.tex",
+  "status": "deep_dive",
+  "coverage": "full_pass",
+  "tags": [
+    "quartic_equations"
+  ]
+}

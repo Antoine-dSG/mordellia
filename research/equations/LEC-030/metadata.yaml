@@ -1,0 +1,15 @@
+{
+  "lec": "LEC-030",
+  "equation": "\\begin{cases}ax^2+bxy+cy^2&=d,\\\\a_1x^2+b_1xy+c_1y^2&=d_1z^2\\end{cases}",
+  "pages": "p.~59",
+  "cluster": "quadratic-forms-conics",
+  "statement_status": "statement",
+  "statement_file": "blueprint/src/equations/LEC-030/LEC-030.tex",
+  "status": "deep_dive",
+  "coverage": "full_pass",
+  "tags": [
+    "conics",
+    "intersections_of_quadrics",
+    "quadratic_forms"
+  ]
+}

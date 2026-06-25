@@ -1,0 +1,15 @@
+{
+  "lec": "LEC-084",
+  "equation": "y^2=x^3-4",
+  "pages": "p.~123",
+  "cluster": "mordell-elliptic",
+  "statement_status": "statement",
+  "statement_file": "blueprint/src/equations/LEC-084/LEC-084.tex",
+  "status": "deep_dive",
+  "coverage": "full_pass",
+  "tags": [
+    "cubic_equations",
+    "elliptic_curves",
+    "mordell_curves"
+  ]
+}

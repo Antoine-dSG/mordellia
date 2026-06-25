@@ -1,0 +1,45 @@
+{
+  "lec": "LEC-134",
+  "cluster": "quartic-genus-one",
+  "history": {
+    "rank": 2,
+    "claim": "The equation is a binary quartic, genus-one model, or Pell-unit quartic instance.",
+    "general_problem": "Quartic genus-one models",
+    "references": [
+      "Mordell, Diophantine Equations, Chapters 4, 9, 27, 28",
+      "Bhargava--Shankar, Binary quartic forms having bounded invariants, https://arxiv.org/abs/1006.1002"
+    ],
+    "evidence": "Mordell pages pp.~268--272; triage clusters: elliptic_curves, genus_one_quartics, quartic_equations.",
+    "confidence": "high"
+  },
+  "structure": {
+    "rank": 3,
+    "structure": "binary quartics, elliptic curves, units",
+    "determines": "Binary quartic invariants, elliptic torsors, and unit equations control the qualitative behaviour.",
+    "novelty_status": "known",
+    "references": [
+      "Mordell, Diophantine Equations, Chapters 4, 9, 27, 28",
+      "Bhargava--Shankar, Binary quartic forms having bounded invariants, https://arxiv.org/abs/1006.1002"
+    ],
+    "evidence": "Assigned by the full-pass taxonomy; refine in a source-level follow-up.",
+    "confidence": "high"
+  },
+  "interconnection": {
+    "rank": 2,
+    "connected_equations": [],
+    "shared_mechanism": "binary quartics, elliptic curves, units",
+    "larger_family": "Quartic genus-one models",
+    "references": [
+      "Mordell, Diophantine Equations, Chapters 4, 9, 27, 28",
+      "Bhargava--Shankar, Binary quartic forms having bounded invariants, https://arxiv.org/abs/1006.1002"
+    ],
+    "evidence": "Shared research family in full-pass coverage.",
+    "confidence": "high"
+  },
+  "status": "deep_dive",
+  "coverage": {
+    "kind": "full_pass",
+    "generated_from": "research/equation-triage.yaml",
+    "note": "Conservative full-coverage record; not an exhaustive individual literature survey."
+  }
+}

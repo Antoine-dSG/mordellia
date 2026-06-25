@@ -1,0 +1,13 @@
+{
+  "lec": "LEC-146",
+  "equation": "(ax^2+by^2)^2-2k(cx^2+dy^2)^2=z^2",
+  "pages": "p.~5",
+  "cluster": "quartic-general",
+  "statement_status": "statement",
+  "statement_file": "blueprint/src/equations/LEC-146/LEC-146.tex",
+  "status": "deep_dive",
+  "coverage": "full_pass",
+  "tags": [
+    "quartic_equations"
+  ]
+}

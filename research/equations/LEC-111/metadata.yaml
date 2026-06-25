@@ -1,0 +1,13 @@
+{
+  "lec": "LEC-111",
+  "equation": "z^3=p^3+\\ell x+my+ax^2+bxy+cy^2",
+  "pages": "p.~103",
+  "cluster": "cubic-general",
+  "statement_status": "statement",
+  "statement_file": "blueprint/src/equations/LEC-111/LEC-111.tex",
+  "status": "deep_dive",
+  "coverage": "full_pass",
+  "tags": [
+    "cubic_equations"
+  ]
+}

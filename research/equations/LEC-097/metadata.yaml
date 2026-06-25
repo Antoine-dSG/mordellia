@@ -1,0 +1,13 @@
+{
+  "lec": "LEC-097",
+  "equation": "ax^3+by^3+cz^3+d=0",
+  "pages": "pp.~101--103",
+  "cluster": "cubic-general",
+  "statement_status": "statement",
+  "statement_file": "blueprint/src/equations/LEC-097/LEC-097.tex",
+  "status": "deep_dive",
+  "coverage": "full_pass",
+  "tags": [
+    "cubic_equations"
+  ]
+}

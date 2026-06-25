@@ -1,0 +1,15 @@
+{
+  "lec": "LEC-179",
+  "equation": "N(\\alpha x+\\beta y+\\gamma z)=f(x,y,z)",
+  "pages": "pp.~209--211",
+  "cluster": "norm-equations",
+  "statement_status": "statement",
+  "statement_file": "blueprint/src/equations/LEC-179/LEC-179.tex",
+  "status": "deep_dive",
+  "coverage": "full_pass",
+  "tags": [
+    "norm_equations",
+    "number_fields",
+    "quartic_equations"
+  ]
+}

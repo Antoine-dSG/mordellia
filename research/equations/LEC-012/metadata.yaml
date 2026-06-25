@@ -1,0 +1,13 @@
+{
+  "lec": "LEC-012",
+  "equation": "x_1^2+x_2^2-p(x_3^2+x_4^2)=0",
+  "pages": "p.~9",
+  "cluster": "quadratic-forms-conics",
+  "statement_status": "statement",
+  "statement_file": "blueprint/src/equations/LEC-012/LEC-012.tex",
+  "status": "deep_dive",
+  "coverage": "full_pass",
+  "tags": [
+    "quadratic_forms"
+  ]
+}

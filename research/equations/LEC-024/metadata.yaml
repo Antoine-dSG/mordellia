@@ -1,0 +1,15 @@
+{
+  "lec": "LEC-024",
+  "equation": "x^2+y^2+z^2=m",
+  "pages": "p.~4,175,179",
+  "cluster": "quadratic-forms-conics",
+  "statement_status": "statement",
+  "statement_file": "blueprint/src/equations/LEC-024/LEC-024.tex",
+  "status": "deep_dive",
+  "coverage": "full_pass",
+  "tags": [
+    "conics",
+    "quadratic_forms",
+    "sums_of_squares"
+  ]
+}

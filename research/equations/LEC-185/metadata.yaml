@@ -1,0 +1,13 @@
+{
+  "lec": "LEC-185",
+  "equation": "f(\\mathbf{x})=0",
+  "pages": "p.~10",
+  "cluster": "quartic-general",
+  "statement_status": "conjecture",
+  "statement_file": "blueprint/src/equations/LEC-185/LEC-185.tex",
+  "status": "deep_dive",
+  "coverage": "full_pass",
+  "tags": [
+    "quartic_equations"
+  ]
+}

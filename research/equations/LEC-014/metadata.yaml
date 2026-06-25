@@ -1,0 +1,13 @@
+{
+  "lec": "LEC-014",
+  "equation": "\\sum_{r,s}a_{rs}x_rx_s=0",
+  "pages": "p.~42",
+  "cluster": "quadratic-forms-conics",
+  "statement_status": "statement",
+  "statement_file": "blueprint/src/equations/LEC-014/LEC-014.tex",
+  "status": "deep_dive",
+  "coverage": "full_pass",
+  "tags": [
+    "quadratic_forms"
+  ]
+}

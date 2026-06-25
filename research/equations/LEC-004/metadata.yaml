@@ -1,0 +1,13 @@
+{
+  "lec": "LEC-004",
+  "equation": "ax^2+by^2+cz^2+2fyz+2gzx+2hxy=0",
+  "pages": "p.~47",
+  "cluster": "quadratic-forms-conics",
+  "statement_status": "statement",
+  "statement_file": "blueprint/src/equations/LEC-004/LEC-004.tex",
+  "status": "deep_dive",
+  "coverage": "full_pass",
+  "tags": [
+    "quadratic_forms"
+  ]
+}

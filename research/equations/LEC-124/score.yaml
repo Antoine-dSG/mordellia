@@ -1,0 +1,45 @@
+{
+  "lec": "LEC-124",
+  "cluster": "quartic-surfaces-obstructions",
+  "history": {
+    "rank": 2,
+    "claim": "The entry is a quartic-surface rational-point problem, often diagonal or built from quadratic forms.",
+    "general_problem": "Quartic surfaces and obstructions",
+    "references": [
+      "Mordell, Diophantine Equations, pp. 25, 90--94",
+      "Logan--McKinnon--van Luijk, Density of rational points on diagonal quartic surfaces, https://arxiv.org/abs/0812.4779"
+    ],
+    "evidence": "Mordell pages p.~90; triage clusters: diagonal_quartics, quartic_equations, quartic_surfaces.",
+    "confidence": "medium"
+  },
+  "structure": {
+    "rank": 3,
+    "structure": "quartic surfaces, local obstruction, point propagation",
+    "determines": "The relevant structure is a quartic surface with local obstruction, line configuration, or rational-point propagation.",
+    "novelty_status": "known",
+    "references": [
+      "Mordell, Diophantine Equations, pp. 25, 90--94",
+      "Logan--McKinnon--van Luijk, Density of rational points on diagonal quartic surfaces, https://arxiv.org/abs/0812.4779"
+    ],
+    "evidence": "Assigned by the full-pass taxonomy; refine in a source-level follow-up.",
+    "confidence": "medium"
+  },
+  "interconnection": {
+    "rank": 2,
+    "connected_equations": [],
+    "shared_mechanism": "quartic surfaces, local obstruction, point propagation",
+    "larger_family": "Quartic surfaces and obstructions",
+    "references": [
+      "Mordell, Diophantine Equations, pp. 25, 90--94",
+      "Logan--McKinnon--van Luijk, Density of rational points on diagonal quartic surfaces, https://arxiv.org/abs/0812.4779"
+    ],
+    "evidence": "Shared research family in full-pass coverage.",
+    "confidence": "medium"
+  },
+  "status": "deep_dive",
+  "coverage": {
+    "kind": "full_pass",
+    "generated_from": "research/equation-triage.yaml",
+    "note": "Conservative full-coverage record; not an exhaustive individual literature survey."
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "lec": "LEC-069",
+  "equation": "y^2=x^3+k,\\qquad k=2a^3-3b^2",
+  "pages": "pp.~244--245",
+  "cluster": "mordell-elliptic",
+  "statement_status": "statement",
+  "statement_file": "blueprint/src/equations/LEC-069/LEC-069.tex",
+  "status": "deep_dive",
+  "coverage": "full_pass",
+  "tags": [
+    "cubic_equations",
+    "elliptic_curves",
+    "mordell_curves"
+  ]
+}

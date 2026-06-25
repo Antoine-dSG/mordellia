@@ -1,0 +1,16 @@
+{
+  "lec": "LEC-020",
+  "equation": "y^2-Dx^2=\\pm1,\\ \\pm4",
+  "pages": "pp.~53--57",
+  "cluster": "pell-units",
+  "statement_status": "statement",
+  "statement_file": "blueprint/src/equations/LEC-020/LEC-020.tex",
+  "status": "deep_dive",
+  "coverage": "full_pass",
+  "tags": [
+    "conics",
+    "pell_equations",
+    "quadratic_forms",
+    "units"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "lec": "LEC-008",
+  "equation": "x^2+y^2=2z^2",
+  "pages": "p.~13",
+  "cluster": "quadratic-forms-conics",
+  "statement_status": "statement",
+  "statement_file": "blueprint/src/equations/LEC-008/LEC-008.tex",
+  "status": "deep_dive",
+  "coverage": "full_pass",
+  "tags": [
+    "quadratic_forms",
+    "sums_of_squares"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "lec": "LEC-137",
+  "equation": "py^2=2x^4+1",
+  "pages": "p.~74",
+  "cluster": "quartic-genus-one",
+  "statement_status": "statement",
+  "statement_file": "blueprint/src/equations/LEC-137/LEC-137.tex",
+  "status": "deep_dive",
+  "coverage": "full_pass",
+  "tags": [
+    "elliptic_curves",
+    "genus_one_quartics",
+    "quartic_equations"
+  ]
+}

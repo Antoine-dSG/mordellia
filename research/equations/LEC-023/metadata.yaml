@@ -1,0 +1,14 @@
+{
+  "lec": "LEC-023",
+  "equation": "x^2+ay^2+bz^2=m",
+  "pages": "pp.~175--178",
+  "cluster": "quadratic-forms-conics",
+  "statement_status": "statement",
+  "statement_file": "blueprint/src/equations/LEC-023/LEC-023.tex",
+  "status": "deep_dive",
+  "coverage": "full_pass",
+  "tags": [
+    "conics",
+    "quadratic_forms"
+  ]
+}

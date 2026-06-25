@@ -1,0 +1,15 @@
+{
+  "lec": "LEC-141",
+  "equation": "y^2=x^4+1",
+  "pages": "p.~17",
+  "cluster": "quartic-genus-one",
+  "statement_status": "statement",
+  "statement_file": "blueprint/src/equations/LEC-141/LEC-141.tex",
+  "status": "deep_dive",
+  "coverage": "full_pass",
+  "tags": [
+    "elliptic_curves",
+    "genus_one_quartics",
+    "quartic_equations"
+  ]
+}

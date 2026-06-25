@@ -1,0 +1,13 @@
+{
+  "lec": "LEC-155",
+  "equation": "\\begin{aligned}z^2&=U_1^2+U_2U_3,\\\\U_r&=a_rx^2+h_rxy+b_ry^2+f_ry+g_rx\\end{aligned}",
+  "pages": "p.~96",
+  "cluster": "quartic-general",
+  "statement_status": "statement",
+  "statement_file": "blueprint/src/equations/LEC-155/LEC-155.tex",
+  "status": "deep_dive",
+  "coverage": "full_pass",
+  "tags": [
+    "quartic_equations"
+  ]
+}

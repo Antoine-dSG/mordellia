@@ -1,0 +1,13 @@
+{
+  "lec": "LEC-172",
+  "equation": "y^3=x^m\\pm1",
+  "pages": "pp.~276, 304",
+  "cluster": "quartic-general",
+  "statement_status": "statement",
+  "statement_file": "blueprint/src/equations/LEC-172/LEC-172.tex",
+  "status": "deep_dive",
+  "coverage": "full_pass",
+  "tags": [
+    "quartic_equations"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "lec": "LEC-116",
+  "equation": "x_1^3+x_2^3+\\cdots+x_s^3=n",
+  "pages": "p.~181",
+  "cluster": "cubic-diagonal-sums",
+  "statement_status": "statement",
+  "statement_file": "blueprint/src/equations/LEC-116/LEC-116.tex",
+  "status": "deep_dive",
+  "coverage": "full_pass",
+  "tags": [
+    "cubic_equations",
+    "sums_of_cubes",
+    "waring_type"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "lec": "LEC-057",
+  "equation": "y^3=a+bx+cx^2+d^3x^3",
+  "pages": "p.~69",
+  "cluster": "cubic-general",
+  "statement_status": "statement",
+  "statement_file": "blueprint/src/equations/LEC-057/LEC-057.tex",
+  "status": "deep_dive",
+  "coverage": "full_pass",
+  "tags": [
+    "cubic_equations"
+  ]
+}

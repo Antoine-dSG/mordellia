@@ -1,0 +1,15 @@
+{
+  "lec": "LEC-027",
+  "equation": "x^2+y^2=4z+3",
+  "pages": "p.~3,8",
+  "cluster": "quadratic-forms-conics",
+  "statement_status": "statement",
+  "statement_file": "blueprint/src/equations/LEC-027/LEC-027.tex",
+  "status": "deep_dive",
+  "coverage": "full_pass",
+  "tags": [
+    "conics",
+    "quadratic_forms",
+    "sums_of_squares"
+  ]
+}

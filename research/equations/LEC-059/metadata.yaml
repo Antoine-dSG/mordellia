@@ -1,0 +1,13 @@
+{
+  "lec": "LEC-059",
+  "equation": "y^2=ax^3+bx^2+cx+d",
+  "pages": "pp.~199,255--261",
+  "cluster": "cubic-general",
+  "statement_status": "statement",
+  "statement_file": "blueprint/src/equations/LEC-059/LEC-059.tex",
+  "status": "deep_dive",
+  "coverage": "full_pass",
+  "tags": [
+    "cubic_equations"
+  ]
+}

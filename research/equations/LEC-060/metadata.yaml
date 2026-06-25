@@ -1,0 +1,15 @@
+{
+  "lec": "LEC-060",
+  "equation": "y^2=x^3-h_2x-h_3",
+  "pages": "pp.~143--146",
+  "cluster": "mordell-elliptic",
+  "statement_status": "statement",
+  "statement_file": "blueprint/src/equations/LEC-060/LEC-060.tex",
+  "status": "deep_dive",
+  "coverage": "full_pass",
+  "tags": [
+    "cubic_equations",
+    "elliptic_curves",
+    "mordell_curves"
+  ]
+}

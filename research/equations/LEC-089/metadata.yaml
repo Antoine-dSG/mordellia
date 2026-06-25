@@ -1,0 +1,15 @@
+{
+  "lec": "LEC-089",
+  "equation": "y^2=x^3+34",
+  "pages": "p.~242",
+  "cluster": "mordell-elliptic",
+  "statement_status": "statement",
+  "statement_file": "blueprint/src/equations/LEC-089/LEC-089.tex",
+  "status": "deep_dive",
+  "coverage": "full_pass",
+  "tags": [
+    "cubic_equations",
+    "elliptic_curves",
+    "mordell_curves"
+  ]
+}

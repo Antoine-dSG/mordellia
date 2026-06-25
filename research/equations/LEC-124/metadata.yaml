@@ -1,0 +1,15 @@
+{
+  "lec": "LEC-124",
+  "equation": "x^4+y^4=z^4+w^4",
+  "pages": "p.~90",
+  "cluster": "quartic-surfaces-obstructions",
+  "statement_status": "statement",
+  "statement_file": "blueprint/src/equations/LEC-124/LEC-124.tex",
+  "status": "deep_dive",
+  "coverage": "full_pass",
+  "tags": [
+    "diagonal_quartics",
+    "quartic_equations",
+    "quartic_surfaces"
+  ]
+}

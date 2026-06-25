@@ -1,0 +1,13 @@
+{
+  "lec": "LEC-165",
+  "equation": "f(x,y)=0",
+  "pages": "pp.~262--263, 276--277",
+  "cluster": "quartic-general",
+  "statement_status": "statement",
+  "statement_file": "blueprint/src/equations/LEC-165/LEC-165.tex",
+  "status": "deep_dive",
+  "coverage": "full_pass",
+  "tags": [
+    "quartic_equations"
+  ]
+}

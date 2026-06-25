@@ -1,0 +1,15 @@
+{
+  "lec": "LEC-128",
+  "equation": "Ax^4+Bx^3y+Cx^2y^2+Dxy^3+Ey^4=1",
+  "pages": "pp.~236--237",
+  "cluster": "quartic-genus-one",
+  "statement_status": "statement",
+  "statement_file": "blueprint/src/equations/LEC-128/LEC-128.tex",
+  "status": "deep_dive",
+  "coverage": "full_pass",
+  "tags": [
+    "binary_quartic_forms",
+    "quartic_equations",
+    "thue_equations"
+  ]
+}

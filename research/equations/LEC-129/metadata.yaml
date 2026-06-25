@@ -1,0 +1,13 @@
+{
+  "lec": "LEC-129",
+  "equation": "ax^4-by^4=c",
+  "pages": "p.~274",
+  "cluster": "quartic-genus-one",
+  "statement_status": "statement",
+  "statement_file": "blueprint/src/equations/LEC-129/LEC-129.tex",
+  "status": "deep_dive",
+  "coverage": "full_pass",
+  "tags": [
+    "quartic_equations"
+  ]
+}

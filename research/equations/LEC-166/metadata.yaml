@@ -1,0 +1,13 @@
+{
+  "lec": "LEC-166",
+  "equation": "y^2=f(x)",
+  "pages": "pp.~263--265",
+  "cluster": "quartic-general",
+  "statement_status": "statement",
+  "statement_file": "blueprint/src/equations/LEC-166/LEC-166.tex",
+  "status": "deep_dive",
+  "coverage": "full_pass",
+  "tags": [
+    "quartic_equations"
+  ]
+}

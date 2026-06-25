@@ -1,0 +1,15 @@
+{
+  "lec": "LEC-134",
+  "equation": "ky^2=ax^4+bx^3+cx^2+dx+e",
+  "pages": "pp.~268--272",
+  "cluster": "quartic-genus-one",
+  "statement_status": "statement",
+  "statement_file": "blueprint/src/equations/LEC-134/LEC-134.tex",
+  "status": "deep_dive",
+  "coverage": "full_pass",
+  "tags": [
+    "elliptic_curves",
+    "genus_one_quartics",
+    "quartic_equations"
+  ]
+}

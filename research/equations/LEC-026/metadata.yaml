@@ -1,0 +1,14 @@
+{
+  "lec": "LEC-026",
+  "equation": "yz+zx+xy=d",
+  "pages": "p.~291--292",
+  "cluster": "quadratic-forms-conics",
+  "statement_status": "statement",
+  "statement_file": "blueprint/src/equations/LEC-026/LEC-026.tex",
+  "status": "deep_dive",
+  "coverage": "full_pass",
+  "tags": [
+    "conics",
+    "quadratic_forms"
+  ]
+}

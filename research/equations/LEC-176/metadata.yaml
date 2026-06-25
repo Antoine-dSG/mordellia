@@ -1,0 +1,13 @@
+{
+  "lec": "LEC-176",
+  "equation": "z^m=Ax^2+Bxy+Cy^2",
+  "pages": "p.~111",
+  "cluster": "quartic-general",
+  "statement_status": "comment",
+  "statement_file": "blueprint/src/equations/LEC-176/LEC-176.tex",
+  "status": "deep_dive",
+  "coverage": "full_pass",
+  "tags": [
+    "quartic_equations"
+  ]
+}

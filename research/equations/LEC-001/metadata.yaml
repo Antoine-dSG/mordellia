@@ -1,0 +1,13 @@
+{
+  "lec": "LEC-001",
+  "equation": "a_1x_1+a_2x_2+\\cdots+a_nx_n=a",
+  "pages": "p.~30",
+  "cluster": "linear-algebra",
+  "statement_status": "statement",
+  "statement_file": "blueprint/src/equations/LEC-001/LEC-001.tex",
+  "status": "deep_dive",
+  "coverage": "full_pass",
+  "tags": [
+    "linear_equations"
+  ]
+}

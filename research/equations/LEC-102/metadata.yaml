@@ -1,0 +1,13 @@
+{
+  "lec": "LEC-102",
+  "equation": "z^2=f(x,y),\\qquad f\\ \\text{cubic}",
+  "pages": "pp.~85--87, 103--106",
+  "cluster": "cubic-general",
+  "statement_status": "conjecture",
+  "statement_file": "blueprint/src/equations/LEC-102/LEC-102.tex",
+  "status": "deep_dive",
+  "coverage": "full_pass",
+  "tags": [
+    "cubic_equations"
+  ]
+}

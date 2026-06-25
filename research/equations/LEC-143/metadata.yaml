@@ -1,0 +1,13 @@
+{
+  "lec": "LEC-143",
+  "equation": "(x(x-1)/2)^2 = y(y-1)/2",
+  "pages": "p.~268",
+  "cluster": "quartic-general",
+  "statement_status": "statement",
+  "statement_file": "blueprint/src/equations/LEC-143/LEC-143.tex",
+  "status": "deep_dive",
+  "coverage": "full_pass",
+  "tags": [
+    "quartic_equations"
+  ]
+}

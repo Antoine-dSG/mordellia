@@ -1,0 +1,13 @@
+{
+  "lec": "LEC-161",
+  "equation": "f(\\mathbf{x})=m,\\qquad f\\ \\text{homogeneous of degree }d\\text{ in }n\\text{ variables}",
+  "pages": "pp.~174--180",
+  "cluster": "quartic-general",
+  "statement_status": "comment",
+  "statement_file": "blueprint/src/equations/LEC-161/LEC-161.tex",
+  "status": "deep_dive",
+  "coverage": "full_pass",
+  "tags": [
+    "quartic_equations"
+  ]
+}

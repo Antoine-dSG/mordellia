@@ -1,0 +1,42 @@
+{
+  "lec": "LEC-095",
+  "cluster": "cubic-general",
+  "history": {
+    "rank": 2,
+    "claim": "The entry belongs to Mordell's general cubic-equation material, often reducing in special cases to elliptic curves, binary forms, or local obstructions.",
+    "general_problem": "General cubic equations",
+    "references": [
+      "Mordell, Diophantine Equations, Chapters 7--12"
+    ],
+    "evidence": "Mordell pages p.~102; triage clusters: cubic_equations.",
+    "confidence": "medium"
+  },
+  "structure": {
+    "rank": 4,
+    "structure": "cubic forms, elliptic curves, local obstruction",
+    "determines": "The structure depends on the specialised form: binary form, plane cubic, cubic surface, or congruence problem.",
+    "novelty_status": "known",
+    "references": [
+      "Mordell, Diophantine Equations, Chapters 7--12"
+    ],
+    "evidence": "Assigned by the full-pass taxonomy; refine in a source-level follow-up.",
+    "confidence": "medium"
+  },
+  "interconnection": {
+    "rank": 3,
+    "connected_equations": [],
+    "shared_mechanism": "cubic forms, elliptic curves, local obstruction",
+    "larger_family": "General cubic equations",
+    "references": [
+      "Mordell, Diophantine Equations, Chapters 7--12"
+    ],
+    "evidence": "Shared research family in full-pass coverage.",
+    "confidence": "medium"
+  },
+  "status": "deep_dive",
+  "coverage": {
+    "kind": "full_pass",
+    "generated_from": "research/equation-triage.yaml",
+    "note": "Conservative full-coverage record; not an exhaustive individual literature survey."
+  }
+}

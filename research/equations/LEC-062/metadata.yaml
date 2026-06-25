@@ -1,0 +1,13 @@
+{
+  "lec": "LEC-062",
+  "equation": "y(y+1)=x(x+1)(x+2)",
+  "pages": "p.~257",
+  "cluster": "cubic-general",
+  "statement_status": "statement",
+  "statement_file": "blueprint/src/equations/LEC-062/LEC-062.tex",
+  "status": "deep_dive",
+  "coverage": "full_pass",
+  "tags": [
+    "cubic_equations"
+  ]
+}

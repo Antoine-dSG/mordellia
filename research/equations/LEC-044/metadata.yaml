@@ -1,0 +1,15 @@
+{
+  "lec": "LEC-044",
+  "equation": "x^3+y^3+z^3-xyz=0",
+  "pages": "p.~80",
+  "cluster": "markoff-mutation",
+  "statement_status": "statement",
+  "statement_file": "blueprint/src/equations/LEC-044/LEC-044.tex",
+  "status": "deep_dive",
+  "coverage": "full_pass",
+  "tags": [
+    "cubic_equations",
+    "markoff_type",
+    "sums_of_cubes"
+  ]
+}

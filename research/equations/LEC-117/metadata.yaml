@@ -1,0 +1,16 @@
+{
+  "lec": "LEC-117",
+  "equation": "x^2+y^2+1=xyz",
+  "pages": "p.~299",
+  "cluster": "markoff-mutation",
+  "statement_status": "statement",
+  "statement_file": "blueprint/src/equations/LEC-117/LEC-117.tex",
+  "status": "deep_dive",
+  "coverage": "full_pass",
+  "tags": [
+    "cubic_equations",
+    "markoff_type",
+    "mutation_dynamics",
+    "sums_of_squares"
+  ]
+}

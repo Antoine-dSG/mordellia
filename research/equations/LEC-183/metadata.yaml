@@ -1,0 +1,15 @@
+{
+  "lec": "LEC-183",
+  "equation": "f_1(x,y)=g(x)+h(y)+c=zxy",
+  "pages": "p.~293",
+  "cluster": "markoff-mutation",
+  "statement_status": "statement",
+  "statement_file": "blueprint/src/equations/LEC-183/LEC-183.tex",
+  "status": "deep_dive",
+  "coverage": "full_pass",
+  "tags": [
+    "cluster_algebras",
+    "mutation_dynamics",
+    "quartic_equations"
+  ]
+}

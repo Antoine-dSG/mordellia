@@ -1,0 +1,14 @@
+{
+  "lec": "LEC-094",
+  "equation": "ax^2+by^2+cz^2+dxyz=e",
+  "pages": "p.~110",
+  "cluster": "markoff-mutation",
+  "statement_status": "statement",
+  "statement_file": "blueprint/src/equations/LEC-094/LEC-094.tex",
+  "status": "deep_dive",
+  "coverage": "full_pass",
+  "tags": [
+    "cubic_equations",
+    "markoff_type"
+  ]
+}

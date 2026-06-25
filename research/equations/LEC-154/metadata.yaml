@@ -1,0 +1,15 @@
+{
+  "lec": "LEC-154",
+  "equation": "ax^4+by^4+c=z^2",
+  "pages": "p.~95",
+  "cluster": "quartic-genus-one",
+  "statement_status": "statement",
+  "statement_file": "blueprint/src/equations/LEC-154/LEC-154.tex",
+  "status": "deep_dive",
+  "coverage": "full_pass",
+  "tags": [
+    "elliptic_curves",
+    "genus_one_quartics",
+    "quartic_equations"
+  ]
+}

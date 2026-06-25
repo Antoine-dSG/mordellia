@@ -1,0 +1,15 @@
+{
+  "lec": "LEC-006",
+  "equation": "ax^2+by^2+cz^2\\equiv0\\pmod M",
+  "pages": "p.~36",
+  "cluster": "quadratic-forms-conics",
+  "statement_status": "statement",
+  "statement_file": "blueprint/src/equations/LEC-006/LEC-006.tex",
+  "status": "deep_dive",
+  "coverage": "full_pass",
+  "tags": [
+    "congruences",
+    "local_obstructions",
+    "quadratic_forms"
+  ]
+}

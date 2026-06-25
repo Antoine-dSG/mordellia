@@ -1,0 +1,17 @@
+{
+  "lec": "LEC-038",
+  "equation": "ax^3+3bx^2y+3cxy^2+dy^3\\equiv z^3\\pmod 9",
+  "pages": "p.~37",
+  "cluster": "binary-forms-thue",
+  "statement_status": "statement",
+  "statement_file": "blueprint/src/equations/LEC-038/LEC-038.tex",
+  "status": "deep_dive",
+  "coverage": "full_pass",
+  "tags": [
+    "binary_cubic_forms",
+    "congruences",
+    "cubic_equations",
+    "local_obstructions",
+    "thue_equations"
+  ]
+}

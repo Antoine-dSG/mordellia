@@ -1,0 +1,15 @@
+{
+  "lec": "LEC-180",
+  "equation": "N(\\alpha x+\\beta y+\\gamma z)=n",
+  "pages": "p.~211",
+  "cluster": "norm-equations",
+  "statement_status": "statement",
+  "statement_file": "blueprint/src/equations/LEC-180/LEC-180.tex",
+  "status": "deep_dive",
+  "coverage": "full_pass",
+  "tags": [
+    "norm_equations",
+    "number_fields",
+    "quartic_equations"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "lec": "LEC-144",
+  "equation": "ax^4+bx^3y+cx^2y^2+dxy^3+ey^4=z^2",
+  "pages": "p.~138",
+  "cluster": "quartic-genus-one",
+  "statement_status": "comment",
+  "statement_file": "blueprint/src/equations/LEC-144/LEC-144.tex",
+  "status": "deep_dive",
+  "coverage": "full_pass",
+  "tags": [
+    "elliptic_curves",
+    "genus_one_quartics",
+    "quartic_equations"
+  ]
+}

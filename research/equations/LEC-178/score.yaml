@@ -1,0 +1,42 @@
+{
+  "lec": "LEC-178",
+  "cluster": "norm-equations",
+  "history": {
+    "rank": 2,
+    "claim": "The equation is a norm-form instance in algebraic number fields.",
+    "general_problem": "Norm equations",
+    "references": [
+      "Mordell, Diophantine Equations, pp. 209--211"
+    ],
+    "evidence": "Mordell pages p.~122; triage clusters: quartic_equations, sums_of_squares.",
+    "confidence": "high"
+  },
+  "structure": {
+    "rank": 3,
+    "structure": "field norms, units, Subspace-theorem finiteness",
+    "determines": "Factorisation, unit rank, and norm-form finiteness control the qualitative behaviour.",
+    "novelty_status": "known",
+    "references": [
+      "Mordell, Diophantine Equations, pp. 209--211"
+    ],
+    "evidence": "Assigned by the full-pass taxonomy; refine in a source-level follow-up.",
+    "confidence": "high"
+  },
+  "interconnection": {
+    "rank": 2,
+    "connected_equations": [],
+    "shared_mechanism": "field norms, units, Subspace-theorem finiteness",
+    "larger_family": "Norm equations",
+    "references": [
+      "Mordell, Diophantine Equations, pp. 209--211"
+    ],
+    "evidence": "Shared research family in full-pass coverage.",
+    "confidence": "high"
+  },
+  "status": "deep_dive",
+  "coverage": {
+    "kind": "full_pass",
+    "generated_from": "research/equation-triage.yaml",
+    "note": "Conservative full-coverage record; not an exhaustive individual literature survey."
+  }
+}

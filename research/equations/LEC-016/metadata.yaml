@@ -1,0 +1,13 @@
+{
+  "lec": "LEC-016",
+  "equation": "x_1^2+x_2^2+\\cdots+x_n^2=x^2",
+  "pages": "p.~12",
+  "cluster": "quadratic-forms-conics",
+  "statement_status": "statement",
+  "statement_file": "blueprint/src/equations/LEC-016/LEC-016.tex",
+  "status": "deep_dive",
+  "coverage": "full_pass",
+  "tags": [
+    "quadratic_forms"
+  ]
+}

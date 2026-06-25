@@ -1,0 +1,45 @@
+{
+  "lec": "LEC-044",
+  "cluster": "markoff-mutation",
+  "history": {
+    "rank": 1,
+    "claim": "The entry is a Markoff-type or exchange-relation instance connected to known mutation dynamics.",
+    "general_problem": "Markoff and mutation dynamics",
+    "references": [
+      "Mordell, Diophantine Equations, pp. 106--110, 292--300",
+      "Lam--Pylyavskyy, Laurent phenomenon algebras, https://arxiv.org/abs/1206.2611"
+    ],
+    "evidence": "Mordell pages p.~80; triage clusters: cubic_equations, markoff_type, sums_of_cubes.",
+    "confidence": "medium"
+  },
+  "structure": {
+    "rank": 2,
+    "structure": "Vieta involutions, mutation graph, Laurent phenomenon",
+    "determines": "Complementary-root transformations generate arithmetic orbits and explain infinitude/recurrence phenomena.",
+    "novelty_status": "known",
+    "references": [
+      "Mordell, Diophantine Equations, pp. 106--110, 292--300",
+      "Lam--Pylyavskyy, Laurent phenomenon algebras, https://arxiv.org/abs/1206.2611"
+    ],
+    "evidence": "Assigned by the full-pass taxonomy; refine in a source-level follow-up.",
+    "confidence": "medium"
+  },
+  "interconnection": {
+    "rank": 1,
+    "connected_equations": [],
+    "shared_mechanism": "Vieta involutions, mutation graph, Laurent phenomenon",
+    "larger_family": "Markoff and mutation dynamics",
+    "references": [
+      "Mordell, Diophantine Equations, pp. 106--110, 292--300",
+      "Lam--Pylyavskyy, Laurent phenomenon algebras, https://arxiv.org/abs/1206.2611"
+    ],
+    "evidence": "Shared research family in full-pass coverage.",
+    "confidence": "medium"
+  },
+  "status": "deep_dive",
+  "coverage": {
+    "kind": "full_pass",
+    "generated_from": "research/equation-triage.yaml",
+    "note": "Conservative full-coverage record; not an exhaustive individual literature survey."
+  }
+}

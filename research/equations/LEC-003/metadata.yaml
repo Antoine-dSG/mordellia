@@ -1,0 +1,13 @@
+{
+  "lec": "LEC-003",
+  "equation": "L_r(\\mathbf{x})=0\\quad(r=1,\\ldots,m),\\qquad m<n",
+  "pages": "p.~32",
+  "cluster": "linear-algebra",
+  "statement_status": "statement",
+  "statement_file": "blueprint/src/equations/LEC-003/LEC-003.tex",
+  "status": "deep_dive",
+  "coverage": "full_pass",
+  "tags": [
+    "linear_equations"
+  ]
+}

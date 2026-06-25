@@ -1,0 +1,14 @@
+{
+  "lec": "LEC-152",
+  "equation": "\\sum_{r,s=0}^{2}a_{rs}x^ry^s=dz^2",
+  "pages": "p.~97",
+  "cluster": "quadratic-forms-conics",
+  "statement_status": "conjecture",
+  "statement_file": "blueprint/src/equations/LEC-152/LEC-152.tex",
+  "status": "deep_dive",
+  "coverage": "full_pass",
+  "tags": [
+    "quartic_equations",
+    "sums_of_squares"
+  ]
+}

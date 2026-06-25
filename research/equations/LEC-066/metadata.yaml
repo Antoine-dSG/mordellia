@@ -1,0 +1,15 @@
+{
+  "lec": "LEC-066",
+  "equation": "y^2=x^3+k",
+  "pages": "pp.~135, 218, 238--254",
+  "cluster": "mordell-elliptic",
+  "statement_status": "statement",
+  "statement_file": "blueprint/src/equations/LEC-066/LEC-066.tex",
+  "status": "deep_dive",
+  "coverage": "full_pass",
+  "tags": [
+    "cubic_equations",
+    "elliptic_curves",
+    "mordell_curves"
+  ]
+}

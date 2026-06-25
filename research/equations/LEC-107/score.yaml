@@ -1,0 +1,45 @@
+{
+  "lec": "LEC-107",
+  "cluster": "mordell-elliptic",
+  "history": {
+    "rank": 1,
+    "claim": "The equation is an elliptic-curve or Mordell-curve instance in the established theory of rational and integral points.",
+    "general_problem": "Elliptic curves and Mordell curves",
+    "references": [
+      "Mordell, Diophantine Equations, Chapters 9, 16, 26",
+      "Bennett--Ghadermarzi, Mordell's equation: a classical approach, https://arxiv.org/abs/1311.7077"
+    ],
+    "evidence": "Mordell pages p.~235; triage clusters: cubic_equations, elliptic_curves.",
+    "confidence": "high"
+  },
+  "structure": {
+    "rank": 3,
+    "structure": "Mordell-Weil group, descent, integral points",
+    "determines": "The Mordell-Weil group, descent, and integral-point methods determine the qualitative behaviour.",
+    "novelty_status": "known",
+    "references": [
+      "Mordell, Diophantine Equations, Chapters 9, 16, 26",
+      "Bennett--Ghadermarzi, Mordell's equation: a classical approach, https://arxiv.org/abs/1311.7077"
+    ],
+    "evidence": "Assigned by the full-pass taxonomy; refine in a source-level follow-up.",
+    "confidence": "high"
+  },
+  "interconnection": {
+    "rank": 2,
+    "connected_equations": [],
+    "shared_mechanism": "Mordell-Weil group, descent, integral points",
+    "larger_family": "Elliptic curves and Mordell curves",
+    "references": [
+      "Mordell, Diophantine Equations, Chapters 9, 16, 26",
+      "Bennett--Ghadermarzi, Mordell's equation: a classical approach, https://arxiv.org/abs/1311.7077"
+    ],
+    "evidence": "Shared research family in full-pass coverage.",
+    "confidence": "high"
+  },
+  "status": "deep_dive",
+  "coverage": {
+    "kind": "full_pass",
+    "generated_from": "research/equation-triage.yaml",
+    "note": "Conservative full-coverage record; not an exhaustive individual literature survey."
+  }
+}

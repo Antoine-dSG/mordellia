@@ -1,96 +1,304 @@
 \section*{Deep-dive summary tables}
 
-Ranks are listed as \(H/S/I\), for history, structure, and interconnection.
-Rank \(1\) is strongest and rank \(5\) is weakest.
+Ranks are listed as \(H/S/I\), for history, structure, and interconnection. Rank \(1\) is strongest and rank \(5\) is weakest. These tables summarise the current full-pass research layer; low-confidence rows should be treated as search targets rather than final mathematical judgements.
 
 \providecommand{\LECLink}[1]{\hyperlink{eq:#1}{\texttt{#1}}}
 
 \begingroup
-\footnotesize
+\scriptsize
 \renewcommand{\arraystretch}{1.05}
 \setlength{\tabcolsep}{3pt}
 
+\subsection*{Coverage by research family}
 \begin{center}
-\begin{tabular}{@{}p{0.10\textwidth}p{0.18\textwidth}p{0.24\textwidth}p{0.32\textwidth}p{0.08\textwidth}@{}}
+\begin{tabular}{@{}p{0.26\textwidth}p{0.08\textwidth}p{0.44\textwidth}p{0.12\textwidth}@{}}
 \toprule
-LEC & Equation or family & Mordell-level statement & Structural reading & Ranks \\
+Research family & Count & Mechanism & H/S/I \\
 \midrule
-\LECLink{LEC-041}
-& \(x^3+y^3=az^3\)
-& Non-solubility for specified prime-supported values of \(a\).
-& Cyclotomic factorization over \(\mathbb Q(\rho)\); \(j=0\) cubic twists; \(3\)-isogeny descent.
-& \(2/3/2\) \\
-\LECLink{LEC-043}
-& \(ax^3+by^3+cz^3+dxyz=0\)
-& Rational and integral point alternatives for Hesse-type cubics.
-& Hesse pencil; plane-cubic group law; singular parameter exceptions.
-& \(2/3/2\) \\
-\LECLink{LEC-100}
-& \(x^3+y^3+z^3=n\)
-& Modulo \(9\) obstruction and positive-cube failures outside it.
-& Additive cube problem; congruence obstruction and computation, but no complete criterion.
-& \(2/5/2\) \\
-\LECLink{LEC-108}
-& \(z^2=x^3+y^3\)
-& Parametrisation of primitive solutions under Mordell's parity hypothesis.
-& Cyclotomic factorization and low-genus Fermat-type parametrisation.
-& \(1/3/2\) \\
-\LECLink{LEC-109}
-& \(2z^2=x^3+y^3\)
-& Complete solution deferred by Mordell to a reference.
-& Coefficient-\(2\) twist of \LECLink{LEC-108}; same two-cube factorization.
-& \(2/3/2\) \\
-\LECLink{LEC-114}
-& \(x^3+y^3+z^3+w^3=n\)
-& Four-cubes conjecture; proved by Mordell for \(n\not\equiv\pm4\pmod 9\).
-& Additive identities and residue classes; no known complete determining structure.
-& \(2/5/2\) \\
-\LECLink{LEC-119}
-& \(k_1FF_1=k_2G^2\)
-& No nonzero integer solutions under Mordell's congruence hypotheses.
-& Quartic surface with a local \(2\)-adic obstruction.
-& \(2/3/3\) \\
-\LECLink{LEC-122}
-& \(\sum_{i=1}^4 a_ix_i^4=0\)
-& New rational point from one known point, except for line degeneracy.
-& Diagonal quartic \(K3\) surface; line configuration; rational-point propagation.
-& \(2/3/2\) \\
-\LECLink{LEC-188}
-& \(\frac4n=\frac1x+\frac1y+\frac1z\)
-& Erdos--Straus conjecture.
-& Egyptian fractions; prime reduction and congruence sieves, but no complete criterion.
-& \(2/5/3\) \\
-\LECLink{LEC-191}
-& \(x^m-y^n=1\)
-& Catalan's conjecture, now Mihailescu's theorem.
-& Perfect-power gaps; cyclotomic fields, primary cyclotomic units, and Galois modules.
-& \(1/4/3\) \\
+Linear algebra and lattices & 3 & Smith normal form, rank, lattice saturation & 1/4/3 \\
+Quadratic forms and conics & 33 & local solubility, Hasse-Minkowski, parametrisation & 1/3/2 \\
+Pell equations and units & 1 & real quadratic units and continued fractions & 1/3/2 \\
+Binary forms and Thue equations & 5 & binary-form invariants, local obstruction, Thue finiteness & 1/4/2 \\
+Cubic diagonal sums & 9 & cube residues, Q(rho) factorisation, j=0 cubics & 2/3/2 \\
+Cubic surfaces & 4 & local-global failure, rational surfaces, descent & 2/3/2 \\
+General cubic equations & 24 & cubic forms, elliptic curves, local obstruction & 2/4/3 \\
+Elliptic curves and Mordell curves & 35 & Mordell-Weil group, descent, integral points & 1/3/2 \\
+Markoff and mutation dynamics & 8 & Vieta involutions, mutation graph, Laurent phenomenon & 1/2/1 \\
+Quartic surfaces and obstructions & 9 & quartic surfaces, local obstruction, point propagation & 2/3/2 \\
+Quartic genus-one models & 19 & binary quartics, elliptic curves, units & 2/3/2 \\
+General quartic equations & 32 & quartic forms, curves, surfaces, descent & 2/4/3 \\
+Norm equations & 3 & field norms, units, Subspace-theorem finiteness & 2/3/2 \\
+Classical conjectures & 2 & problem-specific conjectural structure & 2/5/4 \\
 \bottomrule
 \end{tabular}
 \end{center}
 
+\subsection*{Full deep-dive index}
+
+\subsection*{LEC-001--LEC-024}
 \begin{center}
-\begin{tabular}{@{}p{0.18\textwidth}p{0.20\textwidth}p{0.34\textwidth}p{0.22\textwidth}@{}}
+\begin{tabular}{@{}p{0.11\textwidth}p{0.10\textwidth}p{0.22\textwidth}p{0.33\textwidth}p{0.08\textwidth}p{0.10\textwidth}@{}}
 \toprule
-Cluster & Entries & Main conclusion & Next mathematical check \\
+LEC & Type & Research family & Mechanism & H/S/I & Conf. \\
 \midrule
-Cubic diagonal sums
-& \LECLink{LEC-041}, \LECLink{LEC-043}, \LECLink{LEC-100}, \LECLink{LEC-108}, \LECLink{LEC-109}, \LECLink{LEC-114}
-& The elliptic/Hesse part has strong structure; the additive three- and four-cube part has only partial congruence and search structure.
-& Write explicit maps to \(j=0\) Weierstrass models; isolate Hesse singular parameters; separate additive-cube heuristics.
-\\
-Quartic surfaces and obstructions
-& \LECLink{LEC-119}, \LECLink{LEC-122}
-& Mordell's obstruction and construction statements are both quartic-surface rational-point problems.
-& Rewrite \LECLink{LEC-119} over \(\mathbb Q_2\); compute line and fibration data for \LECLink{LEC-122}.
-\\
-Classical conjectures
-& \LECLink{LEC-188}, \LECLink{LEC-191}
-& This is a bookkeeping cluster: Erdos--Straus remains open, while Catalan is solved by cyclotomic methods.
-& Split unless a genuine shared mechanism is found; catalogue Erdos--Straus congruence families and Catalan's proof lineage.
-\\
+\LECLink{LEC-001} & statement & Linear algebra and lattices & Smith normal form, rank, lattice saturation & 1/4/3 & high \\
+\LECLink{LEC-002} & statement & Linear algebra and lattices & Smith normal form, rank, lattice saturation & 1/4/3 & high \\
+\LECLink{LEC-003} & statement & Linear algebra and lattices & Smith normal form, rank, lattice saturation & 1/4/3 & high \\
+\LECLink{LEC-004} & statement & Quadratic forms and conics & local solubility, Hasse-Minkowski, parametrisation & 1/3/2 & high \\
+\LECLink{LEC-005} & statement & Quadratic forms and conics & local solubility, Hasse-Minkowski, parametrisation & 1/3/2 & high \\
+\LECLink{LEC-006} & statement & Quadratic forms and conics & local solubility, Hasse-Minkowski, parametrisation & 1/3/2 & high \\
+\LECLink{LEC-007} & statement & Quadratic forms and conics & local solubility, Hasse-Minkowski, parametrisation & 1/3/2 & high \\
+\LECLink{LEC-008} & statement & Quadratic forms and conics & local solubility, Hasse-Minkowski, parametrisation & 1/3/2 & high \\
+\LECLink{LEC-009} & statement & Quadratic forms and conics & local solubility, Hasse-Minkowski, parametrisation & 1/3/2 & high \\
+\LECLink{LEC-010} & statement & Quadratic forms and conics & local solubility, Hasse-Minkowski, parametrisation & 1/3/2 & high \\
+\LECLink{LEC-011} & statement & Quadratic forms and conics & local solubility, Hasse-Minkowski, parametrisation & 1/3/2 & high \\
+\LECLink{LEC-012} & statement & Quadratic forms and conics & local solubility, Hasse-Minkowski, parametrisation & 1/3/2 & high \\
+\LECLink{LEC-013} & statement & Quadratic forms and conics & local solubility, Hasse-Minkowski, parametrisation & 1/3/2 & high \\
+\LECLink{LEC-014} & statement & Quadratic forms and conics & local solubility, Hasse-Minkowski, parametrisation & 1/3/2 & high \\
+\LECLink{LEC-015} & statement & Quadratic forms and conics & local solubility, Hasse-Minkowski, parametrisation & 1/3/2 & high \\
+\LECLink{LEC-016} & statement & Quadratic forms and conics & local solubility, Hasse-Minkowski, parametrisation & 1/3/2 & high \\
+\LECLink{LEC-017} & statement & Quadratic forms and conics & local solubility, Hasse-Minkowski, parametrisation & 1/3/2 & high \\
+\LECLink{LEC-018} & comment & Quadratic forms and conics & local solubility, Hasse-Minkowski, parametrisation & 1/3/2 & high \\
+\LECLink{LEC-019} & statement & Quadratic forms and conics & local solubility, Hasse-Minkowski, parametrisation & 1/3/2 & high \\
+\LECLink{LEC-020} & statement & Pell equations and units & real quadratic units and continued fractions & 1/3/2 & high \\
+\LECLink{LEC-021} & statement & Quadratic forms and conics & local solubility, Hasse-Minkowski, parametrisation & 1/3/2 & high \\
+\LECLink{LEC-022} & statement & Quadratic forms and conics & local solubility, Hasse-Minkowski, parametrisation & 1/3/2 & high \\
+\LECLink{LEC-023} & statement & Quadratic forms and conics & local solubility, Hasse-Minkowski, parametrisation & 1/3/2 & high \\
+\LECLink{LEC-024} & statement & Quadratic forms and conics & local solubility, Hasse-Minkowski, parametrisation & 1/3/2 & high \\
 \bottomrule
 \end{tabular}
 \end{center}
 
+\subsection*{LEC-025--LEC-048}
+\begin{center}
+\begin{tabular}{@{}p{0.11\textwidth}p{0.10\textwidth}p{0.22\textwidth}p{0.33\textwidth}p{0.08\textwidth}p{0.10\textwidth}@{}}
+\toprule
+LEC & Type & Research family & Mechanism & H/S/I & Conf. \\
+\midrule
+\LECLink{LEC-025} & statement & Quadratic forms and conics & local solubility, Hasse-Minkowski, parametrisation & 1/3/2 & high \\
+\LECLink{LEC-026} & statement & Quadratic forms and conics & local solubility, Hasse-Minkowski, parametrisation & 1/3/2 & high \\
+\LECLink{LEC-027} & statement & Quadratic forms and conics & local solubility, Hasse-Minkowski, parametrisation & 1/3/2 & high \\
+\LECLink{LEC-028} & statement & Quadratic forms and conics & local solubility, Hasse-Minkowski, parametrisation & 1/3/2 & high \\
+\LECLink{LEC-029} & statement & Quadratic forms and conics & local solubility, Hasse-Minkowski, parametrisation & 1/3/2 & high \\
+\LECLink{LEC-030} & statement & Quadratic forms and conics & local solubility, Hasse-Minkowski, parametrisation & 1/3/2 & high \\
+\LECLink{LEC-031} & statement & Quadratic forms and conics & local solubility, Hasse-Minkowski, parametrisation & 1/3/2 & high \\
+\LECLink{LEC-032} & statement & Quadratic forms and conics & local solubility, Hasse-Minkowski, parametrisation & 1/3/2 & high \\
+\LECLink{LEC-033} & statement & Quadratic forms and conics & local solubility, Hasse-Minkowski, parametrisation & 1/3/2 & high \\
+\LECLink{LEC-034} & statement & Quadratic forms and conics & local solubility, Hasse-Minkowski, parametrisation & 1/3/2 & high \\
+\LECLink{LEC-035} & statement & Quadratic forms and conics & local solubility, Hasse-Minkowski, parametrisation & 1/3/2 & high \\
+\LECLink{LEC-036} & comment & General cubic equations & cubic forms, elliptic curves, local obstruction & 2/4/3 & medium \\
+\LECLink{LEC-037} & statement & Binary forms and Thue equations & binary-form invariants, local obstruction, Thue finiteness & 1/4/2 & high \\
+\LECLink{LEC-038} & statement & Binary forms and Thue equations & binary-form invariants, local obstruction, Thue finiteness & 1/4/2 & high \\
+\LECLink{LEC-039} & comment & General cubic equations & cubic forms, elliptic curves, local obstruction & 2/4/3 & medium \\
+\LECLink{LEC-040} & statement & General cubic equations & cubic forms, elliptic curves, local obstruction & 2/4/3 & medium \\
+\LECLink{LEC-041} & statement & Cubic diagonal sums & cube residues, Q(rho) factorisation, j=0 cubics & 2/3/2 & medium \\
+\LECLink{LEC-042} & statement & General cubic equations & cubic forms, elliptic curves, local obstruction & 2/4/3 & medium \\
+\LECLink{LEC-043} & statement & Cubic diagonal sums & cube residues, Q(rho) factorisation, j=0 cubics & 2/3/2 & medium \\
+\LECLink{LEC-044} & statement & Markoff and mutation dynamics & Vieta involutions, mutation graph, Laurent phenomenon & 1/2/1 & medium \\
+\LECLink{LEC-045} & comment & Cubic surfaces & local-global failure, rational surfaces, descent & 2/3/2 & medium \\
+\LECLink{LEC-046} & statement & Cubic surfaces & local-global failure, rational surfaces, descent & 2/3/2 & medium \\
+\LECLink{LEC-047} & statement & Cubic surfaces & local-global failure, rational surfaces, descent & 2/3/2 & medium \\
+\LECLink{LEC-048} & statement & Cubic surfaces & local-global failure, rational surfaces, descent & 2/3/2 & medium \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\subsection*{LEC-049--LEC-072}
+\begin{center}
+\begin{tabular}{@{}p{0.11\textwidth}p{0.10\textwidth}p{0.22\textwidth}p{0.33\textwidth}p{0.08\textwidth}p{0.10\textwidth}@{}}
+\toprule
+LEC & Type & Research family & Mechanism & H/S/I & Conf. \\
+\midrule
+\LECLink{LEC-049} & statement & Quadratic forms and conics & local solubility, Hasse-Minkowski, parametrisation & 1/3/2 & high \\
+\LECLink{LEC-050} & statement & Binary forms and Thue equations & binary-form invariants, local obstruction, Thue finiteness & 1/4/2 & high \\
+\LECLink{LEC-051} & statement & Binary forms and Thue equations & binary-form invariants, local obstruction, Thue finiteness & 1/4/2 & high \\
+\LECLink{LEC-052} & statement & General cubic equations & cubic forms, elliptic curves, local obstruction & 2/4/3 & medium \\
+\LECLink{LEC-053} & statement & General cubic equations & cubic forms, elliptic curves, local obstruction & 2/4/3 & medium \\
+\LECLink{LEC-054} & statement & General cubic equations & cubic forms, elliptic curves, local obstruction & 2/4/3 & medium \\
+\LECLink{LEC-055} & statement & General cubic equations & cubic forms, elliptic curves, local obstruction & 2/4/3 & medium \\
+\LECLink{LEC-056} & statement & General cubic equations & cubic forms, elliptic curves, local obstruction & 2/4/3 & medium \\
+\LECLink{LEC-057} & statement & General cubic equations & cubic forms, elliptic curves, local obstruction & 2/4/3 & medium \\
+\LECLink{LEC-058} & statement & General cubic equations & cubic forms, elliptic curves, local obstruction & 2/4/3 & medium \\
+\LECLink{LEC-059} & statement & General cubic equations & cubic forms, elliptic curves, local obstruction & 2/4/3 & medium \\
+\LECLink{LEC-060} & statement & Elliptic curves and Mordell curves & Mordell-Weil group, descent, integral points & 1/3/2 & high \\
+\LECLink{LEC-061} & statement & Elliptic curves and Mordell curves & Mordell-Weil group, descent, integral points & 1/3/2 & high \\
+\LECLink{LEC-062} & statement & General cubic equations & cubic forms, elliptic curves, local obstruction & 2/4/3 & medium \\
+\LECLink{LEC-063} & statement & General cubic equations & cubic forms, elliptic curves, local obstruction & 2/4/3 & medium \\
+\LECLink{LEC-064} & statement & General cubic equations & cubic forms, elliptic curves, local obstruction & 2/4/3 & medium \\
+\LECLink{LEC-065} & conjecture & Elliptic curves and Mordell curves & Mordell-Weil group, descent, integral points & 1/3/2 & high \\
+\LECLink{LEC-066} & statement & Elliptic curves and Mordell curves & Mordell-Weil group, descent, integral points & 1/3/2 & high \\
+\LECLink{LEC-067} & statement & General cubic equations & cubic forms, elliptic curves, local obstruction & 2/4/3 & medium \\
+\LECLink{LEC-068} & comment & Elliptic curves and Mordell curves & Mordell-Weil group, descent, integral points & 1/3/2 & high \\
+\LECLink{LEC-069} & statement & Elliptic curves and Mordell curves & Mordell-Weil group, descent, integral points & 1/3/2 & high \\
+\LECLink{LEC-070} & statement & Elliptic curves and Mordell curves & Mordell-Weil group, descent, integral points & 1/3/2 & high \\
+\LECLink{LEC-071} & statement & Elliptic curves and Mordell curves & Mordell-Weil group, descent, integral points & 1/3/2 & high \\
+\LECLink{LEC-072} & statement & Elliptic curves and Mordell curves & Mordell-Weil group, descent, integral points & 1/3/2 & high \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\subsection*{LEC-073--LEC-096}
+\begin{center}
+\begin{tabular}{@{}p{0.11\textwidth}p{0.10\textwidth}p{0.22\textwidth}p{0.33\textwidth}p{0.08\textwidth}p{0.10\textwidth}@{}}
+\toprule
+LEC & Type & Research family & Mechanism & H/S/I & Conf. \\
+\midrule
+\LECLink{LEC-073} & statement & Elliptic curves and Mordell curves & Mordell-Weil group, descent, integral points & 1/3/2 & high \\
+\LECLink{LEC-074} & statement & Elliptic curves and Mordell curves & Mordell-Weil group, descent, integral points & 1/3/2 & high \\
+\LECLink{LEC-075} & statement & Elliptic curves and Mordell curves & Mordell-Weil group, descent, integral points & 1/3/2 & high \\
+\LECLink{LEC-076} & statement & Elliptic curves and Mordell curves & Mordell-Weil group, descent, integral points & 1/3/2 & high \\
+\LECLink{LEC-077} & statement & Elliptic curves and Mordell curves & Mordell-Weil group, descent, integral points & 1/3/2 & high \\
+\LECLink{LEC-078} & statement & Elliptic curves and Mordell curves & Mordell-Weil group, descent, integral points & 1/3/2 & high \\
+\LECLink{LEC-079} & statement & Elliptic curves and Mordell curves & Mordell-Weil group, descent, integral points & 1/3/2 & high \\
+\LECLink{LEC-080} & statement & Elliptic curves and Mordell curves & Mordell-Weil group, descent, integral points & 1/3/2 & high \\
+\LECLink{LEC-081} & statement & Elliptic curves and Mordell curves & Mordell-Weil group, descent, integral points & 1/3/2 & high \\
+\LECLink{LEC-082} & statement & Elliptic curves and Mordell curves & Mordell-Weil group, descent, integral points & 1/3/2 & high \\
+\LECLink{LEC-083} & statement & Elliptic curves and Mordell curves & Mordell-Weil group, descent, integral points & 1/3/2 & high \\
+\LECLink{LEC-084} & statement & Elliptic curves and Mordell curves & Mordell-Weil group, descent, integral points & 1/3/2 & high \\
+\LECLink{LEC-085} & statement & Elliptic curves and Mordell curves & Mordell-Weil group, descent, integral points & 1/3/2 & high \\
+\LECLink{LEC-086} & statement & Elliptic curves and Mordell curves & Mordell-Weil group, descent, integral points & 1/3/2 & high \\
+\LECLink{LEC-087} & statement & Elliptic curves and Mordell curves & Mordell-Weil group, descent, integral points & 1/3/2 & high \\
+\LECLink{LEC-088} & statement & Elliptic curves and Mordell curves & Mordell-Weil group, descent, integral points & 1/3/2 & high \\
+\LECLink{LEC-089} & statement & Elliptic curves and Mordell curves & Mordell-Weil group, descent, integral points & 1/3/2 & high \\
+\LECLink{LEC-090} & statement & Elliptic curves and Mordell curves & Mordell-Weil group, descent, integral points & 1/3/2 & high \\
+\LECLink{LEC-091} & statement & Elliptic curves and Mordell curves & Mordell-Weil group, descent, integral points & 1/3/2 & high \\
+\LECLink{LEC-092} & statement & Elliptic curves and Mordell curves & Mordell-Weil group, descent, integral points & 1/3/2 & high \\
+\LECLink{LEC-093} & statement & General cubic equations & cubic forms, elliptic curves, local obstruction & 2/4/3 & medium \\
+\LECLink{LEC-094} & statement & Markoff and mutation dynamics & Vieta involutions, mutation graph, Laurent phenomenon & 1/2/1 & medium \\
+\LECLink{LEC-095} & statement & General cubic equations & cubic forms, elliptic curves, local obstruction & 2/4/3 & medium \\
+\LECLink{LEC-096} & statement & Markoff and mutation dynamics & Vieta involutions, mutation graph, Laurent phenomenon & 1/2/1 & medium \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\subsection*{LEC-097--LEC-119}
+\begin{center}
+\begin{tabular}{@{}p{0.11\textwidth}p{0.10\textwidth}p{0.22\textwidth}p{0.33\textwidth}p{0.08\textwidth}p{0.10\textwidth}@{}}
+\toprule
+LEC & Type & Research family & Mechanism & H/S/I & Conf. \\
+\midrule
+\LECLink{LEC-097} & statement & General cubic equations & cubic forms, elliptic curves, local obstruction & 2/4/3 & medium \\
+\LECLink{LEC-098} & statement & Markoff and mutation dynamics & Vieta involutions, mutation graph, Laurent phenomenon & 1/2/1 & medium \\
+\LECLink{LEC-099} & statement & Cubic diagonal sums & cube residues, Q(rho) factorisation, j=0 cubics & 2/3/2 & medium \\
+\LECLink{LEC-100} & statement & Cubic diagonal sums & cube residues, Q(rho) factorisation, j=0 cubics & 2/5/2 & medium \\
+\LECLink{LEC-101} & statement & Markoff and mutation dynamics & Vieta involutions, mutation graph, Laurent phenomenon & 1/2/1 & medium \\
+\LECLink{LEC-102} & conjecture & General cubic equations & cubic forms, elliptic curves, local obstruction & 2/4/3 & medium \\
+\LECLink{LEC-103} & statement & Elliptic curves and Mordell curves & Mordell-Weil group, descent, integral points & 1/3/2 & high \\
+\LECLink{LEC-104} & statement & Elliptic curves and Mordell curves & Mordell-Weil group, descent, integral points & 1/3/2 & high \\
+\LECLink{LEC-105} & statement & Elliptic curves and Mordell curves & Mordell-Weil group, descent, integral points & 1/3/2 & high \\
+\LECLink{LEC-106} & statement & Elliptic curves and Mordell curves & Mordell-Weil group, descent, integral points & 1/3/2 & high \\
+\LECLink{LEC-107} & comment & Elliptic curves and Mordell curves & Mordell-Weil group, descent, integral points & 1/3/2 & high \\
+\LECLink{LEC-108} & statement & Cubic diagonal sums & cube residues, Q(rho) factorisation, j=0 cubics & 1/3/2 & high \\
+\LECLink{LEC-109} & comment & Cubic diagonal sums & cube residues, Q(rho) factorisation, j=0 cubics & 2/3/2 & medium \\
+\LECLink{LEC-110} & statement & General cubic equations & cubic forms, elliptic curves, local obstruction & 2/4/3 & medium \\
+\LECLink{LEC-111} & statement & General cubic equations & cubic forms, elliptic curves, local obstruction & 2/4/3 & medium \\
+\LECLink{LEC-112} & statement & General cubic equations & cubic forms, elliptic curves, local obstruction & 2/4/3 & medium \\
+\LECLink{LEC-113} & statement & General cubic equations & cubic forms, elliptic curves, local obstruction & 2/4/3 & medium \\
+\LECLink{LEC-114} & conjecture & Cubic diagonal sums & cube residues, Q(rho) factorisation, j=0 cubics & 2/5/2 & medium \\
+\LECLink{LEC-115} & statement & Cubic diagonal sums & cube residues, Q(rho) factorisation, j=0 cubics & 2/3/2 & medium \\
+\LECLink{LEC-116} & statement & Cubic diagonal sums & cube residues, Q(rho) factorisation, j=0 cubics & 2/3/2 & medium \\
+\LECLink{LEC-117} & statement & Markoff and mutation dynamics & Vieta involutions, mutation graph, Laurent phenomenon & 1/2/1 & medium \\
+\LECLink{LEC-118} & statement & Markoff and mutation dynamics & Vieta involutions, mutation graph, Laurent phenomenon & 1/2/1 & medium \\
+\LECLink{LEC-190} & conjecture & Elliptic curves and Mordell curves & Mordell-Weil group, descent, integral points & 1/3/2 & high \\
+\LECLink{LEC-119} & statement & Quartic surfaces and obstructions & quartic surfaces, local obstruction, point propagation & 2/3/3 & medium \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\subsection*{LEC-120--LEC-143}
+\begin{center}
+\begin{tabular}{@{}p{0.11\textwidth}p{0.10\textwidth}p{0.22\textwidth}p{0.33\textwidth}p{0.08\textwidth}p{0.10\textwidth}@{}}
+\toprule
+LEC & Type & Research family & Mechanism & H/S/I & Conf. \\
+\midrule
+\LECLink{LEC-120} & statement & General quartic equations & quartic forms, curves, surfaces, descent & 2/4/3 & medium \\
+\LECLink{LEC-121} & statement & General quartic equations & quartic forms, curves, surfaces, descent & 2/4/3 & medium \\
+\LECLink{LEC-122} & statement & Quartic surfaces and obstructions & quartic surfaces, local obstruction, point propagation & 2/3/2 & high \\
+\LECLink{LEC-123} & statement & Quartic surfaces and obstructions & quartic surfaces, local obstruction, point propagation & 2/3/2 & medium \\
+\LECLink{LEC-124} & statement & Quartic surfaces and obstructions & quartic surfaces, local obstruction, point propagation & 2/3/2 & medium \\
+\LECLink{LEC-125} & conjecture & Quartic surfaces and obstructions & quartic surfaces, local obstruction, point propagation & 2/3/2 & medium \\
+\LECLink{LEC-126} & comment & General quartic equations & quartic forms, curves, surfaces, descent & 2/4/3 & medium \\
+\LECLink{LEC-127} & statement & Quartic surfaces and obstructions & quartic surfaces, local obstruction, point propagation & 2/3/2 & medium \\
+\LECLink{LEC-128} & statement & Quartic genus-one models & binary quartics, elliptic curves, units & 2/3/2 & high \\
+\LECLink{LEC-129} & statement & Quartic genus-one models & binary quartics, elliptic curves, units & 2/3/2 & high \\
+\LECLink{LEC-130} & statement & Quartic genus-one models & binary quartics, elliptic curves, units & 2/3/2 & high \\
+\LECLink{LEC-131} & statement & Quartic surfaces and obstructions & quartic surfaces, local obstruction, point propagation & 2/3/2 & medium \\
+\LECLink{LEC-132} & statement & General quartic equations & quartic forms, curves, surfaces, descent & 2/4/3 & medium \\
+\LECLink{LEC-133} & statement & General quartic equations & quartic forms, curves, surfaces, descent & 2/4/3 & medium \\
+\LECLink{LEC-134} & statement & Quartic genus-one models & binary quartics, elliptic curves, units & 2/3/2 & high \\
+\LECLink{LEC-135} & statement & Quartic genus-one models & binary quartics, elliptic curves, units & 2/3/2 & high \\
+\LECLink{LEC-136} & statement & Quartic genus-one models & binary quartics, elliptic curves, units & 2/3/2 & high \\
+\LECLink{LEC-137} & statement & Quartic genus-one models & binary quartics, elliptic curves, units & 2/3/2 & high \\
+\LECLink{LEC-138} & statement & Quartic genus-one models & binary quartics, elliptic curves, units & 2/3/2 & high \\
+\LECLink{LEC-139} & statement & Quartic genus-one models & binary quartics, elliptic curves, units & 2/3/2 & high \\
+\LECLink{LEC-140} & statement & Quartic genus-one models & binary quartics, elliptic curves, units & 2/3/2 & high \\
+\LECLink{LEC-141} & statement & Quartic genus-one models & binary quartics, elliptic curves, units & 2/3/2 & high \\
+\LECLink{LEC-142} & statement & General quartic equations & quartic forms, curves, surfaces, descent & 2/4/3 & medium \\
+\LECLink{LEC-143} & statement & General quartic equations & quartic forms, curves, surfaces, descent & 2/4/3 & medium \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\subsection*{LEC-144--LEC-167}
+\begin{center}
+\begin{tabular}{@{}p{0.11\textwidth}p{0.10\textwidth}p{0.22\textwidth}p{0.33\textwidth}p{0.08\textwidth}p{0.10\textwidth}@{}}
+\toprule
+LEC & Type & Research family & Mechanism & H/S/I & Conf. \\
+\midrule
+\LECLink{LEC-144} & comment & Quartic genus-one models & binary quartics, elliptic curves, units & 2/3/2 & high \\
+\LECLink{LEC-145} & statement & Quartic genus-one models & binary quartics, elliptic curves, units & 2/3/2 & high \\
+\LECLink{LEC-146} & statement & General quartic equations & quartic forms, curves, surfaces, descent & 2/4/3 & medium \\
+\LECLink{LEC-147} & statement & Quartic genus-one models & binary quartics, elliptic curves, units & 2/3/2 & high \\
+\LECLink{LEC-148} & statement & Quartic genus-one models & binary quartics, elliptic curves, units & 2/3/2 & high \\
+\LECLink{LEC-149} & statement & Quartic genus-one models & binary quartics, elliptic curves, units & 2/3/2 & high \\
+\LECLink{LEC-150} & statement & Quartic genus-one models & binary quartics, elliptic curves, units & 2/3/2 & high \\
+\LECLink{LEC-151} & statement & Quartic genus-one models & binary quartics, elliptic curves, units & 2/3/2 & high \\
+\LECLink{LEC-152} & conjecture & Quadratic forms and conics & local solubility, Hasse-Minkowski, parametrisation & 1/3/2 & high \\
+\LECLink{LEC-153} & statement & General quartic equations & quartic forms, curves, surfaces, descent & 2/4/3 & medium \\
+\LECLink{LEC-154} & statement & Quartic genus-one models & binary quartics, elliptic curves, units & 2/3/2 & high \\
+\LECLink{LEC-155} & statement & General quartic equations & quartic forms, curves, surfaces, descent & 2/4/3 & medium \\
+\LECLink{LEC-156} & statement & Quartic surfaces and obstructions & quartic surfaces, local obstruction, point propagation & 2/3/2 & medium \\
+\LECLink{LEC-157} & statement & Quartic surfaces and obstructions & quartic surfaces, local obstruction, point propagation & 2/3/2 & medium \\
+\LECLink{LEC-158} & statement & General quartic equations & quartic forms, curves, surfaces, descent & 2/4/3 & medium \\
+\LECLink{LEC-159} & statement & General quartic equations & quartic forms, curves, surfaces, descent & 2/4/3 & medium \\
+\LECLink{LEC-160} & statement & General quartic equations & quartic forms, curves, surfaces, descent & 2/4/3 & medium \\
+\LECLink{LEC-161} & comment & General quartic equations & quartic forms, curves, surfaces, descent & 2/4/3 & medium \\
+\LECLink{LEC-162} & statement & Binary forms and Thue equations & binary-form invariants, local obstruction, Thue finiteness & 1/4/2 & high \\
+\LECLink{LEC-163} & statement & General quartic equations & quartic forms, curves, surfaces, descent & 2/4/3 & medium \\
+\LECLink{LEC-164} & statement & General quartic equations & quartic forms, curves, surfaces, descent & 2/4/3 & medium \\
+\LECLink{LEC-165} & statement & General quartic equations & quartic forms, curves, surfaces, descent & 2/4/3 & medium \\
+\LECLink{LEC-166} & statement & General quartic equations & quartic forms, curves, surfaces, descent & 2/4/3 & medium \\
+\LECLink{LEC-167} & statement & General quartic equations & quartic forms, curves, surfaces, descent & 2/4/3 & medium \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\subsection*{LEC-168--LEC-188}
+\begin{center}
+\begin{tabular}{@{}p{0.11\textwidth}p{0.10\textwidth}p{0.22\textwidth}p{0.33\textwidth}p{0.08\textwidth}p{0.10\textwidth}@{}}
+\toprule
+LEC & Type & Research family & Mechanism & H/S/I & Conf. \\
+\midrule
+\LECLink{LEC-168} & statement & General quartic equations & quartic forms, curves, surfaces, descent & 2/4/3 & medium \\
+\LECLink{LEC-169} & comment & General quartic equations & quartic forms, curves, surfaces, descent & 2/4/3 & medium \\
+\LECLink{LEC-170} & statement & General quartic equations & quartic forms, curves, surfaces, descent & 2/4/3 & medium \\
+\LECLink{LEC-171} & statement & General quartic equations & quartic forms, curves, surfaces, descent & 2/4/3 & medium \\
+\LECLink{LEC-172} & statement & General quartic equations & quartic forms, curves, surfaces, descent & 2/4/3 & medium \\
+\LECLink{LEC-173} & statement & General quartic equations & quartic forms, curves, surfaces, descent & 2/4/3 & medium \\
+\LECLink{LEC-174} & comment & General quartic equations & quartic forms, curves, surfaces, descent & 2/4/3 & medium \\
+\LECLink{LEC-175} & statement & General quartic equations & quartic forms, curves, surfaces, descent & 2/4/3 & medium \\
+\LECLink{LEC-176} & comment & General quartic equations & quartic forms, curves, surfaces, descent & 2/4/3 & medium \\
+\LECLink{LEC-177} & comment & General quartic equations & quartic forms, curves, surfaces, descent & 2/4/3 & medium \\
+\LECLink{LEC-178} & statement & Norm equations & field norms, units, Subspace-theorem finiteness & 2/3/2 & high \\
+\LECLink{LEC-179} & statement & Norm equations & field norms, units, Subspace-theorem finiteness & 2/3/2 & high \\
+\LECLink{LEC-180} & statement & Norm equations & field norms, units, Subspace-theorem finiteness & 2/3/2 & high \\
+\LECLink{LEC-181} & statement & General quartic equations & quartic forms, curves, surfaces, descent & 2/4/3 & medium \\
+\LECLink{LEC-191} & conjecture & Classical conjectures & problem-specific conjectural structure & 1/4/3 & high \\
+\LECLink{LEC-185} & conjecture & General quartic equations & quartic forms, curves, surfaces, descent & 2/4/3 & medium \\
+\LECLink{LEC-182} & statement & General quartic equations & quartic forms, curves, surfaces, descent & 2/4/3 & medium \\
+\LECLink{LEC-183} & statement & Markoff and mutation dynamics & Vieta involutions, mutation graph, Laurent phenomenon & 1/2/1 & medium \\
+\LECLink{LEC-188} & conjecture & Classical conjectures & problem-specific conjectural structure & 2/5/3 & medium \\
+\bottomrule
+\end{tabular}
+\end{center}
 \endgroup

@@ -1,0 +1,14 @@
+{
+  "lec": "LEC-046",
+  "equation": "5x^3+9y^3+10z^3+12w^3=0",
+  "pages": "p.~88",
+  "cluster": "cubic-surfaces",
+  "statement_status": "statement",
+  "statement_file": "blueprint/src/equations/LEC-046/LEC-046.tex",
+  "status": "deep_dive",
+  "coverage": "full_pass",
+  "tags": [
+    "cubic_equations",
+    "cubic_surfaces"
+  ]
+}

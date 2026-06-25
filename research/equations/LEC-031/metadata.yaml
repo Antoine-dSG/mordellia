@@ -1,0 +1,15 @@
+{
+  "lec": "LEC-031",
+  "equation": "\\begin{cases}y^2&=a_1x^2+b_1x+c_1,\\\\z^2&=a_2x^2+b_2x+c_2\\end{cases}",
+  "pages": "p.~70",
+  "cluster": "quadratic-forms-conics",
+  "statement_status": "statement",
+  "statement_file": "blueprint/src/equations/LEC-031/LEC-031.tex",
+  "status": "deep_dive",
+  "coverage": "full_pass",
+  "tags": [
+    "conics",
+    "intersections_of_quadrics",
+    "quadratic_forms"
+  ]
+}

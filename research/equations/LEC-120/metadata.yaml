@@ -1,0 +1,13 @@
+{
+  "lec": "LEC-120",
+  "equation": "\\left(\\frac{br-cq}{a}\\right)^3x^4+\\left(\\frac{cp-ar}{b}\\right)^3y^4+\\left(\\frac{aq-bp}{c}\\right)^3z^4=0",
+  "pages": "p.~27",
+  "cluster": "quartic-general",
+  "statement_status": "statement",
+  "statement_file": "blueprint/src/equations/LEC-120/LEC-120.tex",
+  "status": "deep_dive",
+  "coverage": "full_pass",
+  "tags": [
+    "quartic_equations"
+  ]
+}

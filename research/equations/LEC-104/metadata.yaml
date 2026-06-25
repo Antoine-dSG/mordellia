@@ -1,0 +1,14 @@
+{
+  "lec": "LEC-104",
+  "equation": "z^2=p^2+\\ell x+my+ax^3+bx^2y+cxy^2+dy^3",
+  "pages": "p.~103",
+  "cluster": "mordell-elliptic",
+  "statement_status": "statement",
+  "statement_file": "blueprint/src/equations/LEC-104/LEC-104.tex",
+  "status": "deep_dive",
+  "coverage": "full_pass",
+  "tags": [
+    "cubic_equations",
+    "elliptic_curves"
+  ]
+}

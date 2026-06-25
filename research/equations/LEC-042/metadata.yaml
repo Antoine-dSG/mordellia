@@ -1,0 +1,13 @@
+{
+  "lec": "LEC-042",
+  "equation": "x^3+dy^3=3z^3",
+  "pages": "p.~136",
+  "cluster": "cubic-general",
+  "statement_status": "statement",
+  "statement_file": "blueprint/src/equations/LEC-042/LEC-042.tex",
+  "status": "deep_dive",
+  "coverage": "full_pass",
+  "tags": [
+    "cubic_equations"
+  ]
+}

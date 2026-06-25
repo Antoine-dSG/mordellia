@@ -1,0 +1,45 @@
+{
+  "lec": "LEC-116",
+  "cluster": "cubic-diagonal-sums",
+  "history": {
+    "rank": 2,
+    "claim": "The entry belongs to the classical theory of diagonal cubic equations and sums of cubes.",
+    "general_problem": "Cubic diagonal sums",
+    "references": [
+      "Mordell, Diophantine Equations, Chapters 7, 11, 12, 16, 29",
+      "Elkies--Rogers, Elliptic Curves x^3 + y^3 = k of High Rank, https://arxiv.org/abs/math/0403116"
+    ],
+    "evidence": "Mordell pages p.~181; triage clusters: cubic_equations, sums_of_cubes, waring_type.",
+    "confidence": "medium"
+  },
+  "structure": {
+    "rank": 3,
+    "structure": "cube residues, Q(rho) factorisation, j=0 cubics",
+    "determines": "The useful structures are cube residues modulo 9, cyclotomic factorisation, Hesse cubics, and additive-cube identities.",
+    "novelty_status": "known",
+    "references": [
+      "Mordell, Diophantine Equations, Chapters 7, 11, 12, 16, 29",
+      "Elkies--Rogers, Elliptic Curves x^3 + y^3 = k of High Rank, https://arxiv.org/abs/math/0403116"
+    ],
+    "evidence": "Assigned by the full-pass taxonomy; refine in a source-level follow-up.",
+    "confidence": "medium"
+  },
+  "interconnection": {
+    "rank": 2,
+    "connected_equations": [],
+    "shared_mechanism": "cube residues, Q(rho) factorisation, j=0 cubics",
+    "larger_family": "Cubic diagonal sums",
+    "references": [
+      "Mordell, Diophantine Equations, Chapters 7, 11, 12, 16, 29",
+      "Elkies--Rogers, Elliptic Curves x^3 + y^3 = k of High Rank, https://arxiv.org/abs/math/0403116"
+    ],
+    "evidence": "Shared research family in full-pass coverage.",
+    "confidence": "medium"
+  },
+  "status": "deep_dive",
+  "coverage": {
+    "kind": "full_pass",
+    "generated_from": "research/equation-triage.yaml",
+    "note": "Conservative full-coverage record; not an exhaustive individual literature survey."
+  }
+}

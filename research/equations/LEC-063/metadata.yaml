@@ -1,0 +1,13 @@
+{
+  "lec": "LEC-063",
+  "equation": "\\frac{1}{2}y(y+1)=\\frac{1}{6}x(x+1)(x+2)",
+  "pages": "p.~258",
+  "cluster": "cubic-general",
+  "statement_status": "statement",
+  "statement_file": "blueprint/src/equations/LEC-063/LEC-063.tex",
+  "status": "deep_dive",
+  "coverage": "full_pass",
+  "tags": [
+    "cubic_equations"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "lec": "LEC-150",
+  "equation": "x^4+y^4=2z^2",
+  "pages": "p.~18",
+  "cluster": "quartic-genus-one",
+  "statement_status": "statement",
+  "statement_file": "blueprint/src/equations/LEC-150/LEC-150.tex",
+  "status": "deep_dive",
+  "coverage": "full_pass",
+  "tags": [
+    "diagonal_quartics",
+    "elliptic_curves",
+    "genus_one_quartics",
+    "quartic_equations"
+  ]
+}

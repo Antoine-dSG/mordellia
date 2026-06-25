@@ -1,0 +1,13 @@
+{
+  "lec": "LEC-160",
+  "equation": "x^n+y^n=z^n",
+  "pages": "pp.~137, 280--286",
+  "cluster": "quartic-general",
+  "statement_status": "statement",
+  "statement_file": "blueprint/src/equations/LEC-160/LEC-160.tex",
+  "status": "deep_dive",
+  "coverage": "full_pass",
+  "tags": [
+    "quartic_equations"
+  ]
+}

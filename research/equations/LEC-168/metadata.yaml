@@ -1,0 +1,13 @@
+{
+  "lec": "LEC-168",
+  "equation": "y^m=x(x+1)\\cdots(x+n)",
+  "pages": "pp.~267--268",
+  "cluster": "quartic-general",
+  "statement_status": "statement",
+  "statement_file": "blueprint/src/equations/LEC-168/LEC-168.tex",
+  "status": "deep_dive",
+  "coverage": "full_pass",
+  "tags": [
+    "quartic_equations"
+  ]
+}

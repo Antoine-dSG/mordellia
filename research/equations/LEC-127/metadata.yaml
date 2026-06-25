@@ -1,0 +1,14 @@
+{
+  "lec": "LEC-127",
+  "equation": "\\begin{aligned}f(\\mathbf{x})+f(\\mathbf{y})+f(\\mathbf{z})-4\\{f(\\mathbf{u})+f(\\mathbf{v})+f(\\mathbf{w})\\}&=0,\\\\f(\\mathbf{x})&=x_1^4+x_2^4+x_3^4-x_2^2x_3^2-x_3^2x_1^2-x_1^2x_2^2\\\\&\\qquad-x_1x_2x_3(x_1+x_2+x_3)\\end{aligned}",
+  "pages": "p.~10",
+  "cluster": "quartic-surfaces-obstructions",
+  "statement_status": "statement",
+  "statement_file": "blueprint/src/equations/LEC-127/LEC-127.tex",
+  "status": "deep_dive",
+  "coverage": "full_pass",
+  "tags": [
+    "diagonal_quartics",
+    "quartic_equations"
+  ]
+}

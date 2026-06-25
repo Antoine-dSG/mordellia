@@ -1,0 +1,13 @@
+{
+  "lec": "LEC-112",
+  "equation": "z^3=ax^2+by^2+c",
+  "pages": "pp.~106, 113--114",
+  "cluster": "cubic-general",
+  "statement_status": "statement",
+  "statement_file": "blueprint/src/equations/LEC-112/LEC-112.tex",
+  "status": "deep_dive",
+  "coverage": "full_pass",
+  "tags": [
+    "cubic_equations"
+  ]
+}

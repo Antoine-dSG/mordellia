@@ -1,0 +1,15 @@
+{
+  "lec": "LEC-021",
+  "equation": "x^2+y^2=m",
+  "pages": "pp.~179",
+  "cluster": "quadratic-forms-conics",
+  "statement_status": "statement",
+  "statement_file": "blueprint/src/equations/LEC-021/LEC-021.tex",
+  "status": "deep_dive",
+  "coverage": "full_pass",
+  "tags": [
+    "conics",
+    "quadratic_forms",
+    "sums_of_squares"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "lec": "LEC-151",
+  "equation": "x^4+kx^2y^2+y^4=z^2",
+  "pages": "p.~19",
+  "cluster": "quartic-genus-one",
+  "statement_status": "statement",
+  "statement_file": "blueprint/src/equations/LEC-151/LEC-151.tex",
+  "status": "deep_dive",
+  "coverage": "full_pass",
+  "tags": [
+    "elliptic_curves",
+    "genus_one_quartics",
+    "quartic_equations"
+  ]
+}

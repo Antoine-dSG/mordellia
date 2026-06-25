@@ -1,0 +1,15 @@
+{
+  "lec": "LEC-061",
+  "equation": "py^2=x^3+27",
+  "pages": "p.~74",
+  "cluster": "mordell-elliptic",
+  "statement_status": "statement",
+  "statement_file": "blueprint/src/equations/LEC-061/LEC-061.tex",
+  "status": "deep_dive",
+  "coverage": "full_pass",
+  "tags": [
+    "cubic_equations",
+    "elliptic_curves",
+    "mordell_curves"
+  ]
+}

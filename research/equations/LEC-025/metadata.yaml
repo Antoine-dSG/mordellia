@@ -1,0 +1,14 @@
+{
+  "lec": "LEC-025",
+  "equation": "\\pm x^2\\pm y^2\\pm z^2=n",
+  "pages": "p.~181",
+  "cluster": "quadratic-forms-conics",
+  "statement_status": "statement",
+  "statement_file": "blueprint/src/equations/LEC-025/LEC-025.tex",
+  "status": "deep_dive",
+  "coverage": "full_pass",
+  "tags": [
+    "conics",
+    "quadratic_forms"
+  ]
+}

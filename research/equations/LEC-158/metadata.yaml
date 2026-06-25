@@ -1,0 +1,13 @@
+{
+  "lec": "LEC-158",
+  "equation": "x^4+ay^4+bz^4=w^2",
+  "pages": "p.~95",
+  "cluster": "quartic-general",
+  "statement_status": "statement",
+  "statement_file": "blueprint/src/equations/LEC-158/LEC-158.tex",
+  "status": "deep_dive",
+  "coverage": "full_pass",
+  "tags": [
+    "quartic_equations"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "lec": "LEC-130",
+  "equation": "x^4-Dy^4=\\pm1",
+  "pages": "pp.~275--276",
+  "cluster": "quartic-genus-one",
+  "statement_status": "statement",
+  "statement_file": "blueprint/src/equations/LEC-130/LEC-130.tex",
+  "status": "deep_dive",
+  "coverage": "full_pass",
+  "tags": [
+    "quartic_equations"
+  ]
+}

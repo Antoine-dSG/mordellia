@@ -1,0 +1,14 @@
+{
+  "lec": "LEC-049",
+  "equation": "\\begin{aligned}&f_1(x_1,y_1,z_1)+pf_2(x_2,y_2,z_2)+p^2f_3(x_3,y_3,z_3)\\\\&\\qquad{}+p^3\\sum_{\\ell,m,n}a_{\\ell mn}x_\\ell y_mz_n=0\\end{aligned}",
+  "pages": "p.~9",
+  "cluster": "quadratic-forms-conics",
+  "statement_status": "statement",
+  "statement_file": "blueprint/src/equations/LEC-049/LEC-049.tex",
+  "status": "deep_dive",
+  "coverage": "full_pass",
+  "tags": [
+    "cubic_equations",
+    "sums_of_squares"
+  ]
+}

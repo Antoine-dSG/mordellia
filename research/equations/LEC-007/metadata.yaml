@@ -1,0 +1,14 @@
+{
+  "lec": "LEC-007",
+  "equation": "x^2+y^2=(4a+3)z^2",
+  "pages": "p.~4",
+  "cluster": "quadratic-forms-conics",
+  "statement_status": "statement",
+  "statement_file": "blueprint/src/equations/LEC-007/LEC-007.tex",
+  "status": "deep_dive",
+  "coverage": "full_pass",
+  "tags": [
+    "quadratic_forms",
+    "sums_of_squares"
+  ]
+}

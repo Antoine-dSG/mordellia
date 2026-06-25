@@ -1,0 +1,13 @@
+{
+  "lec": "LEC-054",
+  "equation": "x^3+dy^3=1",
+  "pages": "pp.~203--205,219--225",
+  "cluster": "cubic-general",
+  "statement_status": "statement",
+  "statement_file": "blueprint/src/equations/LEC-054/LEC-054.tex",
+  "status": "deep_dive",
+  "coverage": "full_pass",
+  "tags": [
+    "cubic_equations"
+  ]
+}

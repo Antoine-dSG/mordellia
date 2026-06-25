@@ -1,0 +1,15 @@
+{
+  "lec": "LEC-115",
+  "equation": "x_1^3+x_2^3+x_3^3=9x_4^3\\pm4",
+  "pages": "p.~7",
+  "cluster": "cubic-diagonal-sums",
+  "statement_status": "statement",
+  "statement_file": "blueprint/src/equations/LEC-115/LEC-115.tex",
+  "status": "deep_dive",
+  "coverage": "full_pass",
+  "tags": [
+    "cubic_equations",
+    "cubic_surfaces",
+    "sums_of_cubes"
+  ]
+}

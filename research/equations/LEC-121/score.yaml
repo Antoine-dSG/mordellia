@@ -1,0 +1,42 @@
+{
+  "lec": "LEC-121",
+  "cluster": "quartic-general",
+  "history": {
+    "rank": 2,
+    "claim": "The entry lies in Mordell's general quartic material, with special cases governed by genus-one curves, quartic surfaces, or Thue-type finiteness.",
+    "general_problem": "General quartic equations",
+    "references": [
+      "Mordell, Diophantine Equations, Chapters 13--15, 27--28"
+    ],
+    "evidence": "Mordell pages p.~6; triage clusters: quartic_equations.",
+    "confidence": "medium"
+  },
+  "structure": {
+    "rank": 4,
+    "structure": "quartic forms, curves, surfaces, descent",
+    "determines": "A stronger structure claim requires identifying the precise curve or surface attached to the quartic.",
+    "novelty_status": "known",
+    "references": [
+      "Mordell, Diophantine Equations, Chapters 13--15, 27--28"
+    ],
+    "evidence": "Assigned by the full-pass taxonomy; refine in a source-level follow-up.",
+    "confidence": "medium"
+  },
+  "interconnection": {
+    "rank": 3,
+    "connected_equations": [],
+    "shared_mechanism": "quartic forms, curves, surfaces, descent",
+    "larger_family": "General quartic equations",
+    "references": [
+      "Mordell, Diophantine Equations, Chapters 13--15, 27--28"
+    ],
+    "evidence": "Shared research family in full-pass coverage.",
+    "confidence": "medium"
+  },
+  "status": "deep_dive",
+  "coverage": {
+    "kind": "full_pass",
+    "generated_from": "research/equation-triage.yaml",
+    "note": "Conservative full-coverage record; not an exhaustive individual literature survey."
+  }
+}

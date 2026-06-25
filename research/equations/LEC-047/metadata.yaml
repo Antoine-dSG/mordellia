@@ -1,0 +1,14 @@
+{
+  "lec": "LEC-047",
+  "equation": "x_1^3+2x_2^3+4x_3^3=9x_4^3",
+  "pages": "p.~7",
+  "cluster": "cubic-surfaces",
+  "statement_status": "statement",
+  "statement_file": "blueprint/src/equations/LEC-047/LEC-047.tex",
+  "status": "deep_dive",
+  "coverage": "full_pass",
+  "tags": [
+    "cubic_equations",
+    "cubic_surfaces"
+  ]
+}

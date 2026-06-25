@@ -1,0 +1,14 @@
+{
+  "lec": "LEC-107",
+  "equation": "z^2=x^3-gxy^2-hy^3",
+  "pages": "p.~235",
+  "cluster": "mordell-elliptic",
+  "statement_status": "comment",
+  "statement_file": "blueprint/src/equations/LEC-107/LEC-107.tex",
+  "status": "deep_dive",
+  "coverage": "full_pass",
+  "tags": [
+    "cubic_equations",
+    "elliptic_curves"
+  ]
+}

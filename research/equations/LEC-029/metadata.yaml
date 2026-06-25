@@ -1,0 +1,14 @@
+{
+  "lec": "LEC-029",
+  "equation": "x^2-2y^2=8z+3\\ \\text{or}\\ 8z+5",
+  "pages": "p.~4",
+  "cluster": "quadratic-forms-conics",
+  "statement_status": "statement",
+  "statement_file": "blueprint/src/equations/LEC-029/LEC-029.tex",
+  "status": "deep_dive",
+  "coverage": "full_pass",
+  "tags": [
+    "conics",
+    "quadratic_forms"
+  ]
+}

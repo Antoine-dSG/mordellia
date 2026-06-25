@@ -1,0 +1,42 @@
+{
+  "lec": "LEC-020",
+  "cluster": "pell-units",
+  "history": {
+    "rank": 1,
+    "claim": "The entry is a standard Pell/unit equation instance.",
+    "general_problem": "Pell equations and units",
+    "references": [
+      "Mordell, Diophantine Equations, pp. 53--57"
+    ],
+    "evidence": "Mordell pages pp.~53--57; triage clusters: conics, pell_equations, quadratic_forms, units.",
+    "confidence": "high"
+  },
+  "structure": {
+    "rank": 3,
+    "structure": "real quadratic units and continued fractions",
+    "determines": "Solutions are controlled by the unit group of a real quadratic order.",
+    "novelty_status": "known",
+    "references": [
+      "Mordell, Diophantine Equations, pp. 53--57"
+    ],
+    "evidence": "Assigned by the full-pass taxonomy; refine in a source-level follow-up.",
+    "confidence": "high"
+  },
+  "interconnection": {
+    "rank": 2,
+    "connected_equations": [],
+    "shared_mechanism": "real quadratic units and continued fractions",
+    "larger_family": "Pell equations and units",
+    "references": [
+      "Mordell, Diophantine Equations, pp. 53--57"
+    ],
+    "evidence": "Shared research family in full-pass coverage.",
+    "confidence": "high"
+  },
+  "status": "deep_dive",
+  "coverage": {
+    "kind": "full_pass",
+    "generated_from": "research/equation-triage.yaml",
+    "note": "Conservative full-coverage record; not an exhaustive individual literature survey."
+  }
+}

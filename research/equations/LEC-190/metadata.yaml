@@ -1,0 +1,15 @@
+{
+  "lec": "LEC-190",
+  "equation": "y^2=x^3-Ax-B",
+  "pages": "p.~147",
+  "cluster": "mordell-elliptic",
+  "statement_status": "conjecture",
+  "statement_file": "blueprint/src/equations/LEC-190/LEC-190.tex",
+  "status": "deep_dive",
+  "coverage": "full_pass",
+  "tags": [
+    "cubic_equations",
+    "elliptic_curves",
+    "mordell_curves"
+  ]
+}

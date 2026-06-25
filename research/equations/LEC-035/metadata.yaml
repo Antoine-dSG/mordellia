@@ -1,0 +1,14 @@
+{
+  "lec": "LEC-035",
+  "equation": "x^2+bcy^2+caz^2+abw^2=m",
+  "pages": "pp.~169--173",
+  "cluster": "quadratic-forms-conics",
+  "statement_status": "statement",
+  "statement_file": "blueprint/src/equations/LEC-035/LEC-035.tex",
+  "status": "deep_dive",
+  "coverage": "full_pass",
+  "tags": [
+    "conics",
+    "quadratic_forms"
+  ]
+}

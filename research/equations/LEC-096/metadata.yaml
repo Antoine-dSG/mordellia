@@ -1,0 +1,16 @@
+{
+  "lec": "LEC-096",
+  "equation": "x^2+y^2+z^2-axyz=b",
+  "pages": "pp.~106--110",
+  "cluster": "markoff-mutation",
+  "statement_status": "statement",
+  "statement_file": "blueprint/src/equations/LEC-096/LEC-096.tex",
+  "status": "deep_dive",
+  "coverage": "full_pass",
+  "tags": [
+    "cubic_equations",
+    "markoff_type",
+    "mutation_dynamics",
+    "sums_of_squares"
+  ]
+}

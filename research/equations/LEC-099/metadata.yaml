@@ -1,0 +1,14 @@
+{
+  "lec": "LEC-099",
+  "equation": "a(x^3+y^3)+b(z^3+c^3)=0",
+  "pages": "p.~59",
+  "cluster": "cubic-diagonal-sums",
+  "statement_status": "statement",
+  "statement_file": "blueprint/src/equations/LEC-099/LEC-099.tex",
+  "status": "deep_dive",
+  "coverage": "full_pass",
+  "tags": [
+    "cubic_equations",
+    "sums_of_cubes"
+  ]
+}

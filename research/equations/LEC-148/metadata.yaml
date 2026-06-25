@@ -1,0 +1,15 @@
+{
+  "lec": "LEC-148",
+  "equation": "x^4-2y^4=\\pm z^2",
+  "pages": "p.~18",
+  "cluster": "quartic-genus-one",
+  "statement_status": "statement",
+  "statement_file": "blueprint/src/equations/LEC-148/LEC-148.tex",
+  "status": "deep_dive",
+  "coverage": "full_pass",
+  "tags": [
+    "elliptic_curves",
+    "genus_one_quartics",
+    "quartic_equations"
+  ]
+}

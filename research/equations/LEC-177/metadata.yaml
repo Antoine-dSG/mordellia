@@ -1,0 +1,13 @@
+{
+  "lec": "LEC-177",
+  "equation": "ax^2+by^2=cz^n",
+  "pages": "p.~111",
+  "cluster": "quartic-general",
+  "statement_status": "comment",
+  "statement_file": "blueprint/src/equations/LEC-177/LEC-177.tex",
+  "status": "deep_dive",
+  "coverage": "full_pass",
+  "tags": [
+    "quartic_equations"
+  ]
+}

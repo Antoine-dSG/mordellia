@@ -1,0 +1,13 @@
+{
+  "lec": "LEC-153",
+  "equation": "z^2=k^2+x^2(ax^2+by^2)",
+  "pages": "p.~97",
+  "cluster": "quartic-general",
+  "statement_status": "statement",
+  "statement_file": "blueprint/src/equations/LEC-153/LEC-153.tex",
+  "status": "deep_dive",
+  "coverage": "full_pass",
+  "tags": [
+    "quartic_equations"
+  ]
+}

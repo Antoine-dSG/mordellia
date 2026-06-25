@@ -1,0 +1,14 @@
+{
+  "lec": "LEC-034",
+  "equation": "u_{n+2}+au_{n+1}+bu_n=c,\\qquad u_n\\ \\text{twice a square}",
+  "pages": "p.~63",
+  "cluster": "quadratic-forms-conics",
+  "statement_status": "statement",
+  "statement_file": "blueprint/src/equations/LEC-034/LEC-034.tex",
+  "status": "deep_dive",
+  "coverage": "full_pass",
+  "tags": [
+    "conics",
+    "quadratic_forms"
+  ]
+}

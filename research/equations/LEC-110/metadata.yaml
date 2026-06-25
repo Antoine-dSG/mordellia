@@ -1,0 +1,13 @@
+{
+  "lec": "LEC-110",
+  "equation": "y^2-ax^2=z^3+bz+c",
+  "pages": "p.~113",
+  "cluster": "cubic-general",
+  "statement_status": "statement",
+  "statement_file": "blueprint/src/equations/LEC-110/LEC-110.tex",
+  "status": "deep_dive",
+  "coverage": "full_pass",
+  "tags": [
+    "cubic_equations"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "lec": "LEC-095",
+  "equation": "ax^3+ay^3+bz^3=bc^3",
+  "pages": "p.~102",
+  "cluster": "cubic-general",
+  "statement_status": "statement",
+  "statement_file": "blueprint/src/equations/LEC-095/LEC-095.tex",
+  "status": "deep_dive",
+  "coverage": "full_pass",
+  "tags": [
+    "cubic_equations"
+  ]
+}

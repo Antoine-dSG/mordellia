@@ -1,0 +1,13 @@
+{
+  "lec": "LEC-164",
+  "equation": "x^n-Dy^n=\\pm1",
+  "pages": "pp.~274--276",
+  "cluster": "quartic-general",
+  "statement_status": "statement",
+  "statement_file": "blueprint/src/equations/LEC-164/LEC-164.tex",
+  "status": "deep_dive",
+  "coverage": "full_pass",
+  "tags": [
+    "quartic_equations"
+  ]
+}

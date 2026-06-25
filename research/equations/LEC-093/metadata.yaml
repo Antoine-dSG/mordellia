@@ -1,0 +1,13 @@
+{
+  "lec": "LEC-093",
+  "equation": "x^3=a+by",
+  "pages": "pp.~3--4, 9",
+  "cluster": "cubic-general",
+  "statement_status": "statement",
+  "statement_file": "blueprint/src/equations/LEC-093/LEC-093.tex",
+  "status": "deep_dive",
+  "coverage": "full_pass",
+  "tags": [
+    "cubic_equations"
+  ]
+}

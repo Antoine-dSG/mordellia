@@ -1,0 +1,15 @@
+{
+  "lec": "LEC-037",
+  "equation": "ax^3+3bx^2y+3cxy^2+dy^3=z^3",
+  "pages": "p.~7",
+  "cluster": "binary-forms-thue",
+  "statement_status": "statement",
+  "statement_file": "blueprint/src/equations/LEC-037/LEC-037.tex",
+  "status": "deep_dive",
+  "coverage": "full_pass",
+  "tags": [
+    "binary_cubic_forms",
+    "cubic_equations",
+    "thue_equations"
+  ]
+}

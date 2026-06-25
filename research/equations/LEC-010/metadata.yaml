@@ -1,0 +1,13 @@
+{
+  "lec": "LEC-010",
+  "equation": "a_1x_1^2+a_2x_2^2+a_3x_3^2+a_4x_4^2=0",
+  "pages": "p.~49--51",
+  "cluster": "quadratic-forms-conics",
+  "statement_status": "statement",
+  "statement_file": "blueprint/src/equations/LEC-010/LEC-010.tex",
+  "status": "deep_dive",
+  "coverage": "full_pass",
+  "tags": [
+    "quadratic_forms"
+  ]
+}

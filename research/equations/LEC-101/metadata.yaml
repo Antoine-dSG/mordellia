@@ -1,0 +1,14 @@
+{
+  "lec": "LEC-101",
+  "equation": "(x+y+z)^3-dxyz=m",
+  "pages": "p.~83",
+  "cluster": "markoff-mutation",
+  "statement_status": "statement",
+  "statement_file": "blueprint/src/equations/LEC-101/LEC-101.tex",
+  "status": "deep_dive",
+  "coverage": "full_pass",
+  "tags": [
+    "cubic_equations",
+    "markoff_type"
+  ]
+}

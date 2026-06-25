@@ -1,0 +1,13 @@
+{
+  "lec": "LEC-170",
+  "equation": "y^2+1=x^m",
+  "pages": "pp.~276, 301",
+  "cluster": "quartic-general",
+  "statement_status": "statement",
+  "statement_file": "blueprint/src/equations/LEC-170/LEC-170.tex",
+  "status": "deep_dive",
+  "coverage": "full_pass",
+  "tags": [
+    "quartic_equations"
+  ]
+}

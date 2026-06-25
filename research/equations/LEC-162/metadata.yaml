@@ -1,0 +1,13 @@
+{
+  "lec": "LEC-162",
+  "equation": "a_0x^n+a_1x^{n-1}y+\\cdots+a_ny^n=m",
+  "pages": "pp.~157--163, 186--199, 218",
+  "cluster": "binary-forms-thue",
+  "statement_status": "statement",
+  "statement_file": "blueprint/src/equations/LEC-162/LEC-162.tex",
+  "status": "deep_dive",
+  "coverage": "full_pass",
+  "tags": [
+    "quartic_equations"
+  ]
+}

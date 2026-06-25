@@ -1,0 +1,15 @@
+{
+  "lec": "LEC-065",
+  "equation": "6y^2=x^3+5x+6",
+  "pages": "p.~259",
+  "cluster": "mordell-elliptic",
+  "statement_status": "conjecture",
+  "statement_file": "blueprint/src/equations/LEC-065/LEC-065.tex",
+  "status": "deep_dive",
+  "coverage": "full_pass",
+  "tags": [
+    "cubic_equations",
+    "elliptic_curves",
+    "mordell_curves"
+  ]
+}

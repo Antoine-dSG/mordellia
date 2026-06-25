@@ -1,0 +1,14 @@
+{
+  "lec": "LEC-019",
+  "equation": "ax^2+by^2=m",
+  "pages": "pp.~7, 118--120, 164--169",
+  "cluster": "quadratic-forms-conics",
+  "statement_status": "statement",
+  "statement_file": "blueprint/src/equations/LEC-019/LEC-019.tex",
+  "status": "deep_dive",
+  "coverage": "full_pass",
+  "tags": [
+    "conics",
+    "quadratic_forms"
+  ]
+}

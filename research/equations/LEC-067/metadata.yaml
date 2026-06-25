@@ -1,0 +1,15 @@
+{
+  "lec": "LEC-067",
+  "equation": "y^2\\equiv x^3+k\\pmod a",
+  "pages": "pp.~41, 48",
+  "cluster": "cubic-general",
+  "statement_status": "statement",
+  "statement_file": "blueprint/src/equations/LEC-067/LEC-067.tex",
+  "status": "deep_dive",
+  "coverage": "full_pass",
+  "tags": [
+    "congruences",
+    "cubic_equations",
+    "local_obstructions"
+  ]
+}

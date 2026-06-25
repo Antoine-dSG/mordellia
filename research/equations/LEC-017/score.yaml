@@ -1,0 +1,42 @@
+{
+  "lec": "LEC-017",
+  "cluster": "quadratic-forms-conics",
+  "history": {
+    "rank": 1,
+    "claim": "These equations are instances of the classical arithmetic of quadratic forms and conics.",
+    "general_problem": "Quadratic forms and conics",
+    "references": [
+      "Mordell, Diophantine Equations, Chapters 1--6"
+    ],
+    "evidence": "Mordell pages pp.~57--58; triage clusters: conics, quadratic_forms.",
+    "confidence": "high"
+  },
+  "structure": {
+    "rank": 3,
+    "structure": "local solubility, Hasse-Minkowski, parametrisation",
+    "determines": "The qualitative behaviour is governed by local invariants, isotropy, and rational parametrisation from one point.",
+    "novelty_status": "known",
+    "references": [
+      "Mordell, Diophantine Equations, Chapters 1--6"
+    ],
+    "evidence": "Assigned by the full-pass taxonomy; refine in a source-level follow-up.",
+    "confidence": "high"
+  },
+  "interconnection": {
+    "rank": 2,
+    "connected_equations": [],
+    "shared_mechanism": "local solubility, Hasse-Minkowski, parametrisation",
+    "larger_family": "Quadratic forms and conics",
+    "references": [
+      "Mordell, Diophantine Equations, Chapters 1--6"
+    ],
+    "evidence": "Shared research family in full-pass coverage.",
+    "confidence": "high"
+  },
+  "status": "deep_dive",
+  "coverage": {
+    "kind": "full_pass",
+    "generated_from": "research/equation-triage.yaml",
+    "note": "Conservative full-coverage record; not an exhaustive individual literature survey."
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "lec": "LEC-050",
+  "equation": "ax^3+bx^2y+cxy^2+dy^3=m",
+  "pages": "pp.~218--219, 226",
+  "cluster": "binary-forms-thue",
+  "statement_status": "statement",
+  "statement_file": "blueprint/src/equations/LEC-050/LEC-050.tex",
+  "status": "deep_dive",
+  "coverage": "full_pass",
+  "tags": [
+    "cubic_equations"
+  ]
+}

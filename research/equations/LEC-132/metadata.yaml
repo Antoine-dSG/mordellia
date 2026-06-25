@@ -1,0 +1,13 @@
+{
+  "lec": "LEC-132",
+  "equation": "x^4-2y^4=1",
+  "pages": "p.~207",
+  "cluster": "quartic-general",
+  "statement_status": "statement",
+  "statement_file": "blueprint/src/equations/LEC-132/LEC-132.tex",
+  "status": "deep_dive",
+  "coverage": "full_pass",
+  "tags": [
+    "quartic_equations"
+  ]
+}

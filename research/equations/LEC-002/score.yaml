@@ -1,0 +1,42 @@
+{
+  "lec": "LEC-002",
+  "cluster": "linear-algebra",
+  "history": {
+    "rank": 1,
+    "claim": "Standard linear Diophantine theory and integer linear algebra solve the qualitative problem.",
+    "general_problem": "Linear algebra and lattices",
+    "references": [
+      "Mordell, Diophantine Equations, Chapter 3"
+    ],
+    "evidence": "Mordell pages p.~31; triage clusters: linear_equations.",
+    "confidence": "high"
+  },
+  "structure": {
+    "rank": 4,
+    "structure": "Smith normal form, rank, lattice saturation",
+    "determines": "The controlling structure is the finitely generated abelian group of solutions to an integral linear system.",
+    "novelty_status": "known",
+    "references": [
+      "Mordell, Diophantine Equations, Chapter 3"
+    ],
+    "evidence": "Assigned by the full-pass taxonomy; refine in a source-level follow-up.",
+    "confidence": "high"
+  },
+  "interconnection": {
+    "rank": 3,
+    "connected_equations": [],
+    "shared_mechanism": "Smith normal form, rank, lattice saturation",
+    "larger_family": "Linear algebra and lattices",
+    "references": [
+      "Mordell, Diophantine Equations, Chapter 3"
+    ],
+    "evidence": "Shared research family in full-pass coverage.",
+    "confidence": "high"
+  },
+  "status": "deep_dive",
+  "coverage": {
+    "kind": "full_pass",
+    "generated_from": "research/equation-triage.yaml",
+    "note": "Conservative full-coverage record; not an exhaustive individual literature survey."
+  }
+}

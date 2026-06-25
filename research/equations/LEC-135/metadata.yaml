@@ -1,0 +1,15 @@
+{
+  "lec": "LEC-135",
+  "equation": "y^2=ax^4+bx^3+cx^2+dx+e",
+  "pages": "pp.~69--70, 74, 77, 268",
+  "cluster": "quartic-genus-one",
+  "statement_status": "statement",
+  "statement_file": "blueprint/src/equations/LEC-135/LEC-135.tex",
+  "status": "deep_dive",
+  "coverage": "full_pass",
+  "tags": [
+    "elliptic_curves",
+    "genus_one_quartics",
+    "quartic_equations"
+  ]
+}

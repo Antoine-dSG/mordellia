@@ -1,0 +1,13 @@
+{
+  "lec": "LEC-036",
+  "equation": "ax^3+bx^2y+cxy^2+dy^3=ez^3",
+  "pages": "pp.~226--228",
+  "cluster": "cubic-general",
+  "statement_status": "comment",
+  "statement_file": "blueprint/src/equations/LEC-036/LEC-036.tex",
+  "status": "deep_dive",
+  "coverage": "full_pass",
+  "tags": [
+    "cubic_equations"
+  ]
+}

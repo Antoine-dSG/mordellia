@@ -1,0 +1,45 @@
+{
+  "lec": "LEC-037",
+  "cluster": "binary-forms-thue",
+  "history": {
+    "rank": 1,
+    "claim": "The equation is an instance or local shadow of classical binary-form and Thue theory.",
+    "general_problem": "Binary forms and Thue equations",
+    "references": [
+      "Mordell, Diophantine Equations, Chapters 21--24",
+      "Bennett--Ghadermarzi, Mordell's equation: a classical approach, https://arxiv.org/abs/1311.7077"
+    ],
+    "evidence": "Mordell pages p.~7; triage clusters: binary_cubic_forms, cubic_equations, thue_equations.",
+    "confidence": "high"
+  },
+  "structure": {
+    "rank": 4,
+    "structure": "binary-form invariants, local obstruction, Thue finiteness",
+    "determines": "Irreducibility and degree at least three give finiteness; congruence conditions give local impossibility.",
+    "novelty_status": "known",
+    "references": [
+      "Mordell, Diophantine Equations, Chapters 21--24",
+      "Bennett--Ghadermarzi, Mordell's equation: a classical approach, https://arxiv.org/abs/1311.7077"
+    ],
+    "evidence": "Assigned by the full-pass taxonomy; refine in a source-level follow-up.",
+    "confidence": "high"
+  },
+  "interconnection": {
+    "rank": 2,
+    "connected_equations": [],
+    "shared_mechanism": "binary-form invariants, local obstruction, Thue finiteness",
+    "larger_family": "Binary forms and Thue equations",
+    "references": [
+      "Mordell, Diophantine Equations, Chapters 21--24",
+      "Bennett--Ghadermarzi, Mordell's equation: a classical approach, https://arxiv.org/abs/1311.7077"
+    ],
+    "evidence": "Shared research family in full-pass coverage.",
+    "confidence": "high"
+  },
+  "status": "deep_dive",
+  "coverage": {
+    "kind": "full_pass",
+    "generated_from": "research/equation-triage.yaml",
+    "note": "Conservative full-coverage record; not an exhaustive individual literature survey."
+  }
+}

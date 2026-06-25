@@ -1,0 +1,14 @@
+{
+  "lec": "LEC-013",
+  "equation": "\\begin{cases}x_1^2+x_3^2=2x_2^2\\\\x_2^2+x_4^2=2x_3^2\\end{cases}",
+  "pages": "p.~21",
+  "cluster": "quadratic-forms-conics",
+  "statement_status": "statement",
+  "statement_file": "blueprint/src/equations/LEC-013/LEC-013.tex",
+  "status": "deep_dive",
+  "coverage": "full_pass",
+  "tags": [
+    "intersections_of_quadrics",
+    "quadratic_forms"
+  ]
+}

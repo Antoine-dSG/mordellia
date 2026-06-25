@@ -1,0 +1,13 @@
+{
+  "lec": "LEC-126",
+  "equation": "xy(mx^2+ny^2)=zw(mz^2+nw^2)",
+  "pages": "p.~91",
+  "cluster": "quartic-general",
+  "statement_status": "comment",
+  "statement_file": "blueprint/src/equations/LEC-126/LEC-126.tex",
+  "status": "deep_dive",
+  "coverage": "full_pass",
+  "tags": [
+    "quartic_equations"
+  ]
+}

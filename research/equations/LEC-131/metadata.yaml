@@ -1,0 +1,14 @@
+{
+  "lec": "LEC-131",
+  "equation": "x^4+y^4=1",
+  "pages": "pp.~116--117",
+  "cluster": "quartic-surfaces-obstructions",
+  "statement_status": "statement",
+  "statement_file": "blueprint/src/equations/LEC-131/LEC-131.tex",
+  "status": "deep_dive",
+  "coverage": "full_pass",
+  "tags": [
+    "diagonal_quartics",
+    "quartic_equations"
+  ]
+}

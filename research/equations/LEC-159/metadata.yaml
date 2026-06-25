@@ -1,0 +1,13 @@
+{
+  "lec": "LEC-159",
+  "equation": "(x^2+a)(y^2+a)=(az^2+b^2)^2",
+  "pages": "p.~95",
+  "cluster": "quartic-general",
+  "statement_status": "statement",
+  "statement_file": "blueprint/src/equations/LEC-159/LEC-159.tex",
+  "status": "deep_dive",
+  "coverage": "full_pass",
+  "tags": [
+    "quartic_equations"
+  ]
+}

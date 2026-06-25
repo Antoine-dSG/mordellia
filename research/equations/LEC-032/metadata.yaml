@@ -1,0 +1,15 @@
+{
+  "lec": "LEC-032",
+  "equation": "\\begin{cases}y^2&=x^2+k,\\\\z^2&=x^2-k\\end{cases}",
+  "pages": "pp.~71--72",
+  "cluster": "quadratic-forms-conics",
+  "statement_status": "statement",
+  "statement_file": "blueprint/src/equations/LEC-032/LEC-032.tex",
+  "status": "deep_dive",
+  "coverage": "full_pass",
+  "tags": [
+    "conics",
+    "intersections_of_quadrics",
+    "quadratic_forms"
+  ]
+}

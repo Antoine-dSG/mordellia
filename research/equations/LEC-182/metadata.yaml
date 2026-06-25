@@ -1,0 +1,13 @@
+{
+  "lec": "LEC-182",
+  "equation": "x^2+7=2^n",
+  "pages": "pp.~205--206",
+  "cluster": "quartic-general",
+  "statement_status": "statement",
+  "statement_file": "blueprint/src/equations/LEC-182/LEC-182.tex",
+  "status": "deep_dive",
+  "coverage": "full_pass",
+  "tags": [
+    "quartic_equations"
+  ]
+}

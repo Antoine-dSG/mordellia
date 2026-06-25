@@ -1,0 +1,13 @@
+{
+  "lec": "LEC-133",
+  "equation": "x^4-8y^4=1",
+  "pages": "p.~208",
+  "cluster": "quartic-general",
+  "statement_status": "statement",
+  "statement_file": "blueprint/src/equations/LEC-133/LEC-133.tex",
+  "status": "deep_dive",
+  "coverage": "full_pass",
+  "tags": [
+    "quartic_equations"
+  ]
+}

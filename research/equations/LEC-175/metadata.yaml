@@ -1,0 +1,13 @@
+{
+  "lec": "LEC-175",
+  "equation": "P(x,y)=Q(x,y)",
+  "pages": "pp.~188, 198, 278",
+  "cluster": "quartic-general",
+  "statement_status": "statement",
+  "statement_file": "blueprint/src/equations/LEC-175/LEC-175.tex",
+  "status": "deep_dive",
+  "coverage": "full_pass",
+  "tags": [
+    "quartic_equations"
+  ]
+}

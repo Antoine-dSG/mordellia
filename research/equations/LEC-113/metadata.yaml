@@ -1,0 +1,13 @@
+{
+  "lec": "LEC-113",
+  "equation": "z^3=x^2+ky^2",
+  "pages": "pp.~215--217",
+  "cluster": "cubic-general",
+  "statement_status": "statement",
+  "statement_file": "blueprint/src/equations/LEC-113/LEC-113.tex",
+  "status": "deep_dive",
+  "coverage": "full_pass",
+  "tags": [
+    "cubic_equations"
+  ]
+}

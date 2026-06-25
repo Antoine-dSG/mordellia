@@ -1,0 +1,13 @@
+{
+  "lec": "LEC-169",
+  "equation": "ax^m-by^n=c",
+  "pages": "pp.~272--276, 300",
+  "cluster": "quartic-general",
+  "statement_status": "comment",
+  "statement_file": "blueprint/src/equations/LEC-169/LEC-169.tex",
+  "status": "deep_dive",
+  "coverage": "full_pass",
+  "tags": [
+    "quartic_equations"
+  ]
+}

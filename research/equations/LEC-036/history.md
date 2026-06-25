@@ -1,0 +1,9 @@
+# History
+
+The entry belongs to Mordell's general cubic-equation material, often reducing in special cases to elliptic curves, binary forms, or local obstructions.
+
+Mordell records this entry on pp.~226--228. The blueprint statement status is `comment`.
+
+References retained for this full-pass record:
+
+- Mordell, Diophantine Equations, Chapters 7--12
