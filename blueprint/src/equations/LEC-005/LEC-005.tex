@@ -1,14 +1,58 @@
 \begin{proposition}
-    The equation
+The equation
 \[
-    ax^2+by^2+cz^2=0,\\ abc\ne0,\\ (x,y,z)=1
+    ax_1^2+bx_2^2+cx_3^2=0,\quad abc\ne0,\quad (x_1,x_2,x_3)=1
 \]
-    has only the trivial solution $x=y=z=0$ if either
+has only the trivial solution $x_1=0,\ x_2=0,\ x_3=0$ if either
 \[
     a\equiv b\equiv c\equiv1\pmod2,\qquad a\equiv b\equiv c\pmod4,
 \]
-    or
+or
 \[
     a/2\equiv b\equiv c\equiv1\pmod2,\qquad b+c\equiv a\text{ or }4\pmod8.
 \]
+\end{proposition}
+
+\begin{proposition}
+Assume that $a,b,c>0$ are square-free and relatively prime in pairs, and that
+\[
+    ax^2+by^2-cz^2\equiv0\pmod{p^r}
+\]
+is solvable for all primes $p$ and integers $r\ge1$ with $(x,y,z,p)=1$. Then
+\[
+    ax^2+by^2-cz^2=0
+\]
+has a non-trivial solution with
+\[
+    |x|<\sqrt{2bc},\qquad |y|<\sqrt{2ca},\qquad |z|<2\sqrt{ab}.
+\]
+\end{proposition}
+
+\begin{proposition}
+If $a,b,c$ are square-free, $(a,b)=(b,c)=(c,a)=1$, and $a,b,c$ do not have
+the same sign, then the equation
+\[
+    ax^2+by^2+cz^2=0
+\]
+has non-trivial integer solutions if and only if $-bc$ is a quadratic residue
+of $a$, and so for every prime factor of $a$, i.e. $x^2+bc\equiv0\pmod a$ is
+solvable, and similarly for $-ca$ and $-ab$, and if
+\[
+    ax^2+by^2+cz^2\equiv0\pmod8
+\]
+is solvable. These give $N$, say, necessary and sufficient conditions. If any
+$N-1$ of these conditions are satisfied, so is the remaining one.
+\end{proposition}
+
+\begin{proposition}
+The solvable equation
+\[
+    ax^2+by^2+cz^2=0
+\]
+taken in the canonical form with $a>0$, $b>0$, $c<0$ has a non-trivial solution
+with
+\[
+    |x|\le\sqrt{b|c|},\qquad |y|\le\sqrt{|c|a},\qquad |z|\le\sqrt{ab}.
+\]
+All the equality signs may be removed unless two of the $a,b,c$ are unity.
 \end{proposition}

@@ -2,8 +2,8 @@
 \section*{Conventions}
 
 In the following list, we record the equations and congruences considered by Mordell,
-grouped by degree and then by homogeneity. Within each subchapter, entries
-are ordered by their LEC labels from the List of Equations and Congruences in
+grouped by degree and, from degree $2$ onward, by homogeneity. Within each group,
+entries are ordered by their LEC labels from the List of Equations and Congruences in
 \cite[pp.~307--312]{mordell-diophantine-equations}.
 
 Page references are Mordell's printed page numbers.
@@ -14,14 +14,20 @@ All mistakes and omissions are my responsibility. Please consult the printed edi
 
 \DegreeChapter{Degree 1}
 
-\section*{Homogeneous}
-
-\PrimaryEquation{LEC-001}{a_1x_1+a_2x_2+\cdots+a_nx_n=0}{p.~30}{}
+\PrimaryEquation{LEC-001}{a_1x_1+a_2x_2+\cdots+a_nx_n=a}{p.~30}{}
 \begin{proof}[Statement]\renewcommand{\qedsymbol}{}
 \input{equations/LEC-001/LEC-001.tex}
 \end{proof}
 \begin{proof}[Proof]\renewcommand{\qedsymbol}{}
 \input{equations/LEC-001/LEC-001_proof.tex}
+\end{proof}
+
+\PrimaryEquation{LEC-002}{L_r(\mathbf{x})=a_r\quad(r=1,2,\ldots,n)}{p.~31}{}
+\begin{proof}[Statement]\renewcommand{\qedsymbol}{}
+\input{equations/LEC-002/LEC-002.tex}
+\end{proof}
+\begin{proof}[Proof]\renewcommand{\qedsymbol}{}
+\input{equations/LEC-002/LEC-002_proof.tex}
 \end{proof}
 
 \PrimaryEquation{LEC-003}{L_r(\mathbf{x})=0\quad(r=1,\ldots,m),\qquad m<n}{p.~32}{}
@@ -32,21 +38,14 @@ All mistakes and omissions are my responsibility. Please consult the printed edi
 \input{equations/LEC-003/LEC-003_proof.tex}
 \end{proof}
 
-\section*{Inhomogeneous}
-
-\PrimaryEquation{LEC-002}{L_r(\mathbf{x})=a_r\quad(r=1,2,\ldots,n)}{p.~31}{}
-\begin{proof}[Statement]\renewcommand{\qedsymbol}{}
-\input{equations/LEC-002/LEC-002.tex}
-\end{proof}
-\begin{proof}[Proof]\renewcommand{\qedsymbol}{}
-\input{equations/LEC-002/LEC-002_proof.tex}
-\end{proof}
-
 \DegreeChapter{Degree 2}
 
 \section*{Homogeneous}
 
 \PrimaryEquation{LEC-004}{ax^2+by^2+cz^2+2fyz+2gzx+2hxy=0}{p.~47}{}
+\begin{proof}[Statement]\renewcommand{\qedsymbol}{}
+\input{equations/LEC-004/LEC-004.tex}
+\end{proof}
 
 \PrimaryEquation{LEC-005}{ax^2+by^2+cz^2=0}{pp.~5, 43--48}{}
 \begin{proof}[Statement]\renewcommand{\qedsymbol}{}
@@ -94,7 +93,7 @@ All mistakes and omissions are my responsibility. Please consult the printed edi
 \input{equations/LEC-012/LEC-012_proof.tex}
 \end{proof}
 
-\PrimaryEquation{LEC-013}{\begin{aligned}x^2+z^2&=2y^2,\\2z^2&=y^2+w^2\end{aligned}}{p.~21}{A simultaneous system}
+\PrimaryEquation{LEC-013}{\begin{cases}x_1^2+x_3^2=2x_2^2\\x_2^2+x_4^2=2x_3^2\end{cases}}{p.~21}{}
 
 \PrimaryEquation{LEC-014}{\sum_{r,s}a_{rs}x_rx_s=0}{p.~42}{}
 \begin{proof}[Statement]\renewcommand{\qedsymbol}{}
@@ -190,11 +189,11 @@ All mistakes and omissions are my responsibility. Please consult the printed edi
 \input{equations/LEC-029/LEC-029_proof.tex}
 \end{proof}
 
-\PrimaryEquation{LEC-030}{\begin{aligned}ax^2+bxy+cy^2&=d,\\a_1x^2+b_1xy+c_1y^2&=d_1z^2\end{aligned}}{p.~59}{A simultaneous system}
+\PrimaryEquation{LEC-030}{\begin{cases}ax^2+bxy+cy^2&=d,\\a_1x^2+b_1xy+c_1y^2&=d_1z^2\end{cases}}{p.~59}{}
 
-\PrimaryEquation{LEC-031}{\begin{aligned}y^2&=a_1x^2+b_1x+c_1,\\z^2&=a_2x^2+b_2x+c_2\end{aligned}}{p.~70}{A simultaneous system.}
+\PrimaryEquation{LEC-031}{\begin{cases}y^2&=a_1x^2+b_1x+c_1,\\z^2&=a_2x^2+b_2x+c_2\end{cases}}{p.~70}{}
 
-\PrimaryEquation{LEC-032}{y^2=x^2+k,\qquad z^2=x^2-k}{pp.~71--72}{A simultaneous system}
+\PrimaryEquation{LEC-032}{\begin{cases}y^2&=x^2+k,\\z^2&=x^2-k\end{cases}}{pp.~71--72}{}
 
 \PrimaryEquation{LEC-033}{u_{n+2}+au_{n+1}+bu_n=c,\qquad u_n\ \text{a square}}{pp.~60--63}{The indexed condition requires every term $u_n$ to be a square.}
 
@@ -298,7 +297,7 @@ All mistakes and omissions are my responsibility. Please consult the printed edi
 
 \PrimaryEquation{LEC-059}{y^2=ax^3+bx^2+cx+d}{pp.~199,255--261}{}
 
-\PrimaryEquation{LEC-060}{y^2=x^3-h^2x-h^3}{pp.~143--146}{}
+\PrimaryEquation{LEC-060}{y^2=x^3-h^2x-g^3}{pp.~143--146}{}
 
 \PrimaryEquation{LEC-061}{py^2=x^3+27}{p.~74}{}
 \begin{proof}[Statement]\renewcommand{\qedsymbol}{}
@@ -432,11 +431,11 @@ All mistakes and omissions are my responsibility. Please consult the printed edi
 \input{equations/LEC-093/LEC-093_proof.tex}
 \end{proof}
 
-\PrimaryEquation{LEC-094}{ax^3+by^3+cz^3+dxyz=e}{p.~110}{}
+\PrimaryEquation{LEC-094}{ax^2+by^2+cz^2+dxyz=e}{p.~110}{}
 
 \PrimaryEquation{LEC-095}{ax^3+ay^3+bz^3=bc^3}{p.~102}{}
 
-\PrimaryEquation{LEC-096}{x^3+y^3+z^3-axyz=b}{pp.~106--110}{}
+\PrimaryEquation{LEC-096}{x^2+y^2+z^2-axyz=b}{pp.~106--110}{}
 
 \PrimaryEquation{LEC-097}{ax^3+by^3+cz^3+d=0}{pp.~101--103}{}
 
