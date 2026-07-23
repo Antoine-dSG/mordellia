@@ -9,12 +9,17 @@ Mordell pages: p.~293.
 
 Statement status in the blueprint: `statement`.
 
-Research family: Markoff and mutation dynamics.
+Research family: variable-modulus divisibility and affine cubic surfaces.
 
-History: The entry is a Markoff-type or exchange-relation instance connected to known mutation dynamics.
+History: Schinzel completed and corrected Mordell's general congruence claims;
+Kollar--Li prove the full cubic infinitude theorem.
 
-Structure: Complementary-root transformations generate arithmetic orbits and explain infinitude/recurrence phenomena.
+Structure: In the cubic specialization, Mordell's recursive chains are orbits
+of Geiser-type isomorphisms between companion affine cubic surfaces.  A full
+cycle gives an infinite-order automorphism.
 
-Interconnections: this entry is grouped with the `markoff-mutation` family. Current triage clusters: cluster_algebras, mutation_dynamics, quartic_equations.
+Interconnections: `LEC-117` and `LEC-118` remain quadratic specializations;
+the cubic family has a separate affine-automorphism explanation recorded in
+`CONN-010`.
 
-Full-pass note: this record was generated during the full-coverage pass from `research/equation-triage.yaml`. It is a conservative deep-dive summary, not a claim that the individual literature search for this LEC is exhausted.
+Connection dossiers: `CONN-003`, `CONN-005`, and `CONN-010`.

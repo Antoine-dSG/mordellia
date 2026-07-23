@@ -11,6 +11,11 @@ Objective: for Mordell's equations, identify historical context, structural expl
 - Do not claim novelty without a negative literature search log.
 - Prefer clusters over isolated equations when searching for structure.
 - Record failed searches briefly; they reduce duplicated work.
+- Treat a method, transformation, recurrence, parametrisation, obstruction, or
+  structural statement as a first-class Mordell atom, not merely as supporting
+  prose for an equation.
+- Promote only stable connections to the blueprint. Keep speculative or
+  low-confidence material in `research/connections/`.
 
 ## Per-Equation Research Files
 
@@ -62,6 +67,38 @@ The existing statement/proof files remain the concise blueprint-facing layer. Th
    - Mark confidence separately.
    - Record evidence before improving a rank.
 
+## Connection Discovery Workflow
+
+1. Extract Mordell atoms.
+   - Record displayed equations, transformations, recurrences, descent steps,
+     parametrisations, congruence sieves, factorisations, and root-replacement
+     operations.
+   - Attach each atom to LEC tags, page ranges, and statement files when
+     available.
+
+2. Assign structural signatures.
+   - Examples: complementary-root involution, exchange relation, Laurent
+     phenomenon, continued-fraction or unit recurrence, norm-form
+     factorisation, torsor/descent, local-global obstruction,
+     Brauer-Manin-looking obstruction, mutation graph, Coxeter/Weyl reflection,
+     character variety, reduction theory, tropical or valuation dynamics.
+
+3. Search from the modern structure backward.
+   - Search for the signature and normal form, not only for Mordell's equation.
+   - Use literature from cluster algebras, character varieties, Coxeter groups,
+     arithmetic dynamics, toric geometry, descent, tori, and related structures
+     when the signature points there.
+
+4. Build a dictionary.
+   - Map Mordell variables, operations, and qualitative statements to modern
+     variables, mutations, theorems, and structural consequences.
+   - Reject candidates where the modern structure is only aesthetic.
+
+5. Add a connection dossier.
+   - Use `research/connections/templates/`.
+   - Record the distance score from `research/ranking.md`.
+   - Add a graph edge only after the dictionary is written.
+
 ## Triage Strategy
 
 Run broad triage only to select deep dives. Do not attempt equal-depth treatment of all equations.
@@ -96,6 +133,18 @@ Initial likely clusters:
 - Waring-type sums of powers.
 - Binomial and Catalan-type equations.
 
+Initial connection targets:
+
+- `LEC-117`, `LEC-118`, `LEC-183`: cluster mutation, Laurent phenomenon,
+  exchange-polynomial structure.
+- `LEC-096`, `LEC-094`, `LEC-098`: Markoff-Hurwitz surfaces, character
+  varieties, Vieta mutation.
+- Quartic genus-one entries: torsors and descent hidden behind quartic
+  manipulations.
+- Norm-equation entries: algebraic tori, unit lattices, and hidden group
+  actions.
+- Cubic and quartic surface entries: local-global and Brauer-Manin candidates.
+
 ## Output Standard
 
 Each deep dive should end with:
@@ -105,4 +154,3 @@ Each deep dive should end with:
 - interconnection graph entries;
 - rank file with evidence;
 - open questions and failed paths.
-

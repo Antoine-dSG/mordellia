@@ -23,14 +23,15 @@
     "confidence": "high"
   },
   "interconnection": {
-    "rank": 2,
-    "connected_equations": [],
-    "shared_mechanism": "local solubility, Hasse-Minkowski, parametrisation",
-    "larger_family": "Quadratic forms and conics",
+    "rank": 1,
+    "connected_equations": ["LEC-026"],
+    "shared_mechanism": "the same Hurwitz class-number coefficients count three-square representations and weighted LEC-026 representations",
+    "larger_family": "Hurwitz class-number representation functions",
     "references": [
-      "Mordell, Diophantine Equations, Chapters 1--6"
+      "Mordell, Diophantine Equations, pp. 4, 175, 291--292",
+      "Zagier, Nombres de classes et formes modulaires de poids 3/2, 1975"
     ],
-    "evidence": "Shared research family in full-pass coverage.",
+    "evidence": "For d congruent to 1 or 2 modulo 4, r_3(d)=12H(4d), while the weighted LEC-026 count is 3H(4d).",
     "confidence": "high"
   },
   "status": "deep_dive",

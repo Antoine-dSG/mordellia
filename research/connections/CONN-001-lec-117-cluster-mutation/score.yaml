@@ -1,0 +1,43 @@
+{
+  "connection_id": "CONN-001",
+  "title": "LEC-117 as the (2,2) Mordell--Schinzel cluster/frieze surface",
+  "status": "structural",
+  "distance": "D4",
+  "confidence": "high",
+  "novelty_status": "known_structure_not_found_in_mordell_language",
+  "blueprint_promoted": true,
+  "lec_tags": ["LEC-117", "LEC-183"],
+  "mordell_atoms": [
+    "ATOM-LEC-117-MS-SURFACE",
+    "ATOM-LEC-117-POSITIVE-SEQUENCE",
+    "ATOM-MS-POSITIVE-FRIEZE-CORRESPONDENCE",
+    "ATOM-MISC-QUADRATIC-ROOT-REPLACEMENT"
+  ],
+  "signatures": [
+    "complementary_root_involution",
+    "exchange_relation",
+    "mutation_graph",
+    "laurent_phenomenon"
+  ],
+  "modern_objects": [
+    "rank_two_cluster_algebra",
+    "cluster_mutation",
+    "cluster_frieze",
+    "mordell_schinzel_surface",
+    "finite_infinite_type_classification"
+  ],
+  "references": [
+    "Mordell, Diophantine Equations, p. 299",
+    "de Saint Germain--Zhang, Positive integer points on Mordell--Schinzel surfaces, local manuscript",
+    "Fomin--Zelevinsky, Cluster algebras I: Foundations, arXiv:math/0104151",
+    "Fomin--Zelevinsky, Cluster algebras II: Finite type classification, arXiv:math/0208229",
+    "Barnes, On the Diophantine Equation x^2+y^2+c=xyz, doi:10.1112/jlms/s1-28.2.242",
+    "Mills, Certain Diophantine Equations Linear In One Unknown, doi:10.4153/CJM-1956-003-2"
+  ],
+  "explains": "Positive integer points on LEC-117 are friezes of the rank-two cluster algebra for the extremal surface Y_{2,2}; the finite/infinite criterion mn<=3 puts LEC-117 in the infinite mn=4 case.",
+  "non_obvious_reason": "Mordell presents a Diophantine recurrence; the modern structure is the Mordell--Schinzel surface/cluster-frieze correspondence, whose finite/infinite type classification explains the infinite orbit.",
+  "next_steps": [
+    "Write a short blueprint-facing proof that the cluster recurrence preserves x^2+y^2+1=3xy.",
+    "Check whether the shifted LEC-118 branches fit generalized or LP-algebra mutation."
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "connection_id": "CONN-007",
+  "title": "Erdos--Straus reciprocity restrictions as a transcendental Brauer--Manin obstruction",
+  "status": "structural",
+  "distance": "D3",
+  "confidence": "high",
+  "novelty_status": "known_structure_explicitly_proved_in_literature",
+  "blueprint_promoted": true,
+  "lec_tags": ["LEC-188", "LEC-096"],
+  "mordell_atoms": [
+    "ATOM-LEC-188-ERDOS-STRAUS-SURFACE",
+    "ATOM-LEC-188-RECIPROCITY-CONDITIONS",
+    "ATOM-LEC-096-MARKOFF-SURFACE"
+  ],
+  "signatures": [
+    "log_k3_surface",
+    "local_global_obstruction",
+    "brauer_manin_obstruction",
+    "strong_approximation_failure"
+  ],
+  "modern_objects": [
+    "singular log K3 surface",
+    "transcendental Brauer class",
+    "Brauer--Manin obstruction",
+    "Hilbert symbol",
+    "strong approximation"
+  ],
+  "references": [
+    "Mordell, Diophantine Equations, pp. 287--290",
+    "Bright--Loughran, Brauer--Manin obstruction for Erdos--Straus surfaces, arXiv:1908.02526",
+    "Colliot-Thelene--Wei--Xu, Brauer--Manin obstruction for Markoff surfaces, arXiv:1808.01584",
+    "Loughran--Mitankin, Integral Hasse principle and strong approximation for Markoff surfaces, arXiv:1807.10223"
+  ],
+  "explains": "A single transcendental Brauer class unifies Mordell's quadratic-character restrictions and explains the failure of strong approximation for positive Erdos--Straus solutions; the same mechanism links to the Markoff subfamily of LEC-096.",
+  "non_obvious_reason": "Elementary Legendre-symbol calculations in Mordell are local evaluations of a global cohomological invariant on a singular log K3 surface.",
+  "next_steps": [
+    "Evaluate the Brauer class on Mordell's explicit arithmetic-progression families and identify which adelic components each family occupies.",
+    "Compare the Erdos--Straus and Markoff Brauer classes through boundary divisors on their log K3 compactifications."
+  ]
+}

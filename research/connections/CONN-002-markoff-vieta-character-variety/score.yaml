@@ -1,0 +1,34 @@
+{
+  "connection_id": "CONN-002",
+  "title": "Markoff-Hurwitz Vieta operations as mutation anchor",
+  "status": "referenced",
+  "distance": "D2",
+  "confidence": "high",
+  "novelty_status": "known_visibly_related",
+  "blueprint_promoted": false,
+  "lec_tags": ["LEC-096", "LEC-094", "LEC-098"],
+  "mordell_atoms": ["ATOM-LEC-096-VIETA-OPERATIONS"],
+  "signatures": [
+    "complementary_root_involution",
+    "mutation_graph",
+    "character_variety"
+  ],
+  "modern_objects": [
+    "markoff_hurwitz_surface",
+    "vieta_automorphism_group",
+    "character_variety"
+  ],
+  "references": [
+    "Mordell, Diophantine Equations, pp. 106--110",
+    "Hu--Tan--Zhang, Polynomial automorphisms preserving the Markoff-Hurwitz polynomial, arXiv:1501.06955",
+    "Bourgain--Gamburd--Sarnak, Markoff triples and strong approximation, arXiv:1505.06411",
+    "Goldman--Neumann, Homological action of the modular group on some cubic moduli spaces, arXiv:math/0402039"
+  ],
+  "explains": "Solution generation from fundamental solutions by Vieta involutions.",
+  "non_obvious_reason": "Useful mainly as a structural anchor; the connection is close to Mordell's own Markoff-Hurwitz framing.",
+  "next_steps": [
+    "Verify whether LEC-094 and LEC-098 normalize to genuine Markoff-Hurwitz surfaces.",
+    "Compare the symmetric Vieta graph with the asymmetric LEC-117 cluster branch."
+  ]
+}
+

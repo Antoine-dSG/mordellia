@@ -1,0 +1,37 @@
+{
+  "connection_id": "CONN-008",
+  "title": "LEC-026 and three squares as coefficients of Zagier's class-number mock modular form",
+  "status": "structural",
+  "distance": "D4",
+  "confidence": "high",
+  "novelty_status": "known_structures_with_explicit_dictionary",
+  "blueprint_promoted": true,
+  "lec_tags": ["LEC-026", "LEC-024"],
+  "mordell_atoms": [
+    "ATOM-LEC-026-WEIGHTED-REPRESENTATIONS",
+    "ATOM-LEC-024-THREE-SQUARES"
+  ],
+  "signatures": [
+    "hurwitz_class_number",
+    "half_integral_weight_modularity",
+    "representation_number"
+  ],
+  "modern_objects": [
+    "Hurwitz class numbers",
+    "weight 3/2 mock modular form",
+    "harmonic Maass form",
+    "three-square theta series"
+  ],
+  "references": [
+    "Mordell, Diophantine Equations, pp. 291--292",
+    "Zagier, Nombres de classes et formes modulaires de poids 3/2, 1975",
+    "Bhand--Singh, Zagier's weight 3/2 mock modular form, arXiv:2012.00539",
+    "Filaseta--Klein--Sabuncu, On extreme values of r_3(n) in arithmetic progressions, arXiv:2412.01988"
+  ],
+  "explains": "The same Hurwitz class-number coefficients give the exact weighted LEC-026 count and the three-square representation count, placing both in one half-integral-weight modular object.",
+  "non_obvious_reason": "A divisibility equation and a sum-of-three-squares equation become two coefficient interpretations of the same mock modular class-number series.",
+  "next_steps": [
+    "Transfer known congruences and average formulas for H(4d) to the weighted LEC-026 representation function.",
+    "Compare extremal growth of LEC-026 counts and three-square counts in fixed arithmetic progressions."
+  ]
+}

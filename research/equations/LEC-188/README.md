@@ -7,7 +7,18 @@ Equation:
 
 This is the Erdos--Straus conjecture. Mordell states it for \(n>3\), with positive integer \(x,y,z\).
 
-The known structure is partial: it is enough to check prime \(n\), many congruence classes admit parametrised solutions, and large computational verification exists. No structure currently determines all cases.
+After homogenisation, the equation is Cayley's four-nodal cubic surface. For
+prime \(n\), Mordell's two divisibility parametrisations are Type I and Type II
+charts in the universal-torsor classification of primitive points on that
+surface. This explains their coprime-factor form and the divisor-rich average
+solution count.
 
-Interconnections: it is best treated as an Egyptian-fraction problem, not as part of the algebraic-geometry clusters. Its graph edge to `LEC-191` is bookkeeping only.
+The affine surface is also a singular log K3 surface with a transcendental
+Brauer class. Its local invariants recover the quadratic-character
+restrictions recorded by Mordell and explain a failure of strong
+approximation, although there is no Brauer--Manin obstruction to existence and
+the conjecture remains open.
 
+Interconnections: the Brauer--Manin mechanism connects `LEC-188` to the
+Markoff surface subfamily of `LEC-096`. Its former graph edge to `LEC-191` was
+bookkeeping only.

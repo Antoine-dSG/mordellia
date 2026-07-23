@@ -1,0 +1,34 @@
+{
+  "connection_id": "CONN-004",
+  "title": "Quadratic root replacement as a general mutation engine",
+  "status": "mapped",
+  "distance": "D3",
+  "confidence": "medium",
+  "novelty_status": "mechanism_known_but_not_classified_for_mordell",
+  "blueprint_promoted": false,
+  "lec_tags": ["LEC-117", "LEC-118", "LEC-183"],
+  "mordell_atoms": ["ATOM-MISC-QUADRATIC-ROOT-REPLACEMENT"],
+  "signatures": [
+    "complementary_root_involution",
+    "exchange_relation",
+    "mutation_graph"
+  ],
+  "modern_objects": [
+    "cluster_mutation",
+    "vieta_involution",
+    "laurent_phenomenon_algebra"
+  ],
+  "references": [
+    "Mordell, Diophantine Equations, pp. 296--299",
+    "Fomin--Zelevinsky, Cluster algebras I: Foundations, arXiv:math/0104151",
+    "Lam--Pylyavskyy, Laurent phenomenon algebras, arXiv:1206.2611",
+    "Hu--Tan--Zhang, Markoff-Hurwitz automorphisms, arXiv:1501.06955"
+  ],
+  "explains": "Explains why Mordell's solution sets are naturally organized into recurrence sequences or mutation orbits.",
+  "non_obvious_reason": "The method is presented as Diophantine root replacement, but it is the same operation that modern mutation theories isolate structurally.",
+  "next_steps": [
+    "Search the full text for every occurrence of second-root replacement.",
+    "Classify each occurrence as cluster, generalized cluster, LP-algebra, Vieta-only, or rejected."
+  ]
+}
+

@@ -1,0 +1,201 @@
+{
+  "atoms": [
+    {
+      "id": "ATOM-LEC-117-MS-SURFACE",
+      "type": "surface",
+      "lec_tags": ["LEC-117"],
+      "pages": "p. 299",
+      "mordell_object": "Mordell--Schinzel surface xyz=x^2+y^2+1",
+      "summary": "LEC-117 is the extremal positive Mordell--Schinzel surface Y_{2,2}.",
+      "signatures": [
+        "exchange_relation",
+        "mutation_graph",
+        "laurent_phenomenon"
+      ]
+    },
+    {
+      "id": "ATOM-MS-POSITIVE-FRIEZE-CORRESPONDENCE",
+      "type": "structural_statement",
+      "lec_tags": ["LEC-117", "LEC-118", "LEC-183"],
+      "pages": "external manuscript",
+      "mordell_object": "positive Mordell--Schinzel surfaces xyz=G(x,y)",
+      "summary": "Positive integer points on suitable MS surfaces correspond to friezes of a rank-two generalized cluster algebra.",
+      "signatures": [
+        "exchange_relation",
+        "mutation_graph",
+        "laurent_phenomenon"
+      ]
+    },
+    {
+      "id": "ATOM-LEC-117-POSITIVE-SEQUENCE",
+      "type": "recurrence",
+      "lec_tags": ["LEC-117"],
+      "pages": "p. 299",
+      "mordell_object": "positive solutions of x^2+y^2+1=xyz",
+      "summary": "Mordell orders a bi-infinite solution sequence, proves the minimal positive case forces z=3, and obtains consecutive alternate Fibonacci terms.",
+      "signatures": [
+        "complementary_root_involution",
+        "exchange_relation",
+        "mutation_graph",
+        "laurent_phenomenon"
+      ]
+    },
+    {
+      "id": "ATOM-LEC-118-SHIFTED-SEQUENCE",
+      "type": "recurrence",
+      "lec_tags": ["LEC-118"],
+      "pages": "pp. 299--300",
+      "mordell_object": "positive solutions of x^2+y^2 +/- x +/- y + 1=xyz",
+      "summary": "Mordell treats shifted quadratic variants by divisibility and recurrence sequences.",
+      "signatures": [
+        "exchange_relation",
+        "mutation_graph",
+        "laurent_phenomenon"
+      ]
+    },
+    {
+      "id": "ATOM-LEC-183-EXCHANGE-CONGRUENCE",
+      "type": "exchange_relation",
+      "lec_tags": ["LEC-183"],
+      "pages": "p. 293",
+      "mordell_object": "g(x)+h(y)+c=zxy",
+      "summary": "Mordell identifies the equation with the congruence g(x)+h(y)+c == 0 mod xy for coprime x,y.",
+      "signatures": [
+        "exchange_relation",
+        "laurent_phenomenon",
+        "variable_modulus_divisibility"
+      ]
+    },
+    {
+      "id": "ATOM-LEC-183-CUBIC-DIVISIBILITY-CHAIN",
+      "type": "recurrence",
+      "lec_tags": ["LEC-183"],
+      "pages": "pp. 293--295",
+      "mordell_object": "xy divides ax^3+by^3+c and Mordell's recursive solution chain",
+      "summary": "Mordell generates infinitely many solutions of the cubic variable-modulus congruence by successive congruence transformations with Fibonacci-type exponent growth.",
+      "signatures": [
+        "variable_modulus_divisibility",
+        "affine_cubic_surface",
+        "infinite_discrete_automorphism_group",
+        "companion_surface_groupoid"
+      ]
+    },
+    {
+      "id": "ATOM-MISC-QUADRATIC-ROOT-REPLACEMENT",
+      "type": "method",
+      "lec_tags": ["LEC-117", "LEC-118", "LEC-183"],
+      "pages": "pp. 296--299",
+      "mordell_object": "quadratic equations linear in z",
+      "summary": "For a fixed value of z, Mordell treats the equation as a quadratic in one variable and replaces one integral root by the other.",
+      "signatures": [
+        "complementary_root_involution",
+        "exchange_relation",
+        "mutation_graph"
+      ]
+    },
+    {
+      "id": "ATOM-LEC-096-VIETA-OPERATIONS",
+      "type": "method",
+      "lec_tags": ["LEC-096", "LEC-094", "LEC-098"],
+      "pages": "pp. 106--110",
+      "mordell_object": "x^2+y^2+z^2-axyz=b and variants",
+      "summary": "Mordell's elementary operations replace one coordinate by the complementary root of the same quadratic equation.",
+      "signatures": [
+        "complementary_root_involution",
+        "mutation_graph",
+        "character_variety"
+      ]
+    },
+    {
+      "id": "ATOM-LEC-096-MARKOFF-SURFACE",
+      "type": "surface",
+      "lec_tags": ["LEC-096"],
+      "pages": "pp. 106--110",
+      "mordell_object": "x^2+y^2+z^2-axyz=b",
+      "summary": "Mordell's family contains the affine Markoff surfaces x^2+y^2+z^2-xyz=m.",
+      "signatures": [
+        "log_k3_surface",
+        "brauer_manin_obstruction",
+        "strong_approximation_failure"
+      ]
+    },
+    {
+      "id": "ATOM-LEC-188-ERDOS-STRAUS-SURFACE",
+      "type": "surface",
+      "lec_tags": ["LEC-188"],
+      "pages": "pp. 287--290",
+      "mordell_object": "4xyz=n(xy+xz+yz)",
+      "summary": "The Erdos--Straus equation is the positive integral-point problem on a singular affine cubic surface.",
+      "signatures": [
+        "cayley_cubic",
+        "log_k3_surface",
+        "local_global_obstruction"
+      ]
+    },
+    {
+      "id": "ATOM-LEC-188-DIVISIBILITY-PARAMETRISATIONS",
+      "type": "parametrisation",
+      "lec_tags": ["LEC-188"],
+      "pages": "pp. 287--289",
+      "mordell_object": "the two cases a+n(b+c)=4abcd and na+b+c=4abcd",
+      "summary": "Mordell separates prime-denominator solutions according to whether one or two denominators are divisible by the prime and parametrises both cases by coprime factors.",
+      "signatures": [
+        "cayley_cubic",
+        "universal_torsor",
+        "torsor_descent"
+      ]
+    },
+    {
+      "id": "ATOM-LEC-188-RECIPROCITY-CONDITIONS",
+      "type": "obstruction",
+      "lec_tags": ["LEC-188"],
+      "pages": "pp. 289--290",
+      "mordell_object": "quadratic-character restrictions on prime-denominator solutions",
+      "summary": "Mordell records Yamamoto's Legendre--Jacobi and Kronecker character restrictions arising from the two divisibility cases.",
+      "signatures": [
+        "local_global_obstruction",
+        "brauer_manin_obstruction",
+        "strong_approximation_failure"
+      ]
+    },
+    {
+      "id": "ATOM-LEC-026-WEIGHTED-REPRESENTATIONS",
+      "type": "counting_statement",
+      "lec_tags": ["LEC-026"],
+      "pages": "pp. 291--292",
+      "mordell_object": "weighted nonnegative solutions of xy+yz+zx=d",
+      "summary": "Mordell identifies the weighted solution count with three times the class number of binary quadratic forms of determinant -d.",
+      "signatures": [
+        "hurwitz_class_number",
+        "half_integral_weight_modularity",
+        "representation_number"
+      ]
+    },
+    {
+      "id": "ATOM-LEC-026-POSITIVE-NONREPRESENTATION",
+      "type": "obstruction",
+      "lec_tags": ["LEC-026"],
+      "pages": "pp. 291--292",
+      "mordell_object": "absence of strictly positive solutions of xy+yz+zx=d",
+      "summary": "Strict-positive nonrepresentation is governed by the factorization rigidity of d+z^2 and by discriminant -4d quadratic-form classes.",
+      "signatures": [
+        "factorization_coordinate",
+        "idoneal_discriminant",
+        "elementary_2_class_group"
+      ]
+    },
+    {
+      "id": "ATOM-LEC-024-THREE-SQUARES",
+      "type": "representation_problem",
+      "lec_tags": ["LEC-024"],
+      "pages": "pp. 4, 175",
+      "mordell_object": "x^2+y^2+z^2=m",
+      "summary": "The three-square specialization has representation numbers governed by the same Hurwitz class numbers as LEC-026.",
+      "signatures": [
+        "hurwitz_class_number",
+        "half_integral_weight_modularity",
+        "representation_number"
+      ]
+    }
+  ]
+}

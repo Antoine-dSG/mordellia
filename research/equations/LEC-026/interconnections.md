@@ -1,9 +1,17 @@
 # Interconnections
 
-Research family: `quadratic-forms-conics`.
+The exact interconnection is with the three-square specialization of
+`LEC-024`.
 
-Connected LEC entries in the current full-pass taxonomy:
+If \(R(d)\) is the weighted `LEC-026` count, then
+\[
+    R(d)=3H(4d).
+\]
+For \(d\equiv1,2\pmod4\), Gauss's formula gives
+\[
+    r_3(d)=12H(4d)=4R(d).
+\]
 
-LEC-004, LEC-005, LEC-006, LEC-007, LEC-008, LEC-009, LEC-010, LEC-011, LEC-012, LEC-013, LEC-014, LEC-015, LEC-016, LEC-017, LEC-018, LEC-019, LEC-021, LEC-022, LEC-023, LEC-024, ...
-
-The connection is cluster-level: these equations share the same broad arithmetic mechanism. A stronger rank requires an explicit map, common invariant, or shared proof mechanism.
+The two equations are presented separately and look different, but their
+representation numbers are coefficients of the same Hurwitz class-number
+series.  Interconnection rank: `1`.

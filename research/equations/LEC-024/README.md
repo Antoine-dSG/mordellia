@@ -15,6 +15,9 @@ History: These equations are instances of the classical arithmetic of quadratic 
 
 Structure: The qualitative behaviour is governed by local invariants, isotropy, and rational parametrisation from one point.
 
-Interconnections: this entry is grouped with the `quadratic-forms-conics` family. Current triage clusters: conics, quadratic_forms, sums_of_squares.
+Interconnections: its representation numbers and the weighted `LEC-026`
+counts are governed by the same Hurwitz class-number coefficients.
+
+Connection dossier: `CONN-008`.
 
 Full-pass note: this record was generated during the full-coverage pass from `research/equation-triage.yaml`. It is a conservative deep-dive summary, not a claim that the individual literature search for this LEC is exhausted.

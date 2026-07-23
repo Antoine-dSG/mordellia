@@ -1,0 +1,18 @@
+{
+  "connection_id": "",
+  "title": "",
+  "status": "candidate",
+  "distance": null,
+  "confidence": "low",
+  "novelty_status": "unsearched",
+  "blueprint_promoted": false,
+  "lec_tags": [],
+  "mordell_atoms": [],
+  "signatures": [],
+  "modern_objects": [],
+  "references": [],
+  "explains": "",
+  "non_obvious_reason": "",
+  "next_steps": []
+}
+

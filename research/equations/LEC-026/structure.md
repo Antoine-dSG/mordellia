@@ -1,7 +1,16 @@
 # Structure
 
-Primary mechanism: local solubility, Hasse-Minkowski, parametrisation.
+There are two exact structural layers.
 
-The qualitative behaviour is governed by local invariants, isotropy, and rational parametrisation from one point.
+First, if boundary solutions are weighted by \(1/2\), Mordell's count is
+\[
+    R(d)=3H(4d).
+\]
+The coefficients \(H(N)\) form the holomorphic part of Zagier's
+weight-\(3/2\) harmonic Maass form.
 
-This is a full-pass structural record. It should be refined when this LEC is selected for a narrower source-level or computational pass.
+Second, strict-positive nonrepresentation is equivalent to an exponent-two
+class-group condition.  Thus exact counts are modular, while the qualitative
+existence question is governed by idoneal discriminants.
+
+See `CONN-008` and `CONN-009`.

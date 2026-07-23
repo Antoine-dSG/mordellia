@@ -1,7 +1,17 @@
 # Structure
 
-Primary mechanism: Vieta involutions, mutation graph, Laurent phenomenon.
+The family has two distinct structural readings.
 
-Complementary-root transformations generate arithmetic orbits and explain infinitude/recurrence phenomena.
+Positive separated subfamilies can be generalized cluster/frieze spaces.
+Independently, the cubic divisibility family
+\[
+    xy\mid G(x,y)
+    \quad\Longleftrightarrow\quad
+    xyz=G(x,y)
+\]
+is an affine cubic surface.  Geiser-type companion-surface isomorphisms
+compose to an infinite-order automorphism, and Mordell's recursive chains are
+integral orbits of this system.
 
-This is a full-pass structural record. It should be refined when this LEC is selected for a narrower source-level or computational pass.
+The affine-automorphism structure explains infinitude for the full cubic
+family without invoking cluster algebra.  See `CONN-010`.

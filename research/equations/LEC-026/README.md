@@ -9,12 +9,17 @@ Mordell pages: p.~291--292.
 
 Statement status in the blueprint: `statement`.
 
-Research family: Quadratic forms and conics.
+Research family: Hurwitz class numbers and positive representation.
 
-History: These equations are instances of the classical arithmetic of quadratic forms and conics.
+History: Mordell's \(G(d)\) is the Hurwitz class number \(H(4d)\); later work
+characterizes strict-positive nonrepresentation through idoneal numbers.
 
-Structure: The qualitative behaviour is governed by local invariants, isotropy, and rational parametrisation from one point.
+Structure: The exact weighted count is a coefficient of Zagier's
+weight-\(3/2\) mock modular form, while absence of positive solutions is an
+exponent-two imaginary quadratic class-group condition.
 
-Interconnections: this entry is grouped with the `quadratic-forms-conics` family. Current triage clusters: conics, quadratic_forms.
+Interconnections: the same Hurwitz class numbers control the three-square
+specialization of `LEC-024`; the unlike-looking equations share one exact
+representation-count mechanism.
 
-Full-pass note: this record was generated during the full-coverage pass from `research/equation-triage.yaml`. It is a conservative deep-dive summary, not a claim that the individual literature search for this LEC is exhausted.
+Connection dossiers: `CONN-008` and `CONN-009`.

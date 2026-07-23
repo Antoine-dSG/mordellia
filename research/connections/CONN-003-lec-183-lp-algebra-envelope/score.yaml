@@ -1,0 +1,40 @@
+{
+  "connection_id": "CONN-003",
+  "title": "LEC-183 as a generalized cluster/MS-surface envelope",
+  "status": "mapped",
+  "distance": "D4",
+  "confidence": "medium",
+  "novelty_status": "candidate_known_structure_application",
+  "blueprint_promoted": false,
+  "lec_tags": ["LEC-183", "LEC-117", "LEC-118"],
+  "mordell_atoms": [
+    "ATOM-LEC-183-EXCHANGE-CONGRUENCE",
+    "ATOM-MS-POSITIVE-FRIEZE-CORRESPONDENCE",
+    "ATOM-MISC-QUADRATIC-ROOT-REPLACEMENT"
+  ],
+  "signatures": [
+    "exchange_relation",
+    "laurent_phenomenon",
+    "mutation_graph"
+  ],
+  "modern_objects": [
+    "mordell_schinzel_surface",
+    "generalized_cluster_algebra",
+    "cluster_frieze",
+    "laurent_phenomenon_algebra",
+    "exchange_polynomial"
+  ],
+  "references": [
+    "Mordell, Diophantine Equations, p. 293",
+    "de Saint Germain--Zhang, Positive integer points on Mordell--Schinzel surfaces, local manuscript",
+    "Lam--Pylyavskyy, Laurent phenomenon algebras, arXiv:1206.2611",
+    "Fomin--Zelevinsky, The Laurent phenomenon, arXiv:math/0104241"
+  ],
+  "explains": "For positive separated subfamilies, generalized cluster mutation and friezes explain integrality and positive integer points; LP algebras remain a possible wider envelope.",
+  "non_obvious_reason": "Mordell's congruence criterion is naturally an exchange-polynomial integrality condition, but the relevant modern language is generalized cluster algebra and frieze theory.",
+  "next_steps": [
+    "Find a nontrivial subfamily closed under LP mutation.",
+    "Check irreducibility of exchange polynomials in Mordell's quadratic examples.",
+    "Determine whether LEC-118 is ordinary, generalized, or LP mutation."
+  ]
+}

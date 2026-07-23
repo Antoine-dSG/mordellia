@@ -1,0 +1,36 @@
+{
+  "connection_id": "CONN-009",
+  "title": "Positive nonrepresentation by LEC-026 as an exponent-two class-group condition",
+  "status": "structural",
+  "distance": "D3",
+  "confidence": "high",
+  "novelty_status": "known_structure_explicitly_proved_in_literature",
+  "blueprint_promoted": true,
+  "lec_tags": ["LEC-026"],
+  "mordell_atoms": [
+    "ATOM-LEC-026-POSITIVE-NONREPRESENTATION"
+  ],
+  "signatures": [
+    "factorization_coordinate",
+    "idoneal_discriminant",
+    "elementary_2_class_group"
+  ],
+  "modern_objects": [
+    "idoneal number",
+    "imaginary quadratic class group",
+    "elementary 2-extension",
+    "binary theta series"
+  ],
+  "references": [
+    "Mordell, Diophantine Equations, pp. 291--292",
+    "Louboutin--Newman, On the diophantine equation xy+yz+zx=d, 1998",
+    "Kani, Idoneal numbers and some generalizations, 2011",
+    "Borwein--Choi, On the representations of xy+yz+zx, 2000"
+  ],
+  "explains": "Absence of positive solutions is equivalent to an exponent-two class-group condition, reducing the exceptional set to the idoneal-number problem.",
+  "non_obvious_reason": "A three-variable divisibility/factorization problem is decided by the Galois structure of an imaginary quadratic ring class field.",
+  "next_steps": [
+    "Separate effective unconditional bounds from the GRH-dependent explicit list of exceptions.",
+    "Translate genus characters into explicit certificates for positive nonrepresentation."
+  ]
+}

@@ -3,40 +3,45 @@
   "cluster": "quadratic-forms-conics",
   "history": {
     "rank": 1,
-    "claim": "These equations are instances of the classical arithmetic of quadratic forms and conics.",
-    "general_problem": "Quadratic forms and conics",
+    "claim": "Mordell's count is a Hurwitz class number, and strict-positive nonrepresentation is the idoneal-number problem.",
+    "general_problem": "Hurwitz class numbers and idoneal discriminants",
     "references": [
-      "Mordell, Diophantine Equations, Chapters 1--6"
+      "Mordell, Diophantine Equations, pp. 291--292",
+      "Louboutin--Newman, On the diophantine equation xy+yz+zx=d, 1998",
+      "Kani, Idoneal numbers and some generalizations, 2011"
     ],
-    "evidence": "Mordell pages p.~291--292; triage clusters: conics, quadratic_forms.",
+    "evidence": "Mordell's determinant -d forms have discriminant -4d; Louboutin--Newman give the exact positive nonrepresentation criterion.",
     "confidence": "high"
   },
   "structure": {
-    "rank": 3,
-    "structure": "local solubility, Hasse-Minkowski, parametrisation",
-    "determines": "The qualitative behaviour is governed by local invariants, isotropy, and rational parametrisation from one point.",
+    "rank": 2,
+    "structure": "Hurwitz class-number mock modularity and exponent-two imaginary quadratic class groups",
+    "determines": "The mock modular coefficients give the exact weighted count; the class group determines absence of strictly positive solutions.",
     "novelty_status": "known",
     "references": [
-      "Mordell, Diophantine Equations, Chapters 1--6"
+      "Zagier, Nombres de classes et formes modulaires de poids 3/2, 1975",
+      "Bhand--Singh, Zagier's weight 3/2 mock modular form, arXiv:2012.00539",
+      "Louboutin--Newman, 1998"
     ],
-    "evidence": "Assigned by the full-pass taxonomy; refine in a source-level follow-up.",
+    "evidence": "The exact identities are R(d)=3H(4d) and, for d congruent to 1 or 2 modulo 4, r_3(d)=12H(4d).",
     "confidence": "high"
   },
   "interconnection": {
-    "rank": 2,
-    "connected_equations": [],
-    "shared_mechanism": "local solubility, Hasse-Minkowski, parametrisation",
-    "larger_family": "Quadratic forms and conics",
+    "rank": 1,
+    "connected_equations": ["LEC-024"],
+    "shared_mechanism": "the same Hurwitz class-number coefficients give both representation counts",
+    "larger_family": "half-integral-weight class-number and theta series",
     "references": [
-      "Mordell, Diophantine Equations, Chapters 1--6"
+      "Zagier, 1975",
+      "Filaseta--Klein--Sabuncu, arXiv:2412.01988"
     ],
-    "evidence": "Shared research family in full-pass coverage.",
+    "evidence": "For d congruent to 1 or 2 modulo 4, the signed three-square count is exactly four times the weighted LEC-026 count.",
     "confidence": "high"
   },
   "status": "deep_dive",
   "coverage": {
     "kind": "full_pass",
     "generated_from": "research/equation-triage.yaml",
-    "note": "Conservative full-coverage record; not an exhaustive individual literature survey."
+    "note": "Refined by the divisibility-equation connection pass; see CONN-008 and CONN-009."
   }
 }

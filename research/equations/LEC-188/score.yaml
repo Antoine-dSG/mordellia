@@ -8,30 +8,34 @@ history:
     - "Mordell, Diophantine Equations, p. 287"
     - "Elsholtz--Tao, https://arxiv.org/abs/1107.1010"
     - "Salez, https://arxiv.org/abs/1406.6307"
+    - "Bright--Loughran, https://arxiv.org/abs/1908.02526"
   evidence: "Elsholtz--Tao reduce counting to prime cases and Salez records verification up to N=10^17."
   confidence: medium
 
 structure:
-  rank: 5
-  structure: "Congruence families, divisor patterns, and prime reduction."
-  determines: "Does not determine the full conjecture."
-  novelty_status: unresolved
+  rank: 3
+  structure: "Cayley-cubic universal torsors and a transcendental Brauer class on the Erdos--Straus log K3 surface."
+  determines: "The torsor explains Mordell's two prime-denominator parametrisations and divisor-rich solution counts; the Brauer class determines reciprocity restrictions and failure of strong approximation, but not existence for every n."
+  novelty_status: known
   references:
     - "Elsholtz--Tao, https://arxiv.org/abs/1107.1010"
-    - "Salez, https://arxiv.org/abs/1406.6307"
-  evidence: "No complete structural criterion found."
-  confidence: medium
+    - "Heath-Brown, https://arxiv.org/abs/math/0210333"
+    - "Bright--Loughran, https://arxiv.org/abs/1908.02526"
+  evidence: "Elsholtz--Tao explicitly identify Mordell's Type I/II cases with universal-torsor charts on Cayley's cubic. Bright--Loughran compute Br(U_n)/Br(Q)=Z/2Z and recover Yamamoto's character restrictions from its local invariants."
+  confidence: high
 
 interconnection:
-  rank: 3
+  rank: 1
   connected_equations:
     - LEC-188
-  shared_mechanism: "Egyptian-fraction decomposition by congruence classes."
-  larger_family: "Unit-fraction decompositions of k/n."
+    - LEC-096
+  shared_mechanism: "Unlike-looking affine cubic log K3 surfaces whose integral-point distribution is constrained by Brauer--Manin failure of strong approximation."
+  larger_family: "Integral points on affine cubic log K3 surfaces."
   references:
-    - "Elsholtz--Tao, https://arxiv.org/abs/1107.1010"
-  evidence: "The equation is an instance of broader unit-fraction decomposition problems."
-  confidence: medium
+    - "Bright--Loughran, https://arxiv.org/abs/1908.02526"
+    - "Colliot-Thelene--Wei--Xu, https://arxiv.org/abs/1808.01584"
+    - "Loughran--Mitankin, https://arxiv.org/abs/1807.10223"
+  evidence: "LEC-188 and the a=1 Markoff subfamily of LEC-096 are treated by the same Brauer-group and strong-approximation framework."
+  confidence: high
 
 status: deep_dive
-

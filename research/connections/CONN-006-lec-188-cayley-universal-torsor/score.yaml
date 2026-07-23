@@ -1,0 +1,37 @@
+{
+  "connection_id": "CONN-006",
+  "title": "Mordell's Erdos--Straus parametrisations as Cayley-cubic universal-torsor charts",
+  "status": "structural",
+  "distance": "D4",
+  "confidence": "high",
+  "novelty_status": "known_structure_explicitly_confirmed_in_literature",
+  "blueprint_promoted": true,
+  "lec_tags": ["LEC-188"],
+  "mordell_atoms": [
+    "ATOM-LEC-188-ERDOS-STRAUS-SURFACE",
+    "ATOM-LEC-188-DIVISIBILITY-PARAMETRISATIONS"
+  ],
+  "signatures": [
+    "cayley_cubic",
+    "universal_torsor",
+    "torsor_descent"
+  ],
+  "modern_objects": [
+    "Cayley cubic surface",
+    "universal torsor",
+    "primitive integral points",
+    "Manin conjecture"
+  ],
+  "references": [
+    "Mordell, Diophantine Equations, pp. 287--289",
+    "Elsholtz--Tao, Counting the number of solutions to the Erdos--Straus equation, arXiv:1107.1010",
+    "Heath-Brown, The density of rational points on Cayley's cubic surface, arXiv:math/0210333",
+    "Bright--Loughran, Brauer--Manin obstruction for Erdos--Straus surfaces, arXiv:1908.02526"
+  ],
+  "explains": "The universal torsor explains the completeness and multiplicative form of Mordell's two prime-denominator parametrisations and the divisor-rich abundance of solutions.",
+  "non_obvious_reason": "Mordell presents elementary coprime-factor identities; their ambient object is the universal torsor of a four-nodal cubic surface.",
+  "next_steps": [
+    "Express Mordell's congruence families as explicit integral subschemes of the Type I and Type II torsor charts.",
+    "Search for torsor fibres producing residue classes not covered by the classical parametrisations."
+  ]
+}

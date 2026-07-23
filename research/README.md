@@ -12,6 +12,8 @@ Core files:
 - `templates/score.yaml`: per-equation score template.
 - `templates/search-log.md`: per-equation search log template.
 - `equations/LEC-xxx/`: per-equation deep-dive notes, scores, and search logs.
+- `connections/`: first-class connection dossiers linking Mordell atoms to
+  modern structures, methods, and literature.
 
 Deep dives:
 
@@ -26,6 +28,7 @@ Deep dives:
 
 Graphs:
 
+- `graph/connections.json`
 - `graph/markoff-mutation.json`
 - `graph/mordell-elliptic.json`
 - `graph/binary-forms-thue.json`
@@ -39,4 +42,12 @@ Regenerate triage after changing `content.tex` or statement/comment status:
 
 ```bash
 python3 research/scripts/generate_triage.py
+```
+
+Regenerate the connection index and connection graph after editing
+`research/connections/CONN-*/score.yaml`:
+
+```bash
+python3 research/scripts/build_connection_index.py --write
+python3 research/scripts/validate_connections.py
 ```

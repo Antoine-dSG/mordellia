@@ -1,0 +1,41 @@
+{
+  "connection_id": "CONN-005",
+  "title": "Positive MS surfaces as generalized cluster frieze spaces",
+  "status": "structural",
+  "distance": "D4",
+  "confidence": "high",
+  "novelty_status": "known_from_local_manuscript",
+  "blueprint_promoted": true,
+  "lec_tags": ["LEC-117", "LEC-118", "LEC-183"],
+  "mordell_atoms": [
+    "ATOM-MS-POSITIVE-FRIEZE-CORRESPONDENCE",
+    "ATOM-LEC-117-MS-SURFACE",
+    "ATOM-LEC-183-EXCHANGE-CONGRUENCE"
+  ],
+  "signatures": [
+    "exchange_relation",
+    "mutation_graph",
+    "laurent_phenomenon"
+  ],
+  "modern_objects": [
+    "mordell_schinzel_surface",
+    "generalized_cluster_algebra",
+    "upper_cluster_algebra",
+    "cluster_frieze",
+    "finite_infinite_type_classification"
+  ],
+  "references": [
+    "de Saint Germain--Zhang, Positive integer points on Mordell--Schinzel surfaces, local manuscript",
+    "Mordell, Diophantine Equations, pp. 293, 299--300",
+    "Fomin--Zelevinsky, Cluster algebras I: Foundations, arXiv:math/0104151",
+    "Fomin--Zelevinsky, Cluster algebras II: Finite type classification, arXiv:math/0208229"
+  ],
+  "explains": "Positive integer points on separated positive Mordell--Schinzel surfaces correspond to generalized cluster friezes; for extremal Y_{m,n}, finiteness is equivalent to mn<=3.",
+  "non_obvious_reason": "Mordell's miscellaneous exchange equation becomes a modern generalized cluster/frieze moduli problem, and the finite/infinite arithmetic is governed by rank-two cluster type.",
+  "next_steps": [
+    "Determine exactly which LEC-118 sign choices remain positive MS surfaces.",
+    "Search the rest of Mordell for further separated positive MS surfaces not currently tagged as Markoff/mutation.",
+    "Add graph edges from all supported LEC entries to the MS-surface cluster node."
+  ]
+}
+

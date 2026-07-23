@@ -15,15 +15,17 @@ history:
   confidence: medium
 
 structure:
-  rank: 5
-  structure: "Mixed: congruence and divisor structure for Erdos--Straus; cyclotomic fields and Galois modules for Catalan."
-  determines: "Determines LEC-191 via Mihailescu's theorem; does not determine LEC-188."
+  rank: 3
+  structure: "Cayley-cubic universal torsors and Brauer--Manin obstruction for Erdos--Straus; cyclotomic fields and Galois modules for Catalan."
+  determines: "Determines LEC-191; for LEC-188, determines parametrisation and strong-approximation restrictions but not existence for every n."
   novelty_status: known
   references:
     - "Elsholtz--Tao, https://arxiv.org/abs/1107.1010"
+    - "Bright--Loughran, https://arxiv.org/abs/1908.02526"
+    - "Heath-Brown, https://arxiv.org/abs/math/0210333"
     - "Mihailescu, J. Reine Angew. Math. 572 (2004), 167--195"
-  evidence: "No common determining structure has been identified; the cluster-level rank is limited by LEC-188."
-  confidence: medium
+  evidence: "The two entries remain structurally unrelated to each other, but both now have precise modern structural accounts."
+  confidence: high
 
 interconnection:
   rank: 4
@@ -40,6 +42,6 @@ interconnection:
 status: deep_dive
 next_steps:
   - "Split this cluster if a graph consumer expects clusters to encode real shared structure."
-  - "For LEC-188, catalogue known congruence families and compare them to Mordell's own parametrisations."
+  - "For LEC-188, express Mordell's congruence families on the Type I and Type II universal-torsor charts."
+  - "Evaluate the Erdos--Straus Brauer class on each explicit Mordell family."
   - "For LEC-191, record the chain Cassels--Tijdeman--Mihailescu as a history timeline."
-

@@ -1,0 +1,41 @@
+{
+  "connection_id": "CONN-010",
+  "title": "Mordell's cubic divisibility chains as orbits of affine-cubic automorphisms",
+  "status": "structural",
+  "distance": "D4",
+  "confidence": "high",
+  "novelty_status": "known_structure_explicitly_linked_to_mordell_in_literature",
+  "blueprint_promoted": true,
+  "lec_tags": ["LEC-183"],
+  "mordell_atoms": [
+    "ATOM-LEC-183-EXCHANGE-CONGRUENCE",
+    "ATOM-LEC-183-CUBIC-DIVISIBILITY-CHAIN"
+  ],
+  "signatures": [
+    "variable_modulus_divisibility",
+    "affine_cubic_surface",
+    "geiser_involution",
+    "infinite_discrete_automorphism_group",
+    "companion_surface_groupoid"
+  ],
+  "modern_objects": [
+    "affine cubic surface",
+    "Geiser-type involution",
+    "infinite cyclic automorphism group",
+    "companion-surface groupoid",
+    "integral orbit"
+  ],
+  "references": [
+    "Mordell, The congruence ax^3+by^3+c == 0 (mod xy), Acta Math. 88 (1952)",
+    "Schinzel, On the congruence f(x)+g(y)+c == 0 (mod xy), Acta Arith. 167 (2015)",
+    "Kollar--Villalobos-Paz, Cubic surfaces with infinite, discrete automorphism group, arXiv:2410.03934",
+    "Kollar--Li, The Mordell--Schinzel conjecture for cubic diophantine equations, arXiv:2412.12080"
+  ],
+  "explains": "Mordell's recursive congruence chain is an integral automorphism orbit on an affine cubic surface, and infinite order explains the infinitude of solutions.",
+  "non_obvious_reason": "An elementary congruence modulo a product of its unknowns is governed by Geiser-type surface automorphisms and the geometry of a nodal boundary cubic.",
+  "next_steps": [
+    "Compute the pullback action on the Picard group of a compactification and compare it termwise with Mordell's Fibonacci exponent sequences.",
+    "Determine which real chambers contain infinite positive integral orbits.",
+    "Test whether the quadratic divisibility surfaces admit parabolic degenerations of the same companion groupoid."
+  ]
+}

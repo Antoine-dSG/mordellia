@@ -1,0 +1,1183 @@
+{
+  "generated_from": "research/connections/CONN-*/score.yaml",
+  "nodes": [
+    {
+      "id": "ATOM-LEC-117-MS-SURFACE",
+      "type": "mordell_atom",
+      "label": "Mordell--Schinzel surface xyz=x^2+y^2+1"
+    },
+    {
+      "id": "LEC-117",
+      "type": "lec"
+    },
+    {
+      "id": "ATOM-MS-POSITIVE-FRIEZE-CORRESPONDENCE",
+      "type": "mordell_atom",
+      "label": "positive Mordell--Schinzel surfaces xyz=G(x,y)"
+    },
+    {
+      "id": "LEC-118",
+      "type": "lec"
+    },
+    {
+      "id": "LEC-183",
+      "type": "lec"
+    },
+    {
+      "id": "ATOM-LEC-117-POSITIVE-SEQUENCE",
+      "type": "mordell_atom",
+      "label": "positive solutions of x^2+y^2+1=xyz"
+    },
+    {
+      "id": "ATOM-LEC-118-SHIFTED-SEQUENCE",
+      "type": "mordell_atom",
+      "label": "positive solutions of x^2+y^2 +/- x +/- y + 1=xyz"
+    },
+    {
+      "id": "ATOM-LEC-183-EXCHANGE-CONGRUENCE",
+      "type": "mordell_atom",
+      "label": "g(x)+h(y)+c=zxy"
+    },
+    {
+      "id": "ATOM-LEC-183-CUBIC-DIVISIBILITY-CHAIN",
+      "type": "mordell_atom",
+      "label": "xy divides ax^3+by^3+c and Mordell's recursive solution chain"
+    },
+    {
+      "id": "ATOM-MISC-QUADRATIC-ROOT-REPLACEMENT",
+      "type": "mordell_atom",
+      "label": "quadratic equations linear in z"
+    },
+    {
+      "id": "ATOM-LEC-096-VIETA-OPERATIONS",
+      "type": "mordell_atom",
+      "label": "x^2+y^2+z^2-axyz=b and variants"
+    },
+    {
+      "id": "LEC-096",
+      "type": "lec"
+    },
+    {
+      "id": "LEC-094",
+      "type": "lec"
+    },
+    {
+      "id": "LEC-098",
+      "type": "lec"
+    },
+    {
+      "id": "ATOM-LEC-096-MARKOFF-SURFACE",
+      "type": "mordell_atom",
+      "label": "x^2+y^2+z^2-axyz=b"
+    },
+    {
+      "id": "ATOM-LEC-188-ERDOS-STRAUS-SURFACE",
+      "type": "mordell_atom",
+      "label": "4xyz=n(xy+xz+yz)"
+    },
+    {
+      "id": "LEC-188",
+      "type": "lec"
+    },
+    {
+      "id": "ATOM-LEC-188-DIVISIBILITY-PARAMETRISATIONS",
+      "type": "mordell_atom",
+      "label": "the two cases a+n(b+c)=4abcd and na+b+c=4abcd"
+    },
+    {
+      "id": "ATOM-LEC-188-RECIPROCITY-CONDITIONS",
+      "type": "mordell_atom",
+      "label": "quadratic-character restrictions on prime-denominator solutions"
+    },
+    {
+      "id": "ATOM-LEC-026-WEIGHTED-REPRESENTATIONS",
+      "type": "mordell_atom",
+      "label": "weighted nonnegative solutions of xy+yz+zx=d"
+    },
+    {
+      "id": "LEC-026",
+      "type": "lec"
+    },
+    {
+      "id": "ATOM-LEC-026-POSITIVE-NONREPRESENTATION",
+      "type": "mordell_atom",
+      "label": "absence of strictly positive solutions of xy+yz+zx=d"
+    },
+    {
+      "id": "ATOM-LEC-024-THREE-SQUARES",
+      "type": "mordell_atom",
+      "label": "x^2+y^2+z^2=m"
+    },
+    {
+      "id": "LEC-024",
+      "type": "lec"
+    },
+    {
+      "id": "CONN-001",
+      "type": "connection",
+      "label": "LEC-117 as the (2,2) Mordell--Schinzel cluster/frieze surface",
+      "distance": "D4",
+      "status": "structural"
+    },
+    {
+      "id": "structure:rank-two-cluster-algebra",
+      "type": "modern_structure",
+      "label": "rank_two_cluster_algebra"
+    },
+    {
+      "id": "structure:cluster-mutation",
+      "type": "modern_structure",
+      "label": "cluster_mutation"
+    },
+    {
+      "id": "structure:cluster-frieze",
+      "type": "modern_structure",
+      "label": "cluster_frieze"
+    },
+    {
+      "id": "structure:mordell-schinzel-surface",
+      "type": "modern_structure",
+      "label": "mordell_schinzel_surface"
+    },
+    {
+      "id": "structure:finite-infinite-type-classification",
+      "type": "modern_structure",
+      "label": "finite_infinite_type_classification"
+    },
+    {
+      "id": "signature:complementary-root-involution",
+      "type": "signature",
+      "label": "complementary_root_involution"
+    },
+    {
+      "id": "signature:exchange-relation",
+      "type": "signature",
+      "label": "exchange_relation"
+    },
+    {
+      "id": "signature:mutation-graph",
+      "type": "signature",
+      "label": "mutation_graph"
+    },
+    {
+      "id": "signature:laurent-phenomenon",
+      "type": "signature",
+      "label": "laurent_phenomenon"
+    },
+    {
+      "id": "CONN-002",
+      "type": "connection",
+      "label": "Markoff-Hurwitz Vieta operations as mutation anchor",
+      "distance": "D2",
+      "status": "referenced"
+    },
+    {
+      "id": "structure:markoff-hurwitz-surface",
+      "type": "modern_structure",
+      "label": "markoff_hurwitz_surface"
+    },
+    {
+      "id": "structure:vieta-automorphism-group",
+      "type": "modern_structure",
+      "label": "vieta_automorphism_group"
+    },
+    {
+      "id": "structure:character-variety",
+      "type": "modern_structure",
+      "label": "character_variety"
+    },
+    {
+      "id": "signature:character-variety",
+      "type": "signature",
+      "label": "character_variety"
+    },
+    {
+      "id": "CONN-003",
+      "type": "connection",
+      "label": "LEC-183 as a generalized cluster/MS-surface envelope",
+      "distance": "D4",
+      "status": "mapped"
+    },
+    {
+      "id": "structure:generalized-cluster-algebra",
+      "type": "modern_structure",
+      "label": "generalized_cluster_algebra"
+    },
+    {
+      "id": "structure:laurent-phenomenon-algebra",
+      "type": "modern_structure",
+      "label": "laurent_phenomenon_algebra"
+    },
+    {
+      "id": "structure:exchange-polynomial",
+      "type": "modern_structure",
+      "label": "exchange_polynomial"
+    },
+    {
+      "id": "CONN-004",
+      "type": "connection",
+      "label": "Quadratic root replacement as a general mutation engine",
+      "distance": "D3",
+      "status": "mapped"
+    },
+    {
+      "id": "structure:vieta-involution",
+      "type": "modern_structure",
+      "label": "vieta_involution"
+    },
+    {
+      "id": "CONN-005",
+      "type": "connection",
+      "label": "Positive MS surfaces as generalized cluster frieze spaces",
+      "distance": "D4",
+      "status": "structural"
+    },
+    {
+      "id": "structure:upper-cluster-algebra",
+      "type": "modern_structure",
+      "label": "upper_cluster_algebra"
+    },
+    {
+      "id": "CONN-006",
+      "type": "connection",
+      "label": "Mordell's Erdos--Straus parametrisations as Cayley-cubic universal-torsor charts",
+      "distance": "D4",
+      "status": "structural"
+    },
+    {
+      "id": "structure:cayley-cubic-surface",
+      "type": "modern_structure",
+      "label": "Cayley cubic surface"
+    },
+    {
+      "id": "structure:universal-torsor",
+      "type": "modern_structure",
+      "label": "universal torsor"
+    },
+    {
+      "id": "structure:primitive-integral-points",
+      "type": "modern_structure",
+      "label": "primitive integral points"
+    },
+    {
+      "id": "structure:manin-conjecture",
+      "type": "modern_structure",
+      "label": "Manin conjecture"
+    },
+    {
+      "id": "signature:cayley-cubic",
+      "type": "signature",
+      "label": "cayley_cubic"
+    },
+    {
+      "id": "signature:universal-torsor",
+      "type": "signature",
+      "label": "universal_torsor"
+    },
+    {
+      "id": "signature:torsor-descent",
+      "type": "signature",
+      "label": "torsor_descent"
+    },
+    {
+      "id": "CONN-007",
+      "type": "connection",
+      "label": "Erdos--Straus reciprocity restrictions as a transcendental Brauer--Manin obstruction",
+      "distance": "D3",
+      "status": "structural"
+    },
+    {
+      "id": "structure:singular-log-k3-surface",
+      "type": "modern_structure",
+      "label": "singular log K3 surface"
+    },
+    {
+      "id": "structure:transcendental-brauer-class",
+      "type": "modern_structure",
+      "label": "transcendental Brauer class"
+    },
+    {
+      "id": "structure:brauer-manin-obstruction",
+      "type": "modern_structure",
+      "label": "Brauer--Manin obstruction"
+    },
+    {
+      "id": "structure:hilbert-symbol",
+      "type": "modern_structure",
+      "label": "Hilbert symbol"
+    },
+    {
+      "id": "structure:strong-approximation",
+      "type": "modern_structure",
+      "label": "strong approximation"
+    },
+    {
+      "id": "signature:log-k3-surface",
+      "type": "signature",
+      "label": "log_k3_surface"
+    },
+    {
+      "id": "signature:local-global-obstruction",
+      "type": "signature",
+      "label": "local_global_obstruction"
+    },
+    {
+      "id": "signature:brauer-manin-obstruction",
+      "type": "signature",
+      "label": "brauer_manin_obstruction"
+    },
+    {
+      "id": "signature:strong-approximation-failure",
+      "type": "signature",
+      "label": "strong_approximation_failure"
+    },
+    {
+      "id": "CONN-008",
+      "type": "connection",
+      "label": "LEC-026 and three squares as coefficients of Zagier's class-number mock modular form",
+      "distance": "D4",
+      "status": "structural"
+    },
+    {
+      "id": "structure:hurwitz-class-numbers",
+      "type": "modern_structure",
+      "label": "Hurwitz class numbers"
+    },
+    {
+      "id": "structure:weight-3-2-mock-modular-form",
+      "type": "modern_structure",
+      "label": "weight 3/2 mock modular form"
+    },
+    {
+      "id": "structure:harmonic-maass-form",
+      "type": "modern_structure",
+      "label": "harmonic Maass form"
+    },
+    {
+      "id": "structure:three-square-theta-series",
+      "type": "modern_structure",
+      "label": "three-square theta series"
+    },
+    {
+      "id": "signature:hurwitz-class-number",
+      "type": "signature",
+      "label": "hurwitz_class_number"
+    },
+    {
+      "id": "signature:half-integral-weight-modularity",
+      "type": "signature",
+      "label": "half_integral_weight_modularity"
+    },
+    {
+      "id": "signature:representation-number",
+      "type": "signature",
+      "label": "representation_number"
+    },
+    {
+      "id": "CONN-009",
+      "type": "connection",
+      "label": "Positive nonrepresentation by LEC-026 as an exponent-two class-group condition",
+      "distance": "D3",
+      "status": "structural"
+    },
+    {
+      "id": "structure:idoneal-number",
+      "type": "modern_structure",
+      "label": "idoneal number"
+    },
+    {
+      "id": "structure:imaginary-quadratic-class-group",
+      "type": "modern_structure",
+      "label": "imaginary quadratic class group"
+    },
+    {
+      "id": "structure:elementary-2-extension",
+      "type": "modern_structure",
+      "label": "elementary 2-extension"
+    },
+    {
+      "id": "structure:binary-theta-series",
+      "type": "modern_structure",
+      "label": "binary theta series"
+    },
+    {
+      "id": "signature:factorization-coordinate",
+      "type": "signature",
+      "label": "factorization_coordinate"
+    },
+    {
+      "id": "signature:idoneal-discriminant",
+      "type": "signature",
+      "label": "idoneal_discriminant"
+    },
+    {
+      "id": "signature:elementary-2-class-group",
+      "type": "signature",
+      "label": "elementary_2_class_group"
+    },
+    {
+      "id": "CONN-010",
+      "type": "connection",
+      "label": "Mordell's cubic divisibility chains as orbits of affine-cubic automorphisms",
+      "distance": "D4",
+      "status": "structural"
+    },
+    {
+      "id": "structure:affine-cubic-surface",
+      "type": "modern_structure",
+      "label": "affine cubic surface"
+    },
+    {
+      "id": "structure:geiser-type-involution",
+      "type": "modern_structure",
+      "label": "Geiser-type involution"
+    },
+    {
+      "id": "structure:infinite-cyclic-automorphism-group",
+      "type": "modern_structure",
+      "label": "infinite cyclic automorphism group"
+    },
+    {
+      "id": "structure:companion-surface-groupoid",
+      "type": "modern_structure",
+      "label": "companion-surface groupoid"
+    },
+    {
+      "id": "structure:integral-orbit",
+      "type": "modern_structure",
+      "label": "integral orbit"
+    },
+    {
+      "id": "signature:variable-modulus-divisibility",
+      "type": "signature",
+      "label": "variable_modulus_divisibility"
+    },
+    {
+      "id": "signature:affine-cubic-surface",
+      "type": "signature",
+      "label": "affine_cubic_surface"
+    },
+    {
+      "id": "signature:geiser-involution",
+      "type": "signature",
+      "label": "geiser_involution"
+    },
+    {
+      "id": "signature:infinite-discrete-automorphism-group",
+      "type": "signature",
+      "label": "infinite_discrete_automorphism_group"
+    },
+    {
+      "id": "signature:companion-surface-groupoid",
+      "type": "signature",
+      "label": "companion_surface_groupoid"
+    }
+  ],
+  "edges": [
+    {
+      "source": "ATOM-LEC-117-MS-SURFACE",
+      "target": "LEC-117",
+      "relation": "attached_to"
+    },
+    {
+      "source": "ATOM-MS-POSITIVE-FRIEZE-CORRESPONDENCE",
+      "target": "LEC-117",
+      "relation": "attached_to"
+    },
+    {
+      "source": "ATOM-MS-POSITIVE-FRIEZE-CORRESPONDENCE",
+      "target": "LEC-118",
+      "relation": "attached_to"
+    },
+    {
+      "source": "ATOM-MS-POSITIVE-FRIEZE-CORRESPONDENCE",
+      "target": "LEC-183",
+      "relation": "attached_to"
+    },
+    {
+      "source": "ATOM-LEC-117-POSITIVE-SEQUENCE",
+      "target": "LEC-117",
+      "relation": "attached_to"
+    },
+    {
+      "source": "ATOM-LEC-118-SHIFTED-SEQUENCE",
+      "target": "LEC-118",
+      "relation": "attached_to"
+    },
+    {
+      "source": "ATOM-LEC-183-EXCHANGE-CONGRUENCE",
+      "target": "LEC-183",
+      "relation": "attached_to"
+    },
+    {
+      "source": "ATOM-LEC-183-CUBIC-DIVISIBILITY-CHAIN",
+      "target": "LEC-183",
+      "relation": "attached_to"
+    },
+    {
+      "source": "ATOM-MISC-QUADRATIC-ROOT-REPLACEMENT",
+      "target": "LEC-117",
+      "relation": "attached_to"
+    },
+    {
+      "source": "ATOM-MISC-QUADRATIC-ROOT-REPLACEMENT",
+      "target": "LEC-118",
+      "relation": "attached_to"
+    },
+    {
+      "source": "ATOM-MISC-QUADRATIC-ROOT-REPLACEMENT",
+      "target": "LEC-183",
+      "relation": "attached_to"
+    },
+    {
+      "source": "ATOM-LEC-096-VIETA-OPERATIONS",
+      "target": "LEC-096",
+      "relation": "attached_to"
+    },
+    {
+      "source": "ATOM-LEC-096-VIETA-OPERATIONS",
+      "target": "LEC-094",
+      "relation": "attached_to"
+    },
+    {
+      "source": "ATOM-LEC-096-VIETA-OPERATIONS",
+      "target": "LEC-098",
+      "relation": "attached_to"
+    },
+    {
+      "source": "ATOM-LEC-096-MARKOFF-SURFACE",
+      "target": "LEC-096",
+      "relation": "attached_to"
+    },
+    {
+      "source": "ATOM-LEC-188-ERDOS-STRAUS-SURFACE",
+      "target": "LEC-188",
+      "relation": "attached_to"
+    },
+    {
+      "source": "ATOM-LEC-188-DIVISIBILITY-PARAMETRISATIONS",
+      "target": "LEC-188",
+      "relation": "attached_to"
+    },
+    {
+      "source": "ATOM-LEC-188-RECIPROCITY-CONDITIONS",
+      "target": "LEC-188",
+      "relation": "attached_to"
+    },
+    {
+      "source": "ATOM-LEC-026-WEIGHTED-REPRESENTATIONS",
+      "target": "LEC-026",
+      "relation": "attached_to"
+    },
+    {
+      "source": "ATOM-LEC-026-POSITIVE-NONREPRESENTATION",
+      "target": "LEC-026",
+      "relation": "attached_to"
+    },
+    {
+      "source": "ATOM-LEC-024-THREE-SQUARES",
+      "target": "LEC-024",
+      "relation": "attached_to"
+    },
+    {
+      "source": "CONN-001",
+      "target": "LEC-117",
+      "relation": "connects_lec"
+    },
+    {
+      "source": "CONN-001",
+      "target": "LEC-183",
+      "relation": "connects_lec"
+    },
+    {
+      "source": "CONN-001",
+      "target": "ATOM-LEC-117-MS-SURFACE",
+      "relation": "uses_atom"
+    },
+    {
+      "source": "CONN-001",
+      "target": "ATOM-LEC-117-POSITIVE-SEQUENCE",
+      "relation": "uses_atom"
+    },
+    {
+      "source": "CONN-001",
+      "target": "ATOM-MS-POSITIVE-FRIEZE-CORRESPONDENCE",
+      "relation": "uses_atom"
+    },
+    {
+      "source": "CONN-001",
+      "target": "ATOM-MISC-QUADRATIC-ROOT-REPLACEMENT",
+      "relation": "uses_atom"
+    },
+    {
+      "source": "CONN-001",
+      "target": "structure:rank-two-cluster-algebra",
+      "relation": "maps_to"
+    },
+    {
+      "source": "CONN-001",
+      "target": "structure:cluster-mutation",
+      "relation": "maps_to"
+    },
+    {
+      "source": "CONN-001",
+      "target": "structure:cluster-frieze",
+      "relation": "maps_to"
+    },
+    {
+      "source": "CONN-001",
+      "target": "structure:mordell-schinzel-surface",
+      "relation": "maps_to"
+    },
+    {
+      "source": "CONN-001",
+      "target": "structure:finite-infinite-type-classification",
+      "relation": "maps_to"
+    },
+    {
+      "source": "CONN-001",
+      "target": "signature:complementary-root-involution",
+      "relation": "has_signature"
+    },
+    {
+      "source": "CONN-001",
+      "target": "signature:exchange-relation",
+      "relation": "has_signature"
+    },
+    {
+      "source": "CONN-001",
+      "target": "signature:mutation-graph",
+      "relation": "has_signature"
+    },
+    {
+      "source": "CONN-001",
+      "target": "signature:laurent-phenomenon",
+      "relation": "has_signature"
+    },
+    {
+      "source": "CONN-002",
+      "target": "LEC-096",
+      "relation": "connects_lec"
+    },
+    {
+      "source": "CONN-002",
+      "target": "LEC-094",
+      "relation": "connects_lec"
+    },
+    {
+      "source": "CONN-002",
+      "target": "LEC-098",
+      "relation": "connects_lec"
+    },
+    {
+      "source": "CONN-002",
+      "target": "ATOM-LEC-096-VIETA-OPERATIONS",
+      "relation": "uses_atom"
+    },
+    {
+      "source": "CONN-002",
+      "target": "structure:markoff-hurwitz-surface",
+      "relation": "maps_to"
+    },
+    {
+      "source": "CONN-002",
+      "target": "structure:vieta-automorphism-group",
+      "relation": "maps_to"
+    },
+    {
+      "source": "CONN-002",
+      "target": "structure:character-variety",
+      "relation": "maps_to"
+    },
+    {
+      "source": "CONN-002",
+      "target": "signature:complementary-root-involution",
+      "relation": "has_signature"
+    },
+    {
+      "source": "CONN-002",
+      "target": "signature:mutation-graph",
+      "relation": "has_signature"
+    },
+    {
+      "source": "CONN-002",
+      "target": "signature:character-variety",
+      "relation": "has_signature"
+    },
+    {
+      "source": "CONN-003",
+      "target": "LEC-183",
+      "relation": "connects_lec"
+    },
+    {
+      "source": "CONN-003",
+      "target": "LEC-117",
+      "relation": "connects_lec"
+    },
+    {
+      "source": "CONN-003",
+      "target": "LEC-118",
+      "relation": "connects_lec"
+    },
+    {
+      "source": "CONN-003",
+      "target": "ATOM-LEC-183-EXCHANGE-CONGRUENCE",
+      "relation": "uses_atom"
+    },
+    {
+      "source": "CONN-003",
+      "target": "ATOM-MS-POSITIVE-FRIEZE-CORRESPONDENCE",
+      "relation": "uses_atom"
+    },
+    {
+      "source": "CONN-003",
+      "target": "ATOM-MISC-QUADRATIC-ROOT-REPLACEMENT",
+      "relation": "uses_atom"
+    },
+    {
+      "source": "CONN-003",
+      "target": "structure:mordell-schinzel-surface",
+      "relation": "maps_to"
+    },
+    {
+      "source": "CONN-003",
+      "target": "structure:generalized-cluster-algebra",
+      "relation": "maps_to"
+    },
+    {
+      "source": "CONN-003",
+      "target": "structure:cluster-frieze",
+      "relation": "maps_to"
+    },
+    {
+      "source": "CONN-003",
+      "target": "structure:laurent-phenomenon-algebra",
+      "relation": "maps_to"
+    },
+    {
+      "source": "CONN-003",
+      "target": "structure:exchange-polynomial",
+      "relation": "maps_to"
+    },
+    {
+      "source": "CONN-003",
+      "target": "signature:exchange-relation",
+      "relation": "has_signature"
+    },
+    {
+      "source": "CONN-003",
+      "target": "signature:laurent-phenomenon",
+      "relation": "has_signature"
+    },
+    {
+      "source": "CONN-003",
+      "target": "signature:mutation-graph",
+      "relation": "has_signature"
+    },
+    {
+      "source": "CONN-004",
+      "target": "LEC-117",
+      "relation": "connects_lec"
+    },
+    {
+      "source": "CONN-004",
+      "target": "LEC-118",
+      "relation": "connects_lec"
+    },
+    {
+      "source": "CONN-004",
+      "target": "LEC-183",
+      "relation": "connects_lec"
+    },
+    {
+      "source": "CONN-004",
+      "target": "ATOM-MISC-QUADRATIC-ROOT-REPLACEMENT",
+      "relation": "uses_atom"
+    },
+    {
+      "source": "CONN-004",
+      "target": "structure:cluster-mutation",
+      "relation": "maps_to"
+    },
+    {
+      "source": "CONN-004",
+      "target": "structure:vieta-involution",
+      "relation": "maps_to"
+    },
+    {
+      "source": "CONN-004",
+      "target": "structure:laurent-phenomenon-algebra",
+      "relation": "maps_to"
+    },
+    {
+      "source": "CONN-004",
+      "target": "signature:complementary-root-involution",
+      "relation": "has_signature"
+    },
+    {
+      "source": "CONN-004",
+      "target": "signature:exchange-relation",
+      "relation": "has_signature"
+    },
+    {
+      "source": "CONN-004",
+      "target": "signature:mutation-graph",
+      "relation": "has_signature"
+    },
+    {
+      "source": "CONN-005",
+      "target": "LEC-117",
+      "relation": "connects_lec"
+    },
+    {
+      "source": "CONN-005",
+      "target": "LEC-118",
+      "relation": "connects_lec"
+    },
+    {
+      "source": "CONN-005",
+      "target": "LEC-183",
+      "relation": "connects_lec"
+    },
+    {
+      "source": "CONN-005",
+      "target": "ATOM-MS-POSITIVE-FRIEZE-CORRESPONDENCE",
+      "relation": "uses_atom"
+    },
+    {
+      "source": "CONN-005",
+      "target": "ATOM-LEC-117-MS-SURFACE",
+      "relation": "uses_atom"
+    },
+    {
+      "source": "CONN-005",
+      "target": "ATOM-LEC-183-EXCHANGE-CONGRUENCE",
+      "relation": "uses_atom"
+    },
+    {
+      "source": "CONN-005",
+      "target": "structure:mordell-schinzel-surface",
+      "relation": "maps_to"
+    },
+    {
+      "source": "CONN-005",
+      "target": "structure:generalized-cluster-algebra",
+      "relation": "maps_to"
+    },
+    {
+      "source": "CONN-005",
+      "target": "structure:upper-cluster-algebra",
+      "relation": "maps_to"
+    },
+    {
+      "source": "CONN-005",
+      "target": "structure:cluster-frieze",
+      "relation": "maps_to"
+    },
+    {
+      "source": "CONN-005",
+      "target": "structure:finite-infinite-type-classification",
+      "relation": "maps_to"
+    },
+    {
+      "source": "CONN-005",
+      "target": "signature:exchange-relation",
+      "relation": "has_signature"
+    },
+    {
+      "source": "CONN-005",
+      "target": "signature:mutation-graph",
+      "relation": "has_signature"
+    },
+    {
+      "source": "CONN-005",
+      "target": "signature:laurent-phenomenon",
+      "relation": "has_signature"
+    },
+    {
+      "source": "CONN-006",
+      "target": "LEC-188",
+      "relation": "connects_lec"
+    },
+    {
+      "source": "CONN-006",
+      "target": "ATOM-LEC-188-ERDOS-STRAUS-SURFACE",
+      "relation": "uses_atom"
+    },
+    {
+      "source": "CONN-006",
+      "target": "ATOM-LEC-188-DIVISIBILITY-PARAMETRISATIONS",
+      "relation": "uses_atom"
+    },
+    {
+      "source": "CONN-006",
+      "target": "structure:cayley-cubic-surface",
+      "relation": "maps_to"
+    },
+    {
+      "source": "CONN-006",
+      "target": "structure:universal-torsor",
+      "relation": "maps_to"
+    },
+    {
+      "source": "CONN-006",
+      "target": "structure:primitive-integral-points",
+      "relation": "maps_to"
+    },
+    {
+      "source": "CONN-006",
+      "target": "structure:manin-conjecture",
+      "relation": "maps_to"
+    },
+    {
+      "source": "CONN-006",
+      "target": "signature:cayley-cubic",
+      "relation": "has_signature"
+    },
+    {
+      "source": "CONN-006",
+      "target": "signature:universal-torsor",
+      "relation": "has_signature"
+    },
+    {
+      "source": "CONN-006",
+      "target": "signature:torsor-descent",
+      "relation": "has_signature"
+    },
+    {
+      "source": "CONN-007",
+      "target": "LEC-188",
+      "relation": "connects_lec"
+    },
+    {
+      "source": "CONN-007",
+      "target": "LEC-096",
+      "relation": "connects_lec"
+    },
+    {
+      "source": "CONN-007",
+      "target": "ATOM-LEC-188-ERDOS-STRAUS-SURFACE",
+      "relation": "uses_atom"
+    },
+    {
+      "source": "CONN-007",
+      "target": "ATOM-LEC-188-RECIPROCITY-CONDITIONS",
+      "relation": "uses_atom"
+    },
+    {
+      "source": "CONN-007",
+      "target": "ATOM-LEC-096-MARKOFF-SURFACE",
+      "relation": "uses_atom"
+    },
+    {
+      "source": "CONN-007",
+      "target": "structure:singular-log-k3-surface",
+      "relation": "maps_to"
+    },
+    {
+      "source": "CONN-007",
+      "target": "structure:transcendental-brauer-class",
+      "relation": "maps_to"
+    },
+    {
+      "source": "CONN-007",
+      "target": "structure:brauer-manin-obstruction",
+      "relation": "maps_to"
+    },
+    {
+      "source": "CONN-007",
+      "target": "structure:hilbert-symbol",
+      "relation": "maps_to"
+    },
+    {
+      "source": "CONN-007",
+      "target": "structure:strong-approximation",
+      "relation": "maps_to"
+    },
+    {
+      "source": "CONN-007",
+      "target": "signature:log-k3-surface",
+      "relation": "has_signature"
+    },
+    {
+      "source": "CONN-007",
+      "target": "signature:local-global-obstruction",
+      "relation": "has_signature"
+    },
+    {
+      "source": "CONN-007",
+      "target": "signature:brauer-manin-obstruction",
+      "relation": "has_signature"
+    },
+    {
+      "source": "CONN-007",
+      "target": "signature:strong-approximation-failure",
+      "relation": "has_signature"
+    },
+    {
+      "source": "CONN-008",
+      "target": "LEC-026",
+      "relation": "connects_lec"
+    },
+    {
+      "source": "CONN-008",
+      "target": "LEC-024",
+      "relation": "connects_lec"
+    },
+    {
+      "source": "CONN-008",
+      "target": "ATOM-LEC-026-WEIGHTED-REPRESENTATIONS",
+      "relation": "uses_atom"
+    },
+    {
+      "source": "CONN-008",
+      "target": "ATOM-LEC-024-THREE-SQUARES",
+      "relation": "uses_atom"
+    },
+    {
+      "source": "CONN-008",
+      "target": "structure:hurwitz-class-numbers",
+      "relation": "maps_to"
+    },
+    {
+      "source": "CONN-008",
+      "target": "structure:weight-3-2-mock-modular-form",
+      "relation": "maps_to"
+    },
+    {
+      "source": "CONN-008",
+      "target": "structure:harmonic-maass-form",
+      "relation": "maps_to"
+    },
+    {
+      "source": "CONN-008",
+      "target": "structure:three-square-theta-series",
+      "relation": "maps_to"
+    },
+    {
+      "source": "CONN-008",
+      "target": "signature:hurwitz-class-number",
+      "relation": "has_signature"
+    },
+    {
+      "source": "CONN-008",
+      "target": "signature:half-integral-weight-modularity",
+      "relation": "has_signature"
+    },
+    {
+      "source": "CONN-008",
+      "target": "signature:representation-number",
+      "relation": "has_signature"
+    },
+    {
+      "source": "CONN-009",
+      "target": "LEC-026",
+      "relation": "connects_lec"
+    },
+    {
+      "source": "CONN-009",
+      "target": "ATOM-LEC-026-POSITIVE-NONREPRESENTATION",
+      "relation": "uses_atom"
+    },
+    {
+      "source": "CONN-009",
+      "target": "structure:idoneal-number",
+      "relation": "maps_to"
+    },
+    {
+      "source": "CONN-009",
+      "target": "structure:imaginary-quadratic-class-group",
+      "relation": "maps_to"
+    },
+    {
+      "source": "CONN-009",
+      "target": "structure:elementary-2-extension",
+      "relation": "maps_to"
+    },
+    {
+      "source": "CONN-009",
+      "target": "structure:binary-theta-series",
+      "relation": "maps_to"
+    },
+    {
+      "source": "CONN-009",
+      "target": "signature:factorization-coordinate",
+      "relation": "has_signature"
+    },
+    {
+      "source": "CONN-009",
+      "target": "signature:idoneal-discriminant",
+      "relation": "has_signature"
+    },
+    {
+      "source": "CONN-009",
+      "target": "signature:elementary-2-class-group",
+      "relation": "has_signature"
+    },
+    {
+      "source": "CONN-010",
+      "target": "LEC-183",
+      "relation": "connects_lec"
+    },
+    {
+      "source": "CONN-010",
+      "target": "ATOM-LEC-183-EXCHANGE-CONGRUENCE",
+      "relation": "uses_atom"
+    },
+    {
+      "source": "CONN-010",
+      "target": "ATOM-LEC-183-CUBIC-DIVISIBILITY-CHAIN",
+      "relation": "uses_atom"
+    },
+    {
+      "source": "CONN-010",
+      "target": "structure:affine-cubic-surface",
+      "relation": "maps_to"
+    },
+    {
+      "source": "CONN-010",
+      "target": "structure:geiser-type-involution",
+      "relation": "maps_to"
+    },
+    {
+      "source": "CONN-010",
+      "target": "structure:infinite-cyclic-automorphism-group",
+      "relation": "maps_to"
+    },
+    {
+      "source": "CONN-010",
+      "target": "structure:companion-surface-groupoid",
+      "relation": "maps_to"
+    },
+    {
+      "source": "CONN-010",
+      "target": "structure:integral-orbit",
+      "relation": "maps_to"
+    },
+    {
+      "source": "CONN-010",
+      "target": "signature:variable-modulus-divisibility",
+      "relation": "has_signature"
+    },
+    {
+      "source": "CONN-010",
+      "target": "signature:affine-cubic-surface",
+      "relation": "has_signature"
+    },
+    {
+      "source": "CONN-010",
+      "target": "signature:geiser-involution",
+      "relation": "has_signature"
+    },
+    {
+      "source": "CONN-010",
+      "target": "signature:infinite-discrete-automorphism-group",
+      "relation": "has_signature"
+    },
+    {
+      "source": "CONN-010",
+      "target": "signature:companion-surface-groupoid",
+      "relation": "has_signature"
+    }
+  ]
+}

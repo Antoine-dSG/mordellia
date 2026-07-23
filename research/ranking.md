@@ -58,6 +58,39 @@ Required evidence:
 - map between equations when available;
 - reference or proof for the shared mechanism.
 
+## Connection Distance
+
+Connection distance ranks how non-obvious a relation is between a Mordell atom
+and a modern object, theorem, method, or structure. It is independent of the
+history, structure, and interconnection ranks above.
+
+D1. Same named object or theorem, in essentially the same language. This is an
+anchor, not a discovery.
+
+D2. Same general theory, visible after a standard normalization.
+
+D3. Same mechanism, but Mordell and the modern literature use different
+language.
+
+D4. A known structure from a different mathematical area explains Mordell's
+method or qualitative conclusion.
+
+D5. Candidate new structure, not found after a targeted negative literature
+search.
+
+Required evidence for D4:
+
+- exact Mordell atom and source location;
+- exact modern object or theorem;
+- explicit dictionary between Mordell's variables or operations and the modern
+  structure;
+- explanation of the qualitative arithmetic behavior determined by the
+  structure;
+- reason the connection is not merely terminological.
+
+D5 is never assigned directly. Use `candidate_original` until a negative search
+log and a precise mathematical argument have been recorded.
+
 ## Evidence Status
 
 Use these statuses independently of rank:
@@ -67,7 +100,13 @@ Use these statuses independently of rank:
 - `surveyed`: history summary written with references.
 - `structurally_analyzed`: structural mechanism written and checked.
 - `deep_dive`: equation or cluster selected for sustained work.
+- `candidate`: plausible connection, not yet mapped.
+- `mapped`: explicit dictionary between Mordell and modern language written.
+- `tested`: examples, computations, or transformations checked.
+- `referenced`: literature supports the modern side.
+- `structural`: the connection explains qualitative arithmetic behavior.
 - `candidate_original`: possible new structure; novelty not yet established.
+- `rejected`: attractive but mathematically non-determining.
 - `blocked`: missing source, computation, or reference access.
 
 ## Confidence
@@ -77,4 +116,3 @@ Use `low`, `medium`, or `high`.
 - `low`: heuristic or partial search.
 - `medium`: several searches and source checks agree.
 - `high`: references or computations directly support the claim.
-
