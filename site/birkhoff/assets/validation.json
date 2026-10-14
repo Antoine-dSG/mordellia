@@ -1,0 +1,25 @@
+{
+  "ellipse": "x^2/4+y^2=1; t is eccentric parameter, not arclength",
+  "sample_count": 25,
+  "relative_jacobian_error_by_step": {
+    "0.0001": 5.420773589115418e-06,
+    "1e-05": 5.4385323799977005e-08,
+    "1e-06": 5.299816585591093e-09
+  },
+  "max_boundary_residual": 6.661338147750939e-16,
+  "max_tangent_reflection_residual": 8.881784197001252e-16,
+  "max_unit_speed_residual": 5.551115123125783e-16,
+  "chord_derivative_error": 1.91455740150559e-11,
+  "circle_triangle_closure_error": 0.0,
+  "worked_example": {
+    "t": 0.4,
+    "theta": 1.1,
+    "t1": 3.621413235082401,
+    "theta1": 2.145037641965608,
+    "chord_length": 3.7150678756346256,
+    "det_theta_t_numeric": 0.9999999858470296,
+    "det_theta_t_predicted": 1.0000000000000002,
+    "det_theta_s_predicted": 1.0614607117493189
+  },
+  "limits": "25 non-grazing states, finite differences, double precision; no theorem or recurrence-time proof."
+}

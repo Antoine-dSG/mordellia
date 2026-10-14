@@ -1,0 +1,229 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Closed geodesics and fixed-point index · Mordellia</title><meta name="description" content="Invariant area, reversal pairs, and counting distinct geodesics.">
+<link rel="stylesheet" href="assets/katex/katex.min.css?v=19095127357e">
+<link rel="stylesheet" href="style.css?v=52325c4e2551">
+<link rel="stylesheet" href="home.css?v=a6aa6a301646">
+<link rel="stylesheet" href="navigation.css?v=030d3bf676be">
+<link rel="stylesheet" href="index-explorer.css?v=9b55f5808762">
+<link rel="stylesheet" href="edition.css?v=3a1bb1873a9e">
+<script defer src="assets/katex/katex.min.js?v=e8d885505949"></script>
+<script defer src="assets/katex/contrib/auto-render.min.js?v=bb53eb953394"></script>
+<script defer src="reader.js?v=3a49d540b1f3"></script>
+<script defer src="navigation.js?v=522f4b2ebb28"></script>
+<script defer src="index-explorer.js?v=20ad995ae52f"></script>
+<script defer src="edition.js?v=760210d8d0dd"></script>
+<link rel="stylesheet" href="../assets/site.css?v=3b02bec2f3fb"></head><body class="geodesic-page"><a class="skip" href="#reading">Skip to mathematics</a><div class="progress" id="progress"></div>
+<header class="masthead"><a href="../" class="wordmark">MORDELLIA<span>Mathematical editions</span></a><div class="edition"><a class="home-link" href="./">Chapter overview</a>Birkhoff · VI.11 <span class="local">Experimental edition</span></div></header><nav class="collection-nav" aria-label="Books"><a href="../">All books</a><a href="../birkhoff/" aria-current="true">Birkhoff · Dynamical Systems</a><a href="../dickson/">Dickson · Theory of Numbers I</a></nav>
+<div class="layout"><aside class="sidebar"><details class="reading-navigation" open><summary>Chapter VI · Contents</summary><nav aria-label="Chapter VI reading navigation"><a class="chapter-home" href="./">Chapter overview</a><ol class="chapter-contents"><li class="chapter-unit"><a class="chapter-link" href="equilibrium.html"><span class="chapter-ref">§1</span><span>Periodic points near an elliptic equilibrium</span></a></li><li class="chapter-unit"><a class="chapter-link" href="twist-estimates.html"><span class="chapter-ref">§2</span><span>Finite-time twist estimates</span></a></li><li class="chapter-unit"><a class="chapter-link" href="reduction.html"><span class="chapter-ref">§3</span><span>Reduction on a fixed energy surface</span></a></li><li class="chapter-unit"><a class="chapter-link" href="limitations.html"><span class="chapter-ref">§4</span><span>Twist, resonance and the limits of stability</span></a></li><li class="chapter-unit"><a class="chapter-link" href="annulus-theorem.html"><span class="chapter-ref">§5</span><span>The Poincaré–Birkhoff annulus theorem</span></a></li><li class="chapter-unit"><a class="chapter-link" href="variational-billiards.html"><span class="chapter-ref">§6</span><span>Billiards as a discrete variational problem</span></a></li><li class="chapter-unit"><a class="chapter-link" href="billiard.html"><span class="chapter-ref">§§7–8</span><span>Dynamics of the billiard map</span></a></li><li class="chapter-unit"><a class="chapter-link" href="periodic.html"><span class="chapter-ref">§9</span><span>Periodic billiard orbits</span></a></li><li class="chapter-unit"><a class="chapter-link" href="geodesic.html"><span class="chapter-ref">§10</span><span>Geodesic return maps</span></a></li><li class="chapter-unit current-unit"><a class="chapter-link" href="#top" aria-current="page"><span class="chapter-ref">§11</span><span>Closed geodesics and fixed-point index</span></a><ol class="page-contents" aria-label="On this page"><li><a href="#original-closed-volume">Energy-level volume</a></li><li><a href="#original-closed-flux">Flux and invariant area</a></li><li><a href="#original-closed-existence">Closed-geodesic existence</a></li><li><a href="#original-closed-involutions">Involution factorization</a></li><li><a href="#original-closed-pair">Two orientations</a></li><li><a href="#original-closed-index">Equal indices and two curves</a></li><li><a href="#original-closed-extensions">Iterates and stable orbits</a></li><li><a href="#original-closed-symmetry">Reflection symmetry</a></li></ol></li></ol><div class="reading-resources"><div class="eyebrow">Sources & records</div><a href="#sources">Source pages & checks</a><a href="billiard.html#coverage">Coverage & insight record</a></div></nav></details></aside><main id="reading"><section class="hero" id="top"><div class="eyebrow">Dynamical Systems · Chapter VI, §11</div><h1>Closed geodesics and fixed-point index</h1></section><div class="edition-toolbar" aria-label="Digital edition controls">
+<div class="edition-controls"><div role="tablist" aria-label="Reading version"><button type="button" role="tab" id="tab-original" aria-controls="panel-original" aria-selected="true" tabindex="0" data-edition-mode="original">Original</button><button type="button" role="tab" id="tab-modernized" aria-controls="panel-modernized" aria-selected="false" tabindex="-1" data-edition-mode="modernized">Modernized</button><button type="button" role="tab" id="tab-reinterpreted" aria-controls="panel-reinterpreted" aria-selected="false" tabindex="-1" data-edition-mode="reinterpreted">Reinterpreted</button></div><label class="compare-switch"><input type="checkbox" id="edition-compare"> Compare</label></div>
+<div class="comparison-choices" hidden><fieldset><legend>Versions to compare</legend><label><input type="checkbox" value="original" checked> Original</label><label><input type="checkbox" value="modernized" > Modernized</label><label><input type="checkbox" value="reinterpreted" checked> Reinterpreted</label></fieldset><span id="compare-hint">Choose two or three versions.</span></div>
+<div class="passage-navigation"><button type="button" id="passage-previous" aria-label="Previous corresponding passage">←</button><label for="edition-passage">Passage</label><select id="edition-passage"><option value="closed-volume">Energy-level volume</option><option value="closed-flux">Flux and invariant area</option><option value="closed-existence">Closed-geodesic existence</option><option value="closed-involutions">Involution factorization</option><option value="closed-pair">Two orientations</option><option value="closed-index">Equal indices and two curves</option><option value="closed-extensions">Iterates and stable orbits</option><option value="closed-symmetry">Reflection symmetry</option><option value="closed-relation">Relation to the source</option></select><button type="button" id="passage-next" aria-label="Next corresponding passage">→</button></div>
+</div>
+<div class="edition-grid"><section class="edition-panel" id="panel-original" role="tabpanel" aria-labelledby="tab-original" ><h2 class="panel-label">Original</h2><p class="unmatched-passage" hidden></p><nav class="counterparts" aria-label="Corresponding Original passages" hidden></nav><div class="edition-scroll" tabindex="0" aria-label="Original text"><section class="edition-passage" id="original-closed-volume" data-passage="closed-volume"><h2>11. Application of Poincaré&#39;s theorem to problem.</h2>
+<p>The geodesic problem is of Hamiltonian form of course, with principal function $H$ given by the squared velocity. In the four-dimensional manifold of states of motion, the quadruple integral</p>
+<p>$$\iiiint dp_1\,dq_1\,dp_2\,dq_2$$</p>
+<p>is an invariant integral. In a particular invariant sub-manifold $H=\mathrm{const.}$ there must then be an invariant volume integral, namely</p>
+<p>$$\iiint dq_1\,dp_2\,dq_2,$$</p>
+<p>provided that $H=h,q_1,p_2,q_2$ are taken as coördinates (section 3). The restriction $H=\mathrm{const.}$ merely fixes the constant velocity.</p>
+</section><section class="edition-passage" id="original-closed-flux" data-passage="closed-flux"><p>The ring $R$ of states of motion crossing $g$ positively is evidently represented in this manifold by a ring $\bar R$ bounded by the two closed curves representing $g$ traversed in the two possible senses. The transformed point $TT^*(P)$ of a point $P$ of this ring by $TT^*$ is obviously obtained by following the corresponding stream line until it meets $\bar R$ a first time. Further consideration shows that the ring $\bar R$ so obtained is an analytic surface.</p>
+<p>Now if we consider a tube of stream lines with two bases of areas $\Delta\sigma_1,\Delta\sigma_2$, in $\bar R$, with $q_1$ as independent variable, and if $\alpha_1,\alpha_2$ be the angles which the stream lines make with $\bar R$ at these two surface elements respectively, then the loss of ‘volume’ at one base in time $\Delta q_1$ is nearly</p>
+<p>$$(\sin\alpha_1\,\Delta\sigma_1)\,\Delta q_1$$</p>
+<p>while the gain at the other is nearly</p>
+<p>$$(\sin\alpha_2\,\Delta\sigma_2)\,\Delta q_1.$$</p>
+<p>Thus $\int\sin\alpha\,d\sigma$ yields the positive invariant area integral necessary for the application of Poincaré&#39;s geometric theorem.</p>
+</section><section class="edition-passage" id="original-closed-existence" data-passage="closed-existence"><p>Hence there exist two points of $R$ invariant under $TT^*$, and this gives immediately the following conclusion:</p>
+<p><em>Let there be given a convex analytic surface on which the closed geodesic of minimax type known to exist is without double points, and suppose that the second conjugate point of no point on this geodesic arises on precisely a single complete circuit. Then there will exist a second closed geodesic which intersects the known minimax geodesic only twice.</em></p>
+<p>Of course a single closed geodesic yields two invariant points.</p>
+<p><em>Under the same conditions there must be two distinct closed geodesics which meet the geodesic of minimax type only twice.</em></p>
+</section><section class="edition-passage" id="original-closed-involutions" data-passage="closed-involutions"><p>To prove this we proceed as follows. We have for the points of $R$</p>
+<p>$$T(\theta,\varphi)=(\theta_1^*,\varphi_1^*)$$</p>
+<p>by definition. On the other hand the same geodesic may be taken in the opposite sense so that</p>
+<p>$$T(\theta_1^*,\pi-\varphi_1^*)=(\theta,\pi-\varphi).$$</p>
+<p>If then we define the ‘reflection’ $U$ in such wise that</p>
+<p>$$U(\theta,\varphi)=(\theta,\pi-\varphi),$$</p>
+<p>we obtain</p>
+<p>$$TU(\theta,\varphi)=(\theta_1^*,\pi-\varphi_1^*)$$</p>
+<p>and hence</p>
+<p>$$TUTU=I$$</p>
+<p>where $I$ is the identity. Hence $TU=V$ is a transformation of period $2$, as is $U$, and we find $T=VU$, i.e. $T$ is a product of two involutory transformations. Similarly we find $T^*=V^*U$ where $V^*$ is also involutory. Hence we infer that $TT^*$ has the form $VUV^*U$. Suppose now that there is an invariant point $P$ under $TT^*$ so that</p>
+<p>$$VUV^*U(P)=P.$$</p>
+<p>We obtain then, by inverting,</p>
+<p>$$UV^*UV(P)=P,$$</p>
+<p>whence</p>
+<p>$$TT^*V(P)=V(P).$$</p>
+<p>Hence if $P$ is an invariant point under $TT^*$, so is $V(P)$.</p>
+</section><section class="edition-passage" id="original-closed-pair" data-passage="closed-pair"><p>But $V(P)$ must be a geometrically distinct point from $P$ itself. Otherwise we should have</p>
+<p>$$TU(P)=P$$</p>
+<p>or, more explicitly, for the corresponding $(\theta,\varphi)$</p>
+<p>$$\theta_1^*=\theta,\qquad\pi-\varphi_1^*=\varphi.$$</p>
+<p>But this would mean that the first intersection of the geodesic with the minimax geodesic $g$ crosses it at the same point and in the opposite direction, which is manifestly impossible.</p>
+</section><section class="edition-passage" id="original-closed-index" data-passage="closed-index"><p>Now the indices of the invariant point $P$ and of the associated invariant point $V(P)$ under the transformation $TT^*$ are equal. In fact make the change of variables corresponding to the symbolic equation</p>
+<p>$$Q=V(P),$$</p>
+<p>by which any point $P$ is taken into $V(P)$. The modified transformation less is of course</p>
+<p>$$VTT^*V=(TT^*)^{-1}$$</p>
+<p>as is at once verified by substitution of the factored form of $TT^*$ derived earlier. Hence the transformation $TT^*$ in the neighborhood of one invariant point is equivalent to the inverse transformation in the neighborhood of the associated invariant point. But the index of an invariant point is unaltered by a change of variables, and is the same as for the inverse transformation. Consequently the indices of the two associated invariant points are necessarily equal in all cases.</p>
+<p>It is obvious geometrically that the association of pairs of points arises from the circumstance that every geodesic may be traversed in two opposite senses.</p>
+<p>Since the extended theorem of Poincaré allows us to infer the existence of two invariant points with oppositely signed indices, we infer that there exist two geometrically distinct closed geodesics which intersect the closed geodesic only twice.</p>
+<p>This completes the proof of the previous italicized statement.</p>
+</section><section class="edition-passage" id="original-closed-extensions" data-passage="closed-extensions"><p>By applying the same theorem to higher powers of $TT^*$ the existence of other types of closed geodesics could be inferred. Moreover the methods of section 1 are applicable and show that there will be in general infinitely many closed geodesics in the immediate vicinity of a closed geodesic of stable type.</p>
+<p>There are two further remarks concerning the geodesic problem which I will make in conclusion. In the first place the conclusion that there will exist at least two other distinct closed geodesics meeting the geodesic of minimax type only twice is no doubt valid for surfaces of much more general type.</p>
+</section><section class="edition-passage" id="original-closed-symmetry" data-passage="closed-symmetry"><p>Secondly, if the convex surface is symmetric in space about a plane containing a geodesic $g$, there will be various closed geodesics which intersect $g$ twice at right angles. Methods for dealing with these symmetric closed geodesics can be used analogous to those which I employed in dealing with certain symmetric periodic orbits in the restricted problem of three bodies (loc. cit.). In fact if $g$ is of minimax type, the transformations $T$ and $T^*$ become identical, and $TT^*$ appears as the square of a product of two involutory transformations, as is the case for the fundamental transformation in the restricted problem of three bodies.</p>
+</section></div></section><section class="edition-panel" id="panel-modernized" role="tabpanel" aria-labelledby="tab-modernized" hidden><h2 class="panel-label">Modernized</h2><p class="unmatched-passage" hidden></p><nav class="counterparts" aria-label="Corresponding Modernized passages" hidden></nav><div class="edition-scroll" tabindex="0" aria-label="Modernized text"><section class="edition-passage" id="modernized-closed-volume" data-passage="closed-volume"><h2>Invariant volume on an energy level</h2>
+<p>The geodesic flow is Hamiltonian. With $H$ normalized as squared speed, it preserves the four-dimensional phase volume</p>
+<p>$$dp_1\,dq_1\,dp_2\,dq_2.$$</p>
+<p>Birkhoff invokes the energy-coordinate construction of §3: on $H=h$, in its adapted coordinates and parametrization, the reduced volume integral is written</p>
+<p>$$\iiint dq_1\,dp_2\,dq_2.$$</p>
+<p>Fixing $H$ fixes the speed. The displayed reduced volume is tied to that coordinate construction; it is not asserted to have unit density in arbitrary coordinates on an energy surface.</p>
+</section><section class="edition-passage" id="modernized-closed-flux" data-passage="closed-flux"><h2>Flux through the crossing annulus</h2>
+<p>The annulus $R$ of positive crossings of the reference geodesic $g$ appears as a transverse surface $\bar R$ in the energy level. Its boundary consists of the two oriented motions along $g$. The two-crossing return $F=TT^*$ follows a flow line until its next intersection with $\bar R$.</p>
+<p>Consider a thin flow tube with bases of areas $\Delta\sigma_1,\Delta\sigma_2$ in $\bar R$. Let $\alpha_1,\alpha_2$ be the angles between the flow lines and these surface elements, using the source&#39;s flow parametrization $q_1$. The volumes leaving and entering during $\Delta q_1$ are, to first order,</p>
+<p>$$\sin\alpha_1\,\Delta\sigma_1\,\Delta q_1,
+\qquad\sin\alpha_2\,\Delta\sigma_2\,\Delta q_1.$$</p>
+<p>Volume preservation equates the fluxes. Hence the return preserves the positive area integral $\int\sin\alpha\,d\sigma$. This is the source&#39;s flow-tube proof, with “flux” naming the quantity it already computes.</p>
+</section><section class="edition-passage" id="modernized-closed-existence" data-passage="closed-existence"><h2>From fixed points to closed geodesics</h2>
+<p>Together with the twist conclusion of §10, the preserved area supplies the hypotheses for Poincaré&#39;s geometric theorem. Birkhoff obtains two fixed points of $F$ and first concludes the existence of a closed geodesic meeting $g$ twice.</p>
+<p>His assumptions are: a convex analytic surface; a simple closed geodesic $g$ of minimax type; and no point of $g$ whose second conjugate point occurs after precisely one full circuit. He then strengthens the conclusion to two geometrically distinct closed geodesics, each meeting $g$ twice. Two fixed points alone do not give this: the two orientations of one curve already produce a pair. The remaining argument uses involutions and fixed-point indices.</p>
+</section><section class="edition-passage" id="modernized-closed-involutions" data-passage="closed-involutions"><h2>Involutions and paired fixed points</h2>
+<p>Keep Birkhoff&#39;s convention of writing successive operations in the order performed. Reversing a one-crossing geodesic segment gives</p>
+<p>$$T(s,\beta)=(s_1^*,\beta_1^*),\qquad
+T(s_1^*,\pi-\beta_1^*)=(s,\pi-\beta).$$</p>
+<p>Define the angle reflection $U(s,\beta)=(s,\pi-\beta)$. Then $TUTU=I$. Consequently $V=TU$ is an involution and $T=VU$. Similarly $T^*=V^*U$ with $(V^*)^2=I$, so $F=VUV^*U$.</p>
+<p>If $F(P)=P$, inversion gives $UV^*UV(P)=P$, and hence $F(V(P))=V(P)$. The fixed points of the return are therefore paired by $V$.</p>
+</section><section class="edition-passage" id="modernized-closed-pair" data-passage="closed-pair"><h2>Why the two states differ</h2>
+<p>If $V(P)=P$, then $TU(P)=P$, which in coordinates means</p>
+<p>$$s_1^*=s,\qquad \pi-\beta_1^*=\beta.$$</p>
+<p>The next intersection would occur at the starting point with the reversed velocity. Uniqueness and reversal of a geodesic exclude such a segment: the reversed segment would have the same initial state, forcing the segment to retrace itself with opposite velocity at its midpoint. Thus $P$ and $V(P)$ differ. They represent opposite orientations of the same closed curve.</p>
+</section><section class="edition-passage" id="modernized-closed-index" data-passage="closed-index"><h2>Equal indices and distinct curves</h2>
+<p>The factorization gives the conjugacy identity</p>
+<p>$$VFV=F^{-1}.$$</p>
+<p>Thus the return near one member of a pair is conjugate to its inverse near the other. Birkhoff uses invariance of the local fixed-point index under coordinate changes and under inversion for this orientation-preserving planar map. The two members of a reversal pair therefore have equal indices.</p>
+<p>The extended geometric theorem invoked by Birkhoff supplies fixed points of opposite index. They cannot belong to the same reversal pair. Hence there are two geometrically distinct closed geodesics meeting $g$ twice, as claimed. This retains the source&#39;s external index-theorem input and its general index argument; it does not replace them with a nondegenerate matrix calculation.</p>
+</section><section class="edition-passage" id="modernized-closed-extensions" data-passage="closed-extensions"><h2>Iterates and the stable case</h2>
+<p>Birkhoff proposes applying the same theorem to higher iterates of $F$ to obtain other types of closed geodesic. He invokes §1 for infinitely many closed geodesics near one of stable type in the general case. He also expects the two-geodesic conclusion to remain valid for much more general surfaces. These remain, respectively, an indicated application, a cross-reference and a proposed extension; this section supplies no additional proof of them.</p>
+</section><section class="edition-passage" id="modernized-closed-symmetry" data-passage="closed-symmetry"><h2>Reflection symmetry</h2>
+<p>If the convex surface is symmetric about a plane containing $g$, Birkhoff asserts the existence of closed geodesics meeting $g$ twice orthogonally and points to methods analogous to those used for symmetric orbits in the restricted three-body problem. Under the side identification induced by this symmetry, $T$ and $T^*$ coincide. Thus $F=T^2$ is the square of a product of two involutions. The factorization is the structural observation here; the source does not develop the promised symmetric-orbit construction in this passage.</p>
+</section></div></section><section class="edition-panel" id="panel-reinterpreted" role="tabpanel" aria-labelledby="tab-reinterpreted" hidden><h2 class="panel-label">Reinterpreted</h2><p class="unmatched-passage" hidden></p><nav class="counterparts" aria-label="Corresponding Reinterpreted passages" hidden></nav><div class="edition-scroll" tabindex="0" aria-label="Reinterpreted text"><article class="continuation"><p>Let $(S,h)$ be a smooth oriented Riemannian two-sphere of positive Gaussian curvature, and let $\gamma:\mathbb R/L\mathbb Z\to S$ be a simple closed unit-speed geodesic of length $L$. Along $\gamma$, write $e(s)=\dot\gamma(s)$ and let $n(s)$ be the unit normal in the tangent plane pointing into one chosen complementary disk. The crossing annuli of <a href="geodesic.html#annuli">§10</a> are</p>
+<p>$$
+A^\pm=\{(\gamma(s),\cos\theta\,e(s)\pm\sin\theta\,n(s)):0\leq\theta\leq\pi\}.
+$$</p>
+<p>Their interiors contain transverse crossings. Use the smooth crossing maps $C=T_+:A^+\to A^-$ and $D=T_-:A^-\to A^+$, with their boundary extensions from §10. The first return to $A^+$ is $F=D\circ C$. Its return time $\tau:A^+\to(0,\infty)$ is the length of the corresponding unit-speed geodesic segment in the interior, extended by its boundary limit. Global existence and boundary regularity are the external inputs specified in §10.</p>
+<h2 id="area">Length variation and preserved area</h2>
+<p>In local arclength coordinates write $F(s,\theta)=(s_1,\theta_1)$, and set $p=\cos\theta$ and $p_1=\cos\theta_1$. The symbols $s_1,\theta_1$ denote functions of the initial state.</p>
+<p><span id="proposition-length-variation"></span></p>
+<p><strong>Proposition.</strong> The differential of the return length is</p>
+<p>$$
+d\tau=p_1\,ds_1-p\,ds.
+$$</p>
+<p><span id="proof-length-variation"></span></p>
+<p><strong>Proof.</strong> Vary the initial state smoothly, with variation parameter $a$, and let $\eta_a:[0,1]\to S$ be the resulting return segment parametrized with constant speed. The first variation of length is</p>
+<p>$$
+\frac{d}{da}\operatorname{length}(\eta_a)
+=\langle v_1,\partial_a\eta_a(1)\rangle_h
+-\langle v_0,\partial_a\eta_a(0)\rangle_h.
+$$</p>
+<p>The interior term is zero because each $\eta_a$ is a geodesic; no minimizing assumption is needed. Both endpoints lie on $\gamma$, so their variations are $e(s_1)\,ds_1/da$ and $e(s)\,ds/da$. Taking their scalar products with the endpoint unit velocities gives the asserted identity. The intermediate crossing is not an endpoint of the full segment and contributes no extra term. $\square$</p>
+<p>For a direct calculus consequence, compare the mixed derivatives of $\tau$ with respect to $s$ and $\theta$. Since $p_\theta=-\sin\theta$, the result is</p>
+<p>$$
+\sin\theta_1\,
+\det\frac{\partial(s_1,\theta_1)}{\partial(s,\theta)}
+=\sin\theta.
+$$</p>
+<p>Thus $F$ preserves the positive measure</p>
+<p>$$
+\mu(E)=\int_E\sin\theta\,ds\,d\theta,
+\qquad \mu(A^+)=2L.
+$$</p>
+<p>The density vanishes on the boundary, but every nonempty open subset has positive measure. The coordinate change $(s,\theta)\mapsto(s,p)$ identifies the closed annulus with $(\mathbb R/L\mathbb Z)\times[-1,1]$ and turns this into ordinary unsigned area $ds\,dp$. This change is a homeomorphism up to the boundary; its inverse need not be differentiable there.</p>
+<details><summary>The differential-form formulation <span>Exactness and its scope</span></summary><div class="detail-body">
+
+<p>The one-form $\lambda=\cos\theta\,ds$ assigns $\cos\theta\,\delta s$ to a tangent variation $(\delta s,\delta\theta)$. Its pullback is $(F^*\lambda)_z(\xi)=\lambda_{F(z)}(DF_z\xi)$. Length variation says $F^*\lambda-\lambda=d\tau$. Taking exterior derivatives gives $F^*(d\lambda)=d\lambda$, where $d\lambda=\sin\theta\,ds\wedge d\theta$. In the convention of §8, $\omega=ds\wedge dp=-d\lambda$ is therefore also preserved.</p>
+<p>This is the same identity as $T^*\lambda-\lambda=d\ell$ for a billiard chord of length $\ell$. Here $\tau$ is a function of the initial state. Conjugate points and multiple geodesic segments between the same endpoints can prevent a single global endpoint generating function $H(s,s_1)$; the identity does not supply one or prove a twist condition.</p>
+</div></details>
+
+<h2 id="existence">A closed geodesic from boundary twist</h2>
+<p>A lift of $F$ is a map $\widetilde F:\mathbb R\times[0,\pi]\to\mathbb R\times[0,\pi]$ projecting to $F$ and satisfying $\widetilde F(s+L,\theta)=\widetilde F(s,\theta)+(L,0)$. Write its first component as $X(s,\theta)$.</p>
+<p><strong>Twist hypothesis.</strong> Fix one lift for which</p>
+<p>$$
+X(s,0)-s&gt;0,\qquad X(s,\pi)-s&lt;0
+\quad\text{for every }s.
+$$</p>
+<p>This is an additional hypothesis, not a consequence of area preservation or positive curvature. The <a href="geodesic.html#twist">pinched case in §10</a> gives a sufficient route: for $\min K/\max K&gt;1/4$, the centered lift has displacements $c_2^+(s)-L$ and $L-c_2^-(s)$, so $c_2^\pm(s)&gt;L$ suffices. The round sphere has equality and fails strict twist.</p>
+<p><strong>External theorem (<a href="periodic.html#existence">Poincaré–Birkhoff</a>).</strong> An orientation-preserving annulus homeomorphism preserving ordinary area, preserving each boundary component, and having a lift with these opposite strict boundary displacements has at least two distinct interior fixed points in the zero-displacement class of that lift.</p>
+<p>The change $p=\cos\theta$ makes the preserved measure ordinary area, so this theorem applies to $F$. A fixed point $z\in\operatorname{int}A^+$ gives a unit-speed geodesic returning to its starting position and velocity after time $\tau(z)$; it is therefore closed. It crosses $\gamma$ twice during its least period, once into each disk. An earlier full period would give an earlier return to $A^+$. Crossings here are counted along the parametrized curve; simplicity of the new geodesic is not asserted.</p>
+<p>Two fixed points already guarantee at least one closed geodesic different from $\gamma$. Counting two different geometric curves requires an additional argument.</p>
+<h2 id="reversal">Reversal pairs two states of one curve</h2>
+<p>Let $J:A^+\to A^-$ reverse velocity: $J(q,v)=(q,-v)$. In angle coordinates it sends $(s,\theta)$ to $(s,\pi-\theta)$ on the other annulus. Reversing a geodesic segment gives</p>
+<p>$$
+C^{-1}=J^{-1}CJ^{-1},\qquad
+D^{-1}=JDJ.
+$$</p>
+<p>Define $R=J^{-1}\circ C:A^+\to A^+$: follow the first crossing segment, then reverse its terminal velocity. Composition acts from right to left.</p>
+<p><span id="proposition-reversal"></span></p>
+<p><strong>Proposition.</strong> In the interior, $R^2=\mathrm{id}$, $RFR=F^{-1}$, and $R$ has no fixed points.</p>
+<p><span id="proof-reversal"></span></p>
+<p><strong>Proof.</strong> The first identity follows from $J^{-1}CJ^{-1}=C^{-1}$. For the second, use $CJ^{-1}C=J$:</p>
+<p>$$
+RFR=J^{-1}CDCJ^{-1}C
+=J^{-1}CDJ=C^{-1}D^{-1}=F^{-1}.
+$$</p>
+<p>If $Rz=z$, the first crossing segment $\eta:[0,b]\to S$ would start at $(q,v)$ and end at $(q,-v)$. Its reversal $t\mapsto\eta(b-t)$ has the same initial position and velocity as $\eta$, so uniqueness gives $\eta(t)=\eta(b-t)$. Differentiating at $t=b/2$ gives $\dot\eta(b/2)=0$, contradicting unit speed. $\square$</p>
+<p>Consequently $Fz=z$ implies $F(Rz)=Rz$, with $Rz\ne z$. These states describe the same closed curve in opposite orientations. Each closed geodesic with two crossings per least period gives exactly this pair of states in $A^+$.</p>
+<p>On the unit round sphere, taking $\gamma$ to be the equator, $C(s,\theta)=(s+\pi,\theta)$ and $F=\mathrm{id}$. Hence</p>
+<p>$$
+R(s,\theta)=(s+\pi,\pi-\theta)
+\quad(s\bmod 2\pi).
+$$</p>
+<p>Even the orthogonal state $\theta=\pi/2$ has a distinct partner at the antipodal equatorial point. All interior states are fixed by $F$, so this example has infinitely many closed geodesics but no isolated fixed-point indices.</p>
+<h2 id="index">Equal indices and two different geodesics</h2>
+<p>For an isolated fixed point $z$ of a smooth map of an oriented surface, its <strong>fixed-point index</strong> is the winding number of the displacement $x-F(x)$ around zero as $x$ traverses a sufficiently small positively oriented loop enclosing only $z$. A fixed point is <strong>nondegenerate</strong> if $I-DF_z$ is invertible; then</p>
+<p>$$
+\operatorname{ind}(F,z)=\operatorname{sign}\det(I-DF_z).
+$$</p>
+<p>At a fixed point, preservation of the positive interior density implies $\det DF_z=1$. Put $A=DF_z$. Differentiating the reversal identity shows that $DF_{Rz}$ is conjugate to $A^{-1}$. Since</p>
+<p>$$
+\det(I-A^{-1})=\frac{\det(I-A)}{\det A}=\det(I-A),
+$$</p>
+<p>nondegenerate reversal partners have equal indices. Opposite indices must therefore belong to different geometric curves.</p>
+<p><span id="proposition-two-geodesics"></span></p>
+<p><strong>Proposition (nondegenerate case).</strong> Under the preceding return-map and strict-twist hypotheses, assume additionally that every fixed point in the chosen lift&#39;s zero-displacement class is nondegenerate. Then there are at least two geometrically distinct closed geodesics other than $\gamma$, each crossing $\gamma$ twice per least period.</p>
+<p><span id="proof-two-geodesics"></span></p>
+<p><strong>Proof.</strong> Poincaré–Birkhoff supplies zero-displacement fixed points. Their indices sum to zero, by the boundary-displacement argument below. Nondegeneracy makes each index $+1$ or $-1$, so at least one of each sign occurs. Each has a distinct reversal partner of the same index, and the two pairs cannot coincide. Thus there are at least four fixed states representing at least two curves. $\square$</p>
+<details><summary>Why the indices sum to zero <span>A boundary winding calculation</span></summary><div class="detail-body">
+
+<p>On the covering strip set $G(s,\theta)=\widetilde F(s,\theta)-(s,\theta)$. Its zeros stay away from both horizontal boundaries by strict twist. Nondegeneracy makes them isolated, so there are finitely many modulo $L$. Choose a vertical cut avoiding their first coordinates and consider a fundamental rectangle of width $L$.</p>
+<p>On each horizontal side, $G$ is a nonzero horizontal vector with constant sign, hence has no angular variation. The images under $G$ of the vertical sides coincide by periodicity and are traversed in opposite directions. The total boundary winding is therefore zero. The planar degree formula identifies this winding with the sum of the local indices of the zeros. Using $G$ instead of $-G$ does not change winding in dimension two.</p>
+<p>This counts exactly $\widetilde F(s,\theta)=(s,\theta)$, not fixed points satisfying $\widetilde F(s,\theta)=(s+kL,\theta)$ for a nonzero integer $k$. No assumption about the indices in those other classes is needed.</p>
+</div></details>
+
+<div class="experiment index-explorer" id="index-explorer">
+<div class="experiment-head"><strong>Explore the local fixed-point index</strong><span>Area-preserving linear models</span></div>
+<div class="index-intro"><p>Let $A_a=\begin{pmatrix}a&-1\\1&0\end{pmatrix}$, with $\det A_a=1$. The plots trace $(I-A_a)u$ and $(I-A_a^{-1})u$ as $u=(\cos t,\sin t)$ goes once counterclockwise around the unit circle. Their winding numbers give the two indices when $a\ne2$.</p></div>
+<div class="index-plots"><figure><canvas id="index-forward" role="img" aria-label="Displacement loop for the matrix A"></canvas><figcaption>Displacement for A</figcaption></figure><figure><canvas id="index-inverse" role="img" aria-label="Displacement loop for the inverse matrix"></canvas><figcaption>Displacement for A⁻¹</figcaption></figure></div>
+<div class="index-controls"><label for="index-trace">Trace a <output id="index-value" for="index-trace">0.0</output></label><input id="index-trace" type="range" min="-3" max="4" step="0.1" value="0"><div class="index-presets"><button type="button" data-trace="0">Index +1</button><button type="button" data-trace="2">Degenerate</button><button type="button" data-trace="3">Index −1</button></div></div>
+<p id="index-status" class="index-status" aria-live="polite"></p>
+<p class="index-note">These local models explain index equality under inversion. They are not computed return maps of a surface, and an index sign alone does not classify stability. At a = 2, each linear map has a line of fixed points.</p>
+</div>
+
+
+<p>At a degenerate fixed point, the determinant formula is insufficient. An isolated degenerate point may still have an index defined by winding; a nonisolated point does not have an individual index of this kind. The proposition above does not settle the full degenerate case of Birkhoff&#39;s stronger assertion.</p>
+<h2 id="symmetry">Iterates and reflection symmetry</h2>
+<p>A point of least period $q$ under $F$ gives a closed geodesic with $2q$ crossings per least period. Its $q$ states in $A^+$ are one oriented periodic orbit, not $q$ different curves. Applying a fixed-point theorem to $F^q$ requires checking its boundary rotation and excluding smaller periods, as in <a href="periodic.html#winding">§9</a>; merely taking higher powers does not establish new geodesics.</p>
+<p>Suppose further that $S$ has a reflection isometry $\sigma:S\to S$ fixing $\gamma$ pointwise and exchanging its two sides. If a geodesic segment $\eta:[0,b]\to S$ has endpoints on $\gamma$ and is perpendicular to $\gamma$ at both, concatenate it with $t\mapsto\sigma(\eta(2b-t))$, $b\leq t\leq2b$. At each endpoint, $d\sigma$ fixes the tangent to $\gamma$ and reverses its normal. Positions and velocities therefore match at the joins. Geodesic uniqueness gives a smooth closed geodesic. This reduces the symmetric construction to finding an orthogonal return segment; it does not by itself prove that such a segment exists.</p>
+<h2 id="relation">Relation to the source</h2>
+<p>Birkhoff&#39;s flux argument on pp. 185–186 obtains invariant area from conservation of volume in a tube of geodesic trajectories. The length-variation argument gives the same invariant measure and also identifies its exact primitive, linking this problem to the billiard calculation of §8. The modern identity appears in Abbondandolo, Bramham, Hryniewicz and Salomão, <a href="https://arxiv.org/pdf/1410.7790#page=22">Proposition 2.6</a>.</p>
+<p>On pp. 186–188 Birkhoff explicitly pairs opposite orientations by an involution and proves equality of their indices. His two-geodesic assertion uses an extended fixed-point theorem yielding opposite indices, under his minimax and conjugate-point hypotheses. Here the strict boundary twist is assumed explicitly, and the opposite-index step is proved with an additional nondegeneracy hypothesis. Neither the minimax input nor the full degenerate extension is proved here.</p>
+<p>The final remarks on p. 188 concern iterates, nearby periodic motions around stable geodesics, more general surfaces, and reflection symmetry. The iterate bookkeeping and the reflection construction above are developed; stable-orbit accumulation and the proposed generality are not established by these arguments.</p>
+</article>
+</div></section></div>
+<details class="edition-metadata"><summary>Edition notes and correspondences</summary><div class="detail-body"><p>Original uses the retained v1 transcription for §§7–11 and the additive v2 release for §§1–6, from the 1927 text in the photographic 1960 reprint. Line wrapping, page headers and line-end hyphenation are normalized; wording, mathematical claims, notation, historical notes and figures are retained. The edition covers Chapter VI §§1–11, pp. 150–188. References to other chapters remain cross-references.</p><p>Modernized retains the source’s proof route and provisional claims. Reinterpreted supplies alternative arguments and structural explanations, with additional hypotheses and external inputs stated explicitly. An absent counterpart means that this layer does not treat that passage; it is not an equivalence claim.</p><p>The source’s apparent slips are not silently repaired: for example, “by h” on p. 182, the one-crossing/second-conjugate-point notation on p. 184, and “transformation less” on p. 187. Both transcription releases have been checked against the stored scans by the authoring assistant; independent scholarly collation is still outstanding.</p><p><a href="assets/original/v1/closed.md">Original text</a> · <a href="assets/modernized/closed.md">Modernized text</a> · <a href="assets/source/transcription-v1.json">Immutable-text manifest</a></p><div id="correspondence-note"></div></div></details>
+<section id="sources" class="support"><h2>Sources and verification</h2><p class="margin-note">The proof-completion and numerical-check statements below concern Reinterpreted. Original preserves the historical arguments, including passages for which no replacement proof is supplied.</p>
+<p>VI §11, pp. 185–188 of the 1927 text, in the photographic 1960 reprint. Chapter VII begins on p. 189.</p>
+<div class="page-links"><a href="assets/source/scan-197.png">185</a><a href="assets/source/scan-198.png">186</a><a href="assets/source/scan-199.png">187</a><a href="assets/source/scan-200.png">188</a></div>
+<p><strong>Developed:</strong> first variation, preserved area, reversal pairing, equal nondegenerate indices, a nondegenerate two-geodesic proposition, iterate counting, and reflection of orthogonal segments. <strong>External inputs:</strong> the global return theorem from §10, Poincaré–Birkhoff, and the planar degree formula. The general minimax and degenerate multiplicity arguments and stable-orbit accumulation are not reproved.</p>
+<details><summary>Mathematical checks <span>Scope and evidence</span></summary><div class="detail-body"><p>Local matrix determinants and sampled winding numbers check equality of the indices under inversion; exact sphere states check reversal pairing. These examples do not prove the external existence theorems.</p><p><a href="assets/closed-geodesics-validation.json">Results</a> · <a href="assets/verify_closed_geodesics.cjs">Check script</a></p></div></details>
+<p><a href="assets/closed-geodesics.md">Mathematical Markdown</a> · <a href="assets/insights.md">Findings and proof limits</a> · <a href="assets/source/source-manifest.json">Source manifest</a></p>
+</section>
+
+<script type="application/json" id="edition-data">{"groups":[{"id":"closed-volume","label":"Energy-level volume","pages":[185],"original":["original-closed-volume"],"modernized":["modernized-closed-volume"],"reinterpreted":["area"],"note":"The source’s reduced volume uses the adapted coordinate construction of §3, not arbitrary energy-surface coordinates."},{"id":"closed-flux","label":"Flux and invariant area","pages":[185,186],"original":["original-closed-flux"],"modernized":["modernized-closed-flux"],"reinterpreted":["area"],"note":"The first-variation proof replaces the historical flow-tube argument."},{"id":"closed-existence","label":"Closed-geodesic existence","pages":[186],"original":["original-closed-existence"],"modernized":["modernized-closed-existence"],"reinterpreted":["existence"],"note":"The reconstruction assumes strict twist explicitly; the source uses its minimax argument from §10."},{"id":"closed-involutions","label":"Involution factorization","pages":[186,187],"original":["original-closed-involutions"],"modernized":["modernized-closed-involutions"],"reinterpreted":["reversal"],"note":"The historical convention applies products in the order written. The reconstruction uses ordinary function composition."},{"id":"closed-pair","label":"Two orientations","pages":[187],"original":["original-closed-pair"],"modernized":["modernized-closed-pair"],"reinterpreted":["reversal"],"note":"Two states of a single curve must not be counted as two geometric curves."},{"id":"closed-index","label":"Equal indices and two curves","pages":[187,188],"original":["original-closed-index"],"modernized":["modernized-closed-index"],"reinterpreted":["index"],"note":"The reconstruction proves a nondegenerate special case with a boundary degree argument; the source invokes its extended index theorem."},{"id":"closed-extensions","label":"Iterates and stable orbits","pages":[188],"original":["original-closed-extensions"],"modernized":["modernized-closed-extensions"],"reinterpreted":["symmetry"],"note":"Only iterate bookkeeping is developed in the reconstruction; the stability cross-reference remains external."},{"id":"closed-symmetry","label":"Reflection symmetry","pages":[188],"original":["original-closed-symmetry"],"modernized":["modernized-closed-symmetry"],"reinterpreted":["symmetry"],"note":"The reconstruction explains reflection of an orthogonal segment but does not prove the historical existence assertion."},{"id":"closed-relation","label":"Relation to the source","pages":[],"original":[],"modernized":[],"reinterpreted":["relation"],"note":"Editorial comparison, outside the historical text."}]}</script>
+<footer><span>MORDELLIA</span><p>Closed geodesics and fixed-point index · 14 October 2026<br>Experimental edition.</p><a href="#top">Back to the beginning ↑</a></footer></main></div></body></html>

@@ -1,0 +1,32 @@
+{
+  "version": 2,
+  "created": "2026-10-14",
+  "scope": "Additive transcription release: VI §§1–6, pp.150–171 before §7. Together with retained v1, covers complete Chapter VI §§1–11.",
+  "retains": "transcription-v1.json",
+  "collation": "Authoring-assistant visual collation against all pp.150–171 scans; independent scholarly collation outstanding.",
+  "normalizations": [
+    "Same transcription conventions as v1.",
+    "Footnote marker symbols normalized where sections are separate pages.",
+    "Chapter heading supplied by the shared page frame; original section headings retained."
+  ],
+  "figure_crops": {
+    "figure-167.png": {
+      "scan": "scan-179.png",
+      "box": [
+        100,
+        235,
+        373,
+        442
+      ]
+    }
+  },
+  "sha256": {
+    "content/original/v2/annulus-theorem.md": "0ec669b6e15590dc8b81627fb53353d7951418cb3b26cc5633c5c82601d973e5",
+    "content/original/v2/equilibrium.md": "da6fd8e0a87a11f66362f03a18c1fe06195896894b7e3ef2a020d2217add180c",
+    "content/original/v2/limitations.md": "0d63e6d6455e2c52a9112d1c52305965d9a75098b22046424cb261990762d475",
+    "content/original/v2/reduction.md": "cb19d2268c23f2bd5c5e2146de888111045ab0421694d3ba1099f6f4e1c59fe8",
+    "content/original/v2/twist-estimates.md": "10060e2908133bba4b2da7f7fe38deea75a931f398e2c4d471ee78c53399d57d",
+    "content/original/v2/variational-billiards.md": "a3e7cc10457e3f9d5f951f96cad056c53c4d0206ecbfbc4fe111361a6c0a2274",
+    "source/figure-167.png": "16cc651baed283998bd27528a317f21b7a03ea02db32b6d45d2b66eb7f2b5267"
+  }
+}

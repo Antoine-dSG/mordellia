@@ -1,0 +1,385 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Dynamics of the billiard map · Mordellia</title><meta name="description" content="The collision map, invariant measure, and recurrence.">
+<link rel="stylesheet" href="assets/katex/katex.min.css?v=19095127357e">
+<link rel="stylesheet" href="style.css?v=52325c4e2551">
+<link rel="stylesheet" href="home.css?v=a6aa6a301646">
+<link rel="stylesheet" href="navigation.css?v=030d3bf676be">
+<link rel="stylesheet" href="edition.css?v=3a1bb1873a9e">
+<script defer src="assets/katex/katex.min.js?v=e8d885505949"></script>
+<script defer src="assets/katex/contrib/auto-render.min.js?v=bb53eb953394"></script>
+<script defer src="reader.js?v=3a49d540b1f3"></script>
+<script defer src="navigation.js?v=522f4b2ebb28"></script>
+<script defer src="billiards.js?v=5e40c21824ab"></script>
+<script defer src="app.js?v=5337c3b110d3"></script>
+<script defer src="edition.js?v=760210d8d0dd"></script>
+<link rel="stylesheet" href="../assets/site.css?v=3b02bec2f3fb"></head><body class=""><a class="skip" href="#reading">Skip to mathematics</a><div class="progress" id="progress"></div>
+<header class="masthead"><a href="../" class="wordmark">MORDELLIA<span>Mathematical editions</span></a><div class="edition"><a class="home-link" href="./">Chapter overview</a>Birkhoff · VI.7–8 <span class="local">Experimental edition</span></div></header><nav class="collection-nav" aria-label="Books"><a href="../">All books</a><a href="../birkhoff/" aria-current="true">Birkhoff · Dynamical Systems</a><a href="../dickson/">Dickson · Theory of Numbers I</a></nav>
+<div class="layout"><aside class="sidebar"><details class="reading-navigation" open><summary>Chapter VI · Contents</summary><nav aria-label="Chapter VI reading navigation"><a class="chapter-home" href="./">Chapter overview</a><ol class="chapter-contents"><li class="chapter-unit"><a class="chapter-link" href="equilibrium.html"><span class="chapter-ref">§1</span><span>Periodic points near an elliptic equilibrium</span></a></li><li class="chapter-unit"><a class="chapter-link" href="twist-estimates.html"><span class="chapter-ref">§2</span><span>Finite-time twist estimates</span></a></li><li class="chapter-unit"><a class="chapter-link" href="reduction.html"><span class="chapter-ref">§3</span><span>Reduction on a fixed energy surface</span></a></li><li class="chapter-unit"><a class="chapter-link" href="limitations.html"><span class="chapter-ref">§4</span><span>Twist, resonance and the limits of stability</span></a></li><li class="chapter-unit"><a class="chapter-link" href="annulus-theorem.html"><span class="chapter-ref">§5</span><span>The Poincaré–Birkhoff annulus theorem</span></a></li><li class="chapter-unit"><a class="chapter-link" href="variational-billiards.html"><span class="chapter-ref">§6</span><span>Billiards as a discrete variational problem</span></a></li><li class="chapter-unit current-unit"><a class="chapter-link" href="#top" aria-current="page"><span class="chapter-ref">§§7–8</span><span>Dynamics of the billiard map</span></a><ol class="page-contents" aria-label="On this page"><li><a href="#original-measure-map">Collision states and annulus</a></li><li><a href="#original-measure-lift">Boundary displacements</a></li><li><a href="#original-measure-cycles">Periodic states</a></li><li><a href="#original-measure-area">Invariant area</a></li><li><a href="#original-measure-recurrence">Recurrence</a></li><li><a href="#original-measure-jacobian">Change of variables</a></li><li><a href="#original-measure-angles">Chord and tangent angles</a></li><li><a href="#original-measure-determinant">Jacobian calculation</a></li></ol></li><li class="chapter-unit"><a class="chapter-link" href="periodic.html"><span class="chapter-ref">§9</span><span>Periodic billiard orbits</span></a></li><li class="chapter-unit"><a class="chapter-link" href="geodesic.html"><span class="chapter-ref">§10</span><span>Geodesic return maps</span></a></li><li class="chapter-unit"><a class="chapter-link" href="closed-geodesics.html"><span class="chapter-ref">§11</span><span>Closed geodesics and fixed-point index</span></a></li></ol><div class="reading-resources"><div class="eyebrow">Sources & records</div><a href="#sources">Source pages & checks</a><a href="#coverage">Coverage & insight record</a></div></nav></details></aside><main id="reading"><section class="hero" id="top"><div class="eyebrow">Dynamical Systems · Chapter VI, §§7–8</div><h1>Dynamics of the billiard map</h1></section><div class="edition-toolbar" aria-label="Digital edition controls">
+<div class="edition-controls"><div role="tablist" aria-label="Reading version"><button type="button" role="tab" id="tab-original" aria-controls="panel-original" aria-selected="true" tabindex="0" data-edition-mode="original">Original</button><button type="button" role="tab" id="tab-modernized" aria-controls="panel-modernized" aria-selected="false" tabindex="-1" data-edition-mode="modernized">Modernized</button><button type="button" role="tab" id="tab-reinterpreted" aria-controls="panel-reinterpreted" aria-selected="false" tabindex="-1" data-edition-mode="reinterpreted">Reinterpreted</button></div><label class="compare-switch"><input type="checkbox" id="edition-compare"> Compare</label></div>
+<div class="comparison-choices" hidden><fieldset><legend>Versions to compare</legend><label><input type="checkbox" value="original" checked> Original</label><label><input type="checkbox" value="modernized" > Modernized</label><label><input type="checkbox" value="reinterpreted" checked> Reinterpreted</label></fieldset><span id="compare-hint">Choose two or three versions.</span></div>
+<div class="passage-navigation"><button type="button" id="passage-previous" aria-label="Previous corresponding passage">←</button><label for="edition-passage">Passage</label><select id="edition-passage"><option value="measure-map">Collision states and annulus</option><option value="measure-lift">Boundary displacements</option><option value="measure-cycles">Periodic states</option><option value="measure-area">Invariant area</option><option value="measure-recurrence">Recurrence</option><option value="measure-jacobian">Change of variables</option><option value="measure-angles">Chord and tangent angles</option><option value="measure-determinant">Jacobian calculation</option><option value="measure-hamiltonian">Hamiltonian connections</option><option value="measure-relation">Relation to the source</option></select><button type="button" id="passage-next" aria-label="Next corresponding passage">→</button></div>
+</div>
+<div class="edition-grid"><section class="edition-panel" id="panel-original" role="tabpanel" aria-labelledby="tab-original" ><h2 class="panel-label">Original</h2><p class="unmatched-passage" hidden></p><nav class="counterparts" aria-label="Corresponding Original passages" hidden></nav><div class="edition-scroll" tabindex="0" aria-label="Original text"><section class="edition-passage" id="original-measure-map" data-passage="measure-map"><h2>7. The corresponding transformation $T$.</h2>
+<p>We propose next to set up a ring transformation $T$ associated with the billiard ball problem, and to show how the geometric theorem of Poincaré in its first form leads to the conclusion deduced above. The reduction to a ring transformation is of fundamental theoretic importance, quite aside from the relation to the question of periodic motions. It should be noted also that, in the cases of most interest like the restricted problem of three bodies, the method of reduction to a ring transformation and application of the geometric theorem of Poincaré is available for the treatment of the periodic motions, while the maximum-minimum method has not as yet been shown to be applicable.</p>
+<p>To begin with we suppose the length of $C$ to be $2\pi$ and to be measured from a fixed point to a variable point $P$ by an angular coördinate $\varphi$.</p>
+<p>At $P$, taken as the point of projection of the billiard ball, let $\theta$ denote the angle between the positive direction of the tangent and the direction of projection. The variable $\theta$ varies between $0$ and $\pi$ only. These coördinates $\theta,\varphi$ suffice to represent all possible states of projection unambiguously. If $\varphi$ be taken as an angular coördinate in the plane, while $\theta$, augmented by a constant, say $\pi$, be taken as a radial coördinate, the set of values $(\theta,\varphi)$ is represented on a ring bounded by concentric circles of radii $\pi$ and $2\pi$ respectively, namely the circles $\theta=0$ and $\theta=\pi$.</p>
+<p>Consider now a definite state of projection at $P$ with given $\theta,\varphi$. The billiard ball leaves the table at $P$, to strike it again at $P_1$, there to be projected in a state $(\theta_1,\varphi_1)$, say, and so forth indefinitely. If $C$ is an analytic curve, as we assume it to be, the correspondence between $\theta,\varphi$ and $\theta_1,\varphi_1$ is evidently one-to-one and analytic within the ring. When $\theta$ is nearly $0$ or $\pi$, the ball is projected at a slight angle to the edge, and strikes it again at a nearby point with $\theta$ nearly $0$ or $\pi$ as the case may be. Hence the points on the bounding circles correspond to themselves with $\theta_1=\theta$, $\varphi_1=\varphi$.</p>
+</section><section class="edition-passage" id="original-measure-lift" data-passage="measure-lift"><p>One further remark needs to be made about the correspondence along the two boundaries of the ring. If we think of each point $(\theta,\varphi)$ as being carried into $(\theta_1,\varphi_1)$ by a transformation or deformation of the ring, this transformation $T$ will effect a certain number of complete rotations of the inner circle, and also of the outer circle, since the points of these boundaries are invariant as just seen. We may arbitrarily regard the inner circle as having undergone no rotation, but the same will not then be true of the outer circle, which can at once be shown to have undergone a single complete revolution in the positive sense. For let the projection angle $\theta$, for a given point $P$ and corresponding fixed $\varphi$, vary from $0$ to $\pi$. It is obvious that then $\theta_1$ will increase from $0$ to $\pi$ while $\varphi$ increases by $2\pi$ since the point $P_1$ makes a complete circuit of $P$ in a positive sense. In other words, the transformation $T$ takes radial segments across the ring into curves starting at the same point of the inner circle, but winding around the ring just once while crossing it. Hence the outer boundary has undergone a single positive revolution under the transformation $T$.</p>
+</section><section class="edition-passage" id="original-measure-cycles" data-passage="measure-cycles"><p>Suppose now that we have a periodic motion, for example that corresponding to one of the harmonic triangles taken in a positive sense. It is evident that the transformation $T$ of the ring takes the point of the ring representing the state of projection at the first vertex into that at the second; and likewise takes the state for the second vertex into that for the third, and that for the third vertex into the first. Thus when $T$ is applied, the triple of points on the ring is cyclically advanced, and each point of the triple is unaltered by the application of the third iterate $T^3$ of $T$. Conversely, to any triple with this property, or to any point invariant under $T^3$, together with its images under $T$ and $T^2$, corresponds a motion belonging to a harmonic triangle. Evidently then, from considerations advanced earlier, there are at least four such triples. It is obvious that there can be no invariant points under $T$ itself because $\varphi$ is increased but by less than $2\pi$.</p>
+<p>In this way the search for harmonic polygons and the allied periodic motions in the billiard ball problem resolves itself into the determination of sets of distinct points $P_1,\ldots,P_n$ cyclically advanced by $T$, so that in general $T^n(P_i)=P_i$. More generally, each and every interesting property of the motion of the billiard ball is mirrored in a corresponding property of the transformation $T$. Thus the dynamical problem is effectively reduced to that of a particular transformation of a circular ring into itself.</p>
+</section><section class="edition-passage" id="original-measure-area" data-passage="measure-area"><h2>8. Area-preserving property of $T$.</h2>
+<p>There is a further property of the transformation</p>
+<p>$$T:\quad \theta_1=f(\theta,\varphi),\quad \varphi_1=g(\theta,\varphi),$$</p>
+<p>which plays a fundamental part in applying the geometric theorem of Poincaré: the double integral $\iint\sin\theta\,d\theta\,d\varphi$ taken over any area $\sigma$ of the ring has the same value as over the image of $\sigma$ under $T$ and its iterates. This is essentially an area-preserving property in modified coördinates.</p>
+</section><section class="edition-passage" id="original-measure-recurrence" data-passage="measure-recurrence"><p>Before passing to the entirely elementary proof of this fact, one immediate application may be cited in justification of the earlier statement as to the fundamental theoretic importance of the ring transformation. Since the integral evaluated over $\sigma_1,\sigma_2\cdots$, has the same value, and since its value over the entire ring is finite, being $4\pi$, some two of the images $\sigma_i$ and $\sigma_j$ overlap. Employing the inverse transformation we infer that $\sigma_{i-1}$ and $\sigma_{j-1}$ also overlap, and thus finally that $\sigma_{i-j}$ and $\sigma_0$ overlap $(i&gt;j)$. But, interpreted for the billiard ball problem, this means that the ball can be projected very nearly with arbitrary position and direction to return subsequently to nearly the same position and direction. As elaborated by Poincaré,* this chain of reasoning leads to the conclusion that the ‘probability’ is unity that an arbitrary motion returns infinitely often to the neighborhood of its initial state. He called this property of the dynamical system ‘stability in the sense of Poisson’.</p>
+<aside class="historical-note">* See his <em>Méthodes nouvelles de la Mécanique céleste</em>, vol. 3, chap. 26.</aside>
+
+</section><section class="edition-passage" id="original-measure-jacobian" data-passage="measure-jacobian"><p>The proof that the double integral is invariant depends on an explicit evaluation of the determinant</p>
+<p>$$J=\frac{\partial\theta_1}{\partial\theta}\frac{\partial\varphi_1}{\partial\varphi}-\frac{\partial\theta_1}{\partial\varphi}\frac{\partial\varphi_1}{\partial\theta}.$$</p>
+<p>In fact, if $\iint M(\theta,\varphi)\,d\theta\,d\varphi$ is invariant we have</p>
+<p>$$\iint M(\theta_1,\varphi_1)\,d\theta_1\,d\varphi_1=\iint M(\theta,\varphi)\,d\theta\,d\varphi$$</p>
+<p>where the variables $\theta_1,\varphi_1$ range over the region $\sigma_1$, just as $\theta,\varphi$ do over $\sigma$. But according to the fundamental theorem for change of variables, the change of variables $T$ gives the integral on the left the form</p>
+<p>$$\iint_\sigma M(\theta_1,\varphi_1)J\,d\theta\,d\varphi.$$</p>
+<p>Comparing this expression and the integral on the right, which are both integrals over the same arbitrary region $\sigma$, we deduce the functional relation</p>
+<p>$$M(\theta_1,\varphi_1)J=M(\theta,\varphi)$$</p>
+<p>as the necessary and also sufficient condition for invariance. Hence to establish that $\iint\sin\theta\,d\theta\,d\varphi$ is invariant, we need only prove</p>
+<p>$$J=\sin\theta/\sin\theta_1.$$</p>
+</section><section class="edition-passage" id="original-measure-angles" data-passage="measure-angles"><p>Let</p>
+<p>$$x=F(\varphi),\quad y=G(\varphi)$$</p>
+<p>be the equations of $C$ in rectangular coördinates, so that, if $\tau$ denotes the angle between the positive $x$ axis and the positive tangential direction at a point of $C$, we have</p>
+<p>$$\tau=\tan^{-1}\frac{G'(\varphi)}{F'(\varphi)}.$$</p>
+<p>Similarly let $\tau_1$ denote the like angle at the transformed point, which will be given by the same expression save that $\varphi$ is replaced by $\varphi_1$. Finally let $\alpha$ designate the angle between the positively directed axis and the direction of initial projection (figure).</p>
+<figure class="historical-figure"><img src="assets/source/figure-175.png" alt="Birkhoff's figure: the chord direction α and tangent directions τ and τ₁ determine θ and θ₁."></figure>
+
+<p>It is evident that the following two relations will hold</p>
+<p>$$\theta=\alpha-\tau,\qquad \theta_1=\tau_1-\alpha.$$</p>
+<p>Substituting in the above value for $\tau$ and the analogous value for $\tau_1$, and also substituting in for $\alpha$ the value</p>
+<p>$$\tan^{-1}\frac{G(\varphi_1)-G(\varphi)}{F(\varphi_1)-F(\varphi)},$$</p>
+<p>evident by inspection, we obtain the explicit formulas</p>
+<p>$$T:\begin{cases}\displaystyle\theta=\tan^{-1}\frac{G(\varphi_1)-G(\varphi)}{F(\varphi_1)-F(\varphi)}-\tan^{-1}\frac{G'(\varphi)}{F'(\varphi)}=L(\varphi,\varphi_1),\\[6pt]\displaystyle\theta_1=\tan^{-1}\frac{G'(\varphi_1)}{F'(\varphi_1)}-\tan^{-1}\frac{G(\varphi_1)-G(\varphi)}{F(\varphi_1)-F(\varphi)}=M(\varphi,\varphi_1).\end{cases}$$</p>
+<p>These two equations define the transformation $T$ from $(\theta,\varphi)$ to $(\theta_1,\varphi_1)$. Taking differentials, we find</p>
+</section><section class="edition-passage" id="original-measure-determinant" data-passage="measure-determinant"><p>$$d\theta=L_\varphi\,d\varphi+L_{\varphi_1}\,d\varphi_1,\qquad d\theta_1=M_\varphi\,d\varphi+M_{\varphi_1}\,d\varphi_1,$$</p>
+<p>whence at once</p>
+<p>$$d\theta_1=\frac{M_{\varphi_1}}{L_{\varphi_1}}\,d\theta+\left(M_\varphi-\frac{M_{\varphi_1}L_\varphi}{L_{\varphi_1}}\right)d\varphi,$$</p>
+<p>$$d\varphi_1=\frac{1}{L_{\varphi_1}}\,d\theta-\frac{L_\varphi}{L_{\varphi_1}}\,d\varphi.$$</p>
+<p>This gives</p>
+<p>$$J=-\frac{M_\varphi}{L_{\varphi_1}}=-\frac{[F(\varphi_1)-F(\varphi)]G'(\varphi)-[G(\varphi_1)-G(\varphi)]F'(\varphi)}{[F(\varphi_1)-F(\varphi)]G'(\varphi_1)-[G(\varphi_1)-G(\varphi)]F'(\varphi_1)}.$$</p>
+<p>But $F(\varphi_1)-F(\varphi)$, $G(\varphi_1)-G(\varphi)$ are proportional to $\cos\alpha$, $\sin\alpha$ respectively, while also</p>
+<p>$$F'(\varphi)=\cos\tau,\quad G'(\varphi)=\sin\tau,\quad F'(\varphi_1)=\cos\tau_1,\quad G'(\varphi_1)=\sin\tau_1,$$</p>
+<p>so that finally we obtain</p>
+<p>$$J=\frac{\sin(\alpha-\tau)}{\sin(\tau_1-\alpha)}=\frac{\sin\theta}{\sin\theta_1}$$</p>
+<p>as was stated.</p>
+</section></div></section><section class="edition-panel" id="panel-modernized" role="tabpanel" aria-labelledby="tab-modernized" hidden><h2 class="panel-label">Modernized</h2><p class="unmatched-passage" hidden></p><nav class="counterparts" aria-label="Corresponding Modernized passages" hidden></nav><div class="edition-scroll" tabindex="0" aria-label="Modernized text"><section class="edition-passage" id="modernized-measure-map" data-passage="measure-map"><h2>Collision states and the annulus map</h2>
+<p>Let $C$ be the analytic convex boundary of the billiard table considered in the preceding section. Normalize its length to $2\pi$ and let $s\in\mathbb R/2\pi\mathbb Z$ be positively oriented arclength. A departing state is specified by $(\theta,s)$, where $0&lt;\theta&lt;\pi$ is the angle from the positive tangent to the outgoing velocity. The space of states is an open annulus; adding $\theta=0,\pi$ gives its two grazing boundary circles.</p>
+<p>The next collision and reflection define $T(\theta,s)=(\theta_1,s_1)$. The correspondence is one-to-one and analytic in the interior. A nearly tangent chord ends near its starting point with a nearly tangent reflected direction. Thus the map extends to each boundary circle as the identity.</p>
+<p>This reduction to an annulus map permits the use of Poincaré&#39;s geometric theorem. Birkhoff contrasts its applicability to the restricted three-body problem with the maximum–minimum method, whose applicability there had not then been established.</p>
+</section><section class="edition-passage" id="modernized-measure-lift" data-passage="measure-lift"><h2>The boundary displacements</h2>
+<p>Choose a continuous real lift of the endpoint coordinate $s_1$ for which the displacement on $\theta=0$ is zero. Fixing the initial point and increasing $\theta$ from $0$ to $\pi$ makes the next endpoint traverse the boundary once positively. Consequently the displacement on $\theta=\pi$ is $2\pi$. A radial segment of the annulus is therefore taken to an arc winding once while crossing the annulus. Both boundary maps are the identity modulo $2\pi$, but their lifted displacements differ by one full turn.</p>
+</section><section class="edition-passage" id="modernized-measure-cycles" data-passage="measure-cycles"><h2>Periodic trajectories and cycles</h2>
+<p>A harmonic triangle, traversed in one direction, gives three collision states cyclically permuted by $T$ and fixed by $T^3$. Conversely, a three-cycle describes such a trajectory. The preceding variational argument supplied at least four oriented three-cycles. There are no interior fixed points of $T$, since each lifted advance lies strictly between $0$ and $2\pi$.</p>
+<p>More generally, a harmonic polygon corresponds to distinct states $P_1,\ldots,P_n$ cyclically permuted by $T$, with $T^n(P_i)=P_i$. Questions about billiard motion can thus be studied through iterates of the annulus map.</p>
+</section><section class="edition-passage" id="modernized-measure-area" data-passage="measure-area"><h2>The invariant measure</h2>
+<p>Write $T(\theta,s)=(f(\theta,s),g(\theta,s))$. The assertion of §8 is that</p>
+<p>$$\mu(E)=\iint_E\sin\theta\,d\theta\,ds$$</p>
+<p>has the same value for a region $E$ and its image $T(E)$. This is area preservation after a change of coordinates.</p>
+</section><section class="edition-passage" id="modernized-measure-recurrence" data-passage="measure-recurrence"><h2>The recurrence argument</h2>
+<p>The whole annulus has measure $4\pi$. If a region $E$ has positive measure, its images cannot all be disjoint: each has measure $\mu(E)$, whereas their union has measure at most $4\pi$. Thus $T^i(E)$ and $T^j(E)$ overlap for some $i&gt;j$. Applying $T^{-j}$ shows that $T^{i-j}(E)$ meets $E$.</p>
+<p>In billiard language, initial position and direction can be chosen arbitrarily close to a prescribed state so that the motion later returns close to that state. Birkhoff invokes Poincaré&#39;s elaboration for the stronger assertion that almost every state returns infinitely often to every neighborhood of itself. The historical name is “stability in the sense of Poisson.” The cited reference is Poincaré, <em>Méthodes nouvelles de la Mécanique céleste</em>, vol. 3, chapter 26; the overlap argument alone is not the full almost-everywhere proof.</p>
+</section><section class="edition-passage" id="modernized-measure-jacobian" data-passage="measure-jacobian"><h2>Reduction to the Jacobian</h2>
+<p>Let</p>
+<p>$$J=\det\frac{\partial(\theta_1,s_1)}{\partial(\theta,s)}.$$</p>
+<p>For a density $M$, change of variables gives</p>
+<p>$$\iint_{T(E)}M(\theta_1,s_1)\,d\theta_1\,ds_1
+=\iint_E M(\theta_1,s_1)J\,d\theta\,ds.$$</p>
+<p>For the orientation-preserving map considered here, invariance for every region is equivalent to</p>
+<p>$$M(\theta_1,s_1)J=M(\theta,s).$$</p>
+<p>It therefore suffices to prove $J=\sin\theta/\sin\theta_1$. This retains the source&#39;s change-of-variables proof.</p>
+</section><section class="edition-passage" id="modernized-measure-angles" data-passage="measure-angles"><h2>Chord and tangent angles</h2>
+<p>Write the boundary as $\gamma(s)=(x(s),y(s))$, parametrized by arclength. Let $\tau(s)$ and $\tau(s_1)$ be continuous local choices of the tangent angles, and let $\alpha$ be the angle of the chord $\gamma(s_1)-\gamma(s)$. The reflection law gives</p>
+<p>$$\theta=\alpha-\tau(s)=L(s,s_1),\qquad
+\theta_1=\tau(s_1)-\alpha=M(s,s_1).$$</p>
+<p>The source computes these angles from</p>
+<p>$$\tau(s)=\arctan\frac{y'(s)}{x'(s)},\qquad
+\alpha=\arctan\frac{y(s_1)-y(s)}{x(s_1)-x(s)},$$</p>
+<p>using local angle branches. The second tangent angle uses the first formula with $s_1$ in place of $s$. These are local formulas for angle differences, not a single principal-arctangent convention around the whole curve.</p>
+</section><section class="edition-passage" id="modernized-measure-determinant" data-passage="measure-determinant"><h2>Differentiation and cancellation</h2>
+<p>Differentiating the two angle identities gives</p>
+<p>$$d\theta=L_s\,ds+L_{s_1}\,ds_1,\qquad
+d\theta_1=M_s\,ds+M_{s_1}\,ds_1.$$</p>
+<p>Solving for the output differentials,</p>
+<p>$$ds_1=\frac{d\theta}{L_{s_1}}-\frac{L_s}{L_{s_1}}\,ds,$$</p>
+<p>$$d\theta_1=\frac{M_{s_1}}{L_{s_1}}\,d\theta+
+\left(M_s-\frac{M_{s_1}L_s}{L_{s_1}}\right)ds.$$</p>
+<p>The terms involving $L_sM_{s_1}$ cancel in the determinant, leaving</p>
+<p>$$J=-\frac{M_s}{L_{s_1}}
+=-\frac{\Delta x\,y'(s)-\Delta y\,x'(s)}{\Delta x\,y'(s_1)-\Delta y\,x'(s_1)},$$</p>
+<p>where $\Delta x=x(s_1)-x(s)$ and $\Delta y=y(s_1)-y(s)$. If the chord length is $r$, then $(\Delta x,\Delta y)=r(\cos\alpha,\sin\alpha)$, while $\gamma'(s)=(\cos\tau,\sin\tau)$ and $\gamma'(s_1)=(\cos\tau_1,\sin\tau_1)$. Substitution yields</p>
+<p>$$J=\frac{\sin(\alpha-\tau)}{\sin(\tau_1-\alpha)}
+=\frac{\sin\theta}{\sin\theta_1}.$$</p>
+<p>This proves preservation of $\mu$ by the same coordinate calculation as Birkhoff&#39;s.</p>
+</section></div></section><section class="edition-panel" id="panel-reinterpreted" role="tabpanel" aria-labelledby="tab-reinterpreted" hidden><h2 class="panel-label">Reinterpreted</h2><p class="unmatched-passage" hidden></p><nav class="counterparts" aria-label="Corresponding Reinterpreted passages" hidden></nav><div class="edition-scroll" tabindex="0" aria-label="Reinterpreted text"><article class="continuation">
+<section id="identity">
+<h2>The collision map</h2>
+<p>Let \(\Omega\subset\mathbb R^2\) be a bounded strictly convex table whose boundary \(C=\partial\Omega\) is a regular analytic simple closed curve with strictly positive curvature. Write its length as \(L\), and choose a counterclockwise arclength parametrization \(\gamma:\mathbb R/L\mathbb Z\to C\). At \(\gamma(s)\), let \(\tau(s)=\gamma'(s)\) be the unit tangent and \(n(s)\) the inward unit normal.</p>
+<p>A collision state consists of a boundary position and an outgoing unit vector pointing strictly into the table. Write that vector as</p>
+$$u=\cos\theta\,\tau(s)+\sin\theta\,n(s),\qquad 0&lt;\theta&lt;\pi.$$
+<p>Thus \(\theta\) is measured from the positive tangent toward the interior. Tangent directions, also called grazing states, are excluded. The state space in these coordinates is the open cylinder \(A_\theta=(\mathbb R/L\mathbb Z)\times(0,\pi)\).</p>
+<p>Follow the ray \(\gamma(s)+tu\), \(t&gt;0\), to its unique next boundary point \(\gamma(s_1)\). If \(N_1=-n(s_1)\) is the outward unit normal there, the reflection law gives the new outgoing vector</p>
+$$u_1=u-2(u\cdot N_1)N_1.$$
+<p>It reverses the normal component and preserves the tangential component. Let \(\theta_1\in(0,\pi)\) describe \(u_1\) at \(s_1\) by the same convention. The <em>billiard map</em> sends \((s,\theta)\) to \((s_1,\theta_1)\) in \(A_\theta\). Non-tangent intersection and smooth reflection make the map smooth; tracing a reflected trajectory backward gives its smooth inverse.</p>
+
+<h3>Momentum coordinates</h3>
+<p>Set \(p=u\cdot\tau(s)=\cos\theta\), the tangential velocity (or momentum for unit mass). Since \(0&lt;\theta&lt;\pi\), this is a coordinate change to \(A=(\mathbb R/L\mathbb Z)\times(-1,1)\). In these coordinates write the same map as</p>
+$$T:A\longrightarrow A,\qquad T(s,p)=(s_1,p_1),\qquad p_1=u_1\cdot\tau(s_1).$$
+
+<div id="exposition"><div id="exposition-proof">
+<div class="proof-step" id="chord-length">
+<h3>1. Differentiate the chord length</h3>
+<p>For distinct boundary positions \(s,r\in\mathbb R/L\mathbb Z\), define the smooth function \(H(s,r)=|\gamma(r)-\gamma(s)|\) and the unit chord vector \(w=(\gamma(r)-\gamma(s))/H(s,r)\). The variables \(s,r\) are independent; each partial derivative holds the other fixed. Differentiation gives</p>
+$$H_s=-w\cdot\tau(s),\qquad H_r=w\cdot\tau(r).$$
+<p>On a flight, \(r=s_1(s,p)\) and \(w=u\). Reflection preserves tangential velocity at the second endpoint. Thus</p>
+$$p=-H_s(s,s_1),\qquad p_1=H_r(s,s_1).$$
+<p>Write \(\ell:A\to(0,\infty)\), \(\ell(s,p)=H(s,s_1(s,p))\), for the flight length. These identities express the collision map in terms of one scalar function.</p>
+</div>
+<div id="symplectic-proof">
+<div class="proof-step" id="proof-identity">
+<h3>2. The canonical form and exact symplecticity</h3>
+<div id="symplectic-definition">
+<p>On the collision cylinder \(A\), define the one-form \(\lambda=p\,ds\): on a tangent vector \((\delta s,\delta p)\), it has value \(p\,\delta s\). Its negative exterior derivative is the two-form</p>
+$$\omega=-d\lambda=ds\wedge dp.$$
+<p>The form \(ds\) is global on the circle although a real-valued coordinate \(s\) is only local. Thus both forms are globally defined. The form \(\omega\) measures oriented area in momentum coordinates. It is closed, meaning \(d\omega=0\), and nondegenerate: if \(\omega(v,w)=0\) for every tangent vector \(w\), then \(v=0\). These two properties make it a <em>symplectic form</em>.</p>
+<p>The pullback \(T^*\lambda\) evaluates \(\lambda\) after applying the differential of \(T\); here it is \(p_1\,ds_1\). A map is <em>exact symplectic relative to \(\lambda\)</em> if \(T^*\lambda-\lambda=dS\) for a globally defined function \(S\). The endpoint identities above and the chain rule give precisely this relation:</p>
+$$d\ell=H_s\,ds+H_r\,ds_1=-p\,ds+p_1\,ds_1,$$
+<div class="theorem"><div class="eyebrow">Proposition · exact symplecticity</div>
+<p>The billiard map is exact symplectic, with the flight length as its primitive:</p>
+$$T^*\lambda-\lambda=d\ell.$$
+</div>
+<p>Chord length therefore generates the collision map and measures the change in the canonical one-form. Area preservation will follow from this stronger identity.</p>
+<details><summary>Pullback and exterior differentiation <span>Notation</span></summary><div class="detail-body">
+<p>The differential \(D_xT\) sends the tangent vector of a curve through \(x\) to the tangent vector of its image. For a one-form \(\lambda\) and a two-form \(\omega\),</p>
+$$(T^*\lambda)_x(v)=\lambda_{T(x)}(D_xT(v)),$$
+$$(T^*\omega)_x(v,w)=\omega_{T(x)}(D_xT(v),D_xT(w)).$$
+<p>For a one-form \(a\,ds+b\,dp\), exterior differentiation gives \(d(a\,ds+b\,dp)=(b_s-a_p)\,ds\wedge dp\). Hence \(d\lambda=dp\wedge ds=-ds\wedge dp\). The identity \(d^2S=0\) expresses equality of mixed partial derivatives. Differentiation also commutes with pullback: \(d(T^*\lambda)=T^*(d\lambda)\).</p>
+</div></details>
+</div>
+</div>
+<div class="proof-step" id="proof-preservation">
+<h3>3. Symplecticity implies area preservation</h3>
+<p>Take the exterior derivative of the exactness identity. Since \(d^2\ell=0\),</p>
+$$T^*(d\lambda)-d\lambda=0,\qquad T^*\omega=\omega.$$
+<p>A diffeomorphism preserving \(\omega\) is called <em>symplectic</em>. On this two-dimensional state space, that means preservation of oriented area \(ds\wedge dp\). In coordinates,</p>
+$$T^*(ds\wedge dp)=(\det DT)\,ds\wedge dp,$$
+<p>so \(\det DT=1\). The Jacobian identity is a consequence of exact symplecticity; no expansion of its determinant is needed.</p>
+</div>
+</div>
+<div class="proof-step" id="invariant-measure">
+<h3>4. Return to angle coordinates</h3>
+<p>Since \(p=\cos\theta\), the absolute coordinate-change factor is \(|dp/d\theta|=\sin\theta\). The preserved momentum area therefore gives the following measure in angle coordinates.</p>
+<div class="theorem"><div class="eyebrow">Proposition · invariant measure</div>
+<p>The billiard map preserves the positive measure</p>
+$$d\mu=\sin\theta\,d\theta\,ds,$$
+$$\mu(A)=\int_0^L\!\int_0^\pi\sin\theta\,d\theta\,ds=2L.$$
+</div>
+<p>For an orientation-preserving map with Jacobian \(J\), change of variables says that a density \(M\) is invariant exactly when \(M(Tz)J(z)=M(z)\). The billiard map is orientation-preserving in angle coordinates as well: the coordinate changes at both ends have the same orientation sign. Consequently</p>
+$$J_{(\theta,s)}:=\det\frac{\partial(\theta_1,s_1)}{\partial(\theta,s)}=\frac{\sin\theta}{\sin\theta_1}.$$
+<p>This is Birkhoff’s sine quotient. The change in coordinate area is compensated by the change in density. Unweighted angle–arclength area is generally not preserved.</p>
+</div>
+</div></div>
+<div id="generating-definition"><h3>Generating function and twist</h3>
+<p>A function of two positions is a <em>generating function</em> when its partial derivatives specify the initial and final momenta. Here \(p=-H_s(s,s_1)\), \(p_1=H_r(s,s_1)\).</p>
+<p>The <em>twist condition</em> means that \(\partial s_1/\partial p\) is everywhere nonzero and has a fixed sign, using a local real lift of the circular position. This is an additional geometric property, not a consequence of area preservation alone.</p>
+<details><summary>The twist derivative <span>Calculation</span></summary><div class="detail-body">
+<p>For the unit chord \(w\), differentiation gives \(\partial_r w=(I-ww^{\mathsf T})\tau(r)/H\), where \(I\) is the identity matrix on \(\mathbb R^2\). Resolving the tangents perpendicular to \(w\) gives \(H_{sr}=\sin\theta\sin\theta_1/\ell>0\). Differentiating \(p=-H_s(s,s_1)\) with \(s\) fixed yields</p>
+$$\frac{\partial s_1}{\partial p}=-\frac{1}{H_{sr}}=-\frac{\ell}{\sin\theta\sin\theta_1}<0.$$
+<p>Since \(dp/d\theta=-\sin\theta\),</p>
+$$\frac{\partial s_1}{\partial\theta}=\frac{\ell}{\sin\theta_1}>0.$$
+<p>The sign depends on the coordinate convention. No division at grazing is justified.</p>
+</div></details></div>
+<p class="margin-note"><a href="https://arxiv.org/abs/1708.07395" target="_blank" rel="noopener">Albers–Tabachnikov</a> explicitly identify length as the generating function for ordinary Birkhoff billiards. Their “symplectic billiards” model is a different system.</p>
+</section>
+
+<section id="geometry">
+<h2>Collisions and the weighted Jacobian</h2>
+<p>For a numerical collision, parametrize an ellipse by \(x(t)=(a\cos t,b\sin t)\), with \(a,b&gt;0\) and \(t\in\mathbb R/2\pi\mathbb Z\). The controls choose \((a,b)=(2,1)\) or \((1,1)\), an initial parameter \(t\), and the outgoing angle \(\theta\). The parameter \(t\) is not generally arclength: \(ds=v(t)\,dt\), where \(v(t)=|x'(t)|=\sqrt{a^2\sin^2t+b^2\cos^2t}\). Let \(t_1\) be the parameter of the next collision.</p>
+<p>The diagram shows the flight, reflected direction, and positively oriented tangents. The readouts give \(\theta_1\), \(\ell\), the analytic arclength Jacobian \(J_{(\theta,s)}=\sin\theta/\sin\theta_1\), and a numerical check of the density identity. Define \(J_{(\theta,t)}=\det\partial(\theta_1,t_1)/\partial(\theta,t)\); with its finite-difference estimate \(\widehat J_{(\theta,t)}\), the displayed error is</p>
+$$\varepsilon=\left|\frac{\sin\theta_1\,v(t_1)\,\widehat J_{(\theta,t)}}{\sin\theta\,v(t)}-1\right|.$$
+<div class="experiment">
+<div class="experiment-head"><div class="segmented" role="group" aria-label="Billiard table"><button id="ellipse" class="selected" aria-pressed="true">Ellipse 2 : 1</button><button id="circle-button" aria-pressed="false">Unit circle</button></div><span class="computed">Geometric computation · unit speed</span></div>
+<canvas id="billiard" width="1100" height="610" role="img" aria-label="Billiard chord and reflected direction; controlled by the boundary parameter and launch angle below"></canvas>
+<div class="legend"><span><i class="swatch teal"></i>Flight & reflected direction</span><span><i class="swatch gold"></i>Positive tangents</span><label><input type="checkbox" id="orbit"> Show 12 flights</label></div>
+<div class="controls"><label for="position">Boundary parameter \(t\)<output id="position-value">0.400 rad</output><input id="position" type="range" min="0.05" max="6.23" step="0.01" value="0.4"></label><label for="angle">Launch angle \(\theta\)<output id="angle-value">1.100 rad</output><input id="angle" type="range" min="0.15" max="2.99" step="any" value="1.1"></label></div>
+<div class="readouts" aria-live="polite"><div><span>Next angle \(\theta_1\)</span><strong id="next-angle"></strong></div><div><span>Flight length \(\ell\)</span><strong id="length"></strong></div><div><span>\(J_{(\theta,s)}=\sin\theta/\sin\theta_1\)</span><strong id="jacobian"></strong></div><div><span>Density error \(\varepsilon\)</span><strong id="residual"></strong></div></div>
+<p class="experiment-note" id="experiment-note"></p>
+</div>
+<details><summary>Computing the next collision and the density error <span>Algorithm</span></summary><div class="detail-body">
+<p>Set \(x=x(t)=(x_x,x_y)\). Normalize \(x'(t)\) to obtain the tangent \(\tau\), rotate it counterclockwise by \(\pi/2\) to obtain the inward normal \(n\), and form \(u=\cos\theta\,\tau+\sin\theta\,n=(u_x,u_y)\). Substitution of \(x+\ell u\) in the ellipse equation gives the positive, nonzero intersection root</p>
+$$\ell=-2\frac{x_xu_x/a^2+x_yu_y/b^2}{u_x^2/a^2+u_y^2/b^2}.$$
+<p>At \(y=x+\ell u=(y_x,y_y)\), normalize \((y_x/a^2,y_y/b^2)\) to obtain the outward normal \(N_1\). Compute \(u_1=u-2(u\cdot N_1)N_1\); its components in the tangent and inward-normal frame at \(y\) determine \(\theta_1\in(0,\pi)\). The point \(y\) determines \(t_1\) modulo \(2\pi\).</p>
+<p>Centered differences with step \(10^{-6}\), using local lifts for circular variables, estimate \(J_{(\theta,t)}\). The invariant density predicts \(\sin\theta_1v(t_1)J_{(\theta,t)}=\sin\theta v(t)\). The floating-point error \(\varepsilon\) checks this identity numerically; the proof is above. The sliders exclude grazing, and “Show 12 flights” plots only twelve iterates.</p>
+<p>For \((a,b)=(2,1)\), \(t=0.4\), \(\theta=1.1\), the calculation gives \(t_1\approx3.6214132351\), \(\theta_1\approx2.1450376420\), and \(\ell\approx3.7150678756\). Here \(J_{(\theta,s)}\approx1.0614607117\), whereas \(J_{(\theta,t)}\approx1\): the determinants refer to different coordinates.</p>
+</div></details>
+<details id="ellipse-integral"><summary>Why the ellipse Jacobian in (θ, t) coordinates equals one <span>Joachimsthal integral</span></summary><div class="detail-body">
+<p>A <em>first integral</em> is a function constant under the collision map. Set \(Q=\operatorname{diag}(a^{-2},b^{-2})\), and let \(x=x(t)\), \(y=x(t_1)\) be consecutive collision points with outgoing unit vectors \(u,u_1\). Define \(I(x,u)=-\langle Qx,u\rangle\). Since \(y-x=\ell u\) and both points satisfy \(\langle Qx,x\rangle=1\),</p>
+$$0=\langle Q(y+x),y-x\rangle=\ell\langle Q(y+x),u\rangle.$$
+<p>Thus \(\langle Qy,u\rangle=-\langle Qx,u\rangle\). Reflection reverses the component along the normal \(Qy\), giving \(\langle Qy,u_1\rangle=-\langle Qy,u\rangle\); hence \(I(y,u_1)=I(x,u)\). This is the <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC9689066/">Joachimsthal integral</a> (§3.2).</p>
+<p>For the ellipse parametrization, \(|Qx(t)|=v(t)/(ab)\), so \(I=v(t)\sin\theta/(ab)\). Therefore \(\rho(t,\theta)=v(t)\sin\theta\) is invariant. Combining \(\rho(t_1,\theta_1)=\rho(t,\theta)&gt;0\) with the density identity gives</p>
+$$J_{(\theta,t)}=\frac{\rho(t,\theta)}{\rho(t_1,\theta_1)}=1.$$
+<p>This holds throughout the non-grazing ellipse state space, not just at the displayed example. The coordinate \(t\) is essential; the arclength Jacobian need not equal one.</p>
+</div></details>
+</section>
+
+<section id="coordinates">
+<h2>The coordinate calculation in the source</h2>
+<p>Birkhoff obtains the same sine quotient by differentiating chord and tangent angles, then evaluating their Jacobian. The <a href="billiard.html?mode=modernized#modernized-measure-angles">Modernized text retains that calculation</a>. The reinterpretation above identifies chord length as a generating function, proves exact symplecticity, and obtains the Jacobian identity by exterior differentiation.</p>
+</section>
+
+<section id="circle">
+<h2>The circular billiard: explicit iterates</h2>
+<p>For radius \(R&gt;0\), take \(\gamma(s)=R(\cos(s/R),\sin(s/R))\), with \(s\) modulo \(2\pi R\). Rotational symmetry permits computing at \(s=0\), where the outgoing vector is \((-\sin\theta,\cos\theta)\). Its next intersection with the circle is \(R(\cos2\theta,\sin2\theta)\). Reflection preserves the angle \(\theta\), hence</p>
+$$T(s,\theta)=(s+2R\theta,\theta),\qquad \ell=2R\sin\theta.$$
+<p>For independent positions on the lift \(0&lt;r-s&lt;2\pi R\), the chord length is \(H(s,r)=2R\sin((r-s)/(2R))\). Its partial derivatives are \(H_s=-\cos((r-s)/(2R))\) and \(H_r=\cos((r-s)/(2R))\); at \(r=s_1\) these equal \(-p,p_1\). In momentum coordinates,</p>
+$$T(s,p)=(s+2R\arccos p,p),\qquad DT=\begin{pmatrix}1&-2R/\sqrt{1-p^2}\\0&1\end{pmatrix}.$$
+<p>Thus \(\det DT=1\) and \(T^n(s,\theta)=(s+2nR\theta,\theta)\) for integers \(n\ge0\). A state is <em>periodic of least period \(m\)</em> if \(m\) is the smallest positive integer with \(T^mz=z\). If \(\theta/\pi=k/m\) in lowest terms, the least period is \(m\). If \(\theta/\pi\) is irrational, no iterate returns exactly, but a sequence of iterates approaches the initial state.</p>
+<details><summary>Arbitrarily close returns for an irrational angle <span>Proof</span></summary><div class="detail-body">
+<p>Fix an integer \(N\ge1\) and put \(a=\theta/\pi\). Partition \([0,1)\) into \(N\) intervals of length \(1/N\). Two of the \(N+1\) fractional parts of \(0,a,\ldots,Na\) lie in one interval. Their difference supplies \(1\le n\le N\) with distance from \(na\) to an integer less than \(1/N\). Irrationality excludes equality to an integer for any fixed positive \(n\), so a subsequence of these return indices tends to infinity as the error tends to zero.</p>
+</div></details>
+<p>A measure-preserving map is <em>ergodic</em> if every invariant measurable set has zero measure or a complement of zero measure. Here \(p\) is constant, so \(\{p&gt;0\}\) and its complement both have positive area. The circular billiard is not ergodic on the whole collision cylinder.</p>
+<button class="text-button" id="triangle">Show the period-three orbit with \(\theta=\pi/3\) in the diagram</button>
+</section>
+
+<section id="recurrence">
+<h2>Poincaré recurrence for the collision map</h2>
+<p>A state \(z\in A\) is <em>recurrent</em> if \(T^{n_j}z\to z\) for some strictly increasing sequence of positive integers \(n_j\). “Almost every” means except on a set of \(\mu\)-measure zero. The question is whether preservation of the finite measure \(\mu\) established above forces recurrence.</p>
+<div class="theorem"><div class="eyebrow">Theorem · Poincaré recurrence</div><p>For the invertible collision map \(T:A\to A\), with invariant measure \(\mu\) and \(\mu(A)=2L&lt;\infty\), almost every point of any measurable \(B\subset A\) returns to \(B\) infinitely often. In particular, almost every state in \(A\) is recurrent.</p></div>
+<details><summary>Finite measure and the nonreturning set <span>Proof</span></summary><div class="detail-body">
+<p>Let \(W=B\setminus\bigcup_{n\ge1}T^{-n}B\). It is measurable and consists of points of \(B\) with no later visit to \(B\). The sets \(T^nW\), \(n\ge0\), are pairwise disjoint: an intersection, pulled backward by invertibility, would give a positive-time return to \(B\). They all have measure \(\mu(W)\). Finite total measure forces \(\mu(W)=0\).</p>
+<p>A point of \(B\) with only finitely many visits has a last visit in \(W\), so such points lie in the null set \(\bigcup_{k\ge0}T^{-k}W\). To pass from returns to measurable sets to recurrence, apply this result to each member of a countable base of open sets for the cylinder. Outside the union of their exceptional null sets, every point returns infinitely often to each basic neighborhood containing it. Choose neighborhoods shrinking to the point and increasing return times.</p>
+</div></details>
+<p>Recurrence does not imply periodicity, as the irrational circular example shows. It supplies no bound on return times. It also differs from <em>Lyapunov stability</em>: stability of \(z\) means that for every \(\varepsilon&gt;0\), some \(\delta&gt;0\) makes \(d(T^nw,T^nz)&lt;\varepsilon\) for all \(n\ge0\) whenever \(d(w,z)&lt;\delta\), using a fixed product metric \(d\) on the cylinder. Recurrence concerns one orbit’s returns, not this uniform control of nearby orbits.</p>
+<p>At unit speed the time between successive collisions is \(\ell\). Thus the collision map records the sequence of states; reconstructing the motion in time also requires these flight lengths. Birkhoff calls recurrence “stability in the sense of Poisson” in the cited passage.</p>
+</section>
+
+<section id="connections">
+<h2>Connections to Hamiltonian dynamics</h2>
+<p class="margin-note">Optional extension using differential forms. See the <a href="#symplectic-definition">symplectic definitions in the main proof</a>; the supplement develops further consequences of the same framework.</p>
+<p>We compare collision maps with return maps of smooth Hamiltonian flows, maps defined by discrete actions, and the standard map.</p>
+<p><a href="assets/connections.md" download>Download the mathematical supplement</a></p>
+<h3>1. Symplecticity of Hamiltonian return maps</h3>
+<p>We ask which two-form a return map preserves when a smooth Hamiltonian trajectory is sampled on a section of a fixed energy surface.</p>
+<p>Let $n\ge2$ and let $M$ be a smooth $2n$-dimensional manifold with symplectic form $\omega$, and let $\mathcal H:M\to\mathbb R$ be a smooth time-independent Hamiltonian. Define its vector field $X_{\mathcal H}$ by $\omega(X_{\mathcal H},\cdot)=d\mathcal H$, and write its flow as $\phi^t$. Since $d\omega=0$, Cartan&#39;s formula gives $\mathcal L_{X_{\mathcal H}}\omega=d(d\mathcal H)=0$, where $\mathcal L$ denotes the rate of change of the form under the flow. Thus the flow preserves $\omega$. Fix $e\in\mathbb R$. On a regular energy level $E=\mathcal H^{-1}(e)$ (meaning $d\mathcal H\ne0$ there), the restricted form has kernel $\mathbb R X_{\mathcal H}$. Choose a smooth $(2n-2)$-dimensional submanifold $\Sigma\subset E$ transverse to the flow, meaning $T_zE=T_z\Sigma\oplus\mathbb R X_{\mathcal H}(z)$ at each $z\in\Sigma$. The restriction $\omega_\Sigma=\omega|_{T\Sigma}$ is consequently nondegenerate and closed.</p>
+<p>On an open set $U\subset\Sigma$ where the first positive return time $\tau:U\to(0,\infty)$ exists and is smooth, define $P:U\to\Sigma$ by $P(z)=\phi^{\tau(z)}(z)$. <strong>Proposition.</strong> The return map satisfies $P^*\omega_\Sigma=\omega_\Sigma|_U$.</p>
+<p><strong>Proof.</strong> For $z\in U$ and $u\in T_z\Sigma$, differentiating the variable return time gives</p>
+<p>$$D_zP(u)=D_z\phi^{\tau(z)}(u)+X_{\mathcal H}(Pz)\,d\tau_z(u).$$</p>
+<p>The extra terms disappear when pairing two such vectors with $\omega$: the transported vectors are tangent to $E$, and $\omega(X_{\mathcal H},\cdot)=d\mathcal H$ vanishes there. Thus $P^*\omega_\Sigma=\omega_\Sigma|_U$. This is a local statement on the return domain; a global section or finite return time for every orbit has not been assumed. See <a href="https://arxiv.org/pdf/1107.4286">Bessa–Lopes Dias, §2.1</a>.</p>
+<p><strong>Application to billiards.</strong> In the plane, write position as $q$ and velocity as $v$; for unit mass, free flight has Hamiltonian $|v|^2/2$ and canonical one-form $v\cdot dq$. Fixing unit speed leaves a three-dimensional energy surface; a collision section has two dimensions. Restricting that one-form to collision states gives $p\,ds$ because $p=v\cdot\tau(s)=\cos\theta$, with $\tau(s)$ the boundary tangent defined above. Reflection preserves this tangential component. The chord proof establishes the collision map&#39;s exact symplecticity directly. A reflecting wall is not a smooth Hamiltonian vector field across impact, so the smooth-flow theorem alone does not justify it. Non-grazing collisions and a smooth boundary remain essential.</p>
+<h3>2. Maps defined by a discrete action</h3>
+<p>The question is how a function of two positions defines a symplectic map and a variational equation for its iterates.</p>
+<p>Fix an integer $m\ge1$. Let $q,Q\in\mathbb R^m$ denote initial and final positions in local coordinates, and let $S:V\to\mathbb R$ be smooth on an open set $V\subset\mathbb R^m\times\mathbb R^m$. Write $D_1S$ and $D_2S$ for its derivatives with respect to the first and second position variables. Assume its mixed Hessian is invertible: $D_{12}S=(\partial^2S/\partial q_i\partial Q_j)$. Define initial and final momenta by $p=-D_1S$, $P=D_2S$. The implicit function theorem locally defines a map $F:U_0\to U_1$, $F(q,p)=(Q,P)$, between open subsets of $\mathbb R^{2m}$. On the independent-position domain $V$,</p>
+<p>$$dS=-p\,dq+P\,dQ.$$</p>
+<p>Products pair components: $p\,dq=\sum_i p_i\,dq_i$. Composing $S$ with $(q,p)\mapsto(q,Q(q,p))$ gives $G:U_0\to\mathbb R$. Then $F^*\lambda-\lambda=dG$ for $\lambda=\sum_i p_i\,dq_i$, so $F$ preserves $-d\lambda=\sum_i dq_i\wedge dp_i$. For an integer $N\ge2$ and a sequence $q_0,\ldots,q_N$ with every adjacent pair in $V$ and fixed endpoints, stationarity of the discrete action $\sum_{k=0}^{N-1}S(q_k,q_{k+1})$ under variation of the intermediate positions gives</p>
+<p>$$D_2S(q_{k-1},q_k)+D_1S(q_k,q_{k+1})=0,\qquad 1\le k\le N-1.$$</p>
+<p>This matches incoming and outgoing momenta. For billiards, $S(s,s_1)=|\gamma(s_1)-\gamma(s)|$: stationarity of polygonal length at each boundary vertex is precisely equality of tangential components, hence specular reflection on the admissible incoming/outgoing branches. It gives stationary polygons, not necessarily minima.</p>
+<p>Now let $\mathcal L(q,v)$ be a smooth Lagrangian on a position–velocity domain, with invertible velocity Hessian $\partial^2\mathcal L/\partial v_i\partial v_j$, and fix a sufficiently small time step $h&gt;0$. For endpoint positions admitting a unique local solution $q(t)$ of the Euler–Lagrange equations $\frac{d}{dt}\partial_v\mathcal L(q,\dot q)=\partial_q\mathcal L(q,\dot q)$ with $q(0)=q$ and $q(h)=Q$, define the exact discrete Lagrangian by $S_h(q,Q)=\int_0^h\mathcal L(q(t),\dot q(t))\,dt$. Its partial derivatives with respect to the initial and final positions give the momenta by the same signed formulas. Approximating this function and using those formulas defines a variational integrator—a discrete time-stepping method derived from stationary discrete action—provided the mixed Hessian stays invertible. See <a href="https://lagrange.mechse.illinois.edu/pubs/MaWe2001/MaWe2001.pdf">Marsden–West, <em>Discrete mechanics and variational integrators</em></a>, §§1.3–1.7 and 2.1.</p>
+<p><strong>Fixed energy versus fixed time.</strong> Billiard length is a fixed-energy abbreviated action $\int v\cdot dq$ at unit speed, with variable flight time. It is not the fixed-time free-particle action $|Q-q|^2/(2h)$. These functions use different time constraints. A variational integrator preserves the symplectic form under the stated regularity conditions, but need not preserve the original Hamiltonian energy exactly.</p>
+<h3>3. Exact symplecticity of the standard map</h3>
+<p>This example permits direct comparison of a Jacobian proof and a generating-function proof on an infinite cylinder.</p>
+<p>For a fixed parameter $K\in\mathbb R$, define the standard map $F:(\mathbb R/2\pi\mathbb Z)\times\mathbb R\to(\mathbb R/2\pi\mathbb Z)\times\mathbb R$ by $F(q,p)=(Q,P)$, where</p>
+<p>$$P=p+K\sin q,\qquad Q=q+P,$$</p>
+<p>with $q$ modulo $2\pi$ and $p\in\mathbb R$. The first equation changes momentum at fixed position; the second advances position using the new momentum. The inverse is $q=Q-P$, $p=P-K\sin(Q-P)$, with positions understood modulo $2\pi$. The convention and cylinder/torus distinction are documented by <a href="https://www.scholarpedia.org/article/Standard_map">Chirikov–Shepelyansky</a>; see also <a href="https://amath.colorado.edu/faculty/jdm/papers/StdMapEncylopedia.pdf">Meiss, <em>The standard map</em></a>.</p>
+<p>Use $\lambda=p\,dq$ and $\omega=dq\wedge dp$ on the cylinder. Direct differentiation, in coordinate order $(q,p)$, gives</p>
+<p>$$DF=\begin{pmatrix}1+K\cos q&amp;1\\K\cos q&amp;1\end{pmatrix},\qquad \det DF=1,\qquad \frac{\partial Q}{\partial p}=1.$$</p>
+<p>Taking real representatives $q,Q\in\mathbb R$ with $Q=q+P$, define</p>
+<p>$$S(q,Q)=\tfrac12(Q-q)^2-K\cos q.$$</p>
+<p>This is an endpoint generating function: its derivatives specify the map. Then $-S_q=Q-q-K\sin q=p$ and $S_Q=Q-q=P$. Consequently $F^*(p\,dq)-p\,dq=dG$, where the globally defined cylinder function is $G(q,p)=\tfrac12(p+K\sin q)^2-K\cos q$. This is the same exact-one-form mechanism as the chord identity. The twist derivative $\partial Q/\partial p$ measures the dependence of the next position on initial momentum. Its sign is opposite from the billiard convention used above: there $\partial s_1/\partial p=-\ell/(\sin\theta\sin\theta_1)&lt;0$. </p>
+<details><summary>A fixed point and the limits of preservation</summary>
+
+<p>At $K=1$, $(q,p)=(0,0)$ is fixed. Its derivative has trace $3$ and eigenvalues $(3\pm\sqrt5)/2$, so it is hyperbolic: neither eigenvalue has modulus one, and the linearization has contracting and expanding directions. Exact symplecticity therefore does not imply stability. At $K=0$, momentum is constant and the map is the explicitly solvable shear $Q=q+p$, $P=p$. </p>
+<p>The infinite cylinder has infinite invariant area: recurrence does not follow from the finite-measure proof above. Reducing both coordinates modulo $2\pi$ produces a symplectic map on the torus $(\mathbb R/2\pi\mathbb Z)^2$ of total area $4\pi^2$ and hence almost-everywhere recurrence, but return modulo momentum is weaker than return on the cylinder. The one-form $p\,dq$ is not global on that torus, so the cylinder&#39;s exactness statement must not be transferred verbatim.</p>
+</details>
+
+<p><strong>Area and symplecticity in different dimensions.</strong> In two dimensions, preserving the specified area form is precisely symplecticity. In higher dimensions, symplecticity implies preservation of the volume form $\omega^n/n!$ on a $2n$-dimensional symplectic manifold, where $\omega^n$ is the $n$-fold wedge product, but the converse fails. For example, the linear map on $\mathbb R^4$ given by $(q_1,p_1,q_2,p_2)\mapsto(2q_1,p_1,q_2/2,p_2)$ has determinant one but changes $\omega=dq_1\wedge dp_1+dq_2\wedge dp_2$ to $2dq_1\wedge dp_1+\tfrac12dq_2\wedge dp_2$. Symplectic preservation alone does not imply ergodicity, as the circular billiard already shows.</p>
+
+</section>
+
+<section id="relation"><span id="assessment"></span>
+<h2>Relation to the source</h2>
+<p>Once the partial derivatives of chord length have been identified with the signed momenta, preservation follows from standard generating-function theory; see <a href="https://lagrange.mechse.illinois.edu/pubs/MaWe2001/MaWe2001.pdf">Marsden–West, §§1.4–1.5</a>. The geometric calculation supplies the generating function and verifies that its momenta agree with the reflection law.</p>
+<p>Birkhoff’s angle calculation on pp. 175–176 gives a direct coordinate proof of the preserved measure. The chord-length argument identifies the mechanism behind the same density; the main proof establishes exact symplecticity, with the flight length as a global primitive, and derives measure preservation by exterior differentiation. This introduces differential forms and pullbacks, whose definitions are given in the reading flow. The angle calculation remains in Modernized, where it computes the Jacobian directly. The recurrence argument applies finite-measure recurrence to this collision map. Our assumption of positive curvature is an additional restriction relative to a general convex reading of the source.</p>
+</section>
+
+</article>
+</div></section></div>
+<details class="edition-metadata"><summary>Edition notes and correspondences</summary><div class="detail-body"><p>Original uses the retained v1 transcription for §§7–11 and the additive v2 release for §§1–6, from the 1927 text in the photographic 1960 reprint. Line wrapping, page headers and line-end hyphenation are normalized; wording, mathematical claims, notation, historical notes and figures are retained. The edition covers Chapter VI §§1–11, pp. 150–188. References to other chapters remain cross-references.</p><p>Modernized retains the source’s proof route and provisional claims. Reinterpreted supplies alternative arguments and structural explanations, with additional hypotheses and external inputs stated explicitly. An absent counterpart means that this layer does not treat that passage; it is not an equivalence claim.</p><p>The source’s apparent slips are not silently repaired: for example, “by h” on p. 182, the one-crossing/second-conjugate-point notation on p. 184, and “transformation less” on p. 187. Both transcription releases have been checked against the stored scans by the authoring assistant; independent scholarly collation is still outstanding.</p><p><a href="assets/original/v1/measure.md">Original text</a> · <a href="assets/modernized/measure.md">Modernized text</a> · <a href="assets/source/transcription-v1.json">Immutable-text manifest</a></p><div id="correspondence-note"></div></div></details>
+<section id="sources" class="support">
+<h2>Sources and verification</h2><p class="margin-note">The proof-completion and numerical-check statements below concern Reinterpreted. Original preserves the historical arguments, including passages for which no replacement proof is supplied.</p>
+<p>1927 original mathematical text, accessed in the 1960 photographic reprint. Core: VI.§8, pp. 173–176; setup: VI.§7, pp. 171–173. This first unit ends at the §9 heading on p. 176. The separate <a href="periodic.html">periodic-orbit treatment</a> continues through selected arguments on pp. 176–179; see the coverage record for omissions. No later Morse/Moser additions.</p>
+<div class="page-links"><a href="assets/source/scan-183.png" target="_blank" rel="noopener">171</a><a href="assets/source/scan-184.png" target="_blank" rel="noopener">172</a><a href="assets/source/scan-185.png" target="_blank" rel="noopener">173</a><a href="assets/source/scan-186.png" target="_blank" rel="noopener">174</a><a href="assets/source/scan-187.png" target="_blank" rel="noopener">175</a><a href="assets/source/scan-188.png" target="_blank" rel="noopener">176</a><a class="archive" href="https://archive.org/details/dynamicalsystems00birk" target="_blank" rel="noopener">Archive scan ↗</a></div>
+<details><summary>Mathematical checks <span>Scope and evidence</span></summary><div class="detail-body">
+<p>The exact distance and angle derivations agree. The circle verifies the formulas symbolically. An independent Python implementation checks 25 non-grazing ellipse states by finite differences; its maximum relative Jacobian discrepancy at step \(10^{-6}\) is approximately \(5.30\times10^{-9}\). These computations are not proofs.</p>
+<p><a href="assets/verify_billiard.py" download>Download the numerical check</a> · <a href="assets/validation.json">Measured results</a> · <a href="assets/source/source-manifest.json">Source manifest</a></p>
+<p>Positive curvature is an explicit additional restriction relative to a general convex reading of Birkhoff. No cornered, nonconvex, magnetic, inelastic, or grazing case is claimed. </p>
+<p>The original U.S. term is expired; the source-edition rights review retains an unresolved Franklin-contribution qualification for broader international redistribution.</p>
+</div></details>
+<details id="coverage"><summary>Chapter coverage <span>Sections and proof limits</span></summary><div class="detail-body coverage-table"><p>Edition status (14 October 2026): <strong>all eleven sections of Chapter VI, printed pp. 150–188, are available in Original and Modernized</strong>, across ten reading units (§§7–8 share one unit). Original v1 for §§7–11 is retained unchanged; additive v2 supplies §§1–6. Both releases have received an authoring-assistant visual check against the scans; independent scholarly collation is outstanding.</p>
+<p>Reinterpreted treats each section with explicit mathematical scope. A complete chapter edition does not mean a new complete proof of every theorem Birkhoff invokes or sketches. The table distinguishes written arguments from external inputs, historical proposals and unresolved source issues. PDF page = printed page + 12 (one-based).</p>
+<table>
+<thead>
+<tr>
+<th>Source</th>
+<th>Reinterpreted scope and proof limits</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>§1, pp. 150–154</td>
+<td><a href="equilibrium.html">Periodic points near equilibrium</a>. Hamiltonian area, finite normal-form hypotheses, resonant curve and intersection proof of periodic-point accumulation. Normal-form existence remains an input from Chapter III.</td>
+</tr>
+<tr>
+<td>§2, pp. 154–159</td>
+<td><a href="twist-estimates.html">Finite-time twist estimates</a>. Radial bootstrap and derivative-matrix estimates prove the required lemma on the finite time scale; Modernized retains the longer scalar-comparison route. No all-time stability claim.</td>
+</tr>
+<tr>
+<td>§3, pp. 159–162</td>
+<td><a href="reduction.html">Fixed-energy reduction</a>. Restricted canonical action, reduced Hamiltonian, corrected momentum-shift formula and recovery of physical time. Assumes a regular phase-coordinate tube.</td>
+</tr>
+<tr>
+<td>§4, pp. 162–165</td>
+<td><a href="limitations.html">Twist and resonance</a>. Consistent oscillator counterexample, frequency-map linear algebra and fixed-energy distinction. Historical generalization questions remain historical questions; no present-day open-problem or perturbation theorem is claimed.</td>
+</tr>
+<tr>
+<td>§5, pp. 165–169</td>
+<td><a href="annulus-theorem.html">Annulus theorem</a>. Precise lift formulation, explanation of the strata proof sketch, nondegenerate index count and rational-rotation application. Full topological existence and degenerate multiplicity remain the external Poincaré–Birkhoff theorem.</td>
+</tr>
+<tr>
+<td>§6, pp. 169–171</td>
+<td><a href="variational-billiards.html">Variational billiards</a>. Perimeter first variation, reflection law, extremal chords via support functions and maximal winding-one polygons. The second-polygon minimax argument and unrestricted instability assertions are not supplied as proved facts.</td>
+</tr>
+<tr>
+<td>§7, pp. 171–173</td>
+<td><a href="billiard.html">Collision map</a> and <a href="periodic.html">periodic states</a>. Map, inverse, grazing extension, lift and reversal. Every source passage is present in Original and Modernized; aligned correspondences identify arguments reorganized into §9.</td>
+</tr>
+<tr>
+<td>§8, pp. 173–176</td>
+<td><a href="billiard.html">Invariant measure</a>. Chord-length generating function, exact symplecticity, density, recurrence, circle and ellipse examples. Modernized retains the angle-Jacobian proof.</td>
+</tr>
+<tr>
+<td>§9, pp. 176–179</td>
+<td><a href="periodic.html">Periodic billiard orbits</a>. Periodic-orbit application, least period, counting, reversal and local grazing calculation. Sharper Lazutkin normal form invoked; deeper investigation remains deferred. The p. 179 accumulation proposal is not upgraded to a theorem.</td>
+</tr>
+<tr>
+<td>§10, pp. 180–185</td>
+<td><a href="geodesic.html">Geodesic returns</a>. Crossing annuli, local regularity, Jacobi limits, endpoint monotonicity, lift ambiguity, pinched-case lift and sphere example. Global interception/extension and minimax input are invoked; limiting-set polygon and general signed-index continuation arguments remain in the source-following layers.</td>
+</tr>
+<tr>
+<td>§11, pp. 185–188</td>
+<td><a href="closed-geodesics.html">Closed geodesics</a>. First variation, area, reversal, nondegenerate index count, iterates and reflection construction. Annulus theorem and degree invoked. General minimax/degenerate extension, stable-orbit accumulation and proposed generality are preserved in the source-following layers, with no new proof claimed.</td>
+</tr>
+</tbody></table>
+<p>Section boundaries share pages. §11’s contents-page title is “Application of Poincaré’s theorem to geodesic problem”; its body abbreviates the ending to “to problem.” Chapter VII begins on p. 189 and is outside this edition.</p>
+<p>The <a href="assets/insights.md">insight record</a> consolidates explanatory gains, prerequisites, literature and classifications. Page images, edition provenance and checksums are in the <a href="assets/source/source-manifest.json">source manifest</a>. Each reading page links to check scripts and numerical results. Computation checks examples and implementation, not the external theorems. Existing edition-specific rights qualifications continue to apply; the local preview is not publication clearance.</p>
+<p><a href="assets/coverage.md">Coverage record</a> · <a href="assets/insights.md">Insight record</a></p></div></details>
+<p id="working-document"><a href="assets/insights.md">Consolidated findings, sources and proof limits</a></p>
+</section>
+
+<script type="application/json" id="edition-data">{"groups":[{"id":"measure-map","label":"Collision states and annulus","pages":[171,172],"original":["original-measure-map"],"modernized":["modernized-measure-map"],"reinterpreted":["identity"],"note":"Construction; the reconstruction adds explicit positive curvature."},{"id":"measure-lift","label":"Boundary displacements","pages":[172],"original":["original-measure-lift"],"modernized":["modernized-measure-lift"],"reinterpreted":[],"note":"The reinterpretation develops this in §9, under Annulus and lift."},{"id":"measure-cycles","label":"Periodic states","pages":[172,173],"original":["original-measure-cycles"],"modernized":["modernized-measure-cycles"],"reinterpreted":["circle"],"note":"The circle is an added example, not a transcription of the harmonic-triangle argument."},{"id":"measure-area","label":"Invariant area","pages":[173],"original":["original-measure-area"],"modernized":["modernized-measure-area"],"reinterpreted":["invariant-measure"],"note":"The preserved density is obtained as a consequence of exact symplecticity in Reinterpreted."},{"id":"measure-recurrence","label":"Recurrence","pages":[173,174],"original":["original-measure-recurrence"],"modernized":["modernized-measure-recurrence"],"reinterpreted":["recurrence"],"note":"The reconstruction includes the almost-everywhere proof that the source attributes to Poincaré."},{"id":"measure-jacobian","label":"Change of variables","pages":[174],"original":["original-measure-jacobian"],"modernized":["modernized-measure-jacobian"],"reinterpreted":["invariant-measure"],"note":"Same density criterion; the chord-length argument is an alternative proof."},{"id":"measure-angles","label":"Chord and tangent angles","pages":[174,175],"original":["original-measure-angles"],"modernized":["modernized-measure-angles"],"reinterpreted":["chord-length","geometry"],"note":"The interactive collision diagram is supplementary."},{"id":"measure-determinant","label":"Jacobian calculation","pages":[176],"original":["original-measure-determinant"],"modernized":["modernized-measure-determinant"],"reinterpreted":["symplectic-proof"],"note":"Modernized evaluates the angle Jacobian. Reinterpreted replaces that calculation with the global identity T*λ − λ = dℓ and its exterior derivative; symplecticity is the main proof."},{"id":"measure-hamiltonian","label":"Hamiltonian connections","pages":[],"original":[],"modernized":[],"reinterpreted":["connections"],"note":"Added background; no corresponding passage in these source sections."},{"id":"measure-relation","label":"Relation to the source","pages":[],"original":[],"modernized":[],"reinterpreted":["relation"],"note":"Editorial comparison, outside the historical text."}],"targetLabels":{"identity":"Collision map and momentum coordinates","exposition":"Chord length as a generating function","chord-length":"Differentiate the chord length","geometry":"Collision diagram and density check","symplectic-proof":"Exact symplecticity and preserved area"}}</script>
+<footer><span>MORDELLIA</span><p>Dynamics of the billiard map · 14 October 2026<br>Experimental edition.</p><a href="#top">Back to the beginning ↑</a></footer></main></div></body></html>

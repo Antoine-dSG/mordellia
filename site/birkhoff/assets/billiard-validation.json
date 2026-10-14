@@ -1,0 +1,7 @@
+{
+  "states": 72,
+  "maxDensityResidual": 4.99800201225753e-9,
+  "maxBoundaryResidual": 5.551115123125783e-16,
+  "maxCircleFormulaError": 2.6645352591003757e-15,
+  "triangleClosureError": 5.551115123125783e-17
+}

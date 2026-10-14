@@ -1,0 +1,30 @@
+{
+  "finite_time_twist": {
+    "cases": 27,
+    "min_derivative_per_iterate": 0.9999875655077234,
+    "max_relative_finite_difference_error": 1.022044663725882e-08,
+    "scope": "A map satisfying the remainder estimates, not a test of a general existence theorem."
+  },
+  "reduction": {
+    "energy_examples": 3,
+    "moving_reference_examples": 3,
+    "scope": "Energy substitution and the sign of the time-dependent canonical shift."
+  },
+  "frequency_targets": {
+    "action_errors": [
+      0.06408878589520238,
+      0.026189614533949322,
+      0.005739654667216838
+    ],
+    "scope": "Rational approximation to the base frequency, not ratios tending to zero."
+  },
+  "displacement_indices": {
+    "hyperbolic": -1,
+    "elliptic": 1
+  },
+  "polygon_first_variation": {
+    "vertices": 4,
+    "max_absolute_error": 9.37435296055611e-10
+  },
+  "limits": "Examples check formulas and finite-time estimates. They do not prove the general annulus theorem, minimax multiplicity, normal-form existence or reader comprehension."
+}

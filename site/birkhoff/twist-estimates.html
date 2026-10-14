@@ -1,0 +1,217 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Finite-time twist estimates · Mordellia</title><meta name="description" content="Why angular twist accumulates before the normal-form error does.">
+<link rel="stylesheet" href="assets/katex/katex.min.css?v=19095127357e">
+<link rel="stylesheet" href="style.css?v=52325c4e2551">
+<link rel="stylesheet" href="home.css?v=a6aa6a301646">
+<link rel="stylesheet" href="navigation.css?v=030d3bf676be">
+<link rel="stylesheet" href="edition.css?v=3a1bb1873a9e">
+<script defer src="assets/katex/katex.min.js?v=e8d885505949"></script>
+<script defer src="assets/katex/contrib/auto-render.min.js?v=bb53eb953394"></script>
+<script defer src="reader.js?v=3a49d540b1f3"></script>
+<script defer src="navigation.js?v=522f4b2ebb28"></script>
+<script defer src="edition.js?v=760210d8d0dd"></script>
+<link rel="stylesheet" href="../assets/site.css?v=3b02bec2f3fb"></head><body class=""><a class="skip" href="#reading">Skip to mathematics</a><div class="progress" id="progress"></div>
+<header class="masthead"><a href="../" class="wordmark">MORDELLIA<span>Mathematical editions</span></a><div class="edition"><a class="home-link" href="./">Chapter overview</a>Birkhoff · VI.2 <span class="local">Experimental edition</span></div></header><nav class="collection-nav" aria-label="Books"><a href="../">All books</a><a href="../birkhoff/" aria-current="true">Birkhoff · Dynamical Systems</a><a href="../dickson/">Dickson · Theory of Numbers I</a></nav>
+<div class="layout"><aside class="sidebar"><details class="reading-navigation" open><summary>Chapter VI · Contents</summary><nav aria-label="Chapter VI reading navigation"><a class="chapter-home" href="./">Chapter overview</a><ol class="chapter-contents"><li class="chapter-unit"><a class="chapter-link" href="equilibrium.html"><span class="chapter-ref">§1</span><span>Periodic points near an elliptic equilibrium</span></a></li><li class="chapter-unit current-unit"><a class="chapter-link" href="#top" aria-current="page"><span class="chapter-ref">§2</span><span>Finite-time twist estimates</span></a><ol class="page-contents" aria-label="On this page"><li><a href="#original-twist-estimates-normal">Normalize the leading twist</a></li><li><a href="#original-twist-estimates-radial">Control radial drift</a></li><li><a href="#original-twist-estimates-variational">Differentiate the iterates</a></li><li><a href="#original-twist-estimates-comparison">A comparison difference equation</a></li></ol></li><li class="chapter-unit"><a class="chapter-link" href="reduction.html"><span class="chapter-ref">§3</span><span>Reduction on a fixed energy surface</span></a></li><li class="chapter-unit"><a class="chapter-link" href="limitations.html"><span class="chapter-ref">§4</span><span>Twist, resonance and the limits of stability</span></a></li><li class="chapter-unit"><a class="chapter-link" href="annulus-theorem.html"><span class="chapter-ref">§5</span><span>The Poincaré–Birkhoff annulus theorem</span></a></li><li class="chapter-unit"><a class="chapter-link" href="variational-billiards.html"><span class="chapter-ref">§6</span><span>Billiards as a discrete variational problem</span></a></li><li class="chapter-unit"><a class="chapter-link" href="billiard.html"><span class="chapter-ref">§§7–8</span><span>Dynamics of the billiard map</span></a></li><li class="chapter-unit"><a class="chapter-link" href="periodic.html"><span class="chapter-ref">§9</span><span>Periodic billiard orbits</span></a></li><li class="chapter-unit"><a class="chapter-link" href="geodesic.html"><span class="chapter-ref">§10</span><span>Geodesic return maps</span></a></li><li class="chapter-unit"><a class="chapter-link" href="closed-geodesics.html"><span class="chapter-ref">§11</span><span>Closed geodesics and fixed-point index</span></a></li></ol><div class="reading-resources"><div class="eyebrow">Sources & records</div><a href="#sources">Source pages & checks</a><a href="billiard.html#coverage">Coverage & insight record</a></div></nav></details></aside><main id="reading"><section class="hero" id="top"><div class="eyebrow">Dynamical Systems · Chapter VI, §2</div><h1>Finite-time twist estimates</h1></section><div class="edition-toolbar" aria-label="Digital edition controls">
+<div class="edition-controls"><div role="tablist" aria-label="Reading version"><button type="button" role="tab" id="tab-original" aria-controls="panel-original" aria-selected="true" tabindex="0" data-edition-mode="original">Original</button><button type="button" role="tab" id="tab-modernized" aria-controls="panel-modernized" aria-selected="false" tabindex="-1" data-edition-mode="modernized">Modernized</button><button type="button" role="tab" id="tab-reinterpreted" aria-controls="panel-reinterpreted" aria-selected="false" tabindex="-1" data-edition-mode="reinterpreted">Reinterpreted</button></div><label class="compare-switch"><input type="checkbox" id="edition-compare"> Compare</label></div>
+<div class="comparison-choices" hidden><fieldset><legend>Versions to compare</legend><label><input type="checkbox" value="original" checked> Original</label><label><input type="checkbox" value="modernized" > Modernized</label><label><input type="checkbox" value="reinterpreted" checked> Reinterpreted</label></fieldset><span id="compare-hint">Choose two or three versions.</span></div>
+<div class="passage-navigation"><button type="button" id="passage-previous" aria-label="Previous corresponding passage">←</button><label for="edition-passage">Passage</label><select id="edition-passage"><option value="twist-estimates-normal">Normalize the leading twist</option><option value="twist-estimates-radial">Control radial drift</option><option value="twist-estimates-variational">Differentiate the iterates</option><option value="twist-estimates-comparison">A comparison difference equation</option><option value="twist-estimates-relation">Relation to the source</option></select><button type="button" id="passage-next" aria-label="Next corresponding passage">→</button></div>
+</div>
+<div class="edition-grid"><section class="edition-panel" id="panel-original" role="tabpanel" aria-labelledby="tab-original" ><h2 class="panel-label">Original</h2><p class="unmatched-passage" hidden></p><nav class="counterparts" aria-label="Corresponding Original passages" hidden></nav><div class="edition-scroll" tabindex="0" aria-label="Original text"><section class="edition-passage" id="original-twist-estimates-normal" data-passage="twist-estimates-normal"><h2>2. Proof of the lemma of section 1.</h2>
+<p>Let us define $F(u)$ by the equation
+$$luF^2(u)=M(u)-\lambda.$$
+It is clear that $F(u)$ is the square root of a real polynomial of degree $\mu-1$ and constant term $1$. If then we write further
+$$\bar p=F(pq)p,\qquad \bar q=F(pq)q,$$
+it is found that the above normal form for $T$ is further simplified and may be written
+$$\bar p=\bar p_0e^{(\lambda+l\bar p_0\bar q_0)t}+\bar\Phi,\qquad \bar q=\bar q_0e^{-(\lambda+l\bar p_0\bar q_0)t}+\bar\Psi,$$
+so that all of the terms of $M$ except the first two disappear.</p>
+<p>When the associated real variables are introduced, and we let $\sigma$ and $s$ denote the real constants $2\pi\lambda/\sqrt{-1}$ and $2\pi l/\sqrt{-1}$ respectively, we obtain formulas defining $T$,
+$$\begin{aligned}p_1&amp;=p_0\cos(\sigma+sr_0^2)-q_0\sin(\sigma+sr_0^2)+P,\\q_1&amp;=p_0\sin(\sigma+sr_0^2)+q_0\cos(\sigma+sr_0^2)+Q,\end{aligned}\qquad (r_0^2=p_0^2+q_0^2),\tag{1}$$
+where $P,Q$ are real power series in $p_0,q_0$ with initial terms of degree $2\mu+1$ at least. It is apparent then that with these variables $T$ is an ordinary rotation through a variable angle $\sigma+sr_0^2$, except for terms of order $2\mu+1$ in the distance from the origin. It is such a choice of variables that will be adopted. If $l\ne0$, we may take $s$ as positive.</p>
+</section><section class="edition-passage" id="original-twist-estimates-radial" data-passage="twist-estimates-radial"><p>Hence we have, in some fixed neighborhood of the origin and for a fixed $K$,
+$$|P|,|Q|\leq Kr_0^{2\mu+1}.\tag{2}$$
+From the above formulas we find at once
+$$r_1^2=r_0^2+R,\tag{3}$$
+where the series $R$ begins with terms of at least the degree $2\mu+2$. This gives, for the increment $\Delta r_0^2=r_1^2-r_0^2$,
+$$|\Delta r_0^2|\leq Lr_0^{2\mu+2}\tag{4}$$
+where $L$ is a fixed constant.</p>
+<p>From (4) it is seen that $r_n^2$ increases less rapidly upon successive iteration than if
+$$dr_n^2/dn=Lr_n^{2\mu+2}.$$
+But this yields
+$$r_n=r_0/(1-L\mu r_0^{2\mu}n)^{1/2\mu}.$$
+Hence $r_n$ can only increase to twice the initial value $r_0$ after $n\geq\nu$ iterations, where
+$$L\mu\nu=(1-2^{-2\mu})/r_0^{2\mu},$$
+that is for $n$ of at least the order of $r_0^{-2\mu}$. Likewise $r_n$ can only decrease to half the initial value for $n$ of the same order. These results may be combined in the form
+$$\frac12\leq r_n/r_0\leq2\qquad(n\leq Nr_0^{-2\mu}).\tag{5}$$
+This is our first important conclusion.</p>
+</section><section class="edition-passage" id="original-twist-estimates-variational" data-passage="twist-estimates-variational"><p>Likewise since we have from (1)
+$$\frac{q_1p_0-p_1q_0}{p_1p_0+q_1q_0}=\frac{(p_0^2+q_0^2)\sin(\sigma+sr_0^2)+p_0Q-q_0P}{(p_0^2+q_0^2)\cos(\sigma+sr_0^2)+q_0Q+p_0P},$$
+it follows that we have
+$$\theta_1=\theta_0+\sigma+sr_0^2+\Theta\tag{6}$$
+where $\Theta$ is a power series in $r_0$ beginning with terms of degree $2\mu$ at least, with coefficients of simple trigonometric type in $\theta_0$. Moreover $\Theta$ is uniformly and absolutely convergent for $r_0$ sufficiently small, and its partial derivatives are given by derived series of a similar sort. This formula shows that for $r_0=0$, we have $\theta_n=\theta_0+n\sigma$, while for $r_0&gt;0$, the difference $\theta_n-\theta_0-n\sigma$ can be made arbitrarily large by taking $n$ sufficiently large but in the range (5).</p>
+<p>By the aid of (3) and (6) we obtain
+$$\begin{aligned}\left|\frac{\partial\rho_1}{\partial\rho_0}-1\right|&amp;\leq A\rho_0^\mu,&amp;\left|\frac{\partial\rho_1}{\partial\theta_0}\right|&amp;\leq A\rho_0^{\mu+1},\\\left|\frac{\partial\theta_1}{\partial\rho_0}-s\right|&amp;\leq A\rho_0^{\mu-1},&amp;\left|\frac{\partial\theta_1}{\partial\theta_0}-1\right|&amp;\leq A\rho_0^\mu,\end{aligned}\tag{7}$$
+where we have written $\rho=r^2$, and where $A$ is a suitably chosen positive constant.</p>
+<p>But the identities
+$$\begin{aligned}\frac{\partial\rho_n}{\partial\rho_0}&amp;=\frac{\partial\rho_n}{\partial\rho_{n-1}}\frac{\partial\rho_{n-1}}{\partial\rho_0}+\frac{\partial\rho_n}{\partial\theta_{n-1}}\frac{\partial\theta_{n-1}}{\partial\rho_0},\\\frac{\partial\theta_n}{\partial\rho_0}&amp;=\frac{\partial\theta_n}{\partial\rho_{n-1}}\frac{\partial\rho_{n-1}}{\partial\rho_0}+\frac{\partial\theta_n}{\partial\theta_{n-1}}\frac{\partial\theta_{n-1}}{\partial\rho_0}\end{aligned}$$
+may be written
+$$u_n=(1+\varepsilon_1)u_{n-1}+\varepsilon_2v_{n-1},\qquad v_n=(s+\varepsilon_3)u_{n-1}+(1+\varepsilon_4)v_{n-1},\tag{8}$$
+in which we put
+$$u_n=\partial\rho_n/\partial\rho_0,\qquad v_n=\partial\theta_n/\partial\rho_0,$$
+while, by (5) and (7), for $n\leq N\rho_0^{-\mu}$,
+$$|\varepsilon_1|\leq2^\mu A\rho_0^\mu,\quad |\varepsilon_2|\leq2^{\mu+1}A\rho_0^{\mu+1},\quad |\varepsilon_3|\leq2^{\mu-1}A\rho_0^{\mu-1},\quad |\varepsilon_4|\leq2^\mu A\rho_0^\mu.$$
+These equations (8) enable us to determine $u_n,v_n$ in succession for $n=1,2,\cdots$, with the initial conditions $u_0=1,v_0=0$.</p>
+</section><section class="edition-passage" id="original-twist-estimates-comparison" data-passage="twist-estimates-comparison"><p>Suppose now for a moment that the small terms be neglected in these equations (8). They then take the form
+$$u_n=u_{n-1},\qquad v_n=su_{n-1}+v_{n-1},$$
+whence, by elimination of $u$, we obtain
+$$\Delta^2v_n=v_{n+2}-2v_{n+1}+v_n=0.$$
+It is easily verified that the complete result of elimination yields similarly
+$$\Delta^2v_n=\varepsilon_5\Delta v_n+\varepsilon_6v_n,\tag{9}$$
+in which we have
+$$|\varepsilon_5|,|\varepsilon_6|\leq B\rho_0^{\mu-1}\qquad(n\leq N\rho_0^{-\mu})\tag{10}$$
+within a small region about the origin. Furthermore, the initial conditions may be written
+$$v_0=0,\qquad\Delta v_0=s+\varepsilon_3^0,\tag{11}$$
+where $\varepsilon_3^0$ denotes the value of $\varepsilon_3$ when $\rho_{n-1},\theta_{n-1}$ are replaced by $\rho_0,\theta_0$ respectively.</p>
+<p>It is obvious that $v_1=s+\varepsilon_3^0$ is positive and thence, by use of (9), $v_2,v_3,\cdots$ are also positive for $n=1,2,\cdots$ until $n$ becomes large if $\rho_0$ is small enough, the approximate value of $v_n$ being $ns$. We desire to obtain a more definite idea of the range of values for $\rho_0$ and $n$ for which $v_n$ remains positive. During this range the angular variable $\theta_n$ increases with $r_0$, for a fixed angle $\theta_0$.</p>
+<p>Now the equation (9) is a homogeneous linear difference equation of the second order in $v_n$, and we are considering the particular solution satisfying (11). Evidently $v_n$ will remain positive so long as $\Delta v_n$ continues positive. A first question is then to determine the range of values of $n$ throughout which both $v_n$ and $\Delta v_n$ necessarily remain positive. But the linear difference equation yields
+$$\Delta^2v_n\geq-B\rho_0^{\mu-1}[|\Delta v_n|+|v_n|],$$
+so that clearly $v_n$ and $\Delta v_n$ diminish less rapidly than if
+$$\Delta^2v_n=-B\rho_0^{\mu-1}[\Delta v_n+v_n],$$
+while $v_n$ and $\Delta v_n$ remain positive. Thus $v_n$ and $\Delta v_n$ will remain positive for $n=1,2,\cdots$, at least as long as for the solution of the linear difference equation of the second order with constant coefficients
+$$v_{n+2}-(2-B\rho_0^{\mu-1})v_{n+1}+v_n=0$$
+satisfying the initial conditions (11). But this solution is
+$$v_n=(s+\varepsilon_3^0)\frac{e^{\alpha_1n}-e^{\alpha_2n}}{e^{\alpha_1}-e^{\alpha_2}}\tag{12}$$
+where $\alpha_1,\alpha_2$ are defined by the equation
+$$\alpha_i=\log\left(1-\frac12B\rho_0^{\mu-1}\pm\sqrt{-\left(B\rho_0^{\mu-1}-\frac14B^2\rho_0^{2\mu-2}\right)}\right)\qquad(i=1,2).$$
+But $v_n$ and $\Delta v_n$ as thus determined will certainly remain positive until $dv_n/dn$ vanishes, i. e.
+$$e^{(\alpha_1-\alpha_2)n}=\alpha_2/\alpha_1.$$
+Since the leading term in $\alpha_1-\alpha_2$ is clearly
+$$2\sqrt{-B}\rho_0^{(\mu-1)/2}$$
+while the leading term in $\alpha_2/\alpha_1$ is $-1$, this relationship shows that $n$ must be of the reciprocal order $\rho_0^{-(\mu-1)/2}$.</p>
+<p>Hence we infer that so long as $n\leq N^*r_0^{-(\mu-1)}$ (compare with (5)), the angle $\theta_n$ will increase with $r_0$ for fixed $\theta_0$ in the prescribed neighborhood.</p>
+<p>The nature of the inequalities derived above makes it clear that we can select a value of $r_0$ so small, and then of $n$ so large, that the conditions laid down in the lemma are satisfied.</p>
+</section></div></section><section class="edition-panel" id="panel-modernized" role="tabpanel" aria-labelledby="tab-modernized" hidden><h2 class="panel-label">Modernized</h2><p class="unmatched-passage" hidden></p><nav class="counterparts" aria-label="Corresponding Modernized passages" hidden></nav><div class="edition-scroll" tabindex="0" aria-label="Modernized text"><section class="edition-passage" id="modernized-twist-estimates-normal" data-passage="twist-estimates-normal"><h2>Normalize the leading twist</h2>
+<p>Use a real lift of the angle when measuring accumulated rotation. The symbols $P,Q$ denote remainders, not points; $\rho=r^2$, and $\Delta v_n=v_{n+1}-v_n$. Constants in estimates are uniform on a sufficiently small fixed neighborhood. The argument retains the source’s radial estimate, variational recurrence and scalar comparison.</p>
+<p>Let us define $F(u)$ by the equation
+$$luF^2(u)=M(u)-\lambda.$$
+It is clear that $F(u)$ is the square root of a real polynomial of degree $\mu-1$ and constant term $1$. If then we write further
+$$\bar p=F(pq)p,\qquad \bar q=F(pq)q,$$
+it is found that the above normal form for $T$ is further simplified and may be written
+$$\bar p=\bar p_0e^{(\lambda+l\bar p_0\bar q_0)t}+\bar\Phi,\qquad \bar q=\bar q_0e^{-(\lambda+l\bar p_0\bar q_0)t}+\bar\Psi,$$
+so that all of the terms of $M$ except the first two disappear.</p>
+<p>When the associated real variables are introduced, and we let $\sigma$ and $s$ denote the real constants $2\pi\lambda/i$ and $2\pi l/i$ respectively, we obtain formulas defining $T$,
+$$\begin{aligned}p_1&amp;=p_0\cos(\sigma+sr_0^2)-q_0\sin(\sigma+sr_0^2)+P,\\q_1&amp;=p_0\sin(\sigma+sr_0^2)+q_0\cos(\sigma+sr_0^2)+Q,\end{aligned}\qquad (r_0^2=p_0^2+q_0^2),\tag{1}$$
+where $P,Q$ are real power series in $p_0,q_0$ with initial terms of degree $2\mu+1$ at least. It is apparent then that with these variables $T$ is an ordinary rotation through a variable angle $\sigma+sr_0^2$, except for terms of order $2\mu+1$ in the distance from the origin. It is such a choice of variables that will be adopted. If $l\ne0$, we may take $s$ as positive.</p>
+</section><section class="edition-passage" id="modernized-twist-estimates-radial" data-passage="twist-estimates-radial"><h2>Control radial drift</h2>
+<p>Hence we have, in some fixed neighborhood of the origin and for a fixed $K$,
+$$|P|,|Q|\leq Kr_0^{2\mu+1}.\tag{2}$$
+From the above formulas we find at once
+$$r_1^2=r_0^2+R,\tag{3}$$
+where the series $R$ begins with terms of at least the degree $2\mu+2$. This gives, for the increment $\Delta r_0^2=r_1^2-r_0^2$,
+$$|\Delta r_0^2|\leq Lr_0^{2\mu+2}\tag{4}$$
+where $L$ is a fixed constant.</p>
+<p>From (4) it is seen that $r_n^2$ increases less rapidly upon successive iteration than if
+$$dr_n^2/dn=Lr_n^{2\mu+2}.$$
+But this yields
+$$r_n=r_0/(1-L\mu r_0^{2\mu}n)^{1/2\mu}.$$
+Hence $r_n$ can only increase to twice the initial value $r_0$ after $n\geq\nu$ iterations, where
+$$L\mu\nu=(1-2^{-2\mu})/r_0^{2\mu},$$
+that is for $n$ of at least the order of $r_0^{-2\mu}$. Likewise $r_n$ can only decrease to half the initial value for $n$ of the same order. These results may be combined in the form
+$$\frac12\leq r_n/r_0\leq2\qquad(n\leq Nr_0^{-2\mu}).\tag{5}$$
+This is our first important conclusion.</p>
+</section><section class="edition-passage" id="modernized-twist-estimates-variational" data-passage="twist-estimates-variational"><h2>Differentiate the iterates</h2>
+<p>Likewise since we have from (1)
+$$\frac{q_1p_0-p_1q_0}{p_1p_0+q_1q_0}=\frac{(p_0^2+q_0^2)\sin(\sigma+sr_0^2)+p_0Q-q_0P}{(p_0^2+q_0^2)\cos(\sigma+sr_0^2)+q_0Q+p_0P},$$
+it follows that we have
+$$\theta_1=\theta_0+\sigma+sr_0^2+\Theta\tag{6}$$
+where $\Theta$ is a power series in $r_0$ beginning with terms of degree $2\mu$ at least, with coefficients of simple trigonometric type in $\theta_0$. Moreover $\Theta$ is uniformly and absolutely convergent for $r_0$ sufficiently small, and its partial derivatives are given by derived series of a similar sort. This formula shows that for $r_0=0$, we have $\theta_n=\theta_0+n\sigma$, while for $r_0&gt;0$, the difference $\theta_n-\theta_0-n\sigma$ can be made arbitrarily large by taking $n$ sufficiently large but in the range (5).</p>
+<p>By the aid of (3) and (6) we obtain
+$$\begin{aligned}\left|\frac{\partial\rho_1}{\partial\rho_0}-1\right|&amp;\leq A\rho_0^\mu,&amp;\left|\frac{\partial\rho_1}{\partial\theta_0}\right|&amp;\leq A\rho_0^{\mu+1},\\\left|\frac{\partial\theta_1}{\partial\rho_0}-s\right|&amp;\leq A\rho_0^{\mu-1},&amp;\left|\frac{\partial\theta_1}{\partial\theta_0}-1\right|&amp;\leq A\rho_0^\mu,\end{aligned}\tag{7}$$
+where we have written $\rho=r^2$, and where $A$ is a suitably chosen positive constant.</p>
+<p>But the identities
+$$\begin{aligned}\frac{\partial\rho_n}{\partial\rho_0}&amp;=\frac{\partial\rho_n}{\partial\rho_{n-1}}\frac{\partial\rho_{n-1}}{\partial\rho_0}+\frac{\partial\rho_n}{\partial\theta_{n-1}}\frac{\partial\theta_{n-1}}{\partial\rho_0},\\\frac{\partial\theta_n}{\partial\rho_0}&amp;=\frac{\partial\theta_n}{\partial\rho_{n-1}}\frac{\partial\rho_{n-1}}{\partial\rho_0}+\frac{\partial\theta_n}{\partial\theta_{n-1}}\frac{\partial\theta_{n-1}}{\partial\rho_0}\end{aligned}$$
+may be written
+$$u_n=(1+\varepsilon_1)u_{n-1}+\varepsilon_2v_{n-1},\qquad v_n=(s+\varepsilon_3)u_{n-1}+(1+\varepsilon_4)v_{n-1},\tag{8}$$
+in which we put
+$$u_n=\partial\rho_n/\partial\rho_0,\qquad v_n=\partial\theta_n/\partial\rho_0,$$
+while, by (5) and (7), for $n\leq N\rho_0^{-\mu}$,
+$$|\varepsilon_1|\leq2^\mu A\rho_0^\mu,\quad |\varepsilon_2|\leq2^{\mu+1}A\rho_0^{\mu+1},\quad |\varepsilon_3|\leq2^{\mu-1}A\rho_0^{\mu-1},\quad |\varepsilon_4|\leq2^\mu A\rho_0^\mu.$$
+These equations (8) enable us to determine $u_n,v_n$ in succession for $n=1,2,\cdots$, with the initial conditions $u_0=1,v_0=0$.</p>
+</section><section class="edition-passage" id="modernized-twist-estimates-comparison" data-passage="twist-estimates-comparison"><h2>A comparison difference equation</h2>
+<p>Suppose now for a moment that the small terms be neglected in these equations (8). They then take the form
+$$u_n=u_{n-1},\qquad v_n=su_{n-1}+v_{n-1},$$
+whence, by elimination of $u$, we obtain
+$$\Delta^2v_n=v_{n+2}-2v_{n+1}+v_n=0.$$
+It is easily verified that the complete result of elimination yields similarly
+$$\Delta^2v_n=\varepsilon_5\Delta v_n+\varepsilon_6v_n,\tag{9}$$
+in which we have
+$$|\varepsilon_5|,|\varepsilon_6|\leq B\rho_0^{\mu-1}\qquad(n\leq N\rho_0^{-\mu})\tag{10}$$
+within a small region about the origin. Furthermore, the initial conditions may be written
+$$v_0=0,\qquad\Delta v_0=s+\varepsilon_3^0,\tag{11}$$
+where $\varepsilon_3^0$ denotes the value of $\varepsilon_3$ when $\rho_{n-1},\theta_{n-1}$ are replaced by $\rho_0,\theta_0$ respectively.</p>
+<p>It is obvious that $v_1=s+\varepsilon_3^0$ is positive and thence, by use of (9), $v_2,v_3,\cdots$ are also positive for $n=1,2,\cdots$ until $n$ becomes large if $\rho_0$ is small enough, the approximate value of $v_n$ being $ns$. We desire to obtain a more definite idea of the range of values for $\rho_0$ and $n$ for which $v_n$ remains positive. During this range the angular variable $\theta_n$ increases with $r_0$, for a fixed angle $\theta_0$.</p>
+<p>Now the equation (9) is a homogeneous linear difference equation of the second order in $v_n$, and we are considering the particular solution satisfying (11). Evidently $v_n$ will remain positive so long as $\Delta v_n$ continues positive. A first question is then to determine the range of values of $n$ throughout which both $v_n$ and $\Delta v_n$ necessarily remain positive. But the linear difference equation yields
+$$\Delta^2v_n\geq-B\rho_0^{\mu-1}[|\Delta v_n|+|v_n|],$$
+so that clearly $v_n$ and $\Delta v_n$ diminish less rapidly than if
+$$\Delta^2v_n=-B\rho_0^{\mu-1}[\Delta v_n+v_n],$$
+while $v_n$ and $\Delta v_n$ remain positive. Thus $v_n$ and $\Delta v_n$ will remain positive for $n=1,2,\cdots$, at least as long as for the solution of the linear difference equation of the second order with constant coefficients
+$$v_{n+2}-(2-B\rho_0^{\mu-1})v_{n+1}+v_n=0$$
+satisfying the initial conditions (11). But this solution is
+$$v_n=(s+\varepsilon_3^0)\frac{e^{\alpha_1n}-e^{\alpha_2n}}{e^{\alpha_1}-e^{\alpha_2}}\tag{12}$$
+where $\alpha_1,\alpha_2$ are defined by the equation
+$$\alpha_i=\log\left(1-\frac12B\rho_0^{\mu-1}\pm\sqrt{-\left(B\rho_0^{\mu-1}-\frac14B^2\rho_0^{2\mu-2}\right)}\right)\qquad(i=1,2).$$
+But $v_n$ and $\Delta v_n$ as thus determined will certainly remain positive until $dv_n/dn$ vanishes, that is,
+$$e^{(\alpha_1-\alpha_2)n}=\alpha_2/\alpha_1.$$
+Since the leading term in $\alpha_1-\alpha_2$ is clearly
+$$2\sqrt{-B}\rho_0^{(\mu-1)/2}$$
+while the leading term in $\alpha_2/\alpha_1$ is $-1$, this relationship shows that $n$ must be of the reciprocal order $\rho_0^{-(\mu-1)/2}$.</p>
+<p>Hence we infer that so long as $n\leq N^*r_0^{-(\mu-1)}$ (compare with (5)), the angle $\theta_n$ will increase with $r_0$ for fixed $\theta_0$ in the prescribed neighborhood.</p>
+<p>The nature of the inequalities derived above makes it clear that we can select a value of $r_0$ so small, and then of $n$ so large, that the conditions laid down in the lemma are satisfied.</p>
+</section></div></section><section class="edition-panel" id="panel-reinterpreted" role="tabpanel" aria-labelledby="tab-reinterpreted" hidden><h2 class="panel-label">Reinterpreted</h2><p class="unmatched-passage" hidden></p><nav class="counterparts" aria-label="Corresponding Reinterpreted passages" hidden></nav><div class="edition-scroll" tabindex="0" aria-label="Reinterpreted text"><article class="continuation"><h2 id="normal">Remainders and the relevant time scale</h2>
+<p>Work in local polar coordinates $\rho=r^2$, with a real lift of $\theta$. Assume a smooth local map has the form</p>
+<p>$$\rho_1=\rho+f(\rho,\theta),\qquad\theta_1=\theta+\sigma+s\rho+g(\rho,\theta),\qquad s&gt;0,$$</p>
+<p>where, uniformly in $\theta$ as $\rho\downarrow0$,</p>
+<p>$$f=O(\rho^{\mu+1}),\quad f_\rho=O(\rho^\mu),\quad f_\theta=O(\rho^{\mu+1}),$$
+$$g=O(\rho^\mu),\quad g_\rho=O(\rho^{\mu-1}),\quad g_\theta=O(\rho^\mu),\qquad\mu\geq2.$$</p>
+<p>These are the finite normal-form estimates supplied by §1, with derivatives interpreted on the punctured disk and limits at its center. A full extra turn at radius $\varepsilon$ requires about $2\pi/(s\varepsilon^2)$ iterates. We therefore need control only through $N=\lceil C\varepsilon^{-2}\rceil$, for a fixed $C&gt;2\pi/s$. We do not need the longest possible stability interval.</p>
+<h2 id="radial">Radial confinement</h2>
+<p>For initial $0&lt;\rho_0\leq\varepsilon^2$, stop at the first iterate leaving $[\rho_0/2,2\rho_0]$. Before that time,</p>
+<p>$$|\rho_j-\rho_0|\leq jK(2\rho_0)^{\mu+1}.$$</p>
+<p>For $j\leq N$, the ratio of this bound to $\rho_0$ is at most a constant times $\varepsilon^{2\mu-2}$, which tends to zero. A first exit is therefore impossible for sufficiently small $\varepsilon$. Uniformly on the initial disk,</p>
+<p>$$\rho_j=\rho_0\bigl(1+O(\varepsilon^{2\mu-2})\bigr),\qquad j\leq N.$$</p>
+<p>Thus $r_j&lt;2\varepsilon$. This elementary bootstrap makes explicit the finite-time confinement that Birkhoff estimates by comparison with a differential equation.</p>
+<h2 id="variational">Derivative growth as a shear</h2>
+<p>Differentiate with respect to $\rho_0$ at fixed $\theta_0$, writing $u_j=\partial\rho_j/\partial\rho_0$ and $v_j=\partial\theta_j/\partial\rho_0$. Then</p>
+<p>$$\binom{u_{j+1}}{v_{j+1}}=
+\begin{pmatrix}1+f_\rho&amp;f_\theta\\s+g_\rho&amp;1+g_\theta\end{pmatrix}_{(\rho_j,\theta_j)}
+\binom{u_j}{v_j},\qquad(u_0,v_0)=(1,0).$$</p>
+<p>The leading matrix is a shear, with exact iterates $(u_j,v_j)=(1,js)$. To estimate its perturbation, put $w_j=\varepsilon^2v_j$. The matrix acting on $(u_j,w_j)$ is</p>
+<p>$$\begin{pmatrix}1+O(\varepsilon^{2\mu})&amp;O(\varepsilon^{2\mu})\\s\varepsilon^2+O(\varepsilon^{2\mu})&amp;1+O(\varepsilon^{2\mu})\end{pmatrix}.$$</p>
+<p>Its norm is at most $1+K\varepsilon^2$. Consequently $|u_j|+|w_j|$ is bounded by a constant depending on $C$ for $j\leq N$, since $(1+K\varepsilon^2)^N\leq e^{KN\varepsilon^2}$. Summing the first row’s increments gives</p>
+<p>$$u_j=1+O(j\varepsilon^{2\mu}).$$</p>
+<p>Substitution into the second, unscaled row and summation gives</p>
+<p>$$v_j=js+O(j^2\varepsilon^{2\mu}+j\varepsilon^{2\mu-2})
+=js+O(j\varepsilon^{2\mu-2}),\qquad j\leq N.$$</p>
+<p>For sufficiently small $\varepsilon$, $v_j&gt;0$ for $1\leq j\leq N$. Hence angular displacement strictly increases with $\rho_0$, and therefore with $r_0&gt;0$. This proof replaces elimination into a second-order scalar recurrence by a direct estimate of the derivative matrices.</p>
+<h2 id="comparison">One extra turn before leaving the neighborhood</h2>
+<p>At $\rho_0=\varepsilon^2$, sum the angle increments and use radial confinement:</p>
+<p>$$\theta_N-\theta_0-N\sigma
+=sN\varepsilon^2+O(N\varepsilon^{2\mu})
+=sC+o(1)&gt;2\pi.$$</p>
+<p>At the center, the limiting displacement is $N\sigma$. Confinement and monotonicity therefore give exactly the lemma needed by <a href="equilibrium.html?mode=reinterpreted#intersection">§1</a>, for arbitrarily small disks.</p>
+<p>For the integrable model $f=g=0$, the estimates are exact: $\rho_j=\rho_0$ and $\theta_j=\theta_0+j(\sigma+s\rho_0)$. A periodic point with winding $k$ and return period dividing $n$ lies on $\rho_0=(2\pi k/n-\sigma)/s$, when this number is positive. Perturbations generally destroy the whole resonant circle; the intersection argument still supplies periodic points.</p>
+<h2 id="relation">Relation to the source</h2>
+<p>Birkhoff’s pp. 154–159 normalize the frequency, control radial drift, differentiate the iterates, eliminate one derivative, and compare a scalar difference equation with constant coefficients. Modernized retains that route. Reinterpreted uses the same normal-form estimates but works only on the $O(\varepsilon^{-2})$ time scale actually needed. The gain is a direct explanation of why twist accumulates before the error does. The costs are uniform big-$O$ estimates and products of derivative matrices. Neither route establishes confinement for all time or the existence of invariant circles.</p>
+</article>
+</div></section></div>
+<details class="edition-metadata"><summary>Edition notes and correspondences</summary><div class="detail-body"><p>Original uses the retained v1 transcription for §§7–11 and the additive v2 release for §§1–6, from the 1927 text in the photographic 1960 reprint. Line wrapping, page headers and line-end hyphenation are normalized; wording, mathematical claims, notation, historical notes and figures are retained. The edition covers Chapter VI §§1–11, pp. 150–188. References to other chapters remain cross-references.</p><p>Modernized retains the source’s proof route and provisional claims. Reinterpreted supplies alternative arguments and structural explanations, with additional hypotheses and external inputs stated explicitly. An absent counterpart means that this layer does not treat that passage; it is not an equivalence claim.</p><p>The source’s apparent slips are not silently repaired: for example, “by h” on p. 182, the one-crossing/second-conjugate-point notation on p. 184, and “transformation less” on p. 187. Both transcription releases have been checked against the stored scans by the authoring assistant; independent scholarly collation is still outstanding.</p><p>The radial normalizing change need not preserve unweighted coordinate area. The original invariant density still suffices. The constants printed after (8) use powers of 2 although (5), with ρ=r², directly gives powers of 4; constants may be enlarged without changing the order estimate. Modernized retains the displayed historical estimates. Reinterpreted proves the shorter time-scale estimate directly.</p><p><a href="assets/original/v2/twist-estimates.md">Original text</a> · <a href="assets/modernized/twist-estimates.md">Modernized text</a> · <a href="assets/source/transcription-v2.json">Immutable-text manifest</a></p><div id="correspondence-note"></div></div></details>
+<section id="sources" class="support"><h2>Sources and verification</h2><p class="margin-note">The proof-completion and numerical-check statements below concern Reinterpreted. Original preserves the historical arguments, including passages for which no replacement proof is supplied.</p>
+<p>Chapter VI §2, pp. 154–159, in the 1927 text reproduced in the 1960 photographic reprint. Transcription preserves the historical argument; editorial issues appear in the edition notes.</p>
+<div class="page-links"><a href="assets/source/scan-166.png" target="_blank" rel="noopener">154</a><a href="assets/source/scan-167.png" target="_blank" rel="noopener">155</a><a href="assets/source/scan-168.png" target="_blank" rel="noopener">156</a><a href="assets/source/scan-169.png" target="_blank" rel="noopener">157</a><a href="assets/source/scan-170.png" target="_blank" rel="noopener">158</a><a href="assets/source/scan-171.png" target="_blank" rel="noopener">159</a><a href="https://archive.org/details/dynamicalsystems00birk">Archive scan ↗</a></div>
+<details><summary>Mathematical checks <span>Scope and evidence</span></summary><div class="detail-body"><p>The analytic arguments and their external inputs are identified in Relation to the source. Independent checks cover the exact twist model, the perturbed finite-time derivative recurrence, fixed-energy reduction and action shift, frequency targets, displacement indices and polygon first variation. These are consistency checks on specified examples, not proofs of the full annulus theorem or historical minimax claims.</p><p><a href="assets/verify_foundations.py">Check script</a> · <a href="assets/foundations-validation.json">Results</a></p></div></details>
+<p><a href="assets/twist-estimates.md">Reinterpreted mathematical text</a> · <a href="billiard.html#coverage">Chapter coverage</a> · <a href="assets/insights.md">Insight record</a> · <a href="assets/source/source-manifest.json">Source manifest</a></p>
+<p>The existing source-edition rights qualifications apply.</p></section>
+
+<script type="application/json" id="edition-data">{"groups":[{"id":"twist-estimates-normal","label":"Normalize the leading twist","pages":[154],"original":["original-twist-estimates-normal"],"modernized":["modernized-twist-estimates-normal"],"reinterpreted":["normal"],"note":"The radial normalizing change need not preserve unweighted coordinate area. The original invariant density still suffices. The constants printed after (8) use powers of 2 although (5), with ρ=r², directly gives powers of 4; constants may be enlarged without changing the order estimate. Modernized retains the displayed historical estimates. Reinterpreted proves the shorter time-scale estimate directly."},{"id":"twist-estimates-radial","label":"Control radial drift","pages":[155],"original":["original-twist-estimates-radial"],"modernized":["modernized-twist-estimates-radial"],"reinterpreted":["radial"],"note":"Corresponding argument; Reinterpreted may change the proof route. See Relation to the source and the edition notes."},{"id":"twist-estimates-variational","label":"Differentiate the iterates","pages":[155,156,157],"original":["original-twist-estimates-variational"],"modernized":["modernized-twist-estimates-variational"],"reinterpreted":["variational"],"note":"Corresponding argument; Reinterpreted may change the proof route. See Relation to the source and the edition notes."},{"id":"twist-estimates-comparison","label":"A comparison difference equation","pages":[157,158,159],"original":["original-twist-estimates-comparison"],"modernized":["modernized-twist-estimates-comparison"],"reinterpreted":["comparison"],"note":"Corresponding argument; Reinterpreted may change the proof route. See Relation to the source and the edition notes."},{"id":"twist-estimates-relation","label":"Relation to the source","pages":[],"original":[],"modernized":[],"reinterpreted":["relation"],"note":"Additional explanation in Reinterpreted; no separate source passage."}],"editorialNotes":"The radial normalizing change need not preserve unweighted coordinate area. The original invariant density still suffices. The constants printed after (8) use powers of 2 although (5), with ρ=r², directly gives powers of 4; constants may be enlarged without changing the order estimate. Modernized retains the displayed historical estimates. Reinterpreted proves the shorter time-scale estimate directly.","targetLabels":{"normal":"Remainders and the relevant time scale","radial":"Radial confinement","variational":"Derivative growth as a shear","comparison":"One extra turn before leaving the neighborhood","relation":"Relation to the source"}}</script>
+<footer><span>MORDELLIA</span><p>Finite-time twist estimates · 14 October 2026<br>Experimental edition.</p><a href="#top">Back to the beginning ↑</a></footer></main></div></body></html>

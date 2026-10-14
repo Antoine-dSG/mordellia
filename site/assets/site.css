@@ -1,0 +1,28 @@
+/* Collection framing is shared; each book retains its mathematical reading layout. */
+.collection-nav{display:flex;flex-wrap:wrap;align-items:center;gap:8px 28px;padding:12px 5%;border-bottom:1px solid var(--line);font:12px/1.5 var(--sans)}
+.collection-nav a{padding:6px 0;text-decoration:none;color:var(--muted)}
+.collection-nav a:hover{text-decoration:underline;color:var(--teal)}
+.collection-nav a[aria-current]{color:var(--teal);font-weight:600;text-decoration:underline;text-underline-offset:7px}
+.collection-home .home-main{max-width:1160px}
+.collection-intro{max-width:720px;font-size:20px;line-height:1.65;color:var(--muted)}
+.book-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:42px;margin:14px 0 45px}
+.book-card{border-top:2px solid var(--teal);padding-top:25px}
+.book-card h2{font-size:35px;line-height:1.15;margin:17px 0 12px}
+.book-card h2 a{color:var(--ink);text-decoration:none}
+.book-card h2 a:hover{text-decoration:underline}
+.book-card>p{font-size:17px;line-height:1.6}
+.book-card .book-chapter{font:12px/1.7 var(--sans);color:var(--teal)}
+.book-card .book-scope{font:13px/1.8 var(--sans);color:var(--muted);margin:20px 0}
+.book-open{display:inline-flex;gap:20px;align-items:center;padding:8px 0;font:600 13px/1.6 var(--sans)}
+.book-contents{background:none;margin-bottom:0}
+.book-contents summary{font-size:12px}
+.book-contents ol{list-style:none;margin:0;padding:0 0 16px;font:13px/1.6 var(--sans)}
+.book-contents li{padding:6px 0}
+.book-contents li span{color:var(--muted);margin-right:7px}
+.reading-guide h2{font-size:30px;margin-top:0}
+.reading-guide dl{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:28px;margin:0}
+.reading-guide dt{font:600 13px/1.6 var(--sans);color:var(--teal)}
+.reading-guide dd{font-size:16px;line-height:1.7;margin:10px 0 0}
+.reading-guide>p{font:13px/1.8 var(--sans);color:var(--muted);margin:25px 0 0}
+@media(max-width:720px){.collection-nav{padding:10px 22px;gap:4px 18px;font-size:11px}.collection-nav a:first-child{flex-basis:100%}.book-grid{grid-template-columns:1fr;gap:32px;margin-top:0}.book-card h2{font-size:32px}.collection-intro{font-size:18px}.reading-guide dl{grid-template-columns:1fr;gap:22px}.reading-guide dd{margin-top:5px}.masthead .edition{gap:10px}}
+@media print{.collection-nav{display:none}}

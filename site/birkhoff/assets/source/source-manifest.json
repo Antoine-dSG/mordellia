@@ -1,0 +1,170 @@
+{
+  "source_url": "https://archive.org/download/dynamicalsystems00birk/dynamicalsystems00birk.pdf",
+  "retrieved": "2026-10-13",
+  "pdf_sha256": "83bdd062405745de1db748885c1647b730005cc82c7aba96aa6514a1926d2fa0",
+  "edition": "1927 text, 1960 photolithographic reprint",
+  "pages": {
+    "171": {
+      "pdf_page_one_based": 183,
+      "image": "scan-183.png"
+    },
+    "172": {
+      "pdf_page_one_based": 184,
+      "image": "scan-184.png"
+    },
+    "173": {
+      "pdf_page_one_based": 185,
+      "image": "scan-185.png"
+    },
+    "174": {
+      "pdf_page_one_based": 186,
+      "image": "scan-186.png"
+    },
+    "175": {
+      "pdf_page_one_based": 187,
+      "image": "scan-187.png"
+    },
+    "176": {
+      "pdf_page_one_based": 188,
+      "image": "scan-188.png"
+    },
+    "165": {
+      "pdf_page_one_based": 177,
+      "image": "scan-177.png"
+    },
+    "177": {
+      "pdf_page_one_based": 189,
+      "image": "scan-189.png"
+    },
+    "178": {
+      "pdf_page_one_based": 190,
+      "image": "scan-190.png"
+    },
+    "179": {
+      "pdf_page_one_based": 191,
+      "image": "scan-191.png"
+    },
+    "180": {
+      "pdf_page_one_based": 192,
+      "image": "scan-192.png"
+    },
+    "185": {
+      "pdf_page_one_based": 197,
+      "image": "scan-197.png"
+    },
+    "188": {
+      "pdf_page_one_based": 200,
+      "image": "scan-200.png"
+    },
+    "189": {
+      "pdf_page_one_based": 201,
+      "image": "scan-201.png"
+    },
+    "181": {
+      "pdf_page_one_based": 193,
+      "image": "scan-193.png"
+    },
+    "182": {
+      "pdf_page_one_based": 194,
+      "image": "scan-194.png"
+    },
+    "183": {
+      "pdf_page_one_based": 195,
+      "image": "scan-195.png"
+    },
+    "184": {
+      "pdf_page_one_based": 196,
+      "image": "scan-196.png"
+    },
+    "186": {
+      "pdf_page_one_based": 198,
+      "image": "scan-198.png"
+    },
+    "187": {
+      "pdf_page_one_based": 199,
+      "image": "scan-199.png"
+    },
+    "150": {
+      "pdf_page_one_based": 162,
+      "image": "scan-162.png"
+    },
+    "151": {
+      "pdf_page_one_based": 163,
+      "image": "scan-163.png"
+    },
+    "152": {
+      "pdf_page_one_based": 164,
+      "image": "scan-164.png"
+    },
+    "153": {
+      "pdf_page_one_based": 165,
+      "image": "scan-165.png"
+    },
+    "154": {
+      "pdf_page_one_based": 166,
+      "image": "scan-166.png"
+    },
+    "155": {
+      "pdf_page_one_based": 167,
+      "image": "scan-167.png"
+    },
+    "156": {
+      "pdf_page_one_based": 168,
+      "image": "scan-168.png"
+    },
+    "157": {
+      "pdf_page_one_based": 169,
+      "image": "scan-169.png"
+    },
+    "158": {
+      "pdf_page_one_based": 170,
+      "image": "scan-170.png"
+    },
+    "159": {
+      "pdf_page_one_based": 171,
+      "image": "scan-171.png"
+    },
+    "160": {
+      "pdf_page_one_based": 172,
+      "image": "scan-172.png"
+    },
+    "161": {
+      "pdf_page_one_based": 173,
+      "image": "scan-173.png"
+    },
+    "162": {
+      "pdf_page_one_based": 174,
+      "image": "scan-174.png"
+    },
+    "163": {
+      "pdf_page_one_based": 175,
+      "image": "scan-175.png"
+    },
+    "164": {
+      "pdf_page_one_based": 176,
+      "image": "scan-176.png"
+    },
+    "166": {
+      "pdf_page_one_based": 178,
+      "image": "scan-178.png"
+    },
+    "167": {
+      "pdf_page_one_based": 179,
+      "image": "scan-179.png"
+    },
+    "168": {
+      "pdf_page_one_based": 180,
+      "image": "scan-180.png"
+    },
+    "169": {
+      "pdf_page_one_based": 181,
+      "image": "scan-181.png"
+    },
+    "170": {
+      "pdf_page_one_based": 182,
+      "image": "scan-182.png"
+    }
+  },
+  "scope": "Complete Chapter VI §§1–11, printed pp. 150–188; reinterpretations distinguish proved arguments, external inputs and source sketches. See coverage.md.",
+  "local_assets": "Rendered page images; full downloaded PDF is temporary, not an extracted book artifact"
+}

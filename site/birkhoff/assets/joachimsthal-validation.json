@@ -1,0 +1,6 @@
+{
+  "states": 108,
+  "maxIntegralError": 1.9984014443252818e-14,
+  "maxJacobianError": 4.998012115287054e-9,
+  "scope": "Numerical consistency checks; analytic proof in the reading page."
+}

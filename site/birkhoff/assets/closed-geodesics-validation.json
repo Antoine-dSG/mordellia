@@ -1,0 +1,9 @@
+{
+  "matrixCases": 70,
+  "sphereCases": 108,
+  "maxWindingError": 4.884981308350689e-15,
+  "maxInverseDetError": 0,
+  "maxReversalError": 8.881784197001252e-16,
+  "degenerateModel": "a=2: line of fixed points, no individual index",
+  "scope": "Local linear index models and exact sphere reversal. Not a proof of global existence theorems."
+}

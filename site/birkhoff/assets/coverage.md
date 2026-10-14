@@ -1,0 +1,23 @@
+# Chapter VI coverage
+
+Edition status (14 October 2026): **all eleven sections of Chapter VI, printed pp. 150–188, are available in Original and Modernized**, across ten reading units (§§7–8 share one unit). Original v1 for §§7–11 is retained unchanged; additive v2 supplies §§1–6. Both releases have received an authoring-assistant visual check against the scans; independent scholarly collation is outstanding.
+
+Reinterpreted treats each section with explicit mathematical scope. A complete chapter edition does not mean a new complete proof of every theorem Birkhoff invokes or sketches. The table distinguishes written arguments from external inputs, historical proposals and unresolved source issues. PDF page = printed page + 12 (one-based).
+
+| Source | Reinterpreted scope and proof limits |
+| --- | --- |
+| §1, pp. 150–154 | [Periodic points near equilibrium](equilibrium.html). Hamiltonian area, finite normal-form hypotheses, resonant curve and intersection proof of periodic-point accumulation. Normal-form existence remains an input from Chapter III. |
+| §2, pp. 154–159 | [Finite-time twist estimates](twist-estimates.html). Radial bootstrap and derivative-matrix estimates prove the required lemma on the finite time scale; Modernized retains the longer scalar-comparison route. No all-time stability claim. |
+| §3, pp. 159–162 | [Fixed-energy reduction](reduction.html). Restricted canonical action, reduced Hamiltonian, corrected momentum-shift formula and recovery of physical time. Assumes a regular phase-coordinate tube. |
+| §4, pp. 162–165 | [Twist and resonance](limitations.html). Consistent oscillator counterexample, frequency-map linear algebra and fixed-energy distinction. Historical generalization questions remain historical questions; no present-day open-problem or perturbation theorem is claimed. |
+| §5, pp. 165–169 | [Annulus theorem](annulus-theorem.html). Precise lift formulation, explanation of the strata proof sketch, nondegenerate index count and rational-rotation application. Full topological existence and degenerate multiplicity remain the external Poincaré–Birkhoff theorem. |
+| §6, pp. 169–171 | [Variational billiards](variational-billiards.html). Perimeter first variation, reflection law, extremal chords via support functions and maximal winding-one polygons. The second-polygon minimax argument and unrestricted instability assertions are not supplied as proved facts. |
+| §7, pp. 171–173 | [Collision map](billiard.html) and [periodic states](periodic.html). Map, inverse, grazing extension, lift and reversal. Every source passage is present in Original and Modernized; aligned correspondences identify arguments reorganized into §9. |
+| §8, pp. 173–176 | [Invariant measure](billiard.html). Chord-length generating function, exact symplecticity, density, recurrence, circle and ellipse examples. Modernized retains the angle-Jacobian proof. |
+| §9, pp. 176–179 | [Periodic billiard orbits](periodic.html). Periodic-orbit application, least period, counting, reversal and local grazing calculation. Sharper Lazutkin normal form invoked; deeper investigation remains deferred. The p. 179 accumulation proposal is not upgraded to a theorem. |
+| §10, pp. 180–185 | [Geodesic returns](geodesic.html). Crossing annuli, local regularity, Jacobi limits, endpoint monotonicity, lift ambiguity, pinched-case lift and sphere example. Global interception/extension and minimax input are invoked; limiting-set polygon and general signed-index continuation arguments remain in the source-following layers. |
+| §11, pp. 185–188 | [Closed geodesics](closed-geodesics.html). First variation, area, reversal, nondegenerate index count, iterates and reflection construction. Annulus theorem and degree invoked. General minimax/degenerate extension, stable-orbit accumulation and proposed generality are preserved in the source-following layers, with no new proof claimed. |
+
+Section boundaries share pages. §11’s contents-page title is “Application of Poincaré’s theorem to geodesic problem”; its body abbreviates the ending to “to problem.” Chapter VII begins on p. 189 and is outside this edition.
+
+The [insight record](assets/insights.md) consolidates explanatory gains, prerequisites, literature and classifications. Page images, edition provenance and checksums are in the [source manifest](assets/source/source-manifest.json). Each reading page links to check scripts and numerical results. Computation checks examples and implementation, not the external theorems. Existing edition-specific rights qualifications continue to apply; the local preview is not publication clearance.

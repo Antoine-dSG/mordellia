@@ -1,0 +1,106 @@
+{
+  "rationalCircleCases": 95,
+  "maxClosure": 1.7508217098338719e-13,
+  "maxWinding": 3.019806626980426e-14,
+  "maxReverse": 5.329070518200751e-15,
+  "axis": [
+    {
+      "start": 0,
+      "closureError": 6.439293542825908e-15
+    },
+    {
+      "start": 1.5707963267948966,
+      "closureError": 4.440892098500626e-16
+    }
+  ],
+  "grazing": [
+    {
+      "t": 0.4,
+      "errors": [
+        {
+          "theta": 0.08,
+          "hError": 0.0012571894417488794,
+          "angleError": 0.00008158934090946989,
+          "invariantError": 0.000013616077426059636
+        },
+        {
+          "theta": 0.04,
+          "hError": 0.00015376071632895727,
+          "angleError": 0.000016485933718771465,
+          "invariantError": 8.68285268115776e-7
+        },
+        {
+          "theta": 0.02,
+          "hError": 0.000019010072045327897,
+          "angleError": 0.000002474471176292729,
+          "invariantError": 5.466114609553596e-8
+        },
+        {
+          "theta": 0.01,
+          "hError": 0.000002363203375512629,
+          "angleError": 3.3578303768341626e-7,
+          "invariantError": 3.4260411712477845e-9
+        }
+      ]
+    },
+    {
+      "t": 1.1,
+      "errors": [
+        {
+          "theta": 0.08,
+          "hError": 0.0036515552288604036,
+          "angleError": 0.002299395014139105,
+          "invariantError": 0.000016435128487549133
+        },
+        {
+          "theta": 0.04,
+          "hError": 0.00037753579657884284,
+          "angleError": 0.00028588941730736043,
+          "invariantError": 0.0000012615996427961518
+        },
+        {
+          "theta": 0.02,
+          "hError": 0.000042391540156422325,
+          "angleError": 0.0000356845158093583,
+          "invariantError": 8.649281178774171e-8
+        },
+        {
+          "theta": 0.01,
+          "hError": 0.000005004440498071472,
+          "angleError": 0.000004458420776523627,
+          "invariantError": 5.6510750072458205e-9
+        }
+      ]
+    },
+    {
+      "t": 2.2,
+      "errors": [
+        {
+          "theta": 0.08,
+          "hError": 0.0014450533573196478,
+          "angleError": 0.001695069817472682,
+          "invariantError": 0.000033713629264561784
+        },
+        {
+          "theta": 0.04,
+          "hError": 0.0001478003891106916,
+          "angleError": 0.00021520938826601098,
+          "invariantError": 0.0000018774397675669352
+        },
+        {
+          "theta": 0.02,
+          "hError": 0.00001617601198386498,
+          "angleError": 0.000027069184430022803,
+          "invariantError": 1.1053394169402431e-7
+        },
+        {
+          "theta": 0.01,
+          "hError": 0.0000018702923159433227,
+          "angleError": 0.000003393290913413584,
+          "invariantError": 6.701471702216799e-9
+        }
+      ]
+    }
+  ],
+  "scope": "Numerical consistency checks for explicit examples, reversal and local asymptotics; not a proof of the Poincare–Birkhoff theorem."
+}

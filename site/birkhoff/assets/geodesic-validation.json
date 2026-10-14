@@ -1,0 +1,13 @@
+{
+  "sphereStates": 360,
+  "maxSphereError": 8.881784197001252e-16,
+  "maxUnitSpeedError": 3.3306690738754696e-16,
+  "maxTangencyError": 1.5265566588595902e-16,
+  "maxCrossingError": 4.996003610813204e-16,
+  "maxJacobiLimitError": 3.2118974147010704e-11,
+  "jacobiStartingPoints": 7,
+  "maxEndpointDerivativeError": 9.721463634093652e-10,
+  "maxPeriodicityError": 2.8137492336099967e-12,
+  "unequalZeroSpacingExample": 0.5151112379087044,
+  "scope": "Explicit sphere formulas and a variable positive Jacobi coefficient; not a proof of global interception or general strict boundary twist."
+}

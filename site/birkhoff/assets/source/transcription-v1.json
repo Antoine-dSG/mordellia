@@ -1,0 +1,42 @@
+{
+  "version": 1,
+  "created": "2026-10-14",
+  "scope": "Chapter VI §§7–11, from the §7 heading on p.171 through the end of §11 on p.188. Four reading units.",
+  "source_manifest": "source-manifest.json",
+  "collation": "Visual transcription and check against the stored scans by the authoring assistant; independent scholarly collation outstanding.",
+  "normalizations": [
+    "Page headers, printed page numbers and printer signatures omitted.",
+    "Line wrapping and line-end word hyphenation normalized; paragraphs joined across pages.",
+    "Mathematics encoded in TeX; historical footnotes placed beside their referenced passage.",
+    "Figures extracted from the original scans; alignment markers are editorial and not rendered as source prose."
+  ],
+  "immutable_policy": "Do not edit v1 or regenerate its hashes to accept changes. Record errata separately; a corrected release must retain v1 and provide a new version and change record.",
+  "figure_crops": {
+    "figure-175.png": {
+      "scan": "scan-187.png",
+      "box": [
+        397,
+        475,
+        880,
+        903
+      ]
+    },
+    "figure-183.png": {
+      "scan": "scan-195.png",
+      "box": [
+        403,
+        590,
+        865,
+        857
+      ]
+    }
+  },
+  "sha256": {
+    "content/original/v1/closed.md": "f5db8074af2267bf5b375ee657bf1f27dd16130cd7f7aa725ed015d2935ed944",
+    "content/original/v1/geodesic.md": "32f1e4b2a3f2149695785f93f5d596ef39ccfb13a602328d72e34eff6a012533",
+    "content/original/v1/measure.md": "dee3f6c9462173cf0cfc01205ca70facd9dd90f5db11e3a33fa3d8c35e4493ac",
+    "content/original/v1/periodic.md": "7304da47b6ceae3f59fda1a573c0b9447518d16ea0bebf9c43fad432ac24e0c1",
+    "source/figure-175.png": "54fdd2e9bcab9fdb5ba184941ffd9247be60cf8cc80c62e8bbedc773846ea7e6",
+    "source/figure-183.png": "87c14a3605c1143f4aaea5b836643ae18b1700f675362d22158101e431a59bbb"
+  }
+}
