@@ -90,7 +90,12 @@ window.addEventListener('DOMContentLoaded', () => {
       else if (scroll && !compare.checked) missing.scrollIntoView({behavior: 'instant', block: 'start'});
     }
     // A deep single-column scroll position can hide the starts of both new panels.
-    if (scroll && compare.checked) document.querySelector('.edition-toolbar').scrollIntoView({behavior: 'instant', block: 'start'});
+    if (scroll && compare.checked) {
+      // A sticky toolbar's current rectangle cannot locate its original position.
+      const grid = document.querySelector('.edition-grid');
+      const toolbar = document.querySelector('.edition-toolbar');
+      window.scrollTo({top: window.scrollY + grid.getBoundingClientRect().top - toolbar.offsetHeight, behavior: 'instant'});
+    }
   }
   function render(scroll = true, save = true) {
     document.body.classList.toggle('comparing-editions', compare.checked);

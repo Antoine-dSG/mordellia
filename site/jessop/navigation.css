@@ -1,0 +1,20 @@
+.sidebar{padding-top:56px;top:24px;max-height:calc(100vh - 48px);overflow-y:auto;scrollbar-width:thin;padding-right:8px}
+.sidebar .reading-navigation{border:0;margin:0;padding:0;background:none}
+.sidebar .reading-navigation>summary{font:600 10px/1.6 var(--sans);letter-spacing:.1em;text-transform:uppercase;color:var(--teal);padding:0;list-style:none;cursor:default;pointer-events:none}
+.sidebar .reading-navigation>summary::-webkit-details-marker{display:none}
+.sidebar .reading-navigation>summary::before{display:none}
+.sidebar nav{display:block;margin-top:18px;padding:0;border:0;overflow:visible}
+.sidebar nav a{display:block;font:12px/1.5 var(--sans);margin:0;padding:5px 0;white-space:normal}
+.sidebar nav a>span{max-width:none}
+.sidebar .chapter-home{margin-bottom:14px;color:var(--teal)}
+.sidebar ol{list-style:none;padding:0;margin:0}
+.sidebar .chapter-unit{margin:0 0 13px}
+.sidebar nav .chapter-link{display:grid;grid-template-columns:38px minmax(0,1fr);gap:7px;color:var(--ink)}
+.sidebar .chapter-ref{color:var(--muted);font-size:11px;padding-top:1px}
+.sidebar nav .chapter-link[aria-current="page"]{color:var(--teal);font-weight:600}
+.sidebar .page-contents{border-left:1px solid var(--line);margin:9px 0 17px 4px;padding-left:13px}
+.sidebar .page-contents a{font-size:11px;padding:5px 0}
+.sidebar .reading-resources{border-top:1px solid var(--line);padding-top:16px;margin-top:18px}
+.sidebar .reading-resources .eyebrow{margin-bottom:7px;font-size:9px}
+@media(max-width:1000px) and (min-width:721px){.layout{grid-template-columns:190px minmax(0,1fr);gap:25px}.sidebar nav .chapter-link{grid-template-columns:35px minmax(0,1fr)}}
+@media(max-width:720px){.sidebar{padding:18px 0 0;top:0;max-height:none;overflow:visible}.sidebar .reading-navigation{border-bottom:1px solid var(--line);padding-bottom:14px}.sidebar .reading-navigation>summary{pointer-events:auto;cursor:pointer;display:flex;justify-content:space-between;font-size:11px}.sidebar .reading-navigation>summary::after{content:'+';font-size:18px;line-height:1}.sidebar .reading-navigation[open]>summary::after{content:'−'}.sidebar nav{margin-top:18px}.sidebar .reading-resources .eyebrow{display:block}.sidebar .page-contents a{font-size:12px;padding-block:8px}.sidebar nav .chapter-link{padding-block:9px}.sidebar .chapter-home,.sidebar .reading-resources a{padding-block:9px}}

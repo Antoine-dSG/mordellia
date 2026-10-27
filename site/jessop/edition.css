@@ -1,0 +1,25 @@
+/* The historical text is the default reading surface. */
+[hidden]{display:none!important}
+.edition-toolbar{position:sticky;top:0;z-index:9;background:var(--paper);border-block:1px solid var(--line);padding:12px 0;font:13px/1.4 var(--sans)}
+.edition-controls{display:flex;align-items:center;justify-content:space-between;gap:16px}
+.edition-controls [role=tablist]{display:flex;flex-wrap:wrap;gap:4px}
+.edition-toolbar button{border:1px solid transparent;border-radius:4px;background:transparent;color:var(--muted);padding:9px 12px;font:inherit}
+.edition-toolbar button[aria-selected=true]{color:var(--teal);background:var(--wash);border-color:#b9ceca}
+.edition-toolbar button:disabled{opacity:.35;cursor:default}.compare-switch{display:flex;align-items:center;gap:6px;white-space:nowrap}
+.edition-toolbar input{accent-color:var(--teal)}.comparison-choices{display:flex;align-items:center;gap:16px;padding:10px 0;color:var(--muted)}
+.comparison-choices fieldset{display:flex;gap:14px;flex-wrap:wrap;border:0;padding:0;margin:0}.comparison-choices legend{position:absolute;clip:rect(0,0,0,0);width:1px;height:1px;overflow:hidden}
+.passage-navigation{display:flex;align-items:center;gap:8px;margin-top:6px}.passage-navigation select{min-width:0;max-width:100%;flex:1;padding:7px;border:1px solid var(--line);background:var(--paper);color:var(--ink);font:inherit}.passage-navigation button{padding:6px 12px;color:var(--teal)}
+.edition-grid{display:grid;grid-template-columns:repeat(var(--edition-columns,1),minmax(0,1fr));gap:24px}
+.edition-panel{min-width:0}.edition-panel,.edition-passage{border:0!important;padding:0!important}
+.edition-scroll{max-width:760px;margin:auto;outline-offset:4px;padding:25px 0 40px}.edition-scroll .continuation{border-top:0;padding-top:0}
+.panel-label{display:none}.edition-passage{scroll-margin-top:160px}.edition-scroll [id]{scroll-margin-top:160px}
+.edition-passage h2{font-size:30px;margin-top:34px}.historical-note{font-size:15px;line-height:1.6;border-left:2px solid var(--line);padding-left:16px;margin:22px 0}.historical-figure{text-align:center;margin:25px 0}.historical-figure img{max-width:100%;max-height:400px;object-fit:contain}
+.edition-metadata{margin:24px 0}.unmatched-passage{font:14px/1.7 var(--sans);padding:16px;background:var(--wash);scroll-margin-top:170px}.counterparts{display:flex;gap:14px;padding:8px 0;font:12px/1.4 var(--sans)}
+.edition-panel .aligned-passage{border-left-color:var(--teal)}
+.comparing-editions .layout{display:block;max-width:1800px}.comparing-editions .sidebar{display:none}.comparing-editions .hero{padding:25px 0 20px}.comparing-editions h1{font-size:42px}.comparing-editions .edition-scroll{max-height:calc(100dvh - 240px);overflow:auto;overscroll-behavior:contain;padding:16px 18px 35px;font-size:17px;scroll-behavior:auto}.comparing-editions .edition-panel{border:1px solid var(--line)!important}.comparing-editions .panel-label{display:block;font:600 12px/1.5 var(--sans);letter-spacing:.06em;color:var(--teal);padding:12px 18px;margin:0;border-bottom:1px solid var(--line)}
+.comparing-editions .edition-scroll h2{font-size:27px}.comparing-editions .unmatched-passage,.comparing-editions .counterparts{margin:10px 14px}.comparing-editions .edition-grid{gap:16px}.comparing-editions .edition-scroll .theorem{padding:16px}.comparing-editions .edition-scroll .continuation h2{margin-top:24px}
+@media(max-width:1000px){.comparing-editions .edition-grid{gap:10px}.comparing-editions .edition-scroll{padding:12px;font-size:16px}.comparison-choices{flex-wrap:wrap;gap:8px}}
+@media(max-width:720px){.edition-controls{gap:6px;align-items:flex-start}.edition-toolbar{font-size:11px;padding:8px 0}.edition-toolbar button{padding:8px 6px}.edition-controls [role=tablist]{gap:0}.compare-switch{padding-top:8px}.passage-navigation{gap:3px}.passage-navigation>label{display:none}.edition-scroll{padding:18px 0 25px}.edition-passage h2{font-size:28px}.comparing-editions .edition-grid{grid-template-columns:1fr}.comparing-editions .edition-scroll{max-height:55dvh;font-size:17px}.comparing-editions .hero h1{font-size:36px}.comparison-choices fieldset{gap:8px}.comparison-choices #compare-hint{display:none}}
+@media print{.edition-toolbar,.sidebar,.masthead{display:none}.comparing-editions .edition-scroll{max-height:none;overflow:visible}}
+
+.counterparts{flex-wrap:wrap;align-items:baseline}.counterparts>span{color:var(--muted)}
