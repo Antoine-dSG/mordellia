@@ -2,17 +2,31 @@
 window.addEventListener('DOMContentLoaded', () => {
   const data = document.getElementById('edition-data');
   if (!data) return;
-  const {groups, targetLabels = {}, sourcePageOffset = 12, sourcePageFiles = {}} = JSON.parse(data.textContent);
+  const {groups, targetLabels = {}} = JSON.parse(data.textContent);
   const modes = ['original', 'modernized', 'reinterpreted'];
   const panels = Object.fromEntries(modes.map(mode => [mode, document.getElementById(`panel-${mode}`)]));
   const tabs = [...document.querySelectorAll('[data-edition-mode]')];
   const compare = document.getElementById('edition-compare');
   const choices = document.querySelector('.comparison-choices');
   const checks = [...choices.querySelectorAll('input')];
-  const select = document.getElementById('edition-passage');
-  const note = document.getElementById('correspondence-note');
-  const previous = document.getElementById('passage-previous');
-  const next = document.getElementById('passage-next');
+  const passageLinks = [...document.querySelectorAll('[data-concept]')];
+  const contentsToggle = document.getElementById('contents-toggle');
+  const contentsList = document.getElementById('contents-list');
+  const narrow = matchMedia('(max-width: 800px)');
+  function showContents(open) {
+    contentsToggle.hidden = !narrow.matches;
+    contentsToggle.setAttribute('aria-expanded', String(open));
+    contentsList.hidden = narrow.matches && !open;
+  }
+  showContents(false);
+  narrow.addEventListener('change', () => showContents(false));
+  contentsToggle.addEventListener('click', () => showContents(contentsList.hidden));
+  contentsToggle.parentElement.addEventListener('keydown', event => {
+    if (event.key === 'Escape' && narrow.matches && !contentsList.hidden) {
+      showContents(false);
+      contentsToggle.focus();
+    }
+  });
   let mode = 'original';
   let group = groups[0];
 
@@ -39,25 +53,11 @@ window.addEventListener('DOMContentLoaded', () => {
     } else target.scrollIntoView({behavior: 'instant', block: 'start'});
   }
   function navigate(scroll = true) {
-    select.value = group.id;
-    previous.disabled = groups.indexOf(group) === 0;
-    next.disabled = groups.indexOf(group) === groups.length - 1;
-    document.querySelectorAll('.aligned-passage').forEach(el => el.classList.remove('aligned-passage'));
-    note.replaceChildren();
-    const explanation = document.createElement('p');
-    explanation.textContent = `${group.label}: ${group.note}`;
-    note.append(explanation);
-    if (group.pages.length) {
-      const links = document.createElement('p');
-      links.append('Source pages: ');
-      for (const page of group.pages) {
-        const link = document.createElement('a');
-        link.href = sourcePageFiles[page] || `assets/source/scan-${Number(page) + sourcePageOffset}.png`;
-        link.textContent = String(page);
-        links.append(link, ' ');
-      }
-      note.append(links);
+    for (const link of passageLinks) {
+      if (link.dataset.concept === group.id) link.setAttribute('aria-current', 'location');
+      else link.removeAttribute('aria-current');
     }
+    document.querySelectorAll('.aligned-passage').forEach(el => el.classList.remove('aligned-passage'));
     for (const activeMode of selectedModes()) {
       const panel = panels[activeMode];
       const targets = group[activeMode].map(id => document.getElementById(id));
@@ -93,7 +93,7 @@ window.addEventListener('DOMContentLoaded', () => {
       // A sticky toolbar's current rectangle cannot locate its original position.
       const grid = document.querySelector('.edition-grid');
       const toolbar = document.querySelector('.edition-toolbar');
-      window.scrollTo({top: window.scrollY + grid.getBoundingClientRect().top - toolbar.offsetHeight, behavior: 'instant'});
+      window.scrollTo({top: window.scrollY + grid.getBoundingClientRect().top - toolbar.offsetHeight - (narrow.matches ? contentsToggle.offsetHeight : 0), behavior: 'instant'});
     }
   }
   function render(scroll = true, save = true) {
@@ -101,7 +101,7 @@ window.addEventListener('DOMContentLoaded', () => {
     choices.hidden = !compare.checked;
     const visible = selectedModes();
     if (!visible.includes(mode)) mode = visible[0];
-    document.querySelector('.edition-grid').style.setProperty('--edition-columns', visible.length);
+    document.querySelector('.edition-grid').dataset.columns = visible.length;
     for (const m of modes) {
       panels[m].hidden = !visible.includes(m);
       // Multiple visible versions are named regions, not simultaneously selected tabpanels.
@@ -137,18 +137,19 @@ window.addEventListener('DOMContentLoaded', () => {
     render();
   });
   checks.forEach(check => check.addEventListener('change', () => render()));
-  select.addEventListener('change', () => {
-    const destination = select.selectedOptions[0].dataset.href;
-    if (destination) {
-      select.value = group.id; // Restore this passage if the reader uses Back.
-      location.assign(destination);
-      return;
-    }
-    group = groups.find(g => g.id === select.value);
-    navigate(); storeURL();
-  });
-  previous.addEventListener('click', () => { group = groups[Math.max(0, groups.indexOf(group) - 1)]; navigate(); storeURL(); });
-  next.addEventListener('click', () => { group = groups[Math.min(groups.length - 1, groups.indexOf(group) + 1)]; navigate(); storeURL(); });
+  for (const link of passageLinks) {
+    link.addEventListener('click', event => {
+      if (event.ctrlKey || event.metaKey || event.shiftKey || event.altKey) return;
+      event.preventDefault();
+      group = groups.find(item => item.id === link.dataset.concept);
+      if (narrow.matches) {
+        showContents(false);
+        contentsToggle.focus({preventScroll: true});
+      }
+      navigate();
+      storeURL();
+    });
+  }
 
   function restore() {
     const params = new URLSearchParams(location.search);

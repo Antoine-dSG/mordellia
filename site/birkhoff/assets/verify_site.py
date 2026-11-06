@@ -22,8 +22,8 @@ class Page(HTMLParser):
         attrs = dict(attrs)
         if 'id' in attrs:
             self.ids.append(attrs['id'])
-        if tag == 'option' and 'data-href' in attrs:
-            self.chapter_links.append(attrs['data-href'])
+        if tag == 'a' and attrs.get('class') in ('book-section', 'book-overview'):
+            self.chapter_links.append(attrs['href'])
         for key in ('href', 'src'):
             if key in attrs:
                 self.links.append(attrs[key])
@@ -59,9 +59,8 @@ for unit in units:
     page = pages[root / unit['url']]
     assert len(re.findall(r'<h1[ >]', page.html)) == 1, unit['id']
     headings = re.findall(r'<h2[^>]*>(.*?)</h2>', page.html, re.S)
-    assert headings[-2:] == ['Relation to the source', 'Sources and verification'], unit['id']
+    assert 'Sources and verification' not in headings, unit['id']
     assert headings.count('Relation to the source') == 1, unit['id']
-    assert '<summary>Mathematical checks <span>Scope and evidence</span></summary>' in page.html, unit['id']
     assert unit['contents'][-1][0] == 'relation', unit['id']
     assert 'a modern reading' not in page.html.lower(), unit['id']
     for mode in ('original', 'modernized', 'reinterpreted'):
@@ -86,7 +85,7 @@ for unit in units:
         assert '<div id="symplectic-proof">' in page.html
         assert 'proof-pair' not in page.html
     assert page.chapter_links == ['./', *[u['url'] for u in units]], unit['id']
-    assert 'class="sidebar"' not in page.html, unit['id']
+    assert page.html.count('class="book-contents"') == 1 and 'id="edition-passage"' not in page.html, unit['id']
     for anchor, _ in unit['contents']:
         assert anchor in page.ids, (unit['id'], anchor)
 for css in root.rglob('*.css'):

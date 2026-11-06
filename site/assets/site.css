@@ -10,7 +10,8 @@
 .collection-main{margin-block:clamp(1.75rem,4vw,3rem) 4rem}
 .collection-intro{display:grid;grid-template-columns:1fr 1.35fr;gap:clamp(1.5rem,4vw,4rem);align-items:start}
 .collection-intro p{margin:0;line-height:1.55}
-.collection-intro p+p{border-left:1px solid var(--rule);padding-left:clamp(1.5rem,4vw,4rem)}
+.version-guide{border-left:1px solid var(--rule);padding-left:clamp(1.5rem,4vw,4rem)}
+.version-guide p+p{margin-top:.7rem}
 .book-list{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));list-style:none;margin:clamp(1.5rem,3.5vw,2.75rem) 0 0;padding:1.6rem 0;border-block:1px solid var(--rule)}
 .book-list li{padding-inline:clamp(.9rem,2.4vw,2rem)}
 .book-list li+li{border-left:1px solid var(--rule)}
@@ -19,7 +20,7 @@
 .book-list cite{display:block;margin-top:.15rem;font-size:var(--body-size);color:var(--teal)}
 .book-list a:hover cite,.book-list a:focus-visible cite{text-decoration:underline}
 @media(max-width:640px){
- .collection-intro{display:block}.collection-intro p+p{border:0;padding:0;margin-top:.75rem}
+ .collection-intro{display:block}.version-guide{border:0;padding:0;margin-top:.75rem}
  .book-list{display:block;padding:0}.book-list li,.book-list li+li{padding:1.15rem 0;border-left:0}
  .book-list li+li{border-top:1px solid var(--rule)}
 }
