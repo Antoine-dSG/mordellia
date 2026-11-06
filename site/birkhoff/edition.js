@@ -11,7 +11,6 @@ window.addEventListener('DOMContentLoaded', () => {
   const checks = [...choices.querySelectorAll('input')];
   const select = document.getElementById('edition-passage');
   const note = document.getElementById('correspondence-note');
-  const nav = document.querySelector('.page-contents');
   const previous = document.getElementById('passage-previous');
   const next = document.getElementById('passage-next');
   let mode = 'original';
@@ -115,16 +114,6 @@ window.addEventListener('DOMContentLoaded', () => {
     }
     const selectedCount = checks.filter(c => c.checked).length;
     for (const check of checks) check.disabled = selectedCount === 2 && check.checked;
-    nav.replaceChildren();
-    for (const item of groups) {
-      if (!compare.checked && !item[mode].length) continue;
-      const li = document.createElement('li');
-      const a = document.createElement('a');
-      a.textContent = item.label;
-      a.href = `#passage-${item.id}`;
-      a.addEventListener('click', event => { event.preventDefault(); group = item; navigate(); storeURL(); });
-      li.append(a); nav.append(li);
-    }
     navigate(scroll);
     if (save) storeURL();
     // Canvas widgets initially hidden need a fresh size when their panel becomes visible.
@@ -148,7 +137,16 @@ window.addEventListener('DOMContentLoaded', () => {
     render();
   });
   checks.forEach(check => check.addEventListener('change', () => render()));
-  select.addEventListener('change', () => { group = groups.find(g => g.id === select.value); navigate(); storeURL(); });
+  select.addEventListener('change', () => {
+    const destination = select.selectedOptions[0].dataset.href;
+    if (destination) {
+      select.value = group.id; // Restore this passage if the reader uses Back.
+      location.assign(destination);
+      return;
+    }
+    group = groups.find(g => g.id === select.value);
+    navigate(); storeURL();
+  });
   previous.addEventListener('click', () => { group = groups[Math.max(0, groups.indexOf(group) - 1)]; navigate(); storeURL(); });
   next.addEventListener('click', () => { group = groups[Math.min(groups.length - 1, groups.indexOf(group) + 1)]; navigate(); storeURL(); });
 

@@ -23,16 +23,6 @@ window.addEventListener('DOMContentLoaded', () => {
   }
   addEventListener('scroll', updateProgress, {passive: true});
   updateProgress();
-  const contents = [...document.querySelectorAll('.page-contents a')];
-  const observer = new IntersectionObserver(entries => {
-    for (const entry of entries) if (entry.isIntersecting) {
-      for (const link of contents) link.classList.toggle('active', link.hash === '#' + entry.target.id);
-    }
-  }, {rootMargin: '-15% 0px -60% 0px'});
-  for (const link of contents) {
-    const target = document.getElementById(link.hash.slice(1));
-    if (target) observer.observe(target);
-  }
   function revealHash() {
     const target = document.getElementById(location.hash.slice(1));
     if (target?.tagName === 'DETAILS') {

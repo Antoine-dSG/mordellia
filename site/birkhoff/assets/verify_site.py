@@ -14,7 +14,7 @@ units = json.loads((pilot / 'preview/sections.json').read_text())['units']
 class Page(HTMLParser):
     def __init__(self, path):
         super().__init__()
-        self.links, self.ids, self.current, self.chapter_links = [], [], [], 0
+        self.links, self.ids, self.chapter_links = [], [], []
         self.html = path.read_text()
         self.feed(self.html)
 
@@ -22,10 +22,8 @@ class Page(HTMLParser):
         attrs = dict(attrs)
         if 'id' in attrs:
             self.ids.append(attrs['id'])
-        if attrs.get('aria-current') == 'page':
-            self.current.append(attrs.get('href'))
-        if 'chapter-link' in attrs.get('class', '').split():
-            self.chapter_links += 1
+        if tag == 'option' and 'data-href' in attrs:
+            self.chapter_links.append(attrs['data-href'])
         for key in ('href', 'src'):
             if key in attrs:
                 self.links.append(attrs[key])
@@ -87,8 +85,8 @@ for unit in units:
     if unit['id'] == 'measure':
         assert '<div id="symplectic-proof">' in page.html
         assert 'proof-pair' not in page.html
-    assert page.current == ['#top'], unit['id']
-    assert page.chapter_links == len(units), unit['id']
+    assert page.chapter_links == ['./', *[u['url'] for u in units]], unit['id']
+    assert 'class="sidebar"' not in page.html, unit['id']
     for anchor, _ in unit['contents']:
         assert anchor in page.ids, (unit['id'], anchor)
 for css in root.rglob('*.css'):
