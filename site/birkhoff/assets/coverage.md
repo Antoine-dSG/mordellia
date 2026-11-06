@@ -1,6 +1,6 @@
 # Chapter VI coverage
 
-Edition status (14 October 2026): **all eleven sections of Chapter VI, printed pp. 150–188, are available in Original and Modernized**, across ten reading units (§§7–8 share one unit). Original v1 for §§7–11 is retained unchanged; additive v2 supplies §§1–6. Both releases have received an authoring-assistant visual check against the scans; independent scholarly collation is outstanding.
+Edition status (14 October 2026): **all eleven sections of Chapter VI, printed pp. 150–188, are available in Original and Modernized**, across ten readings (§§7–8 share one reading). Original v1 for §§7–11 is retained unchanged; additive v2 supplies §§1–6. Both releases have received an authoring-assistant visual check against the scans; independent scholarly collation is outstanding.
 
 Reinterpreted treats each section with explicit mathematical scope. A complete chapter edition does not mean a new complete proof of every theorem Birkhoff invokes or sketches. The table distinguishes written arguments from external inputs, historical proposals and unresolved source issues. PDF page = printed page + 12 (one-based).
 

@@ -1,15 +1,15 @@
-.hero{padding-bottom:26px}.hero h1{font-size:clamp(40px,4.6vw,62px)}
-.edition-scope{max-width:760px;margin:14px auto 0;font:13px/1.7 var(--sans);color:var(--muted)}
-.source-locator{font:11px/1.6 var(--sans);color:var(--muted);border-top:1px solid var(--line);padding-top:18px;margin-top:32px}
-.source-locator strong{font-weight:500}.historical-note{font-size:14px}
-.edition-scroll table,.records table{width:100%;border-collapse:collapse;font-size:15px}
+.hero{padding-bottom:26px}.hero h1{font-size:var(--title)}
+.edition-scope{max-width:760px;margin:14px auto 0;font:var(--small)/1.7 var(--sans);color:var(--muted)}
+.source-locator{font:var(--small)/1.6 var(--sans);color:var(--muted);border-top:1px solid var(--line);padding-top:18px;margin-top:32px}
+.source-locator strong{font-weight:500}.historical-note{font-size:var(--small)}
+.edition-scroll table,.records table{width:100%;border-collapse:collapse;font-size:var(--small)}
 .edition-scroll td,.edition-scroll th,.records td,.records th{padding:10px;border:1px solid var(--line);text-align:left;vertical-align:top}
-.records{max-width:850px;margin:auto;padding:28px 25px}.records h1{font-size:44px}.records h2{font-size:30px}.records code{overflow-wrap:anywhere}.records pre{overflow:auto;font-size:13px}
-.home-note{font:14px/1.8 var(--sans);color:var(--muted);margin:0 0 30px}.reading-resources{overflow-wrap:anywhere}
+.records{max-width:850px;margin:auto;padding:28px 25px}.records h1{font-size:var(--title)}.records h2{font-size:var(--title)}.records code{overflow-wrap:anywhere}.records pre{overflow:auto;font-size:var(--small)}
+.home-note{font:var(--small)/1.8 var(--sans);color:var(--muted);margin:0 0 30px}.reading-resources{overflow-wrap:anywhere}
 
 .math-lab {margin:2rem 0;padding:1.25rem;border:1px solid var(--line,#d5cec0);border-radius:6px;}
 .math-lab label {display:block;margin:.8rem 0;}
 .math-lab select,.math-lab input {max-width:100%;font:inherit;padding:.35rem;}
 .math-lab output {display:block;margin:1rem 0;font-weight:600;line-height:1.6;}
 .edition-passage table {display:block;overflow-x:auto;max-width:100%;}
-@media(max-width:720px){.hero h1{font-size:40px}.edition-scroll table{font-size:13px}.edition-scope{font-size:12px}.records table{display:block;overflow:auto}.records h1{font-size:36px}}
+@media(max-width:720px){.hero h1{font-size:var(--title)}.edition-scroll table{font-size:var(--small)}.edition-scope{font-size:var(--small)}.records table{display:block;overflow:auto}.records h1{font-size:var(--title)}}
