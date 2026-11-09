@@ -59,7 +59,3 @@ $$\theta_N-\theta_0-N\sigma
 At the center, the limiting displacement is $N\sigma$. Confinement and monotonicity therefore give exactly the lemma needed by [§1](equilibrium.html?mode=reinterpreted#intersection), for arbitrarily small disks.
 
 For the integrable model $f=g=0$, the estimates are exact: $\rho_j=\rho_0$ and $\theta_j=\theta_0+j(\sigma+s\rho_0)$. A periodic point with winding $k$ and return period dividing $n$ lies on $\rho_0=(2\pi k/n-\sigma)/s$, when this number is positive. Perturbations generally destroy the whole resonant circle; the intersection argument still supplies periodic points.
-
-## Relation to the source
-
-Birkhoff’s pp. 154–159 normalize the frequency, control radial drift, differentiate the iterates, eliminate one derivative, and compare a scalar difference equation with constant coefficients. Modernized retains that route. Reinterpreted uses the same normal-form estimates but works only on the $O(\varepsilon^{-2})$ time scale actually needed. The gain is a direct explanation of why twist accumulates before the error does. The costs are uniform big-$O$ estimates and products of derivative matrices. Neither route establishes confinement for all time or the existence of invariant circles.

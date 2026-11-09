@@ -49,7 +49,3 @@ $$G=\widetilde F^n-(2\pi k,0).$$
 A zero of $G-\mathrm{id}$ projects to an $n$-periodic point with winding $k$. If $\gcd(k,n)=1$, its least period is $n$: a smaller return period $d$ would divide $n$, and the total winding would be $(n/d)$ times an integer, contradicting coprimality. This is the mechanism used for the billiard and geodesic applications. Boundary behavior must be verified for those particular maps.
 
 For the integrable shear $F(x,y)=(x+\tau(y),y)$, with strictly increasing $\tau$, a rational target is attained on a whole circle. The theorem guarantees at least two points, not exactly two and not necessarily isolated points. The normal-form argument of §1 extracts periodic points without assuming invariant circles in the perturbed problem.
-
-## Relation to the source
-
-The source sketch occupies pp. 165–169. The modern formulation names the lift, displacement map and degree, separates first-point existence from multiplicity, and identifies the degenerate case where index counting is insufficient. These notions clarify what the geometric construction achieves but cost basic covering-space and degree theory. The general theorem remains an external input; neither the source sketch nor a numerical shear example is represented as a complete proof of it.

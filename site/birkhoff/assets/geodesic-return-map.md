@@ -149,9 +149,3 @@ $$j(t)=R\sin(t/R),\qquad c_1=\pi R,\qquad c_2=2\pi R=L.$$
 This is the exceptional equality case: the centered lift in the preceding calculation is the identity, so both boundary displacements are zero. A different lift adds the same whole turn at both boundaries and still cannot give strict opposite signs.
 
 <!--GEODESIC_EXPLORER-->
-
-## Relation to the source
-
-The crossing annuli separate a global question—whether every transverse state returns—from the local calculation of the return map. The Jacobi equation explains the tangent limit and provides an explicit scalar computation; the Wronskian explains circular order. Lifted displacement then isolates the additional condition required for a boundary-twist argument.
-
-The self-crossing index in the original calculation has an operational role: it retains full turns when endpoint coordinates wrap around the circle. It cannot be replaced by a principal-value angle without losing information. The round sphere shows why conjugate points, full turns, and strict twist must be kept distinct. The invariant-measure and fixed-point applications are developed in [§11](closed-geodesics.html).

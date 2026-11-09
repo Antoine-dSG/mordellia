@@ -156,9 +156,3 @@ Here $\Delta m$ is the modeled number of collisions for one circuit. If $K=\max_
 </div></details>
 
 A one-step remainder estimate does not itself prove the existence of an exactly invariant curve or control arbitrarily many iterations. In particular, the formal calculation does not prove the source's proposed accumulation of periodic motions near the boundary. It identifies the approximate invariant and the coordinate system in which such questions can be studied.
-
-## Relation to the source
-
-Birkhoff's pp. 176–179 pass from annulus dynamics to periodic billiard trajectories and then to a formal near-boundary calculation. The reconstruction makes the lift and winding conventions explicit, separates least period from the number of geometrically distinct trajectories, and spells out the effect of reversal. This requires the language of annulus lifts and an external periodic-point theorem; the existence theorem itself is not proved here.
-
-The grazing expansion explains the two curvature powers in the source's differential model: one cancels the leading transverse drift, the other normalizes longitudinal advance. Lazutkin coordinates make this relationship explicit, at the cost of additional coordinate changes and asymptotic notation. The calculation establishes a one-step approximate invariant, not an invariant curve or long-time control. The sharper normal form is cited separately, and the source's stability cross-reference and proposed periodic accumulation remain untreated.

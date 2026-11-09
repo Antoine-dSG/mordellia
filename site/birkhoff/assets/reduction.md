@@ -48,7 +48,3 @@ A reduced solution closing after $q_1$ advances by $2\pi n$ yields a periodic or
 $$\tau_n=\int_{q_1(0)}^{q_1(0)+2\pi n}-K_h(q_1,p_2(q_1),q_2(q_1),h)\,dq_1.$$
 
 This is not in general $n$ times the reference orbit’s period. If the transverse time-period map satisfies the nonresonance and nonzero-twist hypotheses of §§1–2, infinitely many nearby reduced periodic orbits yield infinitely many nearby physical periodic orbits at fixed $h$. Varying $h$ to continue the original orbit is a different operation and does not supply this conclusion.
-
-## Relation to the source
-
-The source, pp. 159–162, substitutes into the action, derives four equations, and eliminates physical time. Modernized retains those steps. Restricting the canonical one-form explains why $-p_1$ becomes the reduced Hamiltonian and why area survives on the section. The proof uses canonical forms and the implicit-function theorem, and explicitly assumes the coordinate tube and nonvanishing phase speed. The corrected time-dependent shift belongs here; Original and Modernized retain the printed expression with an editorial note.

@@ -60,8 +60,6 @@ for unit in units:
     assert len(re.findall(r'<h1[ >]', page.html)) == 1, unit['id']
     headings = re.findall(r'<h2[^>]*>(.*?)</h2>', page.html, re.S)
     assert 'Sources and verification' not in headings, unit['id']
-    assert headings.count('Relation to the source') == 1, unit['id']
-    assert unit['contents'][-1][0] == 'relation', unit['id']
     assert 'a modern reading' not in page.html.lower(), unit['id']
     for mode in ('original', 'modernized', 'reinterpreted'):
         panel = re.search(r'<section[^>]*id="panel-' + mode + r'"[^>]*>', page.html).group()

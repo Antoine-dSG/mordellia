@@ -156,11 +156,3 @@ At a degenerate fixed point, the determinant formula is insufficient. An isolate
 A point of least period $q$ under $F$ gives a closed geodesic with $2q$ crossings per least period. Its $q$ states in $A^+$ are one oriented periodic orbit, not $q$ different curves. Applying a fixed-point theorem to $F^q$ requires checking its boundary rotation and excluding smaller periods, as in [§9](periodic.html#winding); merely taking higher powers does not establish new geodesics.
 
 Suppose further that $S$ has a reflection isometry $\sigma:S\to S$ fixing $\gamma$ pointwise and exchanging its two sides. If a geodesic segment $\eta:[0,b]\to S$ has endpoints on $\gamma$ and is perpendicular to $\gamma$ at both, concatenate it with $t\mapsto\sigma(\eta(2b-t))$, $b\leq t\leq2b$. At each endpoint, $d\sigma$ fixes the tangent to $\gamma$ and reverses its normal. Positions and velocities therefore match at the joins. Geodesic uniqueness gives a smooth closed geodesic. This reduces the symmetric construction to finding an orthogonal return segment; it does not by itself prove that such a segment exists.
-
-## Relation to the source
-
-Birkhoff's flux argument on pp. 185–186 obtains invariant area from conservation of volume in a tube of geodesic trajectories. The length-variation argument gives the same invariant measure and also identifies its exact primitive, linking this problem to the billiard calculation of §8. The modern identity appears in Abbondandolo, Bramham, Hryniewicz and Salomão, [Proposition 2.6](https://arxiv.org/pdf/1410.7790#page=22).
-
-On pp. 186–188 Birkhoff explicitly pairs opposite orientations by an involution and proves equality of their indices. His two-geodesic assertion uses an extended fixed-point theorem yielding opposite indices, under his minimax and conjugate-point hypotheses. Here the strict boundary twist is assumed explicitly, and the opposite-index step is proved with an additional nondegeneracy hypothesis. Neither the minimax input nor the full degenerate extension is proved here.
-
-The final remarks on p. 188 concern iterates, nearby periodic motions around stable geodesics, more general surfaces, and reflection symmetry. The iterate bookkeeping and the reflection construction above are developed; stable-orbit accumulation and the proposed generality are not established by these arguments.

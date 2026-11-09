@@ -41,7 +41,3 @@ This is an explanatory local calculation, not a theorem asserting persistence of
 ## What the historical questions establish
 
 Birkhoff asks whether his local conclusion survives in broader completely stable differential systems and doubts it without preserved area. That is a historical question in Original and Modernized. The rigid-rotation model proves a specific failure when twist vanishes; it does not answer every version of the broader question. The source also distinguishes continuing a periodic orbit by changing conserved quantities from finding different periodic orbits on the same joint level. The distinction remains essential.
-
-## Relation to the source
-
-Pages 162–165 contain the counterexample, a higher-dimensional integrable model, and warnings about first integrals. Action-angle variables expose the frequency map behind the linear equations and clarify why nondegeneracy and fixed-energy nondegeneracy differ. They introduce torus coordinates and an implicit-function calculation. Original retains the printed oscillator coefficients, rotation formulas and “ratios small” sentence; the edition notes identify their inconsistencies. This layer uses consistent equations and limits each inference to its stated model.

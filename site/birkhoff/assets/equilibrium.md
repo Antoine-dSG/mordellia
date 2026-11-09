@@ -43,7 +43,3 @@ Let $k$ be the smallest integer with $2\pi k>n\sigma$. Irrationality makes this 
 **Proof.** Both curves are simple and surround the origin. If disjoint, one bounds a disk strictly contained in the other. The intervening open annulus has positive measure for the smooth invariant density. This contradicts equality of the two disk measures under $T^n$. Choose $Q=T^nP\in C\cap T^nC$, with $P\in C$. The angular equation puts $P,Q$ on the same ray. A radial graph has only one point on a ray, so $P=Q$. ∎
 
 The resulting nonzero periodic points approach the origin as $\varepsilon\to0$. A finite collection of periodic orbits cannot do this, since each has finitely many nonzero points. Hence there are infinitely many distinct periodic orbits near the origin. Their periods are unbounded: for each fixed $n$, $DT^n(0)-I$ is invertible by nonresonance, so the origin is an isolated zero of $T^n-I$.
-
-## Relation to the source
-
-Birkhoff’s pp. 150–154 separate a return map, preserved area, a normal-form lemma and an intersection argument. The reinterpretation makes this dependency explicit and distinguishes finite-order normalization from an infinite convergent normal form. The new language of a preserved two-form costs differential forms; the final intersection proof needs only a positive invariant density and elementary planar topology. The normal-form construction remains an external input from Chapter III. The $2\pi$ normalization issue in the historical lemma is recorded in the edition notes.
