@@ -2,7 +2,7 @@
 window.addEventListener('DOMContentLoaded', () => {
   const data = document.getElementById('edition-data');
   if (!data) return;
-  const {groups, targetLabels = {}} = JSON.parse(data.textContent);
+  const {groups, readingMap, targetLabels = {}} = JSON.parse(data.textContent);
   const modes = ['original', 'modernized', 'reinterpreted'];
   const panels = Object.fromEntries(modes.map(mode => [mode, document.getElementById(`panel-${mode}`)]));
   const tabs = [...document.querySelectorAll('[data-edition-mode]')];
@@ -52,41 +52,41 @@ window.addEventListener('DOMContentLoaded', () => {
       scroller.scrollTop += target.getBoundingClientRect().top - scroller.getBoundingClientRect().top - 12;
     } else target.scrollIntoView({behavior: 'instant', block: 'start'});
   }
-  function navigate(scroll = true) {
+  const comparison = new ComparisonBlocks(panels, readingMap, index => {
+    group = groups[index];
+    updateLinks();
+    storeURL();
+  });
+  function updateLinks() {
     for (const link of passageLinks) {
       if (link.dataset.concept === group.id) link.setAttribute('aria-current', 'location');
       else link.removeAttribute('aria-current');
     }
-    document.querySelectorAll('.aligned-passage').forEach(el => el.classList.remove('aligned-passage'));
     for (const activeMode of selectedModes()) {
       const panel = panels[activeMode];
-      const targets = group[activeMode].map(id => document.getElementById(id));
-      const missing = panel.querySelector('.unmatched-passage');
-      missing.hidden = targets.length > 0;
-      missing.textContent = `No corresponding ${activeMode} passage for “${group.label}”. ${group.note}`;
-      const counterparts = panel.querySelector('.counterparts');
-      counterparts.replaceChildren();
-      counterparts.hidden = targets.length < 2;
-      if (targets.length > 1) {
-        const label = document.createElement('span');
-        label.textContent = 'Corresponding sections:';
-        counterparts.append(label);
+      const related = panel.querySelector('.related-passages');
+      related.open = false;
+      related.hidden = group[activeMode].length < 2;
+      const links = related.querySelector('nav');
+      links.replaceChildren();
+      if (related.hidden) continue;
+      for (const id of group[activeMode]) {
+        const target = document.getElementById(id);
+        const link = document.createElement('a');
+        link.href = `#${id}`;
+        const heading = target.matches('h2,h3,h4') ? target : target.querySelector('h2,h3,h4');
+        link.textContent = targetLabels[id] || heading?.textContent || group.label;
+        link.addEventListener('click', event => { event.preventDefault(); related.open = false; moveTo(target, panel); });
+        links.append(link);
       }
-      targets.forEach(target => {
-        target.classList.add('aligned-passage');
-        if (targets.length > 1) {
-          const link = document.createElement('a');
-          link.href = `#${target.id}`;
-          const heading = target.matches('h2,h3,h4') ? target : target.querySelector('h2,h3,h4');
-          link.textContent = targetLabels[target.id] || heading?.textContent || group.label;
-          link.addEventListener('click', event => { event.preventDefault(); moveTo(target, panel); });
-          counterparts.append(link);
-        }
-      });
-      // An unmatched comparison panel stays explicit instead of suggesting a false match.
-      panel.querySelector('.edition-scroll').hidden = compare.checked && !targets.length;
-      if (scroll && targets.length) moveTo(targets[0], panel);
-      else if (scroll && !compare.checked) missing.scrollIntoView({behavior: 'instant', block: 'start'});
+    }
+  }
+  function navigate(scroll = true) {
+    comparison.reset(compare.checked);
+    updateLinks();
+    for (const activeMode of selectedModes()) {
+      const target = document.getElementById(group[activeMode][0]) || comparison.landing(groups.indexOf(group), activeMode);
+      if (scroll) moveTo(target, panels[activeMode]);
     }
     // A deep single-column scroll position can hide the starts of both new panels.
     if (scroll && compare.checked) {

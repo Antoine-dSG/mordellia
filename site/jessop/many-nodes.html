@@ -1,149 +1,149 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Twelve to sixteen nodes · Jessop · Mordellia</title><link rel="stylesheet" href="style.css"><link rel="stylesheet" href="home.css"><link rel="stylesheet" href="assets/katex/katex.min.css"><link rel="stylesheet" href="edition.css"><link rel="stylesheet" href="jessop.css"><script defer src="assets/katex/katex.min.js"></script><script defer src="assets/katex/contrib/auto-render.min.js"></script><script defer src="reader.js"></script><script defer src="edition.js"></script><script type="module" src="labs.mjs"></script><link rel="stylesheet" href="../assets/site.css?v=4ae54708aa76"></head><body><a class="skip" href="#reading">Skip to reading</a><div id="progress" class="progress"></div><header class="masthead"><a href="../" class="wordmark">MORDELLIA</a></header><nav class="collection-nav" aria-label="Books"><a href="../">Home</a><a href="../birkhoff/">Birkhoff · Dynamical Systems</a><a href="../dickson/">Dickson · Theory of Numbers I</a><a href="../jessop/" aria-current="true">Jessop · Quartic Surfaces</a></nav><div class="layout"><nav class="book-contents" aria-label="Table of contents"><button type="button" id="contents-toggle" aria-controls="contents-list" aria-expanded="false" hidden>Contents</button><div id="contents-list"><a class="book-overview" href="./">Chapter contents</a><ol><li><a class="book-section" href="opening.html">Preface &amp; Introduction · Reading Jessop</a></li><li><a class="book-section" href="fixed-nodes.html">I · §§1–2 · Prescribing nodes</a></li><li><a class="book-section" href="projection.html">I · §3 · Projection from a node</a></li><li><a class="book-section" href="sextics.html">I · §§4–5 · Nodal sextics and their normalizations</a></li><li><a class="book-section" href="eight-nine.html">I · §§6–7 · Eight and nine nodes</a></li><li><a class="book-section" href="ten-eleven.html">I · §§8–9 · Ten and eleven nodes</a></li><li><a class="book-section" href="many-nodes.html" aria-current="page">I · §§10–12 · Twelve to sixteen nodes</a><ul class="book-passages"><li><a href="#original-many-nodes-twelve" data-concept="many-nodes-twelve">Twelve nodes</a></li><li><a href="#original-many-nodes-thirteen" data-concept="many-nodes-thirteen">Thirteen nodes</a></li><li><a href="#original-many-nodes-determinant" data-concept="many-nodes-determinant">The determinant coefficient</a></li><li><a href="#original-many-nodes-fourteen" data-concept="many-nodes-fourteen">Fourteen nodes</a></li><li><a href="#original-many-nodes-six-planes" data-concept="many-nodes-six-planes">The six-plane equation</a></li><li><a href="#original-many-nodes-fifteen-sixteen" data-concept="many-nodes-fifteen-sixteen">An extra-node relation</a></li><li><a href="#original-many-nodes-kummer" data-concept="many-nodes-kummer">The Kummer endpoint</a></li></ul></li></ol></div></nav><main id="reading"><section class="hero" id="top"><div class="eyebrow">Quartic Surfaces with Singular Points · Chapter I</div><h1>Twelve to sixteen nodes</h1></section><div class="edition-toolbar" aria-label="Digital edition controls">
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Twelve to sixteen nodes · Jessop · Mordellia</title><link rel="stylesheet" href="style.css"><link rel="stylesheet" href="home.css"><link rel="stylesheet" href="assets/katex/katex.min.css"><link rel="stylesheet" href="edition.css"><link rel="stylesheet" href="jessop.css"><script defer src="assets/katex/katex.min.js"></script><script defer src="assets/katex/contrib/auto-render.min.js"></script><script defer src="reader.js"></script><script defer src="compare-blocks.js"></script><script defer src="edition.js"></script><script type="module" src="labs.mjs"></script><link rel="stylesheet" href="../assets/site.css?v=4ae54708aa76"></head><body><a class="skip" href="#reading">Skip to reading</a><div id="progress" class="progress"></div><header class="masthead"><a href="../" class="wordmark">MORDELLIA</a></header><nav class="collection-nav" aria-label="Books"><a href="../">Home</a><a href="../birkhoff/">Birkhoff · Dynamical Systems</a><a href="../dickson/">Dickson · Theory of Numbers I</a><a href="../jessop/" aria-current="true">Jessop · Quartic Surfaces</a></nav><div class="layout"><nav class="book-contents" aria-label="Table of contents"><button type="button" id="contents-toggle" aria-controls="contents-list" aria-expanded="false" hidden>Contents</button><div id="contents-list"><a class="book-overview" href="./">Chapter contents</a><ol><li><a class="book-section" href="opening.html">Preface &amp; Introduction · Reading Jessop</a></li><li><a class="book-section" href="fixed-nodes.html">I · §§1–2 · Prescribing nodes</a></li><li><a class="book-section" href="projection.html">I · §3 · Projection from a node</a></li><li><a class="book-section" href="sextics.html">I · §§4–5 · Nodal sextics and their normalizations</a></li><li><a class="book-section" href="eight-nine.html">I · §§6–7 · Eight and nine nodes</a></li><li><a class="book-section" href="ten-eleven.html">I · §§8–9 · Ten and eleven nodes</a></li><li><a class="book-section" href="many-nodes.html" aria-current="page">I · §§10–12 · Twelve to sixteen nodes</a><ul class="book-passages"><li><a href="#original-many-nodes-twelve" data-concept="many-nodes-twelve">Twelve nodes</a></li><li><a href="#original-many-nodes-thirteen" data-concept="many-nodes-thirteen">Thirteen nodes</a></li><li><a href="#original-many-nodes-determinant" data-concept="many-nodes-determinant">The determinant coefficient</a></li><li><a href="#original-many-nodes-fourteen" data-concept="many-nodes-fourteen">Fourteen nodes</a></li><li><a href="#original-many-nodes-six-planes" data-concept="many-nodes-six-planes">The six-plane equation</a></li><li><a href="#original-many-nodes-fifteen-sixteen" data-concept="many-nodes-fifteen-sixteen">An extra-node relation</a></li><li><a href="#original-many-nodes-kummer" data-concept="many-nodes-kummer">The Kummer endpoint</a></li></ul></li></ol></div></nav><main id="reading"><section class="hero" id="top"><div class="eyebrow">Quartic Surfaces with Singular Points · Chapter I</div><h1>Twelve to sixteen nodes</h1></section><div class="edition-toolbar" aria-label="Digital edition controls">
 <div class="edition-controls"><div role="tablist" aria-label="Reading version"><button type="button" role="tab" id="tab-original" aria-controls="panel-original" aria-selected="true" tabindex="0" data-edition-mode="original">Original</button><button type="button" role="tab" id="tab-modernized" aria-controls="panel-modernized" aria-selected="false" tabindex="-1" data-edition-mode="modernized">Modernized</button><button type="button" role="tab" id="tab-reinterpreted" aria-controls="panel-reinterpreted" aria-selected="false" tabindex="-1" data-edition-mode="reinterpreted">Reinterpreted</button></div><label class="compare-switch"><input type="checkbox" id="edition-compare"> Compare</label></div>
-<div class="comparison-choices" hidden><fieldset><legend>Versions to compare</legend><label><input type="checkbox" value="original" checked> Original</label><label><input type="checkbox" value="modernized" > Modernized</label><label><input type="checkbox" value="reinterpreted" checked> Reinterpreted</label></fieldset></div>
+<div class="comparison-choices" hidden><fieldset><legend>Versions to compare</legend><label><input type="checkbox" value="original" checked> Original</label><label><input type="checkbox" value="modernized" > Modernized</label><label><input type="checkbox" value="reinterpreted" checked> Reinterpreted</label></fieldset><span class="align-hint">Double-click text to align.</span></div>
 </div>
-<div class="edition-grid"><section class="edition-panel" id="panel-original" role="tabpanel" aria-labelledby="tab-original" ><h2 class="panel-label">Original</h2><p class="unmatched-passage" hidden></p><nav class="counterparts" aria-label="Corresponding Original passages" hidden></nav><div class="edition-scroll" tabindex="0" aria-label="Original text"><section class="edition-passage" id="original-many-nodes-twelve"><h3>10. Quartic surfaces with twelve nodes.</h3>
-<p>A surface with twelve nodes gives rise to a sextic curve with eleven nodes: this sextic must therefore break up into simpler curves. The cases which provide eleven nodes are the following:</p>
+<div class="edition-grid"><section class="edition-panel" id="panel-original" role="tabpanel" aria-labelledby="tab-original" ><div class="panel-heading"><h2 class="panel-label">Original</h2><details class="related-passages" hidden><summary>Related passages</summary><nav class="counterparts" aria-label="Corresponding Original passages"></nav></details><button type="button" class="align-reading" aria-label="Align at the current Original block" title="Align at the current reading position">Align</button></div><div class="edition-scroll" tabindex="0" aria-label="Original text"><section class="edition-passage" id="original-many-nodes-twelve"><h3 data-reading="0">10. Quartic surfaces with twelve nodes.</h3>
+<p data-reading="1">A surface with twelve nodes gives rise to a sextic curve with eleven nodes: this sextic must therefore break up into simpler curves. The cases which provide eleven nodes are the following:</p>
 <ol>
-<li>a quintic with six nodes, and a straight line,</li>
-<li>a quartic with two nodes, and two straight lines,</li>
-<li>two nodal cubics,</li>
-<li>a cubic, a conic and a straight line,</li>
-<li>a quartic with three nodes, and a conic.</li>
+<li data-reading="2">a quintic with six nodes, and a straight line,</li>
+<li data-reading="3">a quartic with two nodes, and two straight lines,</li>
+<li data-reading="4">two nodal cubics,</li>
+<li data-reading="5">a cubic, a conic and a straight line,</li>
+<li data-reading="6">a quartic with three nodes, and a conic.</li>
 </ol>
-</section><section class="edition-passage" id="original-many-nodes-thirteen"><h3>11. Quartic surfaces with thirteen nodes.</h3>
-<p>The plane sextics with twelve nodes divide themselves into the following classes:</p>
+</section><section class="edition-passage" id="original-many-nodes-thirteen"><h3 data-reading="7">11. Quartic surfaces with thirteen nodes.</h3>
+<p data-reading="8">The plane sextics with twelve nodes divide themselves into the following classes:</p>
 <ol>
-<li>three conics,</li>
-<li>a nodal cubic, a conic and a straight line,</li>
-<li>a trinodal quartic and two straight lines,</li>
-<li>a cubic and three straight lines.</li>
+<li data-reading="9">three conics,</li>
+<li data-reading="10">a nodal cubic, a conic and a straight line,</li>
+<li data-reading="11">a trinodal quartic and two straight lines,</li>
+<li data-reading="12">a cubic and three straight lines.</li>
 </ol>
-</section><section class="edition-passage" id="original-many-nodes-determinant"><p>But since $z=0$ is also a trope it follows that $V\equiv zw'-uv$; hence the equation of the surface is</p>
-<p>$$x^2u^2+y^2v^2+z^2w^2-2yzvw-2zxwu-2xyuv+4xyzw'=0.$$</p>
-<p>This may be written in the form</p>
-<p>$$\begin{vmatrix}0&amp;z&amp;y&amp;u\\z&amp;0&amp;x&amp;v\\y&amp;x&amp;0&amp;w\\u&amp;v&amp;w&amp;w'\end{vmatrix}=0.$$</p>
-<p>This surface is $\mathrm{XIII}_b$.</p>
-</section><section class="edition-passage" id="original-many-nodes-fourteen"><h3>12. Quartic surfaces with fourteen nodes.</h3>
-<p>The plane sextic with thirteen nodes is formed either by two lines and two conics or by three lines and a nodal cubic; it will be seen that either leads to the same fourteen-nodal quartic surface.</p>
-</section><section class="edition-passage" id="original-many-nodes-six-planes"><p>But since $\alpha\beta$ is a pair of tropes it follows that $\rho=-4pq$, hence the surface is, with a slight change of notation,</p>
-<p>$$x^2x'^2+y^2y'^2+z^2z'^2-2yzy'z'-2zxz'x'-2xyx'y'=0,$$</p>
-<p>or</p>
-<p>$$\begin{vmatrix}0&amp;z&amp;y&amp;x'\\z&amp;0&amp;x&amp;y'\\y&amp;x&amp;0&amp;z'\\x'&amp;y'&amp;z'&amp;0\end{vmatrix}=0,$$</p>
-<p>or again $\sqrt{xx'}+\sqrt{yy'}+\sqrt{zz'}=0$.</p>
-</section><section class="edition-passage" id="original-many-nodes-fifteen-sixteen"><h3>Surfaces with fifteen or with sixteen nodes.</h3>
-<p>Between the six planes $x\ldots z'$ there exists a singly infinite number of linear identities; if one of them is of the form</p>
-<p>$$Ax+By+Cz+A'x'+B'y'+C'z'=0,\tag{3}$$</p>
-<p>with the condition</p>
-<p>$$AA'=BB'=CC',$$</p>
-<p>then one condition is imposed upon the system of six planes; and if this condition is satisfied the point given by the equations</p>
-<p>$$Ax=A'x',\qquad By=B'y',\qquad Cz=C'z'$$</p>
-<p>is a node of the surface. For this point is seen to lie on the surface, and at this point the differential equation</p>
-<p>$$\frac{x\,dx'+x'\,dx}{\sqrt{xx'}}+\frac{y\,dy'+y'\,dy}{\sqrt{yy'}}+\frac{z\,dz'+z'\,dz}{\sqrt{zz'}}=0,$$</p>
-<p>giving consecutive points on the tangent plane thereat, becomes</p>
-<p>$$\frac{dx'}{A}+\frac{dx}{A'}+\frac{dy'}{B}+\frac{dy}{B'}+\frac{dz'}{C}+\frac{dz}{C'}=0,$$</p>
-<p>which vanishes identically, as is seen by differentiating the equation (3) and using the condition $AA'=BB'=CC'$. Hence this point is a node of the surface. The surface is therefore fifteen-nodal if this condition is satisfied.</p>
-</section><section class="edition-passage" id="original-many-nodes-kummer"><p>If a second linear identity between the planes $x\ldots z'$ exists, the constants of which are connected by a similar equation, there will be a sixteenth node*, and we have the sixteen-nodal surface of <strong>Kummer</strong>.</p>
+</section><section class="edition-passage" id="original-many-nodes-determinant"><p data-reading="13">But since $z=0$ is also a trope it follows that $V\equiv zw'-uv$; hence the equation of the surface is</p>
+<p data-reading="14">$$x^2u^2+y^2v^2+z^2w^2-2yzvw-2zxwu-2xyuv+4xyzw'=0.$$</p>
+<p data-reading="15">This may be written in the form</p>
+<p data-reading="16">$$\begin{vmatrix}0&amp;z&amp;y&amp;u\\z&amp;0&amp;x&amp;v\\y&amp;x&amp;0&amp;w\\u&amp;v&amp;w&amp;w'\end{vmatrix}=0.$$</p>
+<p data-reading="17">This surface is $\mathrm{XIII}_b$.</p>
+</section><section class="edition-passage" id="original-many-nodes-fourteen"><h3 data-reading="18">12. Quartic surfaces with fourteen nodes.</h3>
+<p data-reading="19">The plane sextic with thirteen nodes is formed either by two lines and two conics or by three lines and a nodal cubic; it will be seen that either leads to the same fourteen-nodal quartic surface.</p>
+</section><section class="edition-passage" id="original-many-nodes-six-planes"><p data-reading="20">But since $\alpha\beta$ is a pair of tropes it follows that $\rho=-4pq$, hence the surface is, with a slight change of notation,</p>
+<p data-reading="21">$$x^2x'^2+y^2y'^2+z^2z'^2-2yzy'z'-2zxz'x'-2xyx'y'=0,$$</p>
+<p data-reading="22">or</p>
+<p data-reading="23">$$\begin{vmatrix}0&amp;z&amp;y&amp;x'\\z&amp;0&amp;x&amp;y'\\y&amp;x&amp;0&amp;z'\\x'&amp;y'&amp;z'&amp;0\end{vmatrix}=0,$$</p>
+<p data-reading="24">or again $\sqrt{xx'}+\sqrt{yy'}+\sqrt{zz'}=0$.</p>
+</section><section class="edition-passage" id="original-many-nodes-fifteen-sixteen"><h3 data-reading="25">Surfaces with fifteen or with sixteen nodes.</h3>
+<p data-reading="26">Between the six planes $x\ldots z'$ there exists a singly infinite number of linear identities; if one of them is of the form</p>
+<p data-reading="27">$$Ax+By+Cz+A'x'+B'y'+C'z'=0,\tag{3}$$</p>
+<p data-reading="28">with the condition</p>
+<p data-reading="29">$$AA'=BB'=CC',$$</p>
+<p data-reading="30">then one condition is imposed upon the system of six planes; and if this condition is satisfied the point given by the equations</p>
+<p data-reading="31">$$Ax=A'x',\qquad By=B'y',\qquad Cz=C'z'$$</p>
+<p data-reading="32">is a node of the surface. For this point is seen to lie on the surface, and at this point the differential equation</p>
+<p data-reading="33">$$\frac{x\,dx'+x'\,dx}{\sqrt{xx'}}+\frac{y\,dy'+y'\,dy}{\sqrt{yy'}}+\frac{z\,dz'+z'\,dz}{\sqrt{zz'}}=0,$$</p>
+<p data-reading="34">giving consecutive points on the tangent plane thereat, becomes</p>
+<p data-reading="35">$$\frac{dx'}{A}+\frac{dx}{A'}+\frac{dy'}{B}+\frac{dy}{B'}+\frac{dz'}{C}+\frac{dz}{C'}=0,$$</p>
+<p data-reading="36">which vanishes identically, as is seen by differentiating the equation (3) and using the condition $AA'=BB'=CC'$. Hence this point is a node of the surface. The surface is therefore fifteen-nodal if this condition is satisfied.</p>
+</section><section class="edition-passage" id="original-many-nodes-kummer"><p data-reading="37">If a second linear identity between the planes $x\ldots z'$ exists, the constants of which are connected by a similar equation, there will be a sixteenth node*, and we have the sixteen-nodal surface of <strong>Kummer</strong>.</p>
 <ul>
-<li>See also a paper by the author, <em>Quarterly Journal of Mathematics</em>, 1900.</li>
+<li data-reading="38">See also a paper by the author, <em>Quarterly Journal of Mathematics</em>, 1900.</li>
 </ul>
-</section></div></section><section class="edition-panel" id="panel-modernized" role="tabpanel" aria-labelledby="tab-modernized" hidden><h2 class="panel-label">Modernized</h2><p class="unmatched-passage" hidden></p><nav class="counterparts" aria-label="Corresponding Modernized passages" hidden></nav><div class="edition-scroll" tabindex="0" aria-label="Modernized text"><section class="edition-passage" id="modernized-many-nodes-twelve"><h2>10. Twelve nodes</h2>
-<p>Projecting a twelve-nodal surface gives a sextic with eleven nodes. It must be reducible. Jessop lists five decompositions: a six-nodal quintic and a line; a two-nodal quartic and two lines; two nodal cubics; a cubic, conic and line; or a three-nodal quartic and conic.</p>
-</section><section class="edition-passage" id="modernized-many-nodes-thirteen"><h2>11. Thirteen nodes</h2>
-<p>The sextic now has twelve nodes. Jessop lists three conics; a nodal cubic, conic and line; a three-nodal quartic and two lines; or a cubic and three lines.</p>
-</section><section class="edition-passage" id="modernized-many-nodes-determinant"><h2>A determinantal equation</h2>
-<p>In Jessop’s construction of $\mathrm{XIII}_b$, the additional trope $z=0$ gives $V=zw'-uv$. Substitution yields</p>
-<p>$$x^2u^2+y^2v^2+z^2w^2-2yzvw-2zxwu-2xyuv+4xyzw'=0.$$</p>
-<p>He then gives the determinant</p>
-<p>$$\det\begin{pmatrix}0&amp;z&amp;y&amp;u\\z&amp;0&amp;x&amp;v\\y&amp;x&amp;0&amp;w\\u&amp;v&amp;w&amp;w'\end{pmatrix}=0.$$</p>
-<p>These are the two displayed expressions in the source. Their coefficient discrepancy is retained here and documented in the edition notes; the corrected identity is in Reinterpreted.</p>
-</section><section class="edition-passage" id="modernized-many-nodes-fourteen"><h2>12. Fourteen nodes</h2>
-<p>The projected sextic has thirteen nodes and consists either of two lines and two conics, or of three lines and a nodal cubic. Jessop argues that both give the same family of fourteen-nodal quartics.</p>
-</section><section class="edition-passage" id="modernized-many-nodes-six-planes"><p>In the construction, requiring the pair of planes $\alpha\beta$ to be tropes forces $\rho=-4pq$. After changing notation, the equation becomes</p>
-<p>$$x^2x'^2+y^2y'^2+z^2z'^2-2yzy'z'-2zxz'x'-2xyx'y'=0.$$</p>
-<p>Here $x,y,z,x',y',z'$ are six linear forms on projective three-space. Equivalently,</p>
-<p>$$\det\begin{pmatrix}0&amp;z&amp;y&amp;x'\\z&amp;0&amp;x&amp;y'\\y&amp;x&amp;0&amp;z'\\x'&amp;y'&amp;z'&amp;0\end{pmatrix}=0.$$</p>
-<p>Jessop abbreviates the polynomial equation as $\sqrt{xx'}+\sqrt{yy'}+\sqrt{zz'}=0$.</p>
-</section><section class="edition-passage" id="modernized-many-nodes-fifteen-sixteen"><h2>Fifteen nodes</h2>
-<p>Suppose the six forms satisfy a linear identity</p>
-<p>$$Ax+By+Cz+A'x'+B'y'+C'z'=0$$</p>
-<p>with $AA'=BB'=CC'$. Jessop locates an additional node at</p>
-<p>$$Ax=A'x',\quad By=B'y',\quad Cz=C'z'.$$</p>
-<p>This point lies on the quartic. The differential of the radical expression, after multiplying by a nonzero scalar, becomes</p>
-<p>$$\frac{dx'}{A}+\frac{dx}{A'}+\frac{dy'}{B}+\frac{dy}{B'}+\frac{dz'}{C}+\frac{dz}{C'}.$$</p>
-<p>The coefficient relation makes this a multiple of the differential of the linear identity, so it vanishes identically. Jessop concludes that the point is a fifteenth node. The required nonvanishing and ordinary-double-point qualifications are separate editorial issues.</p>
-</section><section class="edition-passage" id="modernized-many-nodes-kummer"><p>A second linear identity whose coefficients satisfy the same product condition gives a sixteenth node, yielding Kummer’s surface. Jessop refers to his paper in the <em>Quarterly Journal of Mathematics</em>, 1900.</p>
-</section></div></section><section class="edition-panel" id="panel-reinterpreted" role="tabpanel" aria-labelledby="tab-reinterpreted" hidden><h2 class="panel-label">Reinterpreted</h2><p class="unmatched-passage" hidden></p><nav class="counterparts" aria-label="Corresponding Reinterpreted passages" hidden></nav><div class="edition-scroll" tabindex="0" aria-label="Reinterpreted text"><section class="edition-passage" id="reinterpreted-many-nodes-genus-budget"><h2>Reducible sextics and the genus budget</h2>
-<p>Let a reduced plane sextic have irreducible components $C_1,\ldots,C_r$ of degrees $d_i$, only ordinary nodes, transverse intersections between components, and no triple intersections. Let $g_i$ be the genus of the normalization of $C_i$ and $\delta$ the total number of nodes. Then</p>
-<p>$$\delta=10+r-1-\sum_i g_i.$$</p>
-<p>To prove it, each component contributes $(d_i-1)(d_i-2)/2-g_i$ internal nodes. Bézout contributes $\sum_{i&lt;j}d_id_j$ intersections between distinct components. Add these and use $\sum d_i=6$.</p>
-<p>In particular an irreducible sextic has at most ten nodes. This explains why twelve surface nodes force the branch sextic to split. At the other extreme, six general lines have $\binom62=15$ nodes. A common contact conic and reconstructibility as a quartic remain additional conditions; arbitrary degree partitions do not supply them.</p>
-<div class="math-lab" data-lab="sextic"><h3>Account for the nodes</h3><label>Components <select data-input="partition"><option value="5,1">Quintic + line</option><option value="4,1,1">Quartic + two lines</option><option value="3,3">Two cubics</option><option value="3,2,1">Cubic + conic + line</option><option value="4,2">Quartic + conic</option><option value="2,2,2">Three conics</option><option value="3,1,1,1">Cubic + three lines</option><option value="2,2,1,1">Two conics + two lines</option><option value="2,1,1,1,1">Conic + four lines</option><option value="1,1,1,1,1,1">Six lines</option></select></label><label>Total internal ordinary nodes <input data-input="internal" type="number" min="0" max="6" value="6"></label><output aria-live="polite"></output><p>This is a necessary numerical check under the hypotheses above. It neither constructs the components nor verifies a common contact conic.</p></div>
+</section></div></section><section class="edition-panel" id="panel-modernized" role="tabpanel" aria-labelledby="tab-modernized" hidden><div class="panel-heading"><h2 class="panel-label">Modernized</h2><details class="related-passages" hidden><summary>Related passages</summary><nav class="counterparts" aria-label="Corresponding Modernized passages"></nav></details><button type="button" class="align-reading" aria-label="Align at the current Modernized block" title="Align at the current reading position">Align</button></div><div class="edition-scroll" tabindex="0" aria-label="Modernized text"><section class="edition-passage" id="modernized-many-nodes-twelve"><h2 data-reading="0">10. Twelve nodes</h2>
+<p data-reading="1">Projecting a twelve-nodal surface gives a sextic with eleven nodes. It must be reducible. Jessop lists five decompositions: a six-nodal quintic and a line; a two-nodal quartic and two lines; two nodal cubics; a cubic, conic and line; or a three-nodal quartic and conic.</p>
+</section><section class="edition-passage" id="modernized-many-nodes-thirteen"><h2 data-reading="2">11. Thirteen nodes</h2>
+<p data-reading="3">The sextic now has twelve nodes. Jessop lists three conics; a nodal cubic, conic and line; a three-nodal quartic and two lines; or a cubic and three lines.</p>
+</section><section class="edition-passage" id="modernized-many-nodes-determinant"><h2 data-reading="4">A determinantal equation</h2>
+<p data-reading="5">In Jessop’s construction of $\mathrm{XIII}_b$, the additional trope $z=0$ gives $V=zw'-uv$. Substitution yields</p>
+<p data-reading="6">$$x^2u^2+y^2v^2+z^2w^2-2yzvw-2zxwu-2xyuv+4xyzw'=0.$$</p>
+<p data-reading="7">He then gives the determinant</p>
+<p data-reading="8">$$\det\begin{pmatrix}0&amp;z&amp;y&amp;u\\z&amp;0&amp;x&amp;v\\y&amp;x&amp;0&amp;w\\u&amp;v&amp;w&amp;w'\end{pmatrix}=0.$$</p>
+<p data-reading="9">These are the two displayed expressions in the source. Their coefficient discrepancy is retained here and documented in the edition notes; the corrected identity is in Reinterpreted.</p>
+</section><section class="edition-passage" id="modernized-many-nodes-fourteen"><h2 data-reading="10">12. Fourteen nodes</h2>
+<p data-reading="11">The projected sextic has thirteen nodes and consists either of two lines and two conics, or of three lines and a nodal cubic. Jessop argues that both give the same family of fourteen-nodal quartics.</p>
+</section><section class="edition-passage" id="modernized-many-nodes-six-planes"><p data-reading="12">In the construction, requiring the pair of planes $\alpha\beta$ to be tropes forces $\rho=-4pq$. After changing notation, the equation becomes</p>
+<p data-reading="13">$$x^2x'^2+y^2y'^2+z^2z'^2-2yzy'z'-2zxz'x'-2xyx'y'=0.$$</p>
+<p data-reading="14">Here $x,y,z,x',y',z'$ are six linear forms on projective three-space. Equivalently,</p>
+<p data-reading="15">$$\det\begin{pmatrix}0&amp;z&amp;y&amp;x'\\z&amp;0&amp;x&amp;y'\\y&amp;x&amp;0&amp;z'\\x'&amp;y'&amp;z'&amp;0\end{pmatrix}=0.$$</p>
+<p data-reading="16">Jessop abbreviates the polynomial equation as $\sqrt{xx'}+\sqrt{yy'}+\sqrt{zz'}=0$.</p>
+</section><section class="edition-passage" id="modernized-many-nodes-fifteen-sixteen"><h2 data-reading="17">Fifteen nodes</h2>
+<p data-reading="18">Suppose the six forms satisfy a linear identity</p>
+<p data-reading="19">$$Ax+By+Cz+A'x'+B'y'+C'z'=0$$</p>
+<p data-reading="20">with $AA'=BB'=CC'$. Jessop locates an additional node at</p>
+<p data-reading="21">$$Ax=A'x',\quad By=B'y',\quad Cz=C'z'.$$</p>
+<p data-reading="22">This point lies on the quartic. The differential of the radical expression, after multiplying by a nonzero scalar, becomes</p>
+<p data-reading="23">$$\frac{dx'}{A}+\frac{dx}{A'}+\frac{dy'}{B}+\frac{dy}{B'}+\frac{dz'}{C}+\frac{dz}{C'}.$$</p>
+<p data-reading="24">The coefficient relation makes this a multiple of the differential of the linear identity, so it vanishes identically. Jessop concludes that the point is a fifteenth node. The required nonvanishing and ordinary-double-point qualifications are separate editorial issues.</p>
+</section><section class="edition-passage" id="modernized-many-nodes-kummer"><p data-reading="25">A second linear identity whose coefficients satisfy the same product condition gives a sixteenth node, yielding Kummer’s surface. Jessop refers to his paper in the <em>Quarterly Journal of Mathematics</em>, 1900.</p>
+</section></div></section><section class="edition-panel" id="panel-reinterpreted" role="tabpanel" aria-labelledby="tab-reinterpreted" hidden><div class="panel-heading"><h2 class="panel-label">Reinterpreted</h2><details class="related-passages" hidden><summary>Related passages</summary><nav class="counterparts" aria-label="Corresponding Reinterpreted passages"></nav></details><button type="button" class="align-reading" aria-label="Align at the current Reinterpreted block" title="Align at the current reading position">Align</button></div><div class="edition-scroll" tabindex="0" aria-label="Reinterpreted text"><section class="edition-passage" id="reinterpreted-many-nodes-genus-budget"><h2 data-reading="0">Reducible sextics and the genus budget</h2>
+<p data-reading="1">Let a reduced plane sextic have irreducible components $C_1,\ldots,C_r$ of degrees $d_i$, only ordinary nodes, transverse intersections between components, and no triple intersections. Let $g_i$ be the genus of the normalization of $C_i$ and $\delta$ the total number of nodes. Then</p>
+<p data-reading="2">$$\delta=10+r-1-\sum_i g_i.$$</p>
+<p data-reading="3">To prove it, each component contributes $(d_i-1)(d_i-2)/2-g_i$ internal nodes. Bézout contributes $\sum_{i&lt;j}d_id_j$ intersections between distinct components. Add these and use $\sum d_i=6$.</p>
+<p data-reading="4">In particular an irreducible sextic has at most ten nodes. This explains why twelve surface nodes force the branch sextic to split. At the other extreme, six general lines have $\binom62=15$ nodes. A common contact conic and reconstructibility as a quartic remain additional conditions; arbitrary degree partitions do not supply them.</p>
+<div class="math-lab" data-lab="sextic"><h3 data-reading="5">Account for the nodes</h3><label>Components <select data-input="partition"><option value="5,1">Quintic + line</option><option value="4,1,1">Quartic + two lines</option><option value="3,3">Two cubics</option><option value="3,2,1">Cubic + conic + line</option><option value="4,2">Quartic + conic</option><option value="2,2,2">Three conics</option><option value="3,1,1,1">Cubic + three lines</option><option value="2,2,1,1">Two conics + two lines</option><option value="2,1,1,1,1">Conic + four lines</option><option value="1,1,1,1,1,1">Six lines</option></select></label><label>Total internal ordinary nodes <input data-input="internal" type="number" min="0" max="6" value="6"></label><output aria-live="polite"></output><p data-reading="6">This is a necessary numerical check under the hypotheses above. It neither constructs the components nor verifies a common contact conic.</p></div>
 
-</section><section class="edition-passage" id="reinterpreted-many-nodes-twelve-types"><h2>Twelve nodes: five projections, four surface types</h2>
-<p>The five decompositions on p. 17 each have eleven nodes: $5+1$ needs six internal nodes; $4+1+1$ needs two; $3+3$ needs two; $3+2+1$ needs none; $4+2$ needs three. The same surface can produce different rows when the projection centre changes.</p>
-<p>Jessop’s four resulting types are:</p>
+</section><section class="edition-passage" id="reinterpreted-many-nodes-twelve-types"><h2 data-reading="7">Twelve nodes: five projections, four surface types</h2>
+<p data-reading="8">The five decompositions on p. 17 each have eleven nodes: $5+1$ needs six internal nodes; $4+1+1$ needs two; $3+3$ needs two; $3+2+1$ needs none; $4+2$ needs three. The same surface can produce different rows when the projection centre changes.</p>
+<p data-reading="9">Jessop’s four resulting types are:</p>
 <table>
 <thead>
-<tr>
+<tr data-reading="10">
 <th>Type</th>
 <th>Description</th>
 <th>What is special</th>
 </tr>
 </thead>
-<tbody><tr>
+<tbody><tr data-reading="11">
 <td>$\mathrm{XII}_a$</td>
 <td>symmetroid</td>
 <td>special incidence of associated nodes; also reached by the two-cubic and cubic–conic–line projections</td>
 </tr>
-<tr>
+<tr data-reading="12">
 <td>$\mathrm{XII}_b$</td>
 <td>special $A^2+\rho K_1K_2$</td>
 <td>twelve nodes form three sets of eight associated points</td>
 </tr>
-<tr>
+<tr data-reading="13">
 <td>$\mathrm{XII}_c$</td>
 <td>$A^2+\rho xyzw$</td>
 <td>four tropes</td>
 </tr>
-<tr>
+<tr data-reading="14">
 <td>$\mathrm{XII}_d$</td>
 <td>special $A^2+\rho xyK$</td>
 <td>two tropes; two cone–quartic projections</td>
 </tr>
 </tbody></table>
-<p>The generic four-trope form illustrates the count directly. Each of the six edges of the coordinate tetrahedron meets $A=0$ twice, giving twelve points. At an edge point away from the vertices, local coordinates give a quadratic term of the form $a^2+cuv$ with $c\ne0$, hence an ordinary node. The statement that these are all singularities is a genericity condition, not true for every $A,\rho$.</p>
-<p>The other types and their equivalences use Jessop’s incidence arguments on pp. 17–18. The genus formula checks the possible node totals, not their sufficiency or completeness as a classification.</p>
-</section><section class="edition-passage" id="reinterpreted-many-nodes-thirteen-types"><h2>Thirteen nodes and a coefficient check</h2>
-<p>For twelve nodes on the sextic, the four decompositions are $2+2+2$ with no internal nodes; $3+2+1$ with one; $4+1+1$ with three; and $3+1+1+1$ with none. Jessop reduces them to two surface families. The first, $\mathrm{XIII}_a$, is a special member of $A^2+\rho xyzw$. Away from the coordinate planes its additional node satisfies</p>
-<p>$$xA_x=yA_y=zA_z=wA_w.$$</p>
-<p>Indeed $F=0$ gives $\rho xyzw=-A^2$, while $xF_x=2AxA_x+\rho xyzw=0$ gives $xA_x=A/2$, and similarly for the other coordinates. Conversely these equalities and Euler’s identity determine the same equations when $Axyzw\ne0$, with $\rho$ chosen from $F=0$.</p>
-<p>The second family, $\mathrm{XIII}_b$, is</p>
-<p>$$x^2u^2+y^2v^2+z^2w^2-2yzvw-2zxwu-2xyuv+4xyzw'=0.$$</p>
-<p>Direct determinant expansion yields the identity</p>
-<p>$$\det\begin{pmatrix}0&amp;z&amp;y&amp;u\\z&amp;0&amp;x&amp;v\\y&amp;x&amp;0&amp;w\\u&amp;v&amp;w&amp;2w'\end{pmatrix}
+<p data-reading="15">The generic four-trope form illustrates the count directly. Each of the six edges of the coordinate tetrahedron meets $A=0$ twice, giving twelve points. At an edge point away from the vertices, local coordinates give a quadratic term of the form $a^2+cuv$ with $c\ne0$, hence an ordinary node. The statement that these are all singularities is a genericity condition, not true for every $A,\rho$.</p>
+<p data-reading="16">The other types and their equivalences use Jessop’s incidence arguments on pp. 17–18. The genus formula checks the possible node totals, not their sufficiency or completeness as a classification.</p>
+</section><section class="edition-passage" id="reinterpreted-many-nodes-thirteen-types"><h2 data-reading="17">Thirteen nodes and a coefficient check</h2>
+<p data-reading="18">For twelve nodes on the sextic, the four decompositions are $2+2+2$ with no internal nodes; $3+2+1$ with one; $4+1+1$ with three; and $3+1+1+1$ with none. Jessop reduces them to two surface families. The first, $\mathrm{XIII}_a$, is a special member of $A^2+\rho xyzw$. Away from the coordinate planes its additional node satisfies</p>
+<p data-reading="19">$$xA_x=yA_y=zA_z=wA_w.$$</p>
+<p data-reading="20">Indeed $F=0$ gives $\rho xyzw=-A^2$, while $xF_x=2AxA_x+\rho xyzw=0$ gives $xA_x=A/2$, and similarly for the other coordinates. Conversely these equalities and Euler’s identity determine the same equations when $Axyzw\ne0$, with $\rho$ chosen from $F=0$.</p>
+<p data-reading="21">The second family, $\mathrm{XIII}_b$, is</p>
+<p data-reading="22">$$x^2u^2+y^2v^2+z^2w^2-2yzvw-2zxwu-2xyuv+4xyzw'=0.$$</p>
+<p data-reading="23">Direct determinant expansion yields the identity</p>
+<p data-reading="24">$$\det\begin{pmatrix}0&amp;z&amp;y&amp;u\\z&amp;0&amp;x&amp;v\\y&amp;x&amp;0&amp;w\\u&amp;v&amp;w&amp;2w'\end{pmatrix}
 =x^2u^2+y^2v^2+z^2w^2-2yzvw-2zxwu-2xyuv+4xyzw'.$$</p>
-<p>The bottom-right entry must be $2w'$ for this equality. Jessop prints $w'$ on p. 20, which gives $2xyzw'$ instead. A rescaling of the free parameter leaves the family unchanged, but the displayed equality with the same named forms is incorrect. Original and Modernized preserve it; this corrected identity is explicitly editorial.</p>
-</section><section class="edition-passage" id="reinterpreted-many-nodes-fourteen-form"><h2>Fourteen nodes from six planes</h2>
-<p>Let $x,y,z,x',y',z'$ be six linear forms on $\mathbf P^3$, in sufficiently general position. Set $X=xx'$, $Y=yy'$, $Z=zz'$. Jessop’s fourteen-node equation is</p>
-<p>$$H=X^2+Y^2+Z^2-2XY-2YZ-2ZX=0.$$</p>
-<p>The quadratic form in $X,Y,Z$ is nondegenerate. At each of the eight points obtained by choosing one plane from each pair $(x,x')$, $(y,y')$, $(z,z')$, the three products are local coordinates up to units. This gives eight ordinary nodes.</p>
-<p>On the line $x=x'=0$, the equation becomes $(Y-Z)^2=0$. Its two roots give two more singular points, provided they are distinct and $Y=Z\ne0$. Locally the equation starts as $(Y-Z)^2-4Yxx'$, a nondegenerate quadratic form. The other two pairs contribute two each, for $8+2+2+2=14$ ordinary nodes under these assumptions. Extra singularities may occur away from the six planes for special arrangements.</p>
-<p>The six planes are tropes: setting $x=0$, for example, gives the square $(Y-Z)^2$. The radical shorthand $\sqrt X+\sqrt Y+\sqrt Z=0$ is understood by elimination, not as a global analytic choice of three square roots.</p>
-</section><section class="edition-passage" id="reinterpreted-many-nodes-relation-space"><h2>Fifteen and sixteen: a condition on the space of relations</h2>
-<p>Collect the six linear forms as $\ell=L\mathbf s$, where $L$ is a $6\times4$ matrix of rank four and $\mathbf s$ is a vector of projective coordinates. Linear relations among the forms constitute the two-dimensional kernel of $L^T$, hence a projective line.</p>
-<p>Write a relation as $r=(A,B,C,A',B',C')$. Jessop imposes two quadrics on this relation line:</p>
-<p>$$AA'-BB'=0,\qquad AA'-CC'=0.$$</p>
-<p>The number of common roots, rather than two unrelated mysterious identities, now controls the possible extra nodes. Restricted to the projective relation line these are binary quadratics. Generically they have no common root; a resultant-zero condition allows one; two distinct common roots mean the two nonzero quadratics are proportional. Identically vanishing restrictions and repeated roots are exceptional and must be examined separately.</p>
-<p><strong>Singularity calculation.</strong> Suppose $AA'=BB'=CC'=k\ne0$, and the equations $Ax=A'x'$, $By=B'y'$, $Cz=C'z'$ define a point away from all six planes. Put $u=Ax$, $v=By$, $t=Cz$. The relation gives $u+v+t=0$ and</p>
-<p>$$X=u^2/k,\quad Y=v^2/k,\quad Z=t^2/k.$$</p>
-<p>Substitution gives $H=0$. Moreover</p>
-<p>$$\frac{\partial H}{\partial x}=2(X-Y-Z)x'=\frac{4uvt}{k^2}A,$$</p>
-<p>and similarly for the other five derivatives. Thus $\nabla_{\ell}H$ is proportional to $r$, and the chain rule gives</p>
-<p>$$\nabla_{\mathbf s}H=L^T\nabla_{\ell}H=0.$$</p>
-<p>This proves the extra singularity without differentiating multivalued radicals. To call it an additional ordinary node, check that the three point equations are independent, the point is distinct from the existing fourteen, and its local quadratic form is nondegenerate. Two valid relation roots give two such candidates. These conditions are not automatic for every degenerate arrangement.</p>
-</section><section class="edition-passage" id="reinterpreted-many-nodes-kummer-structure"><h2>The Kummer endpoint</h2>
-<p>Jessop identifies the sixteen-node case as Kummer’s surface. A later structural description starts with an abelian surface $A$, a two-dimensional complex torus that is projective, and takes the quotient by $a\mapsto-a$. The fixed points satisfy $2a=0$. Since $A=\mathbf C^2/\Lambda$ with $\Lambda$ a rank-four lattice, there are $|\Lambda/2\Lambda|=2^4=16$ of them.</p>
-<p>Locally at a fixed point, the involution sends $(u,v)$ to $(-u,-v)$. Its invariant coordinates $U=u^2$, $V=uv$, $W=v^2$ satisfy $UW=V^2$, an ordinary node. This explains the sixteen singularities of the quotient. Realizing a suitable principally polarized quotient as a quartic, and identifying it with Jessop’s plane arrangement, require additional classical theorems; those identifications are not proved here. See <a href="https://dept.math.lsa.umich.edu/~idolga/kummertype.pdf">Dolgachev, K3 Surfaces of Kummer Type, Introduction</a> for the characteristic-not-two background. The construction is a bounded connection, not a replacement classification of every sixteen-node quartic.</p>
+<p data-reading="25">The bottom-right entry must be $2w'$ for this equality. Jessop prints $w'$ on p. 20, which gives $2xyzw'$ instead. A rescaling of the free parameter leaves the family unchanged, but the displayed equality with the same named forms is incorrect. Original and Modernized preserve it; this corrected identity is explicitly editorial.</p>
+</section><section class="edition-passage" id="reinterpreted-many-nodes-fourteen-form"><h2 data-reading="26">Fourteen nodes from six planes</h2>
+<p data-reading="27">Let $x,y,z,x',y',z'$ be six linear forms on $\mathbf P^3$, in sufficiently general position. Set $X=xx'$, $Y=yy'$, $Z=zz'$. Jessop’s fourteen-node equation is</p>
+<p data-reading="28">$$H=X^2+Y^2+Z^2-2XY-2YZ-2ZX=0.$$</p>
+<p data-reading="29">The quadratic form in $X,Y,Z$ is nondegenerate. At each of the eight points obtained by choosing one plane from each pair $(x,x')$, $(y,y')$, $(z,z')$, the three products are local coordinates up to units. This gives eight ordinary nodes.</p>
+<p data-reading="30">On the line $x=x'=0$, the equation becomes $(Y-Z)^2=0$. Its two roots give two more singular points, provided they are distinct and $Y=Z\ne0$. Locally the equation starts as $(Y-Z)^2-4Yxx'$, a nondegenerate quadratic form. The other two pairs contribute two each, for $8+2+2+2=14$ ordinary nodes under these assumptions. Extra singularities may occur away from the six planes for special arrangements.</p>
+<p data-reading="31">The six planes are tropes: setting $x=0$, for example, gives the square $(Y-Z)^2$. The radical shorthand $\sqrt X+\sqrt Y+\sqrt Z=0$ is understood by elimination, not as a global analytic choice of three square roots.</p>
+</section><section class="edition-passage" id="reinterpreted-many-nodes-relation-space"><h2 data-reading="32">Fifteen and sixteen: a condition on the space of relations</h2>
+<p data-reading="33">Collect the six linear forms as $\ell=L\mathbf s$, where $L$ is a $6\times4$ matrix of rank four and $\mathbf s$ is a vector of projective coordinates. Linear relations among the forms constitute the two-dimensional kernel of $L^T$, hence a projective line.</p>
+<p data-reading="34">Write a relation as $r=(A,B,C,A',B',C')$. Jessop imposes two quadrics on this relation line:</p>
+<p data-reading="35">$$AA'-BB'=0,\qquad AA'-CC'=0.$$</p>
+<p data-reading="36">The number of common roots, rather than two unrelated mysterious identities, now controls the possible extra nodes. Restricted to the projective relation line these are binary quadratics. Generically they have no common root; a resultant-zero condition allows one; two distinct common roots mean the two nonzero quadratics are proportional. Identically vanishing restrictions and repeated roots are exceptional and must be examined separately.</p>
+<p data-reading="37"><strong>Singularity calculation.</strong> Suppose $AA'=BB'=CC'=k\ne0$, and the equations $Ax=A'x'$, $By=B'y'$, $Cz=C'z'$ define a point away from all six planes. Put $u=Ax$, $v=By$, $t=Cz$. The relation gives $u+v+t=0$ and</p>
+<p data-reading="38">$$X=u^2/k,\quad Y=v^2/k,\quad Z=t^2/k.$$</p>
+<p data-reading="39">Substitution gives $H=0$. Moreover</p>
+<p data-reading="40">$$\frac{\partial H}{\partial x}=2(X-Y-Z)x'=\frac{4uvt}{k^2}A,$$</p>
+<p data-reading="41">and similarly for the other five derivatives. Thus $\nabla_{\ell}H$ is proportional to $r$, and the chain rule gives</p>
+<p data-reading="42">$$\nabla_{\mathbf s}H=L^T\nabla_{\ell}H=0.$$</p>
+<p data-reading="43">This proves the extra singularity without differentiating multivalued radicals. To call it an additional ordinary node, check that the three point equations are independent, the point is distinct from the existing fourteen, and its local quadratic form is nondegenerate. Two valid relation roots give two such candidates. These conditions are not automatic for every degenerate arrangement.</p>
+</section><section class="edition-passage" id="reinterpreted-many-nodes-kummer-structure"><h2 data-reading="44">The Kummer endpoint</h2>
+<p data-reading="45">Jessop identifies the sixteen-node case as Kummer’s surface. A later structural description starts with an abelian surface $A$, a two-dimensional complex torus that is projective, and takes the quotient by $a\mapsto-a$. The fixed points satisfy $2a=0$. Since $A=\mathbf C^2/\Lambda$ with $\Lambda$ a rank-four lattice, there are $|\Lambda/2\Lambda|=2^4=16$ of them.</p>
+<p data-reading="46">Locally at a fixed point, the involution sends $(u,v)$ to $(-u,-v)$. Its invariant coordinates $U=u^2$, $V=uv$, $W=v^2$ satisfy $UW=V^2$, an ordinary node. This explains the sixteen singularities of the quotient. Realizing a suitable principally polarized quotient as a quartic, and identifying it with Jessop’s plane arrangement, require additional classical theorems; those identifications are not proved here. See <a href="https://dept.math.lsa.umich.edu/~idolga/kummertype.pdf">Dolgachev, K3 Surfaces of Kummer Type, Introduction</a> for the characteristic-not-two background. The construction is a bounded connection, not a replacement classification of every sixteen-node quartic.</p>
 </section></div></section></div>
-<script type="application/json" id="edition-data">{"sourcePageOffset":40,"sourcePageFiles":{"v":"assets/source/scan-9.png","xi":"assets/source/scan-15.png","xii":"assets/source/scan-16.png","xiii":"assets/source/scan-17.png"},"groups":[{"id":"many-nodes-twelve","label":"Twelve nodes","pages":[17],"original":["original-many-nodes-twelve"],"modernized":["modernized-many-nodes-twelve"],"reinterpreted":["reinterpreted-many-nodes-genus-budget","reinterpreted-many-nodes-twelve-types"],"note":"Selected source passage. Correspondence indicates the mathematical topic; the reconstruction may add hypotheses or use a different argument."},{"id":"many-nodes-thirteen","label":"Thirteen nodes","pages":[18],"original":["original-many-nodes-thirteen"],"modernized":["modernized-many-nodes-thirteen"],"reinterpreted":["reinterpreted-many-nodes-thirteen-types"],"note":"Selected source passage. Correspondence indicates the mathematical topic; the reconstruction may add hypotheses or use a different argument."},{"id":"many-nodes-determinant","label":"The determinant coefficient","pages":[20],"original":["original-many-nodes-determinant"],"modernized":["modernized-many-nodes-determinant"],"reinterpreted":["reinterpreted-many-nodes-thirteen-types"],"note":"Selected source passage. Correspondence indicates the mathematical topic; the reconstruction may add hypotheses or use a different argument."},{"id":"many-nodes-fourteen","label":"Fourteen nodes","pages":[20],"original":["original-many-nodes-fourteen"],"modernized":["modernized-many-nodes-fourteen"],"reinterpreted":["reinterpreted-many-nodes-fourteen-form"],"note":"Selected source passage. Correspondence indicates the mathematical topic; the reconstruction may add hypotheses or use a different argument."},{"id":"many-nodes-six-planes","label":"The six-plane equation","pages":[21],"original":["original-many-nodes-six-planes"],"modernized":["modernized-many-nodes-six-planes"],"reinterpreted":["reinterpreted-many-nodes-fourteen-form"],"note":"Selected source passage. Correspondence indicates the mathematical topic; the reconstruction may add hypotheses or use a different argument."},{"id":"many-nodes-fifteen-sixteen","label":"An extra-node relation","pages":[22],"original":["original-many-nodes-fifteen-sixteen"],"modernized":["modernized-many-nodes-fifteen-sixteen"],"reinterpreted":["reinterpreted-many-nodes-relation-space"],"note":"Selected source passage. Correspondence indicates the mathematical topic; the reconstruction may add hypotheses or use a different argument."},{"id":"many-nodes-kummer","label":"The Kummer endpoint","pages":[22],"original":["original-many-nodes-kummer"],"modernized":["modernized-many-nodes-kummer"],"reinterpreted":["reinterpreted-many-nodes-kummer-structure"],"note":"Selected source passage. Correspondence indicates the mathematical topic; the reconstruction may add hypotheses or use a different argument."}]}</script></main></div></body></html>
+<script type="application/json" id="edition-data">{"sourcePageOffset":40,"sourcePageFiles":{"v":"assets/source/scan-9.png","xi":"assets/source/scan-15.png","xii":"assets/source/scan-16.png","xiii":"assets/source/scan-17.png"},"groups":[{"id":"many-nodes-twelve","label":"Twelve nodes","pages":[17],"original":["original-many-nodes-twelve"],"modernized":["modernized-many-nodes-twelve"],"reinterpreted":["reinterpreted-many-nodes-genus-budget","reinterpreted-many-nodes-twelve-types"],"note":"Selected source passage. Correspondence indicates the mathematical topic; the reconstruction may add hypotheses or use a different argument."},{"id":"many-nodes-thirteen","label":"Thirteen nodes","pages":[18],"original":["original-many-nodes-thirteen"],"modernized":["modernized-many-nodes-thirteen"],"reinterpreted":["reinterpreted-many-nodes-thirteen-types"],"note":"Selected source passage. Correspondence indicates the mathematical topic; the reconstruction may add hypotheses or use a different argument."},{"id":"many-nodes-determinant","label":"The determinant coefficient","pages":[20],"original":["original-many-nodes-determinant"],"modernized":["modernized-many-nodes-determinant"],"reinterpreted":["reinterpreted-many-nodes-thirteen-types"],"note":"Selected source passage. Correspondence indicates the mathematical topic; the reconstruction may add hypotheses or use a different argument."},{"id":"many-nodes-fourteen","label":"Fourteen nodes","pages":[20],"original":["original-many-nodes-fourteen"],"modernized":["modernized-many-nodes-fourteen"],"reinterpreted":["reinterpreted-many-nodes-fourteen-form"],"note":"Selected source passage. Correspondence indicates the mathematical topic; the reconstruction may add hypotheses or use a different argument."},{"id":"many-nodes-six-planes","label":"The six-plane equation","pages":[21],"original":["original-many-nodes-six-planes"],"modernized":["modernized-many-nodes-six-planes"],"reinterpreted":["reinterpreted-many-nodes-fourteen-form"],"note":"Selected source passage. Correspondence indicates the mathematical topic; the reconstruction may add hypotheses or use a different argument."},{"id":"many-nodes-fifteen-sixteen","label":"An extra-node relation","pages":[22],"original":["original-many-nodes-fifteen-sixteen"],"modernized":["modernized-many-nodes-fifteen-sixteen"],"reinterpreted":["reinterpreted-many-nodes-relation-space"],"note":"Selected source passage. Correspondence indicates the mathematical topic; the reconstruction may add hypotheses or use a different argument."},{"id":"many-nodes-kummer","label":"The Kummer endpoint","pages":[22],"original":["original-many-nodes-kummer"],"modernized":["modernized-many-nodes-kummer"],"reinterpreted":["reinterpreted-many-nodes-kummer-structure"],"note":"Selected source passage. Correspondence indicates the mathematical topic; the reconstruction may add hypotheses or use a different argument."}],"readingMap":[[0,0,0,0],[0,1,1,1],[0,2,1,8],[0,6,1,9],[1,7,2,17],[1,9,3,18],[2,13,4,21],[2,14,6,22],[2,15,7,23],[2,16,8,24],[2,17,9,25],[3,18,10,26],[3,19,11,27],[4,20,12,27],[4,21,13,28],[4,22,14,29],[4,24,16,31],[5,25,17,32],[5,26,18,33],[5,27,19,34],[5,29,20,35],[5,31,21,37],[5,33,23,39],[5,35,24,41],[6,37,25,44]]}</script></main></div></body></html>

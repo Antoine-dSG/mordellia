@@ -1,68 +1,68 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Prescribing nodes · Jessop · Mordellia</title><link rel="stylesheet" href="style.css"><link rel="stylesheet" href="home.css"><link rel="stylesheet" href="assets/katex/katex.min.css"><link rel="stylesheet" href="edition.css"><link rel="stylesheet" href="jessop.css"><script defer src="assets/katex/katex.min.js"></script><script defer src="assets/katex/contrib/auto-render.min.js"></script><script defer src="reader.js"></script><script defer src="edition.js"></script><script type="module" src="labs.mjs"></script><link rel="stylesheet" href="../assets/site.css?v=4ae54708aa76"></head><body><a class="skip" href="#reading">Skip to reading</a><div id="progress" class="progress"></div><header class="masthead"><a href="../" class="wordmark">MORDELLIA</a></header><nav class="collection-nav" aria-label="Books"><a href="../">Home</a><a href="../birkhoff/">Birkhoff · Dynamical Systems</a><a href="../dickson/">Dickson · Theory of Numbers I</a><a href="../jessop/" aria-current="true">Jessop · Quartic Surfaces</a></nav><div class="layout"><nav class="book-contents" aria-label="Table of contents"><button type="button" id="contents-toggle" aria-controls="contents-list" aria-expanded="false" hidden>Contents</button><div id="contents-list"><a class="book-overview" href="./">Chapter contents</a><ol><li><a class="book-section" href="opening.html">Preface &amp; Introduction · Reading Jessop</a></li><li><a class="book-section" href="fixed-nodes.html" aria-current="page">I · §§1–2 · Prescribing nodes</a><ul class="book-passages"><li><a href="#original-fixed-nodes-bound" data-concept="fixed-nodes-bound">The bound of sixteen</a></li><li><a href="#original-fixed-nodes-four-five" data-concept="fixed-nodes-four-five">Products and relations</a></li><li><a href="#original-fixed-nodes-six" data-concept="fixed-nodes-six">The Jacobian quartic</a></li><li><a href="#original-fixed-nodes-seven" data-concept="fixed-nodes-seven">The supplementary quartic</a></li></ul></li><li><a class="book-section" href="projection.html">I · §3 · Projection from a node</a></li><li><a class="book-section" href="sextics.html">I · §§4–5 · Nodal sextics and their normalizations</a></li><li><a class="book-section" href="eight-nine.html">I · §§6–7 · Eight and nine nodes</a></li><li><a class="book-section" href="ten-eleven.html">I · §§8–9 · Ten and eleven nodes</a></li><li><a class="book-section" href="many-nodes.html">I · §§10–12 · Twelve to sixteen nodes</a></li></ol></div></nav><main id="reading"><section class="hero" id="top"><div class="eyebrow">Quartic Surfaces with Singular Points · Chapter I</div><h1>Prescribing nodes</h1></section><div class="edition-toolbar" aria-label="Digital edition controls">
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Prescribing nodes · Jessop · Mordellia</title><link rel="stylesheet" href="style.css"><link rel="stylesheet" href="home.css"><link rel="stylesheet" href="assets/katex/katex.min.css"><link rel="stylesheet" href="edition.css"><link rel="stylesheet" href="jessop.css"><script defer src="assets/katex/katex.min.js"></script><script defer src="assets/katex/contrib/auto-render.min.js"></script><script defer src="reader.js"></script><script defer src="compare-blocks.js"></script><script defer src="edition.js"></script><script type="module" src="labs.mjs"></script><link rel="stylesheet" href="../assets/site.css?v=4ae54708aa76"></head><body><a class="skip" href="#reading">Skip to reading</a><div id="progress" class="progress"></div><header class="masthead"><a href="../" class="wordmark">MORDELLIA</a></header><nav class="collection-nav" aria-label="Books"><a href="../">Home</a><a href="../birkhoff/">Birkhoff · Dynamical Systems</a><a href="../dickson/">Dickson · Theory of Numbers I</a><a href="../jessop/" aria-current="true">Jessop · Quartic Surfaces</a></nav><div class="layout"><nav class="book-contents" aria-label="Table of contents"><button type="button" id="contents-toggle" aria-controls="contents-list" aria-expanded="false" hidden>Contents</button><div id="contents-list"><a class="book-overview" href="./">Chapter contents</a><ol><li><a class="book-section" href="opening.html">Preface &amp; Introduction · Reading Jessop</a></li><li><a class="book-section" href="fixed-nodes.html" aria-current="page">I · §§1–2 · Prescribing nodes</a><ul class="book-passages"><li><a href="#original-fixed-nodes-bound" data-concept="fixed-nodes-bound">The bound of sixteen</a></li><li><a href="#original-fixed-nodes-four-five" data-concept="fixed-nodes-four-five">Products and relations</a></li><li><a href="#original-fixed-nodes-six" data-concept="fixed-nodes-six">The Jacobian quartic</a></li><li><a href="#original-fixed-nodes-seven" data-concept="fixed-nodes-seven">The supplementary quartic</a></li></ul></li><li><a class="book-section" href="projection.html">I · §3 · Projection from a node</a></li><li><a class="book-section" href="sextics.html">I · §§4–5 · Nodal sextics and their normalizations</a></li><li><a class="book-section" href="eight-nine.html">I · §§6–7 · Eight and nine nodes</a></li><li><a class="book-section" href="ten-eleven.html">I · §§8–9 · Ten and eleven nodes</a></li><li><a class="book-section" href="many-nodes.html">I · §§10–12 · Twelve to sixteen nodes</a></li></ol></div></nav><main id="reading"><section class="hero" id="top"><div class="eyebrow">Quartic Surfaces with Singular Points · Chapter I</div><h1>Prescribing nodes</h1></section><div class="edition-toolbar" aria-label="Digital edition controls">
 <div class="edition-controls"><div role="tablist" aria-label="Reading version"><button type="button" role="tab" id="tab-original" aria-controls="panel-original" aria-selected="true" tabindex="0" data-edition-mode="original">Original</button><button type="button" role="tab" id="tab-modernized" aria-controls="panel-modernized" aria-selected="false" tabindex="-1" data-edition-mode="modernized">Modernized</button><button type="button" role="tab" id="tab-reinterpreted" aria-controls="panel-reinterpreted" aria-selected="false" tabindex="-1" data-edition-mode="reinterpreted">Reinterpreted</button></div><label class="compare-switch"><input type="checkbox" id="edition-compare"> Compare</label></div>
-<div class="comparison-choices" hidden><fieldset><legend>Versions to compare</legend><label><input type="checkbox" value="original" checked> Original</label><label><input type="checkbox" value="modernized" > Modernized</label><label><input type="checkbox" value="reinterpreted" checked> Reinterpreted</label></fieldset></div>
+<div class="comparison-choices" hidden><fieldset><legend>Versions to compare</legend><label><input type="checkbox" value="original" checked> Original</label><label><input type="checkbox" value="modernized" > Modernized</label><label><input type="checkbox" value="reinterpreted" checked> Reinterpreted</label></fieldset><span class="align-hint">Double-click text to align.</span></div>
 </div>
-<div class="edition-grid"><section class="edition-panel" id="panel-original" role="tabpanel" aria-labelledby="tab-original" ><h2 class="panel-label">Original</h2><p class="unmatched-passage" hidden></p><nav class="counterparts" aria-label="Corresponding Original passages" hidden></nav><div class="edition-scroll" tabindex="0" aria-label="Original text"><section class="edition-passage" id="original-fixed-nodes-bound"><h2>CHAPTER I</h2>
-<h3>QUARTIC SURFACES WITH ISOLATED SINGULAR POINTS</h3>
-<p><strong>1.</strong> The singular points possessed by a quartic surface may consist either of a certain number of isolated nodes or may form double curves.</p>
-<p>In the present chapter we discuss the quartic surfaces which have an assigned number of nodes, beginning with those which have four nodes, and give a definite method of classification for all the cases in which the number of nodes exceeds seven.</p>
-<p>The number of isolated nodes of a quartic surface cannot exceed sixteen; for the class of a surface of order $n$ which has $\delta$ double points is $n(n-1)^2-2\delta$, since this is the number of points of intersection of the surface and its first polars for two points $A$ and $B$, diminished by the number $2\delta$ of these intersections arising from each double point (a simple point on the polars of both $A$ and $B$). Hence if $n$ is four, $\delta$ cannot exceed sixteen.</p>
-</section><section class="edition-passage" id="original-fixed-nodes-four-five"><h3>2. Quartic surfaces with four to seven nodes.</h3>
-<p>Since the equation of the general quartic surface contains thirty-four constants, the surface with four given nodes should contain $34-16=18$ constants; if then $A=0$, $B=0$, $C=0$, $D=0$, $E=0$, $F=0$ are six linearly independent quadrics through the four nodes, the equation</p>
-<p>$$ (a\mathbin{\between}A,B,C,D,E,F)^2=0, $$</p>
-<p>containing apparently twenty constants, is a quartic surface having the given nodes.</p>
-<p>The number of constants is really eighteen, since there are two quadratic relations between the six quadrics, as may be seen by taking the four given points as vertices of the tetrahedron of reference, in which case the quadrics may be taken to be</p>
-<p>$$x_1x_2,\quad x_1x_3,\quad x_1x_4,\quad x_3x_4,\quad x_2x_4,\quad x_2x_3,$$</p>
-<p>between which there exist the identities</p>
-<p>$$x_1x_2\cdot x_3x_4=x_1x_3\cdot x_2x_4=x_1x_4\cdot x_2x_3.$$</p>
-<p>For five nodes, taking $A\ldots E$ as quadrics passing through the given nodes, the equation</p>
-<p>$$(a\mathbin{\between}A,B,C,D,E)^2=0,$$</p>
-<p>containing fourteen constants, represents the general quartic having these given nodes.</p>
-</section><section class="edition-passage" id="original-fixed-nodes-six"><p>The general quartic with six nodes is represented by the equation</p>
-<p>$$(a\mathbin{\between}A,B,C,D)^2+\rho J=0,$$</p>
-<p>where $A,B,C,D$ are quadrics through the six nodes, and $J$ is the Jacobian of the four quadrics. For this equation contains ten constants and $J$ has the given points $D_1\ldots D_6$ as nodes, moreover $J$ cannot be expressed as a quadratic function of $A,B,C,D$.</p>
-</section><section class="edition-passage" id="original-fixed-nodes-seven"><p>The general quartic with seven nodes is represented by the equation</p>
-<p>$$(a\mathbin{\between}A,B,C)^2+\rho\Sigma=0,$$</p>
-<p>where $A,B,C$ are quadrics through the given nodes and $\Sigma$ is any quartic surface having the seven nodes*.</p>
+<div class="edition-grid"><section class="edition-panel" id="panel-original" role="tabpanel" aria-labelledby="tab-original" ><div class="panel-heading"><h2 class="panel-label">Original</h2><details class="related-passages" hidden><summary>Related passages</summary><nav class="counterparts" aria-label="Corresponding Original passages"></nav></details><button type="button" class="align-reading" aria-label="Align at the current Original block" title="Align at the current reading position">Align</button></div><div class="edition-scroll" tabindex="0" aria-label="Original text"><section class="edition-passage" id="original-fixed-nodes-bound"><h2 data-reading="0">CHAPTER I</h2>
+<h3 data-reading="1">QUARTIC SURFACES WITH ISOLATED SINGULAR POINTS</h3>
+<p data-reading="2"><strong>1.</strong> The singular points possessed by a quartic surface may consist either of a certain number of isolated nodes or may form double curves.</p>
+<p data-reading="3">In the present chapter we discuss the quartic surfaces which have an assigned number of nodes, beginning with those which have four nodes, and give a definite method of classification for all the cases in which the number of nodes exceeds seven.</p>
+<p data-reading="4">The number of isolated nodes of a quartic surface cannot exceed sixteen; for the class of a surface of order $n$ which has $\delta$ double points is $n(n-1)^2-2\delta$, since this is the number of points of intersection of the surface and its first polars for two points $A$ and $B$, diminished by the number $2\delta$ of these intersections arising from each double point (a simple point on the polars of both $A$ and $B$). Hence if $n$ is four, $\delta$ cannot exceed sixteen.</p>
+</section><section class="edition-passage" id="original-fixed-nodes-four-five"><h3 data-reading="5">2. Quartic surfaces with four to seven nodes.</h3>
+<p data-reading="6">Since the equation of the general quartic surface contains thirty-four constants, the surface with four given nodes should contain $34-16=18$ constants; if then $A=0$, $B=0$, $C=0$, $D=0$, $E=0$, $F=0$ are six linearly independent quadrics through the four nodes, the equation</p>
+<p data-reading="7">$$ (a\mathbin{\between}A,B,C,D,E,F)^2=0, $$</p>
+<p data-reading="8">containing apparently twenty constants, is a quartic surface having the given nodes.</p>
+<p data-reading="9">The number of constants is really eighteen, since there are two quadratic relations between the six quadrics, as may be seen by taking the four given points as vertices of the tetrahedron of reference, in which case the quadrics may be taken to be</p>
+<p data-reading="10">$$x_1x_2,\quad x_1x_3,\quad x_1x_4,\quad x_3x_4,\quad x_2x_4,\quad x_2x_3,$$</p>
+<p data-reading="11">between which there exist the identities</p>
+<p data-reading="12">$$x_1x_2\cdot x_3x_4=x_1x_3\cdot x_2x_4=x_1x_4\cdot x_2x_3.$$</p>
+<p data-reading="13">For five nodes, taking $A\ldots E$ as quadrics passing through the given nodes, the equation</p>
+<p data-reading="14">$$(a\mathbin{\between}A,B,C,D,E)^2=0,$$</p>
+<p data-reading="15">containing fourteen constants, represents the general quartic having these given nodes.</p>
+</section><section class="edition-passage" id="original-fixed-nodes-six"><p data-reading="16">The general quartic with six nodes is represented by the equation</p>
+<p data-reading="17">$$(a\mathbin{\between}A,B,C,D)^2+\rho J=0,$$</p>
+<p data-reading="18">where $A,B,C,D$ are quadrics through the six nodes, and $J$ is the Jacobian of the four quadrics. For this equation contains ten constants and $J$ has the given points $D_1\ldots D_6$ as nodes, moreover $J$ cannot be expressed as a quadratic function of $A,B,C,D$.</p>
+</section><section class="edition-passage" id="original-fixed-nodes-seven"><p data-reading="19">The general quartic with seven nodes is represented by the equation</p>
+<p data-reading="20">$$(a\mathbin{\between}A,B,C)^2+\rho\Sigma=0,$$</p>
+<p data-reading="21">where $A,B,C$ are quadrics through the given nodes and $\Sigma$ is any quartic surface having the seven nodes*.</p>
 <ul>
-<li>This quartic surface may also be expressed in terms of the quartic surfaces which have one of the given points as a triple point and the other six as double points; if $T_1\ldots T_7$ are these surfaces, the required general quartic surface is $\sum\alpha_iT_i=0$, $i=1,\ldots7$.</li>
+<li data-reading="22">This quartic surface may also be expressed in terms of the quartic surfaces which have one of the given points as a triple point and the other six as double points; if $T_1\ldots T_7$ are these surfaces, the required general quartic surface is $\sum\alpha_iT_i=0$, $i=1,\ldots7$.</li>
 </ul>
-</section></div></section><section class="edition-panel" id="panel-modernized" role="tabpanel" aria-labelledby="tab-modernized" hidden><h2 class="panel-label">Modernized</h2><p class="unmatched-passage" hidden></p><nav class="counterparts" aria-label="Corresponding Modernized passages" hidden></nav><div class="edition-scroll" tabindex="0" aria-label="Modernized text"><section class="edition-passage" id="modernized-fixed-nodes-bound"><h2>1. Isolated nodes</h2>
-<p>Jessop distinguishes isolated nodes from singularities along double curves. Here he studies quartics with prescribed isolated nodes, beginning with four and giving a classification method beyond seven.</p>
-<p>For a degree-$n$ surface with $\delta$ nodes, the class is</p>
-<p>$$n(n-1)^2-2\delta.$$</p>
-<p>Intersect the surface with the first polar surfaces of two points $A,B$. Bézout gives $n(n-1)^2$ intersections, including multiplicity two at each node. Removing these contributions gives the class. Jessop concludes that $n=4$ implies $\delta\le16$. The implicit final step is discussed in the edition notes.</p>
-</section><section class="edition-passage" id="modernized-fixed-nodes-four-five"><h2>2. Four and five prescribed nodes</h2>
-<p>Write $Q(A_1,\ldots,A_r)$ for an arbitrary homogeneous quadratic form in the displayed quadratic polynomials. Its coefficients are parameters; the equation $Q=0$ is quartic in the projective coordinates.</p>
-<p>A quartic equation has $35$ coefficients, or $34$ parameters up to scale. Four prescribed nodes impose $16$ conditions, leaving an expected $18$ parameters. Choose a basis $A,\ldots,F$ of the quadrics through the four points. The family</p>
-<p>$$Q(A,B,C,D,E,F)=0$$</p>
-<p>initially has $20$ projective parameters, but two quadratic relations reduce this to $18$. Taking the points as the coordinate vertices, use</p>
-<p>$$x_1x_2,\ x_1x_3,\ x_1x_4,\ x_3x_4,\ x_2x_4,\ x_2x_3.$$</p>
-<p>The three products $x_1x_2x_3x_4$ obtained by pairing complementary entries are equal. This supplies the two relations.</p>
-<p>For five prescribed nodes, let $A,\ldots,E$ be quadrics through them. Jessop gives the general equation $Q(A,B,C,D,E)=0$, with $14$ parameters.</p>
-</section><section class="edition-passage" id="modernized-fixed-nodes-six"><h2>Six prescribed nodes</h2>
-<p>For six nodes choose quadrics $A,B,C,D$ through them and put</p>
-<p>$$J=\det\frac{\partial(A,B,C,D)}{\partial(x_1,x_2,x_3,x_4)}.$$</p>
-<p>Jessop gives the general family</p>
-<p>$$Q(A,B,C,D)+\rho J=0.$$</p>
-<p>It has $10$ projective parameters. The determinant $J$ has the six prescribed nodes and is not a quadratic expression in $A,B,C,D$. The geometric argument establishing these facts lies between the selected source passages; it is not reproduced in this layer.</p>
-</section><section class="edition-passage" id="modernized-fixed-nodes-seven"><h2>Seven prescribed nodes</h2>
-<p>For quadrics $A,B,C$ through seven nodes, Jessop writes</p>
-<p>$$Q(A,B,C)+\rho\Sigma=0,$$</p>
-<p>where $\Sigma$ is a quartic with these nodes. His footnote gives another representation: if $T_i$ has a triple point at the $i$th prescribed point and double points at the other six, the general family is $\sum_{i=1}^7\alpha_iT_i=0$. The independence required of the supplementary quartic $\Sigma$ is recorded in the edition notes.</p>
-</section></div></section><section class="edition-panel" id="panel-reinterpreted" role="tabpanel" aria-labelledby="tab-reinterpreted" hidden><h2 class="panel-label">Reinterpreted</h2><p class="unmatched-passage" hidden></p><nav class="counterparts" aria-label="Corresponding Reinterpreted passages" hidden></nav><div class="edition-scroll" tabindex="0" aria-label="Reinterpreted text"><section class="edition-passage" id="reinterpreted-fixed-nodes-linear-systems"><h2>Prescribing a double point is linear</h2>
-<p>Let $Z=\{p_1,\ldots,p_r\}\subset\mathbf P^3_{\mathbf C}$ consist of distinct points. A quartic is singular at $p_i$ precisely when its value and its three local first derivatives vanish. These are four linear conditions on its $35$ coefficients. If they are independent, the vector space of quartics singular along $Z$ has dimension $35-4r$; its projectivization has dimension $34-4r$.</p>
-<p>These conditions prescribe multiplicity at least two. To get ordinary nodes, the quadratic term must be nondegenerate; to get exactly the prescribed singularities, other singularities must be excluded. A coefficient count establishes neither condition.</p>
-<p>Let $I_Z(2)$ be the vector space of quadrics vanishing at $Z$, and let $I_Z^{(2)}(4)$ denote quartics vanishing to order at least two at every point of $Z$. Multiplication defines</p>
-<p>$$\mu:\operatorname{Sym}^2 I_Z(2)\longrightarrow I_Z^{(2)}(4),\qquad A\cdot B\longmapsto AB.$$</p>
-<p>Products of quadrics automatically have the required double zeros. The <strong>kernel</strong> consists of relations between these products; the <strong>cokernel</strong> consists of quartics not obtainable this way. These two spaces organize Jessop’s formulas.</p>
-</section><section class="edition-passage" id="reinterpreted-fixed-nodes-relations"><h2>Four points: two relations</h2>
-<p>For the four coordinate vertices, the six mixed monomials $x_ix_j$ ($i&lt;j$) form a basis of $I_Z(2)$. There are $21$ formal quadratic products. Exactly three give $x_1x_2x_3x_4$, supplying two independent relations. Every other product is a distinct monomial.</p>
-<p>A quartic singular at all four vertices cannot contain $x_i^4$ or $x_i^3x_j$. Its remaining monomials have exponent patterns $(2,2,0,0)$, $(2,1,1,0)$ and $(1,1,1,1)$: respectively $6$, $12$ and $1$ monomials. Thus the product map has image dimension $19$ and kernel dimension $2$. This proves the $18$-parameter result without relying only on an expected dimension.</p>
-<p>For points in the general positions used by Jessop, the subsequent dimensions are:</p>
+</section></div></section><section class="edition-panel" id="panel-modernized" role="tabpanel" aria-labelledby="tab-modernized" hidden><div class="panel-heading"><h2 class="panel-label">Modernized</h2><details class="related-passages" hidden><summary>Related passages</summary><nav class="counterparts" aria-label="Corresponding Modernized passages"></nav></details><button type="button" class="align-reading" aria-label="Align at the current Modernized block" title="Align at the current reading position">Align</button></div><div class="edition-scroll" tabindex="0" aria-label="Modernized text"><section class="edition-passage" id="modernized-fixed-nodes-bound"><h2 data-reading="0">1. Isolated nodes</h2>
+<p data-reading="1">Jessop distinguishes isolated nodes from singularities along double curves. Here he studies quartics with prescribed isolated nodes, beginning with four and giving a classification method beyond seven.</p>
+<p data-reading="2">For a degree-$n$ surface with $\delta$ nodes, the class is</p>
+<p data-reading="3">$$n(n-1)^2-2\delta.$$</p>
+<p data-reading="4">Intersect the surface with the first polar surfaces of two points $A,B$. Bézout gives $n(n-1)^2$ intersections, including multiplicity two at each node. Removing these contributions gives the class. Jessop concludes that $n=4$ implies $\delta\le16$. The implicit final step is discussed in the edition notes.</p>
+</section><section class="edition-passage" id="modernized-fixed-nodes-four-five"><h2 data-reading="5">2. Four and five prescribed nodes</h2>
+<p data-reading="6">Write $Q(A_1,\ldots,A_r)$ for an arbitrary homogeneous quadratic form in the displayed quadratic polynomials. Its coefficients are parameters; the equation $Q=0$ is quartic in the projective coordinates.</p>
+<p data-reading="7">A quartic equation has $35$ coefficients, or $34$ parameters up to scale. Four prescribed nodes impose $16$ conditions, leaving an expected $18$ parameters. Choose a basis $A,\ldots,F$ of the quadrics through the four points. The family</p>
+<p data-reading="8">$$Q(A,B,C,D,E,F)=0$$</p>
+<p data-reading="9">initially has $20$ projective parameters, but two quadratic relations reduce this to $18$. Taking the points as the coordinate vertices, use</p>
+<p data-reading="10">$$x_1x_2,\ x_1x_3,\ x_1x_4,\ x_3x_4,\ x_2x_4,\ x_2x_3.$$</p>
+<p data-reading="11">The three products $x_1x_2x_3x_4$ obtained by pairing complementary entries are equal. This supplies the two relations.</p>
+<p data-reading="12">For five prescribed nodes, let $A,\ldots,E$ be quadrics through them. Jessop gives the general equation $Q(A,B,C,D,E)=0$, with $14$ parameters.</p>
+</section><section class="edition-passage" id="modernized-fixed-nodes-six"><h2 data-reading="13">Six prescribed nodes</h2>
+<p data-reading="14">For six nodes choose quadrics $A,B,C,D$ through them and put</p>
+<p data-reading="15">$$J=\det\frac{\partial(A,B,C,D)}{\partial(x_1,x_2,x_3,x_4)}.$$</p>
+<p data-reading="16">Jessop gives the general family</p>
+<p data-reading="17">$$Q(A,B,C,D)+\rho J=0.$$</p>
+<p data-reading="18">It has $10$ projective parameters. The determinant $J$ has the six prescribed nodes and is not a quadratic expression in $A,B,C,D$. The geometric argument establishing these facts lies between the selected source passages; it is not reproduced in this layer.</p>
+</section><section class="edition-passage" id="modernized-fixed-nodes-seven"><h2 data-reading="19">Seven prescribed nodes</h2>
+<p data-reading="20">For quadrics $A,B,C$ through seven nodes, Jessop writes</p>
+<p data-reading="21">$$Q(A,B,C)+\rho\Sigma=0,$$</p>
+<p data-reading="22">where $\Sigma$ is a quartic with these nodes. His footnote gives another representation: if $T_i$ has a triple point at the $i$th prescribed point and double points at the other six, the general family is $\sum_{i=1}^7\alpha_iT_i=0$. The independence required of the supplementary quartic $\Sigma$ is recorded in the edition notes.</p>
+</section></div></section><section class="edition-panel" id="panel-reinterpreted" role="tabpanel" aria-labelledby="tab-reinterpreted" hidden><div class="panel-heading"><h2 class="panel-label">Reinterpreted</h2><details class="related-passages" hidden><summary>Related passages</summary><nav class="counterparts" aria-label="Corresponding Reinterpreted passages"></nav></details><button type="button" class="align-reading" aria-label="Align at the current Reinterpreted block" title="Align at the current reading position">Align</button></div><div class="edition-scroll" tabindex="0" aria-label="Reinterpreted text"><section class="edition-passage" id="reinterpreted-fixed-nodes-linear-systems"><h2 data-reading="0">Prescribing a double point is linear</h2>
+<p data-reading="1">Let $Z=\{p_1,\ldots,p_r\}\subset\mathbf P^3_{\mathbf C}$ consist of distinct points. A quartic is singular at $p_i$ precisely when its value and its three local first derivatives vanish. These are four linear conditions on its $35$ coefficients. If they are independent, the vector space of quartics singular along $Z$ has dimension $35-4r$; its projectivization has dimension $34-4r$.</p>
+<p data-reading="2">These conditions prescribe multiplicity at least two. To get ordinary nodes, the quadratic term must be nondegenerate; to get exactly the prescribed singularities, other singularities must be excluded. A coefficient count establishes neither condition.</p>
+<p data-reading="3">Let $I_Z(2)$ be the vector space of quadrics vanishing at $Z$, and let $I_Z^{(2)}(4)$ denote quartics vanishing to order at least two at every point of $Z$. Multiplication defines</p>
+<p data-reading="4">$$\mu:\operatorname{Sym}^2 I_Z(2)\longrightarrow I_Z^{(2)}(4),\qquad A\cdot B\longmapsto AB.$$</p>
+<p data-reading="5">Products of quadrics automatically have the required double zeros. The <strong>kernel</strong> consists of relations between these products; the <strong>cokernel</strong> consists of quartics not obtainable this way. These two spaces organize Jessop’s formulas.</p>
+</section><section class="edition-passage" id="reinterpreted-fixed-nodes-relations"><h2 data-reading="6">Four points: two relations</h2>
+<p data-reading="7">For the four coordinate vertices, the six mixed monomials $x_ix_j$ ($i&lt;j$) form a basis of $I_Z(2)$. There are $21$ formal quadratic products. Exactly three give $x_1x_2x_3x_4$, supplying two independent relations. Every other product is a distinct monomial.</p>
+<p data-reading="8">A quartic singular at all four vertices cannot contain $x_i^4$ or $x_i^3x_j$. Its remaining monomials have exponent patterns $(2,2,0,0)$, $(2,1,1,0)$ and $(1,1,1,1)$: respectively $6$, $12$ and $1$ monomials. Thus the product map has image dimension $19$ and kernel dimension $2$. This proves the $18$-parameter result without relying only on an expected dimension.</p>
+<p data-reading="9">For points in the general positions used by Jessop, the subsequent dimensions are:</p>
 <table>
 <thead>
-<tr>
+<tr data-reading="10">
 <th>Prescribed points</th>
 <th align="right">Quadrics</th>
 <th align="right">Formal products</th>
@@ -70,28 +70,28 @@
 <th align="right">Missing directions</th>
 </tr>
 </thead>
-<tbody><tr>
+<tbody><tr data-reading="11">
 <td>4</td>
 <td align="right">6</td>
 <td align="right">21</td>
 <td align="right">19</td>
 <td align="right">0 (two relations)</td>
 </tr>
-<tr>
+<tr data-reading="12">
 <td>5</td>
 <td align="right">5</td>
 <td align="right">15</td>
 <td align="right">15</td>
 <td align="right">0</td>
 </tr>
-<tr>
+<tr data-reading="13">
 <td>6</td>
 <td align="right">4</td>
 <td align="right">10</td>
 <td align="right">11</td>
 <td align="right">1</td>
 </tr>
-<tr>
+<tr data-reading="14">
 <td>7</td>
 <td align="right">3</td>
 <td align="right">6</td>
@@ -99,17 +99,17 @@
 <td align="right">1</td>
 </tr>
 </tbody></table>
-<p>The last three rows describe the generic ranks in Jessop’s argument, not every special configuration. The exact computations in Sources and verification check independent examples; they do not replace a general-position theorem.</p>
-</section><section class="edition-passage" id="reinterpreted-fixed-nodes-jacobian"><h2>Why a Jacobian appears</h2>
-<p>Four independent quadrics define a rational map</p>
-<p>$$\Phi:\mathbf P^3\dashrightarrow\mathbf P^3,\qquad p\longmapsto[A(p):B(p):C(p):D(p)].$$</p>
-<p>Away from its base points, the determinant</p>
-<p>$$J=\det\big(\nabla A,\nabla B,\nabla C,\nabla D\big)$$</p>
-<p>vanishes where the differential of this map loses rank. Since all four forms have the same degree, Euler’s identity relates the radial direction upstairs to the radial direction downstairs; the homogeneous determinant detects the projective critical locus.</p>
-<p>There is also a direct geometric interpretation: a nontrivial relation between the four gradients says that a member $aA+bB+cC+dD$ is singular at that point. Its zero set is a quadric cone with that vertex. Jessop’s Jacobian is therefore the locus of vertices of singular members of a linear system, not an inexplicable extra polynomial.</p>
-<p>At a common base point the four gradients annihilate the radial vector. To see the double vanishing of $J$, work in the chart $w=1$ and subtract $x\partial_x+y\partial_y+z\partial_z$ from the $w$ column using Euler’s formula. The resulting entries in that column start in degree two about the base point, since each quadric has zero constant term. Thus $J$ vanishes to order at least two there. Its role as the missing direction for six general points is Jessop’s additional geometric input, not a consequence of this local calculation alone.</p>
-<p>For seven points, choose $\Sigma$ outside the image of $\mu$. Saying only “any quartic with seven nodes” is insufficient: a product combination already in the image would not supply the missing seventh dimension.</p>
-</section><section class="edition-passage" id="reinterpreted-fixed-nodes-node-bound"><h2>The bound of sixteen</h2>
-<p>Jessop’s polar calculation gives dual degree $36-2\delta$ for an irreducible quartic with only ordinary nodes and a two-dimensional dual. It must be positive. The remaining candidate $\delta=17$ would make the dual an irreducible quadric. By projective biduality in characteristic zero, a surface with quadric dual is itself a quadric, a contradiction. Thus $\delta\le16$. Biduality is an additional explicit input completing the compressed conclusion on p. 1.</p>
+<p data-reading="15">The last three rows describe the generic ranks in Jessop’s argument, not every special configuration. The exact computations in Sources and verification check independent examples; they do not replace a general-position theorem.</p>
+</section><section class="edition-passage" id="reinterpreted-fixed-nodes-jacobian"><h2 data-reading="16">Why a Jacobian appears</h2>
+<p data-reading="17">Four independent quadrics define a rational map</p>
+<p data-reading="18">$$\Phi:\mathbf P^3\dashrightarrow\mathbf P^3,\qquad p\longmapsto[A(p):B(p):C(p):D(p)].$$</p>
+<p data-reading="19">Away from its base points, the determinant</p>
+<p data-reading="20">$$J=\det\big(\nabla A,\nabla B,\nabla C,\nabla D\big)$$</p>
+<p data-reading="21">vanishes where the differential of this map loses rank. Since all four forms have the same degree, Euler’s identity relates the radial direction upstairs to the radial direction downstairs; the homogeneous determinant detects the projective critical locus.</p>
+<p data-reading="22">There is also a direct geometric interpretation: a nontrivial relation between the four gradients says that a member $aA+bB+cC+dD$ is singular at that point. Its zero set is a quadric cone with that vertex. Jessop’s Jacobian is therefore the locus of vertices of singular members of a linear system, not an inexplicable extra polynomial.</p>
+<p data-reading="23">At a common base point the four gradients annihilate the radial vector. To see the double vanishing of $J$, work in the chart $w=1$ and subtract $x\partial_x+y\partial_y+z\partial_z$ from the $w$ column using Euler’s formula. The resulting entries in that column start in degree two about the base point, since each quadric has zero constant term. Thus $J$ vanishes to order at least two there. Its role as the missing direction for six general points is Jessop’s additional geometric input, not a consequence of this local calculation alone.</p>
+<p data-reading="24">For seven points, choose $\Sigma$ outside the image of $\mu$. Saying only “any quartic with seven nodes” is insufficient: a product combination already in the image would not supply the missing seventh dimension.</p>
+</section><section class="edition-passage" id="reinterpreted-fixed-nodes-node-bound"><h2 data-reading="25">The bound of sixteen</h2>
+<p data-reading="26">Jessop’s polar calculation gives dual degree $36-2\delta$ for an irreducible quartic with only ordinary nodes and a two-dimensional dual. It must be positive. The remaining candidate $\delta=17$ would make the dual an irreducible quadric. By projective biduality in characteristic zero, a surface with quadric dual is itself a quadric, a contradiction. Thus $\delta\le16$. Biduality is an additional explicit input completing the compressed conclusion on p. 1.</p>
 </section></div></section></div>
-<script type="application/json" id="edition-data">{"sourcePageOffset":40,"sourcePageFiles":{"v":"assets/source/scan-9.png","xi":"assets/source/scan-15.png","xii":"assets/source/scan-16.png","xiii":"assets/source/scan-17.png"},"groups":[{"id":"fixed-nodes-bound","label":"The bound of sixteen","pages":[1],"original":["original-fixed-nodes-bound"],"modernized":["modernized-fixed-nodes-bound"],"reinterpreted":["reinterpreted-fixed-nodes-node-bound"],"note":"Selected source passage. Correspondence indicates the mathematical topic; the reconstruction may add hypotheses or use a different argument."},{"id":"fixed-nodes-four-five","label":"Products and relations","pages":[1,2],"original":["original-fixed-nodes-four-five"],"modernized":["modernized-fixed-nodes-four-five"],"reinterpreted":["reinterpreted-fixed-nodes-linear-systems","reinterpreted-fixed-nodes-relations"],"note":"Selected source passage. Correspondence indicates the mathematical topic; the reconstruction may add hypotheses or use a different argument."},{"id":"fixed-nodes-six","label":"The Jacobian quartic","pages":[2],"original":["original-fixed-nodes-six"],"modernized":["modernized-fixed-nodes-six"],"reinterpreted":["reinterpreted-fixed-nodes-jacobian"],"note":"Selected source passage. Correspondence indicates the mathematical topic; the reconstruction may add hypotheses or use a different argument."},{"id":"fixed-nodes-seven","label":"The supplementary quartic","pages":[2],"original":["original-fixed-nodes-seven"],"modernized":["modernized-fixed-nodes-seven"],"reinterpreted":["reinterpreted-fixed-nodes-jacobian"],"note":"Selected source passage. Correspondence indicates the mathematical topic; the reconstruction may add hypotheses or use a different argument."}]}</script></main></div></body></html>
+<script type="application/json" id="edition-data">{"sourcePageOffset":40,"sourcePageFiles":{"v":"assets/source/scan-9.png","xi":"assets/source/scan-15.png","xii":"assets/source/scan-16.png","xiii":"assets/source/scan-17.png"},"groups":[{"id":"fixed-nodes-bound","label":"The bound of sixteen","pages":[1],"original":["original-fixed-nodes-bound"],"modernized":["modernized-fixed-nodes-bound"],"reinterpreted":["reinterpreted-fixed-nodes-node-bound"],"note":"Selected source passage. Correspondence indicates the mathematical topic; the reconstruction may add hypotheses or use a different argument."},{"id":"fixed-nodes-four-five","label":"Products and relations","pages":[1,2],"original":["original-fixed-nodes-four-five"],"modernized":["modernized-fixed-nodes-four-five"],"reinterpreted":["reinterpreted-fixed-nodes-linear-systems","reinterpreted-fixed-nodes-relations"],"note":"Selected source passage. Correspondence indicates the mathematical topic; the reconstruction may add hypotheses or use a different argument."},{"id":"fixed-nodes-six","label":"The Jacobian quartic","pages":[2],"original":["original-fixed-nodes-six"],"modernized":["modernized-fixed-nodes-six"],"reinterpreted":["reinterpreted-fixed-nodes-jacobian"],"note":"Selected source passage. Correspondence indicates the mathematical topic; the reconstruction may add hypotheses or use a different argument."},{"id":"fixed-nodes-seven","label":"The supplementary quartic","pages":[2],"original":["original-fixed-nodes-seven"],"modernized":["modernized-fixed-nodes-seven"],"reinterpreted":["reinterpreted-fixed-nodes-jacobian"],"note":"Selected source passage. Correspondence indicates the mathematical topic; the reconstruction may add hypotheses or use a different argument."}],"readingMap":[[0,0,0,25],[0,3,1,26],[0,4,2,26],[1,5,5,0],[1,7,7,2],[1,9,8,6],[1,11,9,8],[1,14,10,10],[2,16,13,16],[2,17,15,17],[2,18,17,18],[3,19,19,24]]}</script></main></div></body></html>
